@@ -1,0 +1,7 @@
+l rise in the use of
+solar and wind sources, renewable and cheap energy is now more accessible. Unfortunately,
+solar and wind energy are intermittent power sources, thus cannot be ramped up and
+down at will to match instantaneous electricity demand and stabilize the grid. Battery
+energy storage systems (BESS) help wind and solar systems mitigate these issues, increasing
+the environmentally friendly nature of many countries’ energy grids. Moreover, use of
+BESS improves the financial returns of re

@@ -1,0 +1,9 @@
+ures:
+convolutional neural network (CNN), recurrent neural network (RNN), and deep neural
+network (DNN). The fundamental ideas and uses of these three SOC estimating techniques
+are thoroughly described in this section.
+• Deep Neural Network
+A deep neural network (DNN) is an extension of a back‑propagation neural network
+(BPNN) with additional hidden layers, as shown in Figure 17. Each hidden layer may
+contain a different number of hidden neurons, represented by l 1, … l M. Both DNN and
+BPNN use 

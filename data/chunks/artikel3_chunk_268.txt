@@ -1,0 +1,8 @@
+ble.  FL and SVM can be used to suggest the SOC 
+of a battery pack in an electric vehicle [83]. 
+Figure 20. Illustration of the SVM.
+Numerous researchers have used support vector machines (SVMs) for SOC estimation
+due to their strong regression capabilities with tiny sample sizes. An SVM‑based approach
+has been used to calculate SOC utilizing temperature, voltage, and current information
+gathered from working cycles at various DST driving cycles [ 79]. In addition to validating
+the SOC predictio

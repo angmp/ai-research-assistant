@@ -1,0 +1,7 @@
+ to depletion and the thermal storage regulation capability has been
+significantly weakened.
+Figure 30. Temperature and liquid fraction at the cooling activation time.
+Based on the thermal evolution pattern and intrinsic functional mechanisms, an air-
+cooling intervention strategy is proposed and verified through simulations. Specifically,
+when the PCM system temperature reaches 31.5 ◦C at t = 500 s, it is determined as the
+critical response threshold to activate the air cooling. To evaluate the

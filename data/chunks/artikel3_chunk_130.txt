@@ -1,0 +1,13 @@
+𝐼−  𝐿 ௞𝐶௞) ෍∗
+(ି)
+௘,௞
+ (42)
+𝑥௞ାଵ≈ 𝐴௞𝑥௞+ [𝑓(𝑥ො௞,𝑢 ௞) − 𝐴௞𝑥ො௞] + 𝑤 ௞ (43)
+𝑦௞≈ 𝐶 ௞𝑥௞+ [𝑔(𝑥ො௞,𝑢 ௞) − 𝐶 ௞𝑥ො௞] + 𝑣 ௞ (44)
+Equations (32)–(44) give a summa ry of the extended Kalman ﬁlter from reference 
+[27]. 
+2.3.1. Electrochemical Model 
+The electrochemical model [29–31], reduc ed-order model [32–34], equivalent circuit 
+model [35–37], and data-driven model [38,39] are the primary battery-electric models. By 
+accurately representing battery concentration, electrode potential, and Butler–Volmer ki-
+n

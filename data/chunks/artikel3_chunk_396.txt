@@ -1,0 +1,6 @@
+m‑ion battery using an improved adaptive
+particle filter. Appl. Energy 2017, 190, 740–748. [ CrossRef]
+Batteries 2025, 11, 32 38 of 42
+23. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 2; Artech House: Norwood, MA, USA, 2015; p. 10.
+24. Kalman, R.E. A new approach to linear filtering and prediction problems. J. Basic Eng. 1960, 82, 35–45. [ CrossRef]
+25. Plett, G.L. Kalman‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybri

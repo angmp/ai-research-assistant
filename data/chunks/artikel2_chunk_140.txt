@@ -1,0 +1,7 @@
+t absorption. Under high-rate discharge, heat accumulation exceeds the phase change
+buffering capacity of the PCM. As a result, the maximum temperature still reaches 43.1 ◦C,
+which is difficult to satisfy the temperature control requirement of eVTOL battery modules.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 22 of 37
+Figure 17. Thermal performance of the battery module with passive cooling: (a) variation in maxi-
+mum temperature with time; (b) variation in temperature diff

@@ -1,0 +1,8 @@
+ implies a signiﬁcant level of conﬁdence in the state 
+estimate [26]. 
+Summary of the Kalman ﬁlter from reference [27]: 
+Figure 6. Block diagram showing SOC state estimation.
+The foundation of Kalman’s theory is the idea of the state. A system’s state is the
+smallest possible collection of information needed to accurately characterize its unforced
+dynamics [ 25]. Stated differently, it is the minimum amount of historical behavior data
+needed to forecast future behavior. The status is usually unk

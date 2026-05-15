@@ -1,0 +1,7 @@
+ooling to prevent over ﬁtting. The model’s learning rate was optimized 
+using various techniques to be tter its error rate. The model achieved an MAE of 0.7% at 
+room temperature and also an RMSE of 0.85% 
+CNNs encounter drawbacks such as their substantial need for large and diverse 
+training datasets, vulnerability to overﬁtting, particularly when training data are limited, 
+high computational requirements for training and inference, and the complexity of model 
+architecture, which necessitates

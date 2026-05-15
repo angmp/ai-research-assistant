@@ -1,0 +1,6 @@
+d maximum temperature difference to 37.9 ◦C and 3.1 ◦C, respectively. Compared with
+passive cooling, the proposed system improves temperature stability by 44.6%. Compared
+with the liquid cooling system, space occupancy is reduced by 19.5%, and the grouping
+efficiency is increased by 22.4%. The adaptability analysis indicates that the optimized
+system is suitable for ambient temperatures not exceeding 30 ◦C. In addition, the pro-
+posed air-cooling intervention strategy reduces the air-cooling ene

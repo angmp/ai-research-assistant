@@ -1,0 +1,7 @@
+ped by Benjamin Gompertz in 1825 to
+model human mortality [41]. The Gompertz model was utilized in two experiments, the
+first set of experiments fit the model on entire SoH curves like those shown in Figure 4,
+thus extracting their final k, a and b, then finally calculating the RUL using Equation (4)
+where y = 0.7 and checking the Gompertz model’s ideal performance. This method is
+referred to as the baseline Gompertz fit. The second method was testing the Gompertz
+model’s real time RUL estimatio

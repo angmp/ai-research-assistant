@@ -1,0 +1,6 @@
+der, G.; Van Den Bossche, P.;
+Coosemans, T.; et al. Lithium iron phosphate based battery—Assessment of the aging parameters and development of cycle life
+model. Appl. Energy 2014, 113, 1575–1585. [ CrossRef]
+102. Ecker, M.; Gerschler, J.B.; Vogel, J.; Käbitz, S.; Hust, F.; Dechent, P.; Sauer, D.U. Development of a lifetime prediction model for
+lithium‑ion batteries based on extended accelerated aging test data. J. Power Sources 2012, 215, 248–257. [ CrossRef]
+103. Ouyang, M.; Feng, X.; Han, X.; 

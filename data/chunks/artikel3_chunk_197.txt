@@ -1,0 +1,8 @@
+ by its interpretational com‑
+plexity, operational sensitivity, specialized knowledge requirements, measurement con‑
+straints, equipment costs, battery type limitations, and the complex modeling needed for
+accurate data translation.
+If the battery is accurately modeled, precision is the benefit of model‑based SOC esti‑
+mation. This has been demonstrated in [ 48], where EIM and EKF are combined to assess
+SOC for lithium batteries. Additionally, according to some researchers, model‑based SOC
+estim

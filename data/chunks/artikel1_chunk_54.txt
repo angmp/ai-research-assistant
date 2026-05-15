@@ -1,0 +1,7 @@
+L, this study proposes an inverse mapping
+strategy. Rather than predicting the SoH for a given cycle, the model predicts the number
+of cycles required to reach 0.7 SoH threshold. Thus, RUL prediction is reformulated as
+determining the number of cycles the battery in its current state will take to reach its End
+of Life (EoL) threshold. This approach leverages the monotonic nature of capacity degrada-
+tion, mapping observed data to a specific destination (the RUL at EoL). As illustrated in
+https:/

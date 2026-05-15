@@ -1,0 +1,7 @@
+ itself form the basis of the solution and the covariance matrix ∑ 𝑒, 𝑘 of the state 
+estimate error 𝑥௞− 𝑥ො௞. The uncertainty of the covariance matrix is shown by the state es-
+timation, and it might be applied to provide estimate error bounds. A “large” ∑ 𝑒, 𝑘 (one 
+with large singular values) suggests a high level of uncertainty in the estimate; a “small” 
+∑ 𝑒, 𝑘 (one with small singular values) implies a signiﬁcant level of conﬁdence in the state 
+estimate [26]. 
+Summary of the Kalman ﬁlter f

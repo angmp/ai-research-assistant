@@ -1,0 +1,8 @@
+ spreading and reduce local heat accumulation inside the
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 7 of 37
+module. PCM layers made of polyethylene-based encapsulating material [26] are arranged
+on both sides of each cell. PCM absorbs excess heat during high-rate discharge and sup-
+presses rapid temperature rise. However, PCM heat storage is transient. Continuous heat
+rejection is required to remove stored heat and recover latent heat capacity. Air-cooling
+channels are pla

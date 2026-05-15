@@ -1,0 +1,7 @@
+ed approach that can be used to direct the se‑
+lection of appropriate hyperparameters for variously specific problems, hyperparameters
+which include the learning rate, neuron initialization, optimization algorithm, dropouts,
+batch size, batch normalization, and activation function. As a result, the trial‑and‑error
+method is also used to adjust the hyperparameters until acceptable outcomes are obtained.
+Several studies showed that the algorithm’s performance will be greatly impacted by var‑
+ious 

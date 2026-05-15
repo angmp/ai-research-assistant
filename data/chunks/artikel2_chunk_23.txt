@@ -1,0 +1,7 @@
+adaptability. However, several
+limitations remain. Liquid cooling provides strong heat dissipation but increases system
+complexity because of coolants, pumps, pipelines, and sealing components. Heat pipes,
+ram air cooling, and passive cooling structures are lightweight, but their performance
+depends strongly on external heat transfer conditions and flight states. Stable thermal
+control over the full mission therefore remains difficult.
+PCM-based hybrid cooling can reduce the limitations of singl

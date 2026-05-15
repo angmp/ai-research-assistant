@@ -1,0 +1,7 @@
+parameter b has the highest correlation of
+0.89 followed by parameters a and k respectively.
+Figure 12. The correlations between HUST data and Gompertz parameters.
+In Figure 12, what is particularly important is the high correlation between parameter
+b, G′(x) and RUL. This high correlation informed the use of G′(x) in the physics-informed
+loss function. The various tranches of RUL were 14 cells that had a RUL of 1000–1500,
+34 cells with a RUL of 1500–2000 and 29 cells with a RUL of more than 200

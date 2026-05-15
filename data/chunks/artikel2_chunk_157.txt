@@ -1,0 +1,9 @@
+perature difference are 38.1 ◦C
+and 3.1 ◦C, respectively, which are close to those of the hybrid cooling system, 37.9 ◦C and
+3.1 ◦C. The mass of the liquid cooling system is 24.8 kg.
+Figure 24. Thermal performance of the liquid cooling system. (a) Variation in maximum temperature
+with time; (b) variation in temperature difference with time.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 26 of 37
+4.3.4. Comprehensive Performance Evaluation
+Based on the comprehensive performance

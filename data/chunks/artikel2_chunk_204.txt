@@ -1,0 +1,6 @@
+ery module temperature Tmax is 31.5 ◦C and the PCM liquid fraction is
+0.28, indicating that the PCM is still in a latent-heat-sufficient stage dominated by passive
+thermal regulation. At t = 650 s, Tmax rises to 32.2 ◦C and the liquid fraction increases
+to 0.36, suggesting that latent heat consumption is gradually increasing but has not yet
+entered the degradation stage. At t = 800 s, Tmax reaches 32.9 ◦C and the liquid fraction
+exceeds 0.5, indicating that more than 50% of the latent heat has b

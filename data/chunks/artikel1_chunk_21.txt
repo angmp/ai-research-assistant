@@ -1,0 +1,7 @@
+gen 100 mins–week 5–30 years 600 (at 200 bar) 25–45
+Flywheel 20 secs–mins 20,000–100,000 cycles 20–80 70–95
+Beyond cost, LiBs offer advantages in terms of modularity and ease of development,
+especially in urban areas, where most electricity is used. LiB systems can be implemented
+at household, factory and grid levels; therefore, they are expected to play an increasingly
+large role in the transition to renewable, decarbonized energy systems. These advantages of
+LiBs would be of benefit to power g

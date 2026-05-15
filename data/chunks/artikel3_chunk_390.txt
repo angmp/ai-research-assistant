@@ -1,0 +1,5 @@
+0. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 3; Artech House: Norwood, MA, USA, 2015; p. 7.
+11. Baccouche, I.; Jemmali, S.; Manai, B.; Omar, N.; Ben Amara, N.E. Improved OCV model of a Li‑ion nmc battery for online SOC
+estimation using the extended Kalman filter. Energies 2017, 10, 764. [ CrossRef]
+12. Lin, C.; Yu, Q.; Xiong, R.; Wang, L.Y. A study on the impact of open circuit voltage tests on state of charge estimation for lithium‑
+ion batteries. Appl. Energy 201

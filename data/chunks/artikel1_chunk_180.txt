@@ -1,0 +1,6 @@
+, M. Analysis of Lithium-Ion Battery Cells Degradation
+Based on Different Manufacturers. In 2020 55th International Universities Power Engineering Conference (UPEC) ; IEEE: Piscataway,
+NJ, USA, 2020.
+17. Sayyad, S.; Kumar, S.; Bongale, A.; Kamat, P .; Patil, S.; Kotecha, K. Data-Driven Remaining Useful Life Estimation for Milling
+Process: Sensors, Algorithms, Datasets, and Future Directions. IEEE Access 2021, 9, 110255–110286. [CrossRef]
+18. Zhou, Y.; Liu, C.; Yu, X.; Liu, B.; Quan, Y. Tool Wear

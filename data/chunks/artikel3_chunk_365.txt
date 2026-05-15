@@ -1,0 +1,7 @@
+d retraining models for each type of battery is not feasible. There is a need for more
+research to improve the adaptability of ML approaches across many battery situations, as
+recent studies have investigated the application of transfer learning techniques to adapt
+ML methods to different battery types [ 147,148].
+Batteries 2025, 11, 32 35 of 42
+Finally, the significant computational overhead of ML methods for state estimation
+has hindered their in situ implementation. However, embedding ML algo

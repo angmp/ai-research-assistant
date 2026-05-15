@@ -1,0 +1,9 @@
+ty > inlet
+airflow velocity. A 10% increase in cell spacing results in a 21.5% increase in system weight,
+making it the key parameter affecting structural lightweight design. This also confirms
+the conclusion in Section 4.2.1 that “a 1 mm cell spacing is the balance point between
+thermal performance and lightweight design”, indicating that the cell spacing should not
+be excessively increased to lower the temperature.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 20 of 37
+Prio

@@ -1,0 +1,18 @@
+nting an ideal 
+voltage source UOC, as seen in Figure 10 and Equation (50). UOC, which is the voltage when 
+the circuit is opened, and resistance Ro are both in ﬂuenced by temperature, SOC, and 
+SOH. Terminal voltage (UL) is equal to load current (IL), which has a positive value when 
+charging and a negative value when discharging. 
+𝑈௅= 𝑈 ை஼−𝐼 ௅𝑅଴ (50)
+ 
+Figure 10. Schematic diagram of the Rint model. 
+• RC Model 
+Figure 10. Schematic diagram of the Rint model.
+• RC Model
+" .
+Ub.
+Uc
+#
+=
+" −1
+Cb(

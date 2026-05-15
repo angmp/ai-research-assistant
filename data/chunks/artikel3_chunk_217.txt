@@ -1,0 +1,8 @@
+ may
+contain a different number of hidden neurons, represented by l 1, … l M. Both DNN and
+BPNN use the same learning method and information transformation principles. A multi‑
+layer feed‑forward NN was developed to tackle the common issues of over‑fitting or under‑
+fitting in data‑driven approaches for SOC estimation [ 66]. The NN was built from scratch,
+Batteries 2025, 11, 32 21 of 42
+starting with a basic version that had a low‑dimensional input vector and gradually work‑
+ing its way up to a 

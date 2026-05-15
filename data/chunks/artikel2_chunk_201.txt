@@ -1,0 +1,7 @@
+ed as a quantitative measure of latent
+heat consumption, providing a physically interpretable basis for determining the air-cooling
+intervention timing. This parameter directly reflects the phase-change progression of the
+PCM and is negatively correlated with the remaining latent heat capacity. It therefore serves
+as a key physical metric for characterizing the degradation of thermal storage capability.
+As indicated by the evolution curve of the PCM liquid fraction in Figure 30, when
+t = 800 s, 

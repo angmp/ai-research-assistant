@@ -1,0 +1,18 @@
+e value. Random vector X and sample vector x0 are deﬁned as: 
+𝑋=  ൦
+𝑋ଵ
+𝑋ଶ
+⋮
+𝑋௡
+൪,𝑥଴= ൦
+𝑥ଵ
+𝑥ଶ
+⋮
+𝑥௡
+൪, (4)
+where X1 through Xn are scalar random variables, and x1 through xn are scalar constants. 
+X described by (scalar function) joint PDF fX(x) of vector X. 
+fX (x0) means fX (X1 = x1, X2 = x2, …, Xn = xn). That is, fX (x0) dx1 dx2 … dxn is the proba-
+bility that X is between x0 and x0 + dx. 
+There is an unlimited range of PDFs; however, while creating the Kalman ﬁlter, only 
+the (multivariable) G

@@ -1,0 +1,7 @@
+pproach is avoided [ 53]. Additionally, the self‑learning algorithm determines the
+network parameters of data‑driven methods [ 54]. This process is entirely different from
+model‑based estimation techniques, which require significant time and human expertise
+for parameter estimation.
+Machine learning (ML) platforms are frequently required in data‑driven approaches
+to extract relationships and rules from the data [ 55]. Their algorithms are used today to
+achieve on‑par or sometimes even super‑huma

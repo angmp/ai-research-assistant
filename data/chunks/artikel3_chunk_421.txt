@@ -1,0 +1,6 @@
+]
+72. Jiménez‑Bermejo, D.; Fraile‑Ardanuy, J.; Castaño‑Solis, S.; Merino, J.; Álvaro‑Hermana, R. Using dynamic neural networks for
+battery state of charge estimation in electric vehicles. Procedia Comput. Sci. 2018, 130, 533–540. [ CrossRef]
+73. Lipu, M.S.H.; Hussain, A.; Saad, M.H.M.; Ayob, A.; Hannan, M.A. Improved recurrent NARX neural network model for state
+of charge estimation of lithium‑ion battery using pso algorithm. In Proceedings of the 2018 IEEE Symposium on Computer
+Applications & I

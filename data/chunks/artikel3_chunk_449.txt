@@ -1,0 +1,5 @@
+ Y.; Yan, C. Online state‑of‑health estimation for second‑use lithium‑ion batteries based on weighted least squares
+support vector machine. IEEE Access 2020, 9, 1870–1881. [ CrossRef]
+125. Dai, H.; Wei, X.; Sun, Z.; Wang, J.; Gu, W. Online cell SOC estimation of Li‑ion battery packs using a dual time‑scale Kalman
+filtering for EV applications. Appl. Energy 2012, 95, 227–237. [ CrossRef]
+126. Lin, Q.; Wang, J.; Xiong, R.; Shen, W.; He, H. Towards a smarter battery management system: A critical re

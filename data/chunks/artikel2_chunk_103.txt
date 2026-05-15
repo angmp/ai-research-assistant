@@ -1,0 +1,7 @@
+of 0.5, 1, 1.5, and
+2 mm were evaluated. The ambient temperature, inlet airflow velocity, and HCP material
+were set to 25 ◦C, 1 m/s, and 1060 aluminum alloy, respectively.
+Larger cell spacing allows thicker HCPs to be placed between adjacent cells. This
+enhances lateral heat conduction and improves temperature uniformity. As shown in
+Figure 8a,b, increasing the spacing from 0.5 mm to 2 mm reduces the maximum battery
+temperature from 41.8 ◦C to 39.5 ◦C, corresponding to a 5.5% improvement. The ma

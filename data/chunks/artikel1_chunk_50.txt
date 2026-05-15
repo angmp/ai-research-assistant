@@ -1,0 +1,8 @@
+ility and robustness of
+an empirical modelling approach to accurately estimate Remaining Useful Life (RUL) at
+specific State of Health (SoH). The overall workflow adopted for this study is visualized in
+Figure 1 below.
+The key parts of Figure 1 were dataset preparation, modelling and model testing.
+Dataset preparation involved acquisition of available online LFP battery datasets, con-
+version of the raw data to pandas data frames where variables such as current, voltage,
+time and cycles were ext

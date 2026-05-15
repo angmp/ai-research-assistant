@@ -1,0 +1,9 @@
+ing 30 ◦C. In addition, the pro-
+posed air-cooling intervention strategy reduces the air-cooling energy consumption by
+43.3% compared with continuous air cooling, while maintaining temperature uniformity.
+These findings provide a numerical reference for the preliminary design of eVTOL battery
+cooling systems.
+Keywords: electric vertical takeoff and landing; lithium-ion battery; hybrid cooling system;
+energy efficiency optimization
+1. Introduction
+Electric vertical takeoff and landing (eVTOL) air

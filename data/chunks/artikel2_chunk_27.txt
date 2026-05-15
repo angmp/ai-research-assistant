@@ -1,0 +1,7 @@
+ey structural
+parameters are investigated, including cell spacing, thermally conductive material, and
+inlet airflow velocity. Sensitivity analysis is used to quantify their relative effects on
+cooling performance. A multi-objective evaluation framework is established to compare
+the proposed system with no cooling, passive cooling, and liquid cooling strategies. System
+adaptability is further examined under different ambient temperatures, cruise durations,
+and hover durations. Finally, an air-coo

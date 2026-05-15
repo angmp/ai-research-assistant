@@ -1,0 +1,8 @@
+y their operating environment,
+the quality of training data has a major impact on how well ML algorithms work in EVs
+and associated subsystems.
+Batteries 2025, 11, 32 33 of 42
+Thirdly, high‑quality databases require a diversity of data. Although controlled lab‑
+oratory simulations can produce a large amount of data, they do not offer much variety.
+Data from laboratory settings using common tests, such as constant charge or discharge
+and dynamic drive cycles, have been used in the majority of res

@@ -1,0 +1,11 @@
+centration and electrochemical 
+polarization independently, an enhanced circ uit model, referred to as the dual polariza-
+tion (DP) model, is shown in Figure 14. 
+ 
+Figure 14. Schematic diagram of the dual polarization model. 
+The DP model is divided into three sections: The ﬁrst three parameters are the OCV 
+(Uoc); the second is the internal resistance, which includes the ohmic resistance Ro and the 
+Figure 13. PNGV model.
+Batteries 2025, 11, 32 17 of 42
+• The Dual Polarization (DP) Framework
+T

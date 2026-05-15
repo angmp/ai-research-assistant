@@ -1,0 +1,7 @@
+than the nominal capacity
+of 1.1 Ah, each cell was normalized by 115% of 1.1 Ah to ensure they are bound between
+0 and 1. This is attributed to the conservative manufacturer ratings and the capacity buffer
+typically found in new cells [46,47]. By using a normalization factor of 1.265 Ah (115% of
+nominal capacity), the SoH normalization in Equation (7) accounts for the fact that new
+high-quality cells often exhibit an initial capacity significantly higher than their labelled
+https://doi.org/10.33

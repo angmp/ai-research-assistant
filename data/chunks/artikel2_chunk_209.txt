@@ -1,0 +1,7 @@
+−3 m2, giving an air volume flow rate of 4.89 × 10−3 m3/s. The air density
+and fan efficiency are set to 1.184 kg/m3 and 0.60, respectively. The pressure difference is
+defined as the area-averaged static pressure difference between the inlet and outlet sections
+of the modeled air-cooling channel. This power model represents the ideal air transport
+power required to overcome the channel pressure drop.
+Based on the analysis in Section 4.2.3, the inlet airflow velocity is set to 3 m/s. As
+shown in 

@@ -1,0 +1,8 @@
+M are
+critical to the cooling performance. The properties of the PCM and thermally conductive
+materials are listed in Table 4. In this study, MPCM32D [34] and thermal-conducting plates
+were selected to enhance heat transfer from the cell surface to the PCM, thereby improving
+the temperature uniformity of the battery module. The thermophysical properties of the
+battery, PCM, and thermal-conducting plates were obtained from experimental measure-
+https://doi.org/10.3390/batteries12050170
+Batteries 

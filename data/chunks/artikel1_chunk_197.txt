@@ -1,0 +1,6 @@
+34.
+46. Baši´ c, H.; Bobanac, V .; Pandži´ c, H. Determination of Lithium-Ion Battery Capacity for Practical Applications.Batteries 2023, 9, 459.
+[CrossRef]
+47. Hochreiter, S.; Schmidhuber, J. Long Short-Term Memory. Neural Comput. 1997, 9, 1735–1780. [CrossRef] [PubMed]
+48. Kingma, D.P .; Ba, J. Adam: A Method for Stochastic Optimization. arXiv 2017, arXiv:1412.6980. [CrossRef]
+49. Soviany, P .; Ionescu, R.T.; Rota, P .; Sebe, N. Curriculum Learning: A Survey.Int. J. Comput. Vis. 2022, 130, 152

@@ -1,0 +1,9 @@
+of eVTOL systems for
+high energy efficiency and extended endurance.
+As shown in Figure 29, compared with the pure PCM cooling system, the hybrid
+cooling system more effectively suppresses the continuous temperature rise of the battery
+module during the later stage of flight. In particular. After t = 500 s, the temperature
+difference (∆T) between the two systems increases rapidly from 0.8 ◦C to 5.2 ◦C, indicating
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 32 of 37
+that air 

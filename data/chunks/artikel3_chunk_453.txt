@@ -1,0 +1,7 @@
+342. [ CrossRef]
+Batteries 2025, 11, 32 42 of 42
+132. Tian, X.; Jeppesen, B.; Ikushima, T.; Baronti, F.; Morello, R. Accelerating State‑Of‑Charge Estimation in FPGA‑based Battery Man‑
+agement Systems. In Proceedings of the 6th Hybrid and Electric Vehicles Conference (HEVC 2016), London, UK, 2–3 November
+2016; pp. 4–6.
+133. Sahinoglu, G.O.; Pajovic, M.; Sahinoglu, Z.; Wang, Y.; Orlik, P.V.; Wada, T. Battery state‑of‑charge estimation based on regu‑
+lar/recurrent gaussian process regression. IEEE 

@@ -1,0 +1,5 @@
+an‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybrid and Fuel
+Cell Electric Vehicle Symposium & Exhibition (EVS19), Busan, Republic of Korea, 19–23 October 2002; p. 3.
+26. Plett, G.L. Kalman‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybrid and Fuel
+Cell Electric Vehicle Symposium & Exhibition (EVS19), Busan, Republic of Korea, 19–23 October 2002; p. 4.
+27. Haykin, S. (Editor) Kalman Filtering and N

@@ -1,0 +1,7 @@
+pproach of the lithium‑ion battery using an im‑
+proved adaptive particle filter. Energy Procedia 2016, 103, 394–399. [ CrossRef]
+51. Xiong, R.; Cao, J.; Yu, Q.; He, H.; Sun, F. Critical review on the battery state of charge estimation methods for electric vehicles.
+IEEE Access 2017, 6, 1832–1843. [ CrossRef]
+52. Dai, H.; Jiang, B.; Wei, X. Impedance characterization and modeling of lithium‑ion batteries considering the internal temperature
+gradient. Energies 2018, 11, 220. [ CrossRef]
+Batteries 

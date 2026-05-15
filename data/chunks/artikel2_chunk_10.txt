@@ -1,0 +1,7 @@
+rence between individual cells strictly controlled to
+within 5 ◦C [6].
+Compared to traditional electric vehicles, the design of eVTOL battery cooling systems
+faces two unique challenges: first, the need for efficient thermal regulation to handle the
+intense heat generation during high-discharge-rate phases of flight; second, the need to
+strictly control system weight and power consumption to prevent excess weight from reduc-
+ing the specific energy of the battery pack, weakening propulsion effic

@@ -1,0 +1,6 @@
+he sliding mode observer, Kalman filter (KF), and the extended, adaptive, and
+unscented Kalman filter are employed for online SOC estimation [ 19–22]. Training the
+battery models, selecting the right tools to monitor them, making important model settings,
+and fine‑tuning the way we observe them using a particular method called the Kalman
+filter all have a significant impact on how accurate these model‑based techniques are. It
+is presumed that the system has a mathematical model, as shown in Figu

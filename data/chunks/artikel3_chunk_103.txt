@@ -1,0 +1,8 @@
+terations. The magenta bounds represent the estimated uncertainty or con‑
+fidence interval. The right‑hand graph, titled ‘Error with bounds’, shows the estimation
+error (solid blue line) and its bounds (dashed magenta line), which likely represent the ex‑
+pected range of error, across the same iterations. These plots are instrumental in evaluating
+the accuracy and reliability of Kalman filter predictions over time.
+Batteries 2025, 11, 32 11 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 

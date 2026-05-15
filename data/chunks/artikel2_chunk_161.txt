@@ -1,0 +1,18 @@
+m temperature
+difference (DT) is 33.3% lower than that of the passive cooling system. The overall temper-
+ature control capability of the hybrid cooling system is comparable to that of the liquid
+cooling system.
+Table 6. Comprehensive performance assessment results.
+Performance
+Indicators No Cooling Hybrid
+Cooling
+Liquid
+Cooling
+Passive
+Cooling
+TCM (K) 14.81 21.53 21.7 18.98
+ST (K) 2.84 1.33 1.35 2.40
+DT (K) 2.98 1.60 1.56 1.20
+GE 1 0.93 0.76 0.94
+SO 1 0.33 0.41 0.30
+In terms of structural perfo

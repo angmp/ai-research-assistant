@@ -1,0 +1,15 @@
+ offers the best balance between thermal performance
+and lightweight design, and the system mass is 19.4 kg. Therefore, 6063 aluminum alloy
+was selected as the thermally conductive material for the proposed hybrid cooling system.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 17 of 37
+Figure 10. Effect of thermal conductivity materials on thermal performance: (a) maximum tempera-
+ture variation with material; (b) temperature difference variation with material.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

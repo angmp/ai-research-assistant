@@ -1,0 +1,9 @@
+uit model, referred to as the dual polariza-
+tion (DP) model, is shown in Figure 14. 
+ 
+Figure 14. Schematic diagram of the dual polarization model. 
+The DP model is divided into three sections: The ﬁrst three parameters are the OCV 
+(Uoc); the second is the internal resistance, which includes the ohmic resistance Ro and the 
+Figure 14. Schematic diagram of the dual polarization model.
+The DP model is divided into three sections: The first three parameters are the OCV
+(Uoc); the second is the in

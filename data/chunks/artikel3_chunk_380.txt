@@ -1,0 +1,8 @@
+prove data variety through ad‑
+vanced sensing, and make onboard installation easier. By addressing both present con‑
+straints and potential future developments, this thorough study seeks to motivate aca‑
+demics to further the use of ML algorithms in SOC and SOH estimates.
+The following are suggestions for additional research:
+• Thorough research on electrochemical models to comprehend the dynamics and
+degradation of batteries.
+• Creation of efficient SOC and SOH management controllers and real‑t

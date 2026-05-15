@@ -1,0 +1,7 @@
+
+temperature of 25 ◦C, using 6063 aluminum alloy as the thermally conductive material and
+a cell spacing of 1 mm. Five inlet airflow velocities were considered: 1, 2, 3, 4, and 5 m/s.
+As shown in Figure 12a,b, inlet airflow velocity has a coupled effect on the battery
+temperature field. Increasing the velocity from 1 m/s to 5 m/s enhances convective heat
+transfer and reduces the maximum module temperature from 39.9 ◦C to 37.2 ◦C. How-
+ever, excessive airflow deteriorates temperature uniformity. 

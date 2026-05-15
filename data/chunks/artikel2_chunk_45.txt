@@ -1,0 +1,28 @@
+s) Power
+Requirement (W) Discharge Rate (C)
+Takeoff and Hover 30 623.2 4.3
+Climb 120 233.4 1.6
+Cruise 1200 165.4 1.1
+Descent 120 138.5 0.9
+Hover landing 30 623.2 4.3
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 6 of 37
+Take off and hover
+Climb
+Cruise Decline
+Hover landing
+0 200 400 600 800 1000 1200 1400
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200Discharge current(A)
+Time(s)
+ Discharge current(A)
+Figure 1. Battery discharge current during different flight phases.
+In summary, by divi

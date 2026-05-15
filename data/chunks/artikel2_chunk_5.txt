@@ -1,0 +1,7 @@
+ablished to compare the proposed sys-
+tem with no cooling, passive cooling, and liquid cooling strategies. The adaptability of the
+hybrid cooling system under different operating conditions is also evaluated. Finally, an
+air-cooling intervention strategy is proposed based on the PCM liquid fraction. The results
+show that the optimized hybrid cooling system limits the maximum battery temperature
+and maximum temperature difference to 37.9 ◦C and 3.1 ◦C, respectively. Compared with
+passive cooling,

@@ -1,0 +1,7 @@
+el for a single LiCoO 2
+battery and battery pack. Energy 2017, 133, 572–583. [ CrossRef]
+19. Wang, Y.; Zhang, C.; Chen, Z. On‑line battery state‑of‑charge estimation based on an integrated estimator. Appl. Energy 2017,
+185, 2026–2032. [ CrossRef]
+20. Zou, C.; Manzie, C.; Nešić, D.; Kallapur, A.G. Multi‑time‑scale observer design for state‑of‑charge and state‑of‑health of a lithium‑
+ion battery. J. Power Sources 2016, 335, 121–130. [ CrossRef]
+21. Xiong, B.; Zhao, J.; Su, Y.; Wei, Z.; Skyllas‑Kaz

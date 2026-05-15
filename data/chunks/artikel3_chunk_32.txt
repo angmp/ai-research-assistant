@@ -1,0 +1,7 @@
+ver, a ma‑
+jor drawback of OCV‑based SOC estimation is the resting time. After cutting off the load
+current, it usually takes a while to regain equilibrium. Furthermore, changes in tempera‑
+ture affect the relationship between the SOC and OCV of a battery.
+Due to its shortcomings, the open‑circuit voltage (OCV) approach is not as appro‑
+priate for broad application in electric vehicles (EVs). Its impracticality for application in
+real‑time scenarios, such as when the car is moving, is one of the

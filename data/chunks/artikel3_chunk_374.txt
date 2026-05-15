@@ -1,0 +1,8 @@
+nd
+PSO place limitations on them.
+Batteries 2025, 11, 32 36 of 42
+ML techniques approaches to SOC and SOH estimation are also well covered in this
+review. There has been insufficient in‑depth study of ML techniques; by offering a thor‑
+ough and organized analysis of the machine learning techniques used for SOC and SOH
+estimates, this work seeks to close this research gap. This review’s initial contribution out‑
+lines the standard procedures for SOC and SOH estimation, describing the basic ideas 

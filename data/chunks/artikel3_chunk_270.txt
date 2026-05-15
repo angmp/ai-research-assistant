@@ -1,0 +1,7 @@
+arameters, enhancing model performance.
+To cut down on the amount of time needed to search for optimal pairs of hyperparameters,
+Hu et al. [71] employed a double‑step search strategy. The particle swarm optimization al‑
+gorithm was used to determine the hyperparameters of the SVM model, namely the RBF’s
+kernel width ( σ) and penalty factor ( γ). The particle swarm optimization model demon‑
+strated the benefits of increased estimation accuracy and quicker processing performance
+when compared to t

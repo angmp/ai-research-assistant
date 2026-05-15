@@ -1,0 +1,8 @@
+y
+of the normalization process, the grouping efficiency and space occupancy of the no
+cooling system, which are used to measure structural compactness, are set as the reference
+benchmark, with a normalized value of 1. These values serve as the relative performance
+reference for other cooling systems.
+Based on the comprehensive performance evaluation results in Table 6. In terms of
+thermal performance: compared with the no cooling approach, the hybrid cooling system
+reduces the maximum temperatur

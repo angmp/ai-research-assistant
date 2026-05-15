@@ -1,0 +1,6 @@
+hing precise battery status data to the vehicle energy management sys‑
+tem constitute the fundamental functions of a BMS. It should also be able to provide the
+necessary interventions for the battery system if it is operating abnormally. Charging and
+discharging batteries are observed and managed for this purpose. Measuring current, volt‑
+age, and temperature by the gating signal received from the control circuit is the primary
+function of the sample circuit. With measurements of battery current

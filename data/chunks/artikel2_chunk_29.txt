@@ -1,0 +1,8 @@
+lsion power model for each flight phase. By integrating the basic parameters
+of the battery system, the model calculates the discharge rate and current curves for each
+phase, enabling precise quantification of power demands throughout the entire flight mis-
+sion. These calculation results provide key benchmark data for subsequent simulations of
+the cooling system and the development of the thermal source model.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 4 of 37
+2.1. eVTOL 

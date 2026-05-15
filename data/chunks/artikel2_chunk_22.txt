@@ -1,0 +1,7 @@
+re. Zhonghao Rao et al. [29] designed a variable contact
+liquid cooling system for cylindrical lithium-ion battery modules. Aluminum blocks were
+used to transfer heat from the batteries to the coolant, thereby improving temperature
+uniformity within the module.
+Existing studies have proposed various solutions for eVTOL battery thermal manage-
+ment and have improved temperature control and mission adaptability. However, several
+limitations remain. Liquid cooling provides strong heat dissipation b

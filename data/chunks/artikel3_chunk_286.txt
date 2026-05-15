@@ -1,0 +1,27 @@
+hm Input Output Metric Hyperparameter Data Profile 
+Linear Regression 
+(LR) 
+Voltage, Current, 
+Temperature SOC 
+RMSE Root Mean 
+Squared Error, 
+MSE Mean Squared Error 
+MAE Mean Absolute Er-
+ror 
+Learning Rate (LR), 
+Regularization 
+(REG) 
+Cycles, Tempera-
+ture Variant 
+Support Vector Ma-
+chine (SVM) 
+Voltage, Current, 
+Temperature SOC Accuracy, Precision, Re-
+call 
+Kernel, C, Gamma 
+(γ) Cycles, Load prof 
+Back-Propagation 
+Neural Network 
+(BPNN) 
+Voltage, Current, 
+Temperature SOC Coefficient o

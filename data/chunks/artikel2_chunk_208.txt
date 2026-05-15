@@ -1,0 +1,10 @@
+perimental resolution.
+The energy consumption corresponding to each time sequenced air-cooling strategy is
+quantitatively assessed using the following method:
+E = mair · ∆pair
+ρair · η f an
+· ∆t (33)
+In Equation (33), ∆pair denotes the static pressure difference of the modeled air-cooling
+channel obtained from CFD postprocessing. At the baseline inlet velocity of 3 m/s, the inlet
+area is 1.63 × 10−3 m2, giving an air volume flow rate of 4.89 × 10−3 m3/s. The air density
+and fan efficiency are se

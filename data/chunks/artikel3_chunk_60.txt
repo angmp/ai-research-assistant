@@ -1,0 +1,8 @@
+ndi-
+tions. 
+A generic ﬂowchart of model-based SOC estimate techniques is displayed in Figure 
+4. These techniques are a subset of fusion techniques which involve the integration of dif-
+ferent approaches with the OCV using the look -up table. It is observed that between the 
+look-up table and ampere-hour methods, the SOC of batteries serves as a bridge. An erro-
+neous battery OCV is caused by an inaccurate SOC estimate determined by the ampere-
+hour integral approach, which also raises the term

@@ -1,0 +1,45 @@
+ under different flight conditions. The specific formulations are presented below:
+Pta = 1
+ωbat
+g
+ηh
+mbat
+ηi
+r σ
+2ρair
+(1)
+Pcl = 1
+ωbat
+g
+η
+mbat
+ηi
+
+ROC + Scl
+(L/D)cl
+
+(2)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 5 of 37
+Pcr = 1
+ωbat
+g
+η
+mbat
+ηi
+Scr
+(L/D)cr
+(3)
+Pde = 1
+ωbat
+g
+η
+mbat
+ηi
+
+ROD + Sde
+(L/D)de
+
+(4)
+In Equations (1)–(4), Pta (W), Pcl (W), Pcr (W), and Pde (W) denote the cell-level power
+demand during takeoff or landing hover, climb, cruise, and descent, res

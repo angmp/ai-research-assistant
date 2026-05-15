@@ -1,0 +1,12 @@
+it predicts the er‑
+ror covariance, system output, and the value of the subsequent state. Second, it corrects
+the present state estimate based on a measurement of the system output ˆx(−)
+k and ∑(−)
+e,k ∗,
+Batteries 2025, 11, 32 10 of 42
+respectively, representing the estimated error covariance and predicted state at time index
+k but before the measurement. Following the measurement, the corrected estimations are
+indicated by ˆx(+)
+k and ∑(+)
+e,k ∗.
+The prediction step is accomplished by propagat

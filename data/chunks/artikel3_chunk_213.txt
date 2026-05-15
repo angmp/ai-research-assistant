@@ -1,0 +1,7 @@
+ning data
+are used to adequately train the algorithm. The quantity and quality of training data
+have a considerable influence on accuracy [ 63,64]. In summary, NNs for SOC estimation
+face drawbacks such as a heavy reliance on extensive data for training, risk of overfitting,
+opaque ‘black box’ decision‑making processes, computational intensity in training, sen‑
+sitivity to network architecture and hyperparameters, challenges in generalizing across
+different battery types, reduced adaptability in

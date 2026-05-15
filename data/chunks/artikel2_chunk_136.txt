@@ -1,0 +1,8 @@
+and electrolyte decomposition. Large temperature gradients also cause
+non-uniform aging among cells, which intensifies pack-level performance imbalance and
+shortens service life. Therefore, an efficient thermal management system is essential for
+long-term battery health, operational stability, and thermal safety.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 21 of 37
+Figure 15. Thermal performance of the battery module without cooling: (a) variation in maximum
+temperature wit

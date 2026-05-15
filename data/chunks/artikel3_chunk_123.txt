@@ -1,0 +1,6 @@
+thin the battery during intercalation. This enables better con‑
+trol and regulation of the battery’s performance and lifespan [ 29]. The particle swarm op‑
+timization (PSO) method is then used to optimize important model parameters, resulting
+in the establishment of an electrochemical model to represent the electrochemical behav‑
+iors of batteries. The electrochemical model demonstrated strong prediction performance,
+although it required a large amount of computing during model simulation, as de

@@ -1,0 +1,7 @@
+
+inside the battery [32]. Subsequently, a simpliﬁed electrochemical model based on physics 
+was created to estimate the state of charge of lithium-ion batteries with Figure 8 showing 
+a cross-sectional view of ba ttery cells. To forecast the discharging capacity of the ba ttery 
+under diﬀerent situations, a robust SOC estimation was accomplished using a battery with 
+a reduced-order model [34]. The simpler reduced-order models produced by this method 
+have some information loss, but they are sti

@@ -1,0 +1,7 @@
+ery systems. IEEE Trans. Veh. Technol.
+2010, 60, 98–103. [ CrossRef]
+92. Zhang, J.; Lee, J. A review on prognostics and health monitoring of Li‑ion battery. J. Power Sources 2011, 196, 6007–6014. [ Cross‑
+Ref]
+93. Xiong, R.; Tian, J.; Mu, H.; Wang, C. A systematic model‑based degradation behavior recognition and health monitoring method
+for lithium‑ion batteries. Appl. Energy 2017, 207, 372–383. [ CrossRef]
+94. Berecibar, M.; Gandiaga, I.; Villarreal, I.; Omar, N.; Van Mierlo, J.; van den Bossch

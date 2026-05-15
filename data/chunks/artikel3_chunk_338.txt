@@ -1,0 +1,8 @@
+ater aging resistance, maintaining a constant RMSE of 0.00334% after the
+same number of cycles.
+4.4. Hardware Development for Real‑Time SOC Monitoring
+Thus far, experimental testing across a range of temperature conditions, noise effects,
+and beginning SOC levels has been used to validate SOC estimate techniques. Despite
+these initiatives, there is still a dearth of thorough research on SOC estimation for LIBs
+operating in real‑world scenarios. Implementing SOC estimation techniques in a BMS
+tha

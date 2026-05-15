@@ -1,0 +1,7 @@
+nd UKF algorithms, similar to [ 71]. RNNs often experience gradient fading
+issues, which in this case were solved using a moving window approach based on the con‑
+ventional finite‑element concept [ 76]. The enhanced NARXNN adjusts historical data by
+changing the window size at the right moment, avoiding gradient issues, and increasing
+estimation accuracy.
+RNNs, when used for applications like SOC estimation, encounter specific drawbacks
+including a tendency to fade, significant computational res

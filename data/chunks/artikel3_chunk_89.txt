@@ -1,0 +1,42 @@
+[x0])T
+i
+(15)
+Computation: For k = 1, 2, … compute:
+State estimate propagation:
+ˆx(−)
+k = Ak−1 ˆxk−1 (+) + Bk−1uk−1 (16)
+Error covariance propagation:
+∑
+(−)
+e,k ∗ = Ak−1∑e,k−1(+)AT
+k−1 + ∑ w (17)
+Kalman gain matrix:
+Lk = ∑
+(−)
+e,k ∗CT
+k
+h
+Ck∑
+(−)
+e,k ∗CT
+k + ∑
+i
+ˆ−1 (18)
+State estimate update:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+vk − Ck
+ˆx(−)
+k
+
+(19)
+Error covariance update:
+the ∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k ∗ (20)
+The Kalman filter is initialized with the best available information on the state and
+e

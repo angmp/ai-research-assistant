@@ -1,0 +1,7 @@
+he proposed inverse mapping prediction.
+Unlike traditional methods that forecast SoH from cycles or predict RUL, this paper’s
+approach uses an LSTM to predict thek, a and b (Gompertz parameters) and uses the inverse
+Gompertz equation to calculate the corresponding RUL from the x-axis. The Gompertz
+model can on its own be used to predict close SoH intervals, for example, in Figure 2
+the Gompertz fit for SoH data from Beginning-of-Life (BoL) to 93% SoH (511 cycles of
+historical data) can be used t

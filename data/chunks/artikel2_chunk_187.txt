@@ -1,0 +1,8 @@
+inuously
+removes heat from the PCM and partially restores its heat storage capacity. Therefore, the
+maximum temperature and maximum temperature difference are limited to 37.9 ◦C and
+3.1 ◦C, respectively.
+When the cruise duration further increases to 1600 s, the total mission time reaches
+1900 s. The final SOC decreases to 32.6%. The total heat generation increases, and the
+PCM remains at a high liquid fraction. As a result, the maximum temperature rises to
+39.5 ◦C, and the maximum temperature di

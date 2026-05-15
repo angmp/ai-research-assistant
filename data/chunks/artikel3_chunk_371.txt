@@ -1,0 +1,8 @@
+liability of these estimations.
+5. Conclusions
+SOC and SOH estimate techniques are evaluated critically in this review and divided
+into model‑based and data‑driven methodologies. While data‑driven approaches are su‑
+perior when system details are unclear, model‑based approaches perform better statisti‑
+cally when system models are predefined. These tactics are currently being integrated in
+research to maximize their advantages, especially in light of data availability and compu‑
+tational develop

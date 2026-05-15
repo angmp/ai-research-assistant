@@ -1,0 +1,7 @@
+ natural
+convection caused heat accumulation in the PCM, whereas forced airflow helped restore
+its thermal storage capacity. Ma et al. [28] proposed a PCM–water-cooling plate structure.
+They analyzed the effects of cell spacing and coolant flow direction. The results indicated a
+trade-off in thermal distribution, as larger spacing reduced the maximum temperature but
+increased the minimum temperature. Zhonghao Rao et al. [29] designed a variable contact
+liquid cooling system for cylindrical lithi

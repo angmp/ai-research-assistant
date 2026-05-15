@@ -1,0 +1,8 @@
+t ML algorithm applications for SOH.
+3.1.1. Shallow Neural Network
+The nonlinear relationship that exists between inputs and outputs can be mapped by
+the back‑propagation neural network (BPNN) and radial basic function neural networks
+(RBFNN). Thus, SOH estimation has frequently employed these two types of NNs. To
+take a more realistic approach to the surroundings of electric vehicles (EVs), You et al.
+worked diligently to gather datasets from comprehensive dynamic driving profiles over
+more tha

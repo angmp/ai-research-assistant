@@ -1,0 +1,5 @@
+ne learning in medical imaging. J. Amer. Coll. Radiol. 2018, 15, 512–520. [ CrossRef]
+57. Chatzis, S.P.; Siakoulis, V.; Petropoulos, A.; Stavroulakis, E.; Vlachogiannakis, N. Forecasting stock market crisis events using
+deep and statistical machine learning techniques. Expert Syst. Appl. 2018, 112, 353–371. [ CrossRef]
+58. Xu, Y.; Yang, C.; Zhong, J.; Wang, N.; Zhao, L. Robot teaching by teleoperation based on visual interaction and extreme learning
+machine. Neurocomputing 2017, 275, 2093–2103. 

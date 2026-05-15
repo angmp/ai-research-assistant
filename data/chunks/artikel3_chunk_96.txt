@@ -1,0 +1,8 @@
+ expected cell voltage from the measured cell volt-
+age equals the term enclosed in square brackets [28]. 
+Due to measurement noise, an erroneous state estimate 𝑥௞
+(ି)෢  , or an imprecise cell 
+model, this term might not be zero. It is frequently referred to as the “innovation” process, 
+as it symbolizes the “new information” in the measurement. A major innovation usually 
+results in a large state update. A tiny innovation usually results in a small state update. 
+The innovation is weighted by t

@@ -1,0 +1,7 @@
+
+B. An LSTM that predicted the next cycle’s SoH from historical SoH values (LSTM2).
+These models were used as baseline Blackbox models. For each of these models, the
+same backbone LSTM predictor was used with the main differences being the mentioned
+outputs, the training strategy as well as testing strategies. The architecture of each of these
+models is shown in Figure 7. Both models take a sequence of normalized SoH values as
+input, these values are derived from the SoC calculations over a fixe

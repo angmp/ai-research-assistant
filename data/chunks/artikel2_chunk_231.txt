@@ -1,0 +1,6 @@
+ on lithium-ion battery.
+J. Energy Storage 2023, 59, 106538. [CrossRef]
+9. Fan, Y.; Bao, Y.; Ling, C.; Chu, Y.; Tan, X.; Yang, S. Experimental study on the thermal management performance of air cooling for
+high energy density cylindrical lithium-ion batteries. Appl. Therm. Eng. 2019, 155, 96–109. [CrossRef]
+10. Li, X.; Zhao, J.; Duan, J.; Panchal, S.; Yuan, J.; Fraser, R.; Fowler, M.; Chen, M. Simulation of cooling plate effect on a battery
+module with different channel arrangement. J. Energy St

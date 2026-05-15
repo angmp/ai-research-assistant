@@ -1,0 +1,7 @@
+ons more accurately and e ﬀectively than shallow neural networks. This 
+research categorizes standard DL algorithms into three groups based on their architec-
+tures: convolutional neural network (CNN), recurrent neural network (RNN), and deep 
+Figure 16. Three‑layer neural network architecture for SOC estimation [ 62].
+Despite its benefits, this strategy has inherent limits. A large number of training data
+are used to adequately train the algorithm. The quantity and quality of training data
+have

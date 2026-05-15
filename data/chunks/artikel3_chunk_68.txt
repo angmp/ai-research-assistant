@@ -1,0 +1,20 @@
+f vector X.
+fX (x0) means f X (X1 = x 1, X 2 = x 2, …, X n = x n). That is, f X (x0) dx 1 dx2 … dx n is the
+probability that X is between x 0 and x0 + dx.
+There is an unlimited range of PDFs; however, while creating the Kalman filter, only
+the (multivariable) Gaussian PDF is utilized. It is assumed that all sounds and the state
+vector are Gaussian random vectors.
+The Gaussian or normal PDF as presented in Figure 5 is defined as:
+X ∼ N
+
+x, ∑
+∼
+X
+
+(5)
+FX(x) = 1q
+(2π)n|∑ X|
+exp
+
+− 1
+2 (x − x)ˆT

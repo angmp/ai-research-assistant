@@ -1,0 +1,7 @@
+quid fraction. As a result, the maximum temperature rises to
+39.5 ◦C, and the maximum temperature difference increases to 3.5 ◦C. The final PCM liquid
+fraction reaches 0.88. Although the maximum temperature remains below 40 ◦C and the
+temperature difference remains below 5◦C, the remaining latent heat capacity of the PCM is
+significantly reduced. This suggests that long-range missions weaken the thermal buffering
+capacity of the system during the final high-discharge phase.
+Overall, the hybrid c

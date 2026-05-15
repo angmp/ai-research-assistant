@@ -1,0 +1,6 @@
+ai, Y.; Zheng, W.; Wang, H.; Wang, W. State of the art of lithium‑ion battery SOC estimation
+for electrical vehicles. Energies 2018, 11, 1820. [ CrossRef]
+129. Chaoui, H.; Ibe‑Ekeocha, C.C. State of charge and state of health estimation for lithium batteries using recurrent neural networks.
+IEEE Trans. Veh. Technol. 2017, 66, 8773–8783. [ CrossRef]
+130. Zhang, Y.; Xiong, R.; He, H.; Shen, W. Lithium‑ion battery pack state of charge and state of energy estimation algorithms using
+a hardwarein‑the

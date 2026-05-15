@@ -1,0 +1,6 @@
+. The pressure drop was obtained from CFD post processing and defined
+as the area-averaged static pressure difference between the inlet and outlet sections. It
+only represents the internal flow resistance of the modeled air-cooling channel, without
+additional losses from external pipes or components. Forced convection acted only on the
+PCM outer surface within the air-cooling channel. Natural convection was applied to the
+remaining external module surfaces, with a heat transfer coefficient of 10

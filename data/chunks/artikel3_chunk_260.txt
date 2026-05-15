@@ -1,0 +1,8 @@
+e added to the hard margin to produce a so‑called
+soft margin, as seen in Figure 20, to make the optimization possible.
+Batteries 2025, 11, x FOR PEER REVIEW 23 of 42 
+ 
+where b and W are the parameters to be determined; φ(·) is a mapping function; and (ℝ௠) 
+and (ℝ௡) are the input and high-dimensional spac e, respectively. The input data can be 
+linearly segregated in the new feature space. The SVM model employs more advanced 
+methods to compute the ϵ-insensitive loss function, in contrast to ba

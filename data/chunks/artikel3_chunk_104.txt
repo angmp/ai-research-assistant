@@ -1,0 +1,23 @@
+ictions over time.
+Batteries 2025, 11, 32 11 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 
+෍∗
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term is contractive, reducing uncertainty. The process 
+noise always increases the uncertainty ∑ ௪. 
+The state correction step is: 
+𝑥௞
+(ା)෢ = 𝑥 ௞
+(ି)෢ + 𝐿 ௞ቂ𝑣௞− 𝐶 ௞ 𝑥௞
+(ି)෢ ቃ (25)
+In other words, the predicted state estimate plus a weighted correction factor equals 
+the new state estimate. Subtracting the expected ce

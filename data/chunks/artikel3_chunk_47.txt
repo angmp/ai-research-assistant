@@ -1,0 +1,8 @@
+sed in a
+laboratory setting and is not appropriate for use on actual automobiles.
+2.3. Model‑Based State Estimation
+It is necessary to carefully create a good battery model for the model‑based techniques.
+Battery equivalent circuit models [16] and electrochemical models [17,18] are typically used
+to estimate SOC in a battery, using state space. Subsequently, a range of state observers,
+including the sliding mode observer, Kalman filter (KF), and the extended, adaptive, and
+unscented Kalman filte

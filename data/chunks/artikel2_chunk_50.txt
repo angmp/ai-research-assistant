@@ -1,0 +1,7 @@
+was assembled. The whole system contains 468 cells. After assembly, the
+total mass is about 459 kg, the total volume is about 221 L, and the installed energy is about
+67.4 kWh. In comparison, battery systems in leading eVTOL prototypes, such as Joby S4
+and City Airbus, can reach about 900 kg. Therefore, the proposed battery system remains
+within a reasonable range for integration and packaging [31].
+Figure 2 shows a schematic diagram of the hybrid cooling system structure; the pro-
+posed hybrid 

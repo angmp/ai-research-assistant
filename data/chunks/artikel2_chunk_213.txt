@@ -1,0 +1,27 @@
+hin a total air-cooling duration of 850 s, it limits the maximum temperature
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 34 of 37
+to 38.9 ◦C while consuming only 19.34 J of energy, outperforming both earlier and later
+intervention schemes in terms of synergistic regulation.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 31. Simulation results: ( a) temperature evolution of the battery module under different
+air-cooling intervention times; (b) correlation between maximum sys

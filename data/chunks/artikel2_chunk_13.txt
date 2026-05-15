@@ -1,0 +1,7 @@
+ration are the peak-power phases,
+with a discharge rate of 6.4 C. Park et al. [ 16] proposed a refined eVTOL battery sizing
+method considering thermal effects. Their Thevenin equivalent circuit simulations con-
+firmed the important influence of temperature on battery performance. Park et al. [ 17]
+proposed a sizing method for an eVTOL liquid cooling battery system. The battery, cooling
+channels, coolant, and cooling loop were considered within a unified design framework.
+The results indicated th

@@ -1,0 +1,7 @@
+VMs were later extended to address regression issues and given the name 
+support vector regression (SVR) [78]. In genera l, a large number of regression issues are 
+not amenable to linear regression in the input space. 
+As a result, one of SVM’s bene ﬁts is to permit linear separation. The basic tenets of 
+SVM theory can be found in references [77,78]. 
+Let us choose a training dataset 𝔇=  ሼ(𝒙௜,𝑦 ௜) , 𝑖 = 1, … , 𝐿ሽ where xi and yi represent 
+the input and output vector, respectively; the support

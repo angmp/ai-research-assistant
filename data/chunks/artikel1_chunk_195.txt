@@ -1,0 +1,7 @@
+al Neural
+Network and Random Forest. J. Energy Storage 2022, 48, 103857. [CrossRef]
+43. Che, Y.; Hu, X.; Lin, X.; Guo, J.; Teodorescu, R. Health Prognostics for Lithium-Ion Batteries: Mechanisms, Methods, and Prospects.
+Energy Environ. Sci. 2023, 16, 338–371. [CrossRef]
+44. Enuh, B.M. What Are Battery Management Systems and How Do They Impact Energy Storage Systems? Available online:
+https://www.azom.com/article.aspx?ArticleID=22797 (accessed on 3 March 2025).
+45. Ur Rehman, M.M.; Evzelman, M.; 

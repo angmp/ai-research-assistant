@@ -1,0 +1,21 @@
+ϕs − ϕe) −Uocp − j F R f ilm ) :
+j = k0C1−α
+e (Cs,max − Cs,e) 1−αCα
+s,e
+
+exp
+ (1− ∝)F
+RT η
+
+− exp
+
+− αF
+RT η
+
+(49)
+It was discovered that these equations could be resolved using simulation; however,
+the method demanded a significant amount of processing power. Furthermore, past per‑
+formance demonstrates that PDE simulators can be quite brittle, unable to converge to
+stable solutions.
+A method to convert the PDEs into a discrete‑time reduced‑order model was sug‑
+gested, and two fundamental

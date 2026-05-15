@@ -1,0 +1,7 @@
+rative analysis of energy storage technologies to highlight the advantages of lithium
+ion as a storage method. It then provides a detailed examination of the electrochemical
+properties and operational parameters related to LFP cells. This section builds up the
+necessary foundation to understand battery degradation mechanisms and the technical
+variables such as State of Health (SoH) and Remaining Useful Life (RUL) that are essential
+for the predictive modelling discussed later in this paper.
+2.1.

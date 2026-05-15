@@ -1,0 +1,13 @@
+7)
+The zero mean and covariance matrix is as follows: 
+𝐸[𝑤௡𝑤௞
+்] = ቊ෍𝑤 𝑛 = 𝑘
+0𝑛  ≠ 𝑘
+ (8)
+Assuming that wk is additive, white, and Gaussian. 
+The system’s varying dynamic nature is ca ptured by the state equation. This equa-
+tion, for instance, can be used to determine system stability, dynamic controllability, and 
+sensitivity to disturbance. 
+The second equation describing the system is the measurement equation: 
+ 𝑦௞= 𝐶 ௞𝑥௞+ 𝑣 ௞ (9)
+A linear combination of states is the output of the system at

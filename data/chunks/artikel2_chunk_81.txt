@@ -1,0 +1,7 @@
+scharge rate at 100% SOC are shown in Figure 5a. Similarly, the total internal
+resistance of the battery at different discharge rates is shown in Figure 5b. All subsequent
+simulations are based on the current fitting results, and when the difference in discharge
+rates is not significant, the internal resistance is approximated as the nearest integer multiple
+of the internal resistance.
+Figure 5. (a) Internal resistance at different discharge rates under 100% SOC; ( b) battery internal
+resistance

@@ -1,0 +1,7 @@
+theless, hybrid algorithms—which blend several algorithms—have become more
+and more well‑liked for improving accuracy, resilience, and efficiency. These hybrid algo‑
+Batteries 2025, 11, 32 34 of 42
+rithms, which are typically divided into two categories—those that combine model‑based
+techniques with ML methods and those that integrate several ML methods—use the ad‑
+vantages of multiple approaches to provide better results. To improve the accuracy and
+resilience of SOC estimate techniques, for ex

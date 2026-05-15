@@ -1,0 +1,7 @@
+tribution out‑
+lines the standard procedures for SOC and SOH estimation, describing the basic ideas of
+popular machine learning algorithm types—deep learning (DL), support vector machines
+(SVM), shallow neural networks (NN), and Gaussian process regression (GPR)—along
+with their mathematical formulas and visual representations to aid their comprehension.
+Specific methods such as CNN, LSTM, extreme learning machines (ELM), and BPNN
+are covered in detail. Another significant contribution is the re

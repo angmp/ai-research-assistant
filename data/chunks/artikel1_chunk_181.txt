@@ -1,0 +1,6 @@
+Access 2021, 9, 110255–110286. [CrossRef]
+18. Zhou, Y.; Liu, C.; Yu, X.; Liu, B.; Quan, Y. Tool Wear Mechanism, Monitoring and Remaining Useful Life (RUL) Technology Based
+on Big Data: A Review. SN Appl. Sci. 2022, 4, 232. [CrossRef]
+19. Ayob, A.; Ansari, S.; Lipu, M.S.H.; Hussain, A.; Saad, M.H.M. SOC, SOH and RUL Estimation for Supercapacitor Management
+System: Methods, Implementation Factors, Limitations and Future Research Improvements. Batteries 2022, 8, 189. [CrossRef]
+20. Shekhar, R. Comp

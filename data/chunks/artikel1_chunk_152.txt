@@ -1,0 +1,7 @@
+TM1 and LSTM2) captured the overall degradation
+trends and temporal dynamics of battery life without overfitting. These LSTMs had the best
+performance in this study and are comparable to the state-of-the-art models developed in
+other studies being only outperformed by BatLiNet [51] by a 3.4% margin. The developed
+GILSTM models (GILSTM1 and GILSTM2) were found to have overfit on the SoH data,
+with predictions of k, a and b centroiding to the mean values of the targets. The aggressive
+weighting of

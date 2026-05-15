@@ -1,0 +1,7 @@
+ule with liquid cooling: ( a) overall
+temperature field; (b) local temperature field.
+To improve the rationality of the comparison between the proposed hybrid cooling
+system and the baseline liquid cooling system, a structural parameter sensitivity analysis
+was further conducted for the baseline liquid cooling configuration. The coolant inlet
+velocity was kept at 0.9 m/s. The liquid cooling channel height and liquid cooling plate
+thickness were varied to evaluate their effects on temperature con

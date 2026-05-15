@@ -1,0 +1,7 @@
+e needs of electric vehicles
+(EVs), thousands of cells must be connected in corresponding series and in parallel due to
+the low voltage and energy of a single cell. Given the heterogeneous cell properties of op‑
+eration and performance within each battery pack, predictions of the cells’ inner occupied
+states continue to pose significant challenges. Furthermore, aging, temperature changes,
+and charge–discharge cycles all have a significant impact on battery performance, making
+it extremely diffic

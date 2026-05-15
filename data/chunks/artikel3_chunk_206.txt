@@ -1,0 +1,10 @@
+ntal results validate the
+resilience and accuracy of this technique, which provides a quick and efficient calculation
+of SOC.
+Batteries 2025, 11, 32 20 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 19 of 42 
+ 
+A neural network (NN) is a created intelligence that learns from examples and im-
+proves with time. Consider it similar to training a machine to spot patterns. In this exam-
+ple, it is utilized to anticipate how much charge a battery has remaining. 
+There are two major steps. First, it follo

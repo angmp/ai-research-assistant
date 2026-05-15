@@ -1,0 +1,5 @@
+ Power Sources 2016, 335, 121–130. [ CrossRef]
+21. Xiong, B.; Zhao, J.; Su, Y.; Wei, Z.; Skyllas‑Kazacos, M. State of charge estimation of vanadium redox flow battery based on sliding
+mode observer and dynamic model including capacity fading factor. IEEE Trans. Sustain. Energy 2017, 8, 1658–1667. [ CrossRef]
+22. Ye, M.; Guo, H.; Cao, B. A model‑based adaptive state of charge estimator for a lithium‑ion battery using an improved adaptive
+particle filter. Appl. Energy 2017, 190, 740–748. [ CrossRe

@@ -1,0 +1,9 @@
+
+of 3.1 ◦C, indicating that the two systems exhibit closely comparable thermal performance.
+Figure 20. Thermal performance of the battery module with liquid cooling: (a) variation in maximum
+temperature with time; (b) variation in temperature difference with time.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 24 of 37
+Figure 21. Temperature field distribution of the battery module with liquid cooling: ( a) overall
+temperature field; (b) local temperature field.
+To improve the

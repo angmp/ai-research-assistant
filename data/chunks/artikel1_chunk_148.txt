@@ -1,0 +1,7 @@
+e 0.9).
+In these high SoH regions, G−1(y) calculation for RUL becomes numerically ill-conditioned.
+As y approaches the asymptote k, the double logarithm term ln(ln(k/y)) approaches −∞,
+causing even negligible noise to result in large RUL fluctuations. This is also seen in
+Figures 16 and 17 as well as Figure A1. For the hybrid GILSTM variants, this instability
+manifested as gradient noise during training. When the optimizer encountered the extreme
+gradients produced by the inverse layer, the LSTM

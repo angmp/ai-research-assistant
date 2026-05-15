@@ -1,0 +1,26 @@
+l heat conduction and temperature uniformity but also increases structural
+mass. A thinner plate reduces mass but weakens heat spreading.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 23. Effect of liquid cooling plate thickness on the performance of the liquid cooling system.
+These results show that the liquid cooling channel height mainly affects the coolant
+flow area and channel heat transfer capacity. Increasing the channel height can reduce both
+thermal indicators and cooling plate mass wi

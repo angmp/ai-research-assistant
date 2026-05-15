@@ -1,0 +1,10 @@
+performance
+metrics, a portion of the suggested algorithms’ hyperparameters, and the data profiles
+used to train and verify the models. Furthermore, Table 1 provides a summary of genetic
+algorithm (GA) and fuzzy logic (FL).
+Batteries 2025, 11, x FOR PEER REVIEW 25 of 42 
+ 
+ 
+Figure 21. ANFIS structure for SOC estimation [88]. 
+The drawbacks of using fuzzy logic for SOC estimation include its reliance on expert 
+knowledge for rule formation, potential challenges in precisely de ﬁning membership 

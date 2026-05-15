@@ -1,0 +1,6 @@
+al energy storage composites of PCM, metal
+foam, fin and nanoparticle. J. Energy Storage 2020, 28, 101235. [CrossRef]
+13. Cai, S.; Zhang, X.; Ji, J. Recent advances in phase change material-based battery thermal management systems for electric vehicles.
+J. Energy Storage 2023, 72, 108750. [CrossRef]
+14. Liang, J.; Gan, Y.; Li, Y. Investigation on the thermal performance of a battery thermal management system using heat pipe under
+different ambient temperatures. Energy Convers. Manag. 2018, 155, 

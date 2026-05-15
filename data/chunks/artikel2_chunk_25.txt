@@ -1,0 +1,7 @@
+vity of PCM limits heat removal from the module core. Therefore, thermal manage-
+ment for eVTOL pouch cells requires both transient heat buffering during high-discharge
+phases and a low resistance internal heat conduction path. Continuous heat release after
+PCM heat absorption is also necessary.
+To address the heat dissipation demand and structural compactness constraint of
+eVTOL power batteries under high-rate discharge conditions, this study proposes a hybrid
+cooling system combining air cooli

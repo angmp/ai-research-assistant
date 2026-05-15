@@ -1,0 +1,8 @@
+ black-box LSTMs and physical interpretability of Gompertz models. While pure
+LSTMs provide superior accuracy, the Gompertz parameters stabilize by 85% SoH. This
+85% threshold serves as an interpretable confidence trigger, informing BESS operators
+when to rely on LSTM RUL forecasts.
+Batteries 2026, 12, 162 https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 2 of 33
+Keywords: battery health estimation; remaining useful life; lithium-ion batteries; lithium
+iron phosphate batteries; L

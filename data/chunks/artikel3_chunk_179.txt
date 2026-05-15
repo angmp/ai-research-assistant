@@ -1,0 +1,8 @@
+s. The Thevenin model might replicate the po larization characteristic to some extent, 
+but in the ﬁnal moments of charge or discharge, the di ﬀerences between concentration 
+polarization and electrochemical polarization result in an erroneous projection. To more 
+accurately describe polarization features and simulate concentration and electrochemical 
+polarization independently, an enhanced circ uit model, referred to as the dual polariza-
+tion (DP) model, is shown in Figure 14. 
+ 
+Figure 14. S

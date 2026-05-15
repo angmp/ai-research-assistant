@@ -1,0 +1,8 @@
+lized SoH (t) = SoH
+115.0 (7)
+Following the completion of data preprocessing and calculations, the capacity values
+for each cycle were extracted, enabling subsequent analysis of degradation trends. For
+training, validation and testing purposes, the dataset was split with the ratio 72:14:14,
+resulting in 55 cells for training, 11 cells for validation and 11 cells for testing, the exact
+splits were based on BatteryML’s [40] train–test splits, this was to ensure consistency when
+comparing results. 

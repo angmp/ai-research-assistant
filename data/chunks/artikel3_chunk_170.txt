@@ -1,0 +1,19 @@
+d characterized by a current IL and voltage UL, forming a modified Thevenin equiv‑
+alent circuit that models the variable open‑circuit voltage behavior under load conditions.
+The electrical behavior of the PNGV model can be expressed by Equation (56):
+..
+Ud = U′
+OC IL (55)
+.
+.
+UPN = UPN
+RPN CPN
++ IL
+CPN
+(56)
+UL = UOC − Ud − UPN − ILR0 (57)
+Batteries 2025, 11, x FOR PEER REVIEW 16 of 42 
+ 
+• The PNGV Model 
+Figure 13 illustrates a PNGV model with an open-circuit voltage source Uoc, in series 
+wit

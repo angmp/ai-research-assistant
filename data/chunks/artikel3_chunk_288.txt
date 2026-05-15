@@ -1,0 +1,26 @@
+curacy, RMSE Rules, Membership 
+Functions (MFs) 
+Expert knows, 
+Fuzzy rules 
+Nonlinear Auto-
+regressive with Ex-
+ogenous Input 
+Neural Network 
+(NARXNN) 
+Voltage, Current, 
+Temperature SOC R², MSE, Accuracy Delays, Neurons Series, Feedback 
+loops 
+Genetic Algorithm 
+(GA) 
+Voltage, Current, 
+Temperature SOC Conversion Rate, Accu-
+racy 
+Population Size 
+(POP Size), Muta-
+tion Rate (Mut), 
+Crossover Rate (Xo-
+ver) 
+Param opt, Feature 
+sel 
+Fuzzy Logic (FL) Voltage, Current, 
+Temperature SOC Rule Ac

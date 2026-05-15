@@ -1,0 +1,8 @@
+iven the acute sensitivity of battery performance to thermal conditions, SOC and
+SOH evaluations are particularly susceptible to deviations in ambient and operational tem‑
+peratures, necessitating the incorporation of advanced modeling techniques to mitigate
+these effects.
+4.10. Sensor Constraints and Economic Factors
+The reliance on high‑precision sensors for accurate measurements introduces con‑
+straints, not only in terms of the financial outlay but also in the limitations inherent in
+sensor 

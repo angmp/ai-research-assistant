@@ -1,0 +1,6 @@
+timated using a 1D CNN alone for electric vehicles’ batteries. The
+proposed model predicts SOC at timestep k using voltage, current, and temperature data
+from k − tw + 1 to k as inputs. This model outperformed other techniques in terms of both
+performance and offline training time. Hannan et al. [ 70] proposed a fully convolutional
+network (FCN) with temporal convolutions for determining the state of charge. They used
+global average pooling to prevent overfitting. The model’s learning rate was o

@@ -1,0 +1,11 @@
+plates were obtained from experimental measure-
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 10 of 37
+ments, material handbooks, and published literature, and were treated as constants. The
+properties of air and liquid water were defined using the built-in temperature-dependent
+functions in the COMSOL Multiphysics 6.2 simulation software.
+Table 4. Properties of phase change and thermally conductive materials.
+Material Parameters MPCM32D 1060 AL
+Alloy
+6063 AL
+Alloy AlN Cerami

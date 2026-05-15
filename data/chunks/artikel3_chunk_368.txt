@@ -1,0 +1,8 @@
+ticularly for batteries.
+The effectiveness of statically trained state estimation models decreases with the age
+of LiBs. As a result, ML algorithms that are directly installed on devices are able to learn
+and adjust in real time under real‑world operating conditions. This allows for continuous
+enhancements and prompt implementation of insights obtained from EV usage data.
+4.9. Thermal Influences
+Given the acute sensitivity of battery performance to thermal conditions, SOC and
+SOH evaluations are

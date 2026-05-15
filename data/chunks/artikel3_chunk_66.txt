@@ -1,0 +1,9 @@
+ but randomness in process noise and sensor noise prevents us from ever
+being able to calculate the state exactly [ 23].
+Review of probability
+Noise is by definition random in some way; it is not deterministic. Hence, to dis‑
+cuss how noise affects system dynamics, it is necessary to comprehend “random vari‑
+ables” (RVs).
+We are unable to precisely forecast the results of each measurement or sample of the
+random variable, but we can use the “probability density function” (PDF) to describe the
+pr

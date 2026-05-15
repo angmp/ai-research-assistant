@@ -1,0 +1,7 @@
+val capacity at the convective boundary
+gradually becomes the dominant factor in suppressing temperature rise, whereas the
+ability of PCM phase change to mitigate the peak temperature and temperature difference
+begins to weaken. The multiparameter coupled evolution shown in Figure 30 further
+clarifies the physical states corresponding to different intervention times. At t = 500 s,
+the maximum battery module temperature Tmax is 31.5 ◦C and the PCM liquid fraction is
+0.28, indicating that the PCM 

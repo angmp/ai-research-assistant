@@ -1,0 +1,8 @@
+ted with these elec-
+trochemical models, because they typically require the solution of several partial diﬀeren-
+tial equations. Reduced-order electrochemical models can approximate full-order models 
+with appropriate assumptions. 
+An estimated technique was developed with a way to capture and understand the 
+diﬀusion of compositions inside batteries. This helps us to understand what is happening 
+inside the battery [32]. Subsequently, a simpliﬁed electrochemical model based on physics 
+was crea

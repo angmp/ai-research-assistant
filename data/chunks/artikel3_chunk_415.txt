@@ -1,0 +1,6 @@
+ur, B. State of charge estimation of lead acid batteries using neural networks. In Proceedings of the 2013 Interna‑
+tional Conference on Circuits, Power and Computing Technologies (ICCPCT), Nagercoil, India, 20–21 March 2013; pp. 596–599.
+61. Chen, J.; Longhui, W.; Wu, C.; Yiheng, Z. Method for Estimating State of Charge of Battery. WO Patent 2019052015A1, 21
+March 2019.
+62. Hannan, M.A.; Lipu, M.S.H.; Hussain, A.; Saad, M.H.; Ayob, A. Neural network approach for estimating state of charge of
+li

@@ -1,0 +1,7 @@
+mation. It is commonly known that the
+SVM kernel function can translate the input characteristics implicitly to a high‑dimensional
+feature space in which samples may be separated linearly [ 117].
+The SVM model’s hyperparameters were optimized using the differential evolution
+(DE) technique. The suggested method performed better in terms of both the constant cur‑
+rent discharging process and dynamic working circumstances when compared to other
+machine learning estimating techniques utilizing the 

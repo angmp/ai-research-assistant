@@ -1,0 +1,17 @@
+state correction step is:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+vk − Ck
+ˆx(−)
+k
+
+(25)
+In other words, the predicted state estimate plus a weighted correction factor equals
+the new state estimate. Subtracting the expected cell voltage from the measured cell volt‑
+age equals the term enclosed in square brackets [ 28].
+Due to measurement noise, an erroneous state estimate ˆx(−)
+k , or an imprecise cell
+model, this term might not be zero. It is frequently referred to as the “innovation” process,
+as it symbolize

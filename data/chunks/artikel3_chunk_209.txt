@@ -1,0 +1,6 @@
+ 16. Three-layer neural network architecture for SOC estimation [62]. 
+Despite its beneﬁts, this strategy has inherent limits. A large number of training data 
+are used to adequately train the algorithm. The quantity and quality of training data have 
+a considerable in ﬂuence on accuracy [63,64]. In summary, NNs for SOC estimation face 
+drawbacks such as a heavy reliance on extensive data for training, risk of over ﬁtting, 
+opaque black box’ decision-making processes, computational intensity in

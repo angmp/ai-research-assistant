@@ -1,0 +1,7 @@
+id network solely applied the one-
+dimensional convolution layer to extract relevant information from temperature, current, 
+and voltage measurements. Hyperparameters were selected by comparing various de-
+signs. The suggested hybrid network was compared to other machine learning algorithms 
+under driving cycles to conﬁrm its superiority. 
+SOC can now be estimated using a 1D CNN alone for electric vehicles’ batteries. The 
+proposed model predicts SOC at timestep k using voltage, current, and tem

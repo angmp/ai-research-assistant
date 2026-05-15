@@ -1,0 +1,6 @@
+nder high-rate discharge conditions, this study proposes a hybrid
+cooling system combining air cooling, high-thermal-conductivity plates, and PCM. The
+power demand in different flight phases is first analyzed using a typical eVTOL mission
+profile. A single-cell thermal model is then developed and experimentally validated to
+provide heat source input for subsequent module-level simulations. Three key structural
+parameters are investigated, including cell spacing, thermally conductive material, an

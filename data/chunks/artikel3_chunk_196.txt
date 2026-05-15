@@ -1,0 +1,7 @@
+erent types of batteries, and it may not be
+suitable for all battery chemistries or designs. Lastly, translating impedance data into ac‑
+curate SOC values involves complex modeling, especially challenging due to the nonlinear
+behavior of batteries.
+In summary, while EIM offers detailed insights into a battery’s electrochemical pro‑
+cesses, its practical application in SOC estimation is constrained by its interpretational com‑
+plexity, operational sensitivity, specialized knowledge requirements, 

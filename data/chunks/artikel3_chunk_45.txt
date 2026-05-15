@@ -1,0 +1,7 @@
+t‑based method of estimation has the benefit of an al‑
+gorithm that is straightforward to implement; however, due to the greater hardware re‑
+quirements, a significant amount of experimental investment is required, and the method’s
+performance is limited to estimating SOC.
+The voltage‑based method’s accuracy rises with the battery’s standby period, mean‑
+ing that the test duration will be increased correspondingly, based on the features and
+accuracy of each method. The initial state‑of‑charge es

@@ -1,0 +1,8 @@
+ed in training the battery model,
+which naturally increases its practical implementation due to SOH being more dynamic
+than SOC.
+Batteries 2025, 11, 32 29 of 42
+Data mining techniques have been used for battery SOH estimation, such as battery
+SOC estimation [ 105–107]. Klass et al. employed support vector machine (SVM) to de‑
+termine the condition of a battery. It is similar to a diagnostic tool in that it tells us how
+well a battery is performing and whether or not it is still in excellent cond

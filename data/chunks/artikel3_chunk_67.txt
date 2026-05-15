@@ -1,0 +1,25 @@
+e of the
+random variable, but we can use the “probability density function” (PDF) to describe the
+probability of each sample value. Random vector X and sample vector x0 are defined as:
+X =
+2
+66664
+X1
+X2
+...
+Xn
+3
+77775
+, x0 =
+2
+66664
+x1
+x2
+...
+xn
+3
+77775
+, (4)
+where X1 through Xn are scalar random variables, and x1 through xn are scalar constants.
+X described by (scalar function) joint PDF f X(x) of vector X.
+fX (x0) means f X (X1 = x 1, X 2 = x 2, …, X n = x n). That is, f X (x0) dx 1 dx2 … dx n

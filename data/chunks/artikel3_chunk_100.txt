@@ -1,0 +1,10 @@
+me iterations. These plots are instrumental in 
+evaluating the accuracy and reliability of Kalman ﬁlter predictions over time. 
+ 
+Figure 7. Performance analysis of a Kalman ﬁlter. 
+Extended Kalman Filtering 
+The Kalman ﬁlter is the best state estimator. In a nonlinear system, we can approxi-
+mate the nonlinear system with a linear time-varying (LTV) system by using a lineariza-
+tion procedure at each time step. The extended Kalman ﬁlter (EKF) on the real nonlinear 
+(26)
+A significant update is r

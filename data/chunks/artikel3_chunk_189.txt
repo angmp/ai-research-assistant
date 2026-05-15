@@ -1,0 +1,8 @@
+0)
+2.3.3. Electrochemical Impedance Model 
+In addition to incorporated components and porous electrode theory, the electro-
+chemical impedance model (EIM)-based SOC assessment incorporates additional param-
+eters into the model by including Warburg, constant phase, and Z arc elements [43–46]. A 
+basic schematic diagram of the EIM is displayed in Figure 15. A potent method for exam-
+ining the internal dynamics of ba tteries across a variety of periods is electrochemical im-
+pedance spectroscopy (

@@ -1,0 +1,8 @@
+ta from the first 100 cycles only .
+4. Results
+This section outlines the results from Gompertz data analysis, visualized and numeri-
+cal results from the modelling processes, particularly the results of empirical modelling
+based on G(x), pure data-driven models utilizing LSTMs (LSTM1 and LSTM2) and novel
+hybrid approaches: Gompertz-Informed LSTM (GILSTM1, GILSTM2 and GILSTM3).
+4.1. Gompertz Data Analysis and Modeling Results
+The initial experimentation with G(x) was to provide baseline and real-

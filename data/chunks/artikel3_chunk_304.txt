@@ -1,0 +1,6 @@
+rvive after repeated charging and discharging cycles using a math‑
+ematical equation known as the power law [99]. With no regard for the depth of discharge,
+the battery model was calibrated across broad SOC parameter ranges such that a cycle‑
+life model at constant temperature was used to forecast a capacity loss in batteries at low
+SOC levels [ 100]. A battery aging model was used to forecast lower capacity under both
+fast charging and discharging conditions [ 101]. To capture the dynamics of c

@@ -1,0 +1,6 @@
+w, is known as the State of Health (SoH). SoH is typically expressed as a
+percentage and serves as a real-time indicator of battery aging [13]. While RUL provides a
+forecast of how many more cycles a battery can deliver, SoH provides a snapshot of the
+battery’s present condition. Usage-related properties such as those in Table 2 may inform
+the gradual change in SoH for LFP batteries. These two parameters, SoH and RUL, are
+closely related and are both critical in battery management systems (BMS) 

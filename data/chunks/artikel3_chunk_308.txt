@@ -1,0 +1,7 @@
+n that it tells us how
+well a battery is performing and whether or not it is still in excellent condition [ 108]. To
+generate the input and output vectors of the necessary SVM training dataset, a new data
+processing technique is proposed that makes use of load collectives. For battery capacity
+estimation, Hu et al. [ 106] used the K‑nearest neighbor (KNN) method, a data‑driven clas‑
+sification technique. Neural network and clustering are techniques used to estimate the
+battery SOH based on the h

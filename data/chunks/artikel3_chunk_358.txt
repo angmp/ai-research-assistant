@@ -1,0 +1,7 @@
+ilience is ensemble learning (EL). By
+cleverly mixing multiple distinct algorithms, EL aims to reduce the risks associated with
+single algorithms that perform badly [ 139]. Random forest (RF) is a popular ensemble ap‑
+proach that uses decision‑tree logic and a bagging technique. Approximately two‑thirds
+of the original dataset size is used in bootstrapping to create training datasets, with the
+remaining unselected samples included as out‑of‑bag (OOB) samples. These datasets are
+then utilized to 

@@ -1,0 +1,7 @@
+am of EIM.
+In addition, EIM demands a comprehensive understanding of the battery’s electro‑
+chemical properties, involving detailed and complex electrochemical analysis. This re‑
+quirement often makes EIM a more specialized approach, limited to scenarios where
+such expertise is available. Another considerable limitation is the time‑intensive nature
+of impedance spectroscopy measurements. These measurements often require the battery
+to be in a stable state, which limits the method’s applicability

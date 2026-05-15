@@ -1,0 +1,6 @@
+ IEEE Trans. Control Syst. Technol. 2015, 24, 384–399. [ CrossRef]
+35. Zhang, L.; Wang, Z.; Hu, X.; Sun, F.; Dorrell, D.G. A comparative study of equivalent circuit models of ultracapacitors for electric
+vehicles. J. Power Sources 2015, 274, 899–906. [ CrossRef]
+36. Zhang, X.; Lu, J.; Yuan, S.; Yang, J.; Zhou, X. A novel method for identification of lithium‑ion battery equivalent circuit model
+parameters considering electrochemical properties. J. Power Sources 2017, 345, 21–29. [ CrossRef]
+37. W

@@ -1,0 +1,6 @@
+40. Zhang, H.; Gui, X.; Zheng, S.; Lu, Z.; Li, Y.; Bian, J. BatteryML: An Open-Source Platform for Machine Learning on Battery
+Degradation. arXiv 2024, arXiv:2310.14714.
+41. Winsor, C.P . The Gompertz Curve as a Growth Curve. Proc. Natl. Acad. Sci. USA 1932, 18, 1–8. [CrossRef]
+42. Yang, N.; Song, Z.; Hofmann, H.; Sun, J. Robust State of Health Estimation of Lithium-Ion Batteries Using Convolutional Neural
+Network and Random Forest. J. Energy Storage 2022, 48, 103857. [CrossRef]
+43. Che, Y.; Hu,

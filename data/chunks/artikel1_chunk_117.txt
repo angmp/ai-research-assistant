@@ -1,0 +1,9 @@
+ide the training process.
+Ltotal = αLdata + βLphysics + γLrul (9)
+where
+• Data Loss (Ldata): The MSE between the target and the predicted parameters k, a and b;
+• Physics Loss (Lphysics): The combined MSE of the predicted G(x) represented as y and
+its actual G(x) and its predicted G′(x) and its actual G′(x);
+• RUL Loss (Lrul): The MSE between the target RUL and the value calculated by passing
+the predicted parameters through the inverse Gompertz layer;
+c. Root Mean Squared Error (RMSE): Square r

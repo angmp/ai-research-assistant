@@ -1,0 +1,7 @@
+he number of hidden
+layers are important for accuracy and computing load.
+DNNs encounter several drawbacks, including a substantial need for large datasets
+for training, high susceptibility to overfitting, considerable computational resources for
+model training and operation, complexity in architecture leading to difficulties in tun‑
+ing and optimization, a “black box” nature that obscures interpretability of the decision‑
+making process, and potential challenges in generalizing to new or unseen

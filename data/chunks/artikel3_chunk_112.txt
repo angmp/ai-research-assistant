@@ -1,0 +1,11 @@
+ zero mean white Gaussian stochastic processes with covari‑
+ance matrices ∑ v and ∑ w, respectively. Now, f (.) is a nonlinear transition matrix function,
+and g (.) is a nonlinear measurement matrix.
+At each time step, f (.) and g (.) are linearized by a Taylor‑series expansion.
+f (xk, uk) ≈ f ( ˆxk, uk) + ∂ f (xk, uk)
+∂x ∥ .xk= ˆxk (xk − ˆxk) (30)
+g (xk, uk) ≈ g( ˆxk, uk) + ∂g(xk, uk)
+∂x ∥ .xk= ˆxk (xk − ˆxk) (31)
+So, we have the linearized system:
+State‑space model:
+xk+1 = f (xk, uk) + wk (32)

@@ -1,0 +1,7 @@
+ed hybrid cooling system by
+retaining the high-thermal-conductivity plates and PCM, while removing active air cooling.
+The thermal conducting material was 6063 aluminum alloy, and the cell spacing was 1 mm.
+This configuration represents the passive heat dissipation limit under natural convection.
+As shown in Figure 17a,b, the passive cooling system improves the temperature
+uniformity of the battery module. The maximum temperature difference is controlled
+within 2.2 ◦C. Figure 18a,b further show 

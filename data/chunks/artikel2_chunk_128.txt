@@ -1,0 +1,7 @@
+ng materials, there is no need to excessively
+pursue high thermal conductivity, as the thermal performance of 6063 aluminum alloy is
+sufficient to meet the requirements.
+Priority of impact on temperature uniformity: inlet airflow velocity > cell spacing
+> thermal conductivity. A 10% increase in inlet airflow velocity raises the temperature
+difference by 2.3%, which is consistent with the conclusion in Section 4.2.3 that “excessively
+high flow velocity worsens temperature uniformity”. Therefore, 

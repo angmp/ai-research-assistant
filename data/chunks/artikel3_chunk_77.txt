@@ -1,0 +1,13 @@
+ely characterize its unforced 
+dynamics [25]. Stated di ﬀerently, it is the minimum amount  of historical behavior data 
+needed to forecast future behavior. The status is usually unknown and might not be quan-
+tiﬁable. We must use observations on yk to determine its value. 
+We may mathematically describe the system in Figure 6 with two equations. The state 
+equation is: 
+ 𝑥௞ାଵ= 𝐴௞ 𝑥௞+ 𝐵 ௞𝑢௞+ 𝑤 ௞ (7)
+The zero mean and covariance matrix is as follows: 
+𝐸[𝑤௡𝑤௞
+்] = ቊ෍𝑤 𝑛 = 𝑘
+0𝑛  ≠ 𝑘
+ (8)
+Assuming t

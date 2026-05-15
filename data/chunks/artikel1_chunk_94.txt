@@ -1,0 +1,10 @@
+ated using Root Mean Squared Error (RMSE) on both training and
+validation datasets. The models with the best validation loss were saved. The number of
+training epochs set at 1000 as shown in Table 3 was determined empirically by monitor-
+ing the validation RMSE. Training continued for all 1000 epochs but only the best model
+was saved.
+Table 3. LSTM Key Training hyperparameters.
+Loss Function Mean Squared Error (MSE)
+Learning Rate Scheduler StepLR (step size = 200 epochs)
+Optimizer Adam
+Initial L

@@ -1,0 +1,7 @@
+y module. The maximum temperature difference is controlled
+within 2.2 ◦C. Figure 18a,b further show the spatial temperature distribution. Heat is
+effectively transferred from the high-temperature region of the cells to the PCM through
+the thermal conduction structure, leading to a more uniform temperature field.
+However, without an active heat rejection path, heat removal mainly depends on PCM
+heat absorption. Under high-rate discharge, heat accumulation exceeds the phase change
+buffering capaci

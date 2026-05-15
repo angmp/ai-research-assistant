@@ -1,0 +1,7 @@
+ 1 C discharge conditions in
+conventional electric vehicles. Due to the compact structure of the cell, the heat generation
+rate per unit surface area caused by Ohmic heating increases substantially under such
+conditions, with the instantaneous thermal flux density being more than 300% higher than
+that of traditional electric vehicle batteries. This imposes more stringent requirements
+on the heat diffusion path inside the cell and the response time of the external cooling
+system. Therefore, accur

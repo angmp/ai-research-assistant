@@ -1,0 +1,7 @@
+d percentage points dependent on cycling conditions while the RUL varies
+greatly based on usage.
+Battery users may usually be more concerned with the status of the battery within
+each charge–discharge cycle, the proportion of energy remaining in the battery relative to
+its nominal energy. This proportion of energy remaining in a battery relative to its nominal
+energy is referred to as the State of Charge (SoC) and is usually indicated using a battery
+status bar or battery indicator; the nominal 

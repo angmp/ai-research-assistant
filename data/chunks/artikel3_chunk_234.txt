@@ -1,0 +1,8 @@
+ vehicles’ batteries. The 
+proposed model predicts SOC at timestep k using voltage, current, and temperature data 
+from k − t
+w + 1 to k as inputs. This model outperformed other techniques in terms of both 
+performance and oﬄine training time. Hannan et al. [70] proposed a fully convolutional 
+network (FCN) with temporal convolutions for determining the state of charge. They used 
+global average pooling to prevent over ﬁtting. The model’s learning rate was optimized 
+using various techniques to 

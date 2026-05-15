@@ -1,0 +1,8 @@
+es may fail to provide the required energy
+at a critical juncture. More recently, the RUL and SoH of lithium ion batteries have be-
+come matters of scientific research focus because of the growth currently occurring in
+the clean, green and sustainable energy sectors [ 21,29–39]. Several methods are used to
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 6 of 33
+predict RUL, including data-driven methods utilizing Neural Networks [27–30], Gaussian
+processes [31,40] and LSTMs [32

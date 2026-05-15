@@ -1,0 +1,10 @@
+igurations is present in Appendix B.
+Table 7. Ablation study of loss components of GILSTM performance.
+Configuration Training RMSE Test RMSE
+A. Ldata only 2.52 8.68
+B. Ldata + Lphysics 2.63 8.98
+C. Ldata + Lphysics + Lrul 2.54 8.69
+D. GILSTM trained only on data with SoH less than 0.85 (stable
+data); tested on the full dataset 3.52 12.01
+The ablation study reported in Table 7 identifies that the underperformance of the
+GILSTM is not a result of optimization failure but a shortfall in the design 

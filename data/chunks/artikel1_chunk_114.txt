@@ -1,0 +1,13 @@
+function, root
+mean squared error (RMSE), RMSE per Cycle and RMSE at cycle 100.
+a. Mean Squared Error (MSE): measures the average of the squares of the error [43] as
+illustrated in Equation (8).
+MSE = 1
+n ∑
+n
+i=1(yi − ˆyi)2 (8)
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 18 of 33
+The MSE is sensitive to outliers and used in regression models. Used when training
+all models, when training GILSTM1 and GILSTM2 the MSE was used to formulate the
+physics-informed loss function as 

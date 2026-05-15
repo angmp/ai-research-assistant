@@ -1,0 +1,6 @@
+rategies. The adaptability of the hybrid cooling system under different
+operating conditions is further analyzed. In addition, an air-cooling intervention strategy
+is proposed to reduce the high energy consumption caused by continuous airflow:
+(1) A hybrid battery cooling system combining air cooling, high-thermal-conductivity
+plates, and PCM is developed. Under the optimized configuration, with a cell spacing of
+1 mm, a 6063-aluminum alloy high-thermal-conductivity plate, and an inlet airflow v

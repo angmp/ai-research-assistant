@@ -1,0 +1,7 @@
+rce Uoc, in series 
+with an internal resistance Ro and a dynamic element represented by a capacitor 1/𝑈′oc and 
+a voltage Ud; alongside this series connection is a parallel network of a capacitor CPN and 
+resistor RPN, with the current IPN ﬂowing out of CPN, and the entire assembly is connected 
+to a load characterized by a current IL and voltage UL, forming a modiﬁed Thevenin equiv-
+alent circuit that models the variable open-circuit voltage behavior under load conditions. 
+The electrical behav

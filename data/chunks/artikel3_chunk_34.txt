@@ -1,0 +1,8 @@
+range [ 13]. The technique, like the voltage‑based method, might not take hysteresis
+and diffusion voltages into full consideration.
+In some circumstances, this approach may yield noisy SOC estimates, which reduces
+its accuracy.
+Filtering can be used to increase estimate accuracy, but it may cause delays that should
+be considered for real‑time applications.
+Another challenging element that may impair the precision of SOC estimation is hys‑
+teresis, which is the reliance of a system’s state on it

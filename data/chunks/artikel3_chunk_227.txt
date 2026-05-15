@@ -1,0 +1,7 @@
+maximum error was only 1.9%, which is less than 2% under the Federal Urban Driv‑
+ing Schedule (FUDS) driving cycles. However, it is worth noting that the execution time
+of the algorithm could be significantly increased by merging UKF. A four‑hidden‑layer
+DNN with 64 neurons per hidden layer was found to be the best model after comparing
+numerous DNN models [ 53]. The number of hidden neurons and the number of hidden
+layers are important for accuracy and computing load.
+DNNs encounter several dra

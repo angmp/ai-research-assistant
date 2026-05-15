@@ -1,0 +1,7 @@
+rature uniformity, and system mass.
+As shown in Figures 10 and 11, 1060 aluminum alloy provides good overall thermal
+performance. The maximum temperature is 40.20 ◦C, and the maximum temperature differ-
+ence is 2.651 ◦C. However, the corresponding HCP mass reaches 22 kg. The 6063-aluminum
+alloy shows the best temperature uniformity, with the lowest maximum temperature dif-
+ference of 2.31 ◦C. The maximum temperature is 39.90 ◦C. More importantly, its HCP
+mass is only 16.3 kg, which gives a clear

@@ -1,0 +1,7 @@
+ry provides the corresponding
+discharge current. The trend of discharge current variation for each flight phase is shown
+in Figure 1: during takeoff and landing phases, the propulsion system demands peak
+power, leading to significant spikes in the battery discharge current, while during cruise
+and descent, system loads stabilize, resulting in lower discharge currents. For example,
+in this study, a single battery cell (with dimensions of 320 mm × 115 mm × 10 mm) has
+an effective heat dissipation 

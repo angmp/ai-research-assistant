@@ -1,0 +1,7 @@
+impracticality for application in
+real‑time scenarios, such as when the car is moving, is one of the main problems. The
+state of charge (SOC) of the EV battery might be estimated if it were possible to obtain the
+OCV data in real time while driving. This refers to being aware of the battery’s remaining
+charge while operating the car, which is essential for organizing and arranging one’s driv‑
+ing range [ 13]. The technique, like the voltage‑based method, might not take hysteresis
+and diffusion v

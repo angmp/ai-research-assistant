@@ -1,0 +1,6 @@
+VR cross validation. IEEE Access 2020, 8, 10234–10242. [ CrossRef]
+81. Novák, V.; Perfilieva, I.; Močkoř, J. Functional systems in fuzzy logic theories. In Mathematical Principles of Fuzzy Logic ; Springer:
+Boston, MA, USA, 1999; pp. 179–222.
+82. Salkind, A.J.; Fennie, C.; Singh, P.; Atwater, T.; E Reisner, D. Determination of state‑of‑charge and state‑of‑health of batteries by
+fuzzy logic methodology. J. Power Sources 1999, 80, 293–300. [ CrossRef]
+83. Sheng, H.; Xiao, J. Electric vehicle state

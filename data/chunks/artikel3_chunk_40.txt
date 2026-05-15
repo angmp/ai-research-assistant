@@ -1,0 +1,7 @@
+Batteries 2025, 11, 32 5 of 42
+• Dependence on Current Measurements: The precision of current measurements has
+a significant impact on SOC estimation when utilizing the ampere‑hour method. In‑
+accuracies in SOC estimates may result from current measurement mistakes.
+• Error Accumulation: The accuracy of SOC estimates may be considerably impacted
+over time by inaccuracies in current measurements that accumulate.
+• Difficulty in Determining Initial SOC: Accurately determining the initial state of

@@ -1,0 +1,20 @@
+d the liquid cooling structure
+mass from 31.2 kg to 30.0 kg, as shown in Figure 22. A larger channel height increases the
+coolant flow area and enhances channel heat transfer. Meanwhile, the solid metal volume
+of the cooling plate decreases.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 22. Effect of liquid cooling channel height on the performance of the cooling system.
+When the channel height was fixed at 3 mm, the liquid cooling plate thickness in-
+creased from 4 mm to 6 mm reduced the maximum temperature

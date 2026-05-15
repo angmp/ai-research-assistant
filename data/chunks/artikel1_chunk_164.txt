@@ -1,0 +1,6 @@
+ble on Mendeley data at https://data.mendeley.com/datasets/nsc7hnsg4s/2 (accessed on
+4 October 2024), and the source code for this study is available at https://github.com/DeKUT-DSAIL/
+gi-lstms (accessed on 21 April 2026), this repository contains all Gompertz generated derivative data.
+Acknowledgments: This work was supported by a grant from the Swiss National Supercomputing
+Centre (CSCS) under project ID g164 on Alps. Additional computational resources for modelling and
+benchmarking results we

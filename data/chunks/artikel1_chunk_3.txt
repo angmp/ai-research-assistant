@@ -1,0 +1,7 @@
+egarding battery
+replacement. Remaining Useful Life (RUL) prediction is at the core of avoiding unex-
+pected failure and enabling proactive battery maintenance. Physics-based and data-driven
+methods have been explored by researchers, whilst Physics-Informed Neural Networks
+(PINNs) can combine their strengths in estimating battery RUL. This paper investigates the
+integration of the Gompertz function, an inherently interpretable white-box model, into
+Long Short-Term Memory (LSTM) networks to follo

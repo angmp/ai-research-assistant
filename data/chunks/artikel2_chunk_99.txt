@@ -1,0 +1,8 @@
+minimized
+their influence on battery performance.
+As shown in Figure 7a, the battery thermal model was validated under 1C, 2C, and 3C
+discharge conditions by comparing the simulated temperature with the average measured
+temperature. To further assess the applicability of the model under dynamic loading,
+additional validation was performed under the eVTOL flight profile, as shown in Figure 7b.
+Under both conditions, the simulated results agree well with the experimental data, with
+deviations with

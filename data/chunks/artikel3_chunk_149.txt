@@ -1,0 +1,8 @@
+al data for calibration and vali‑
+dation, which can be time‑consuming and costly. The effectiveness of EMs is highly de‑
+pendent on the accuracy of the model in reflecting actual battery behaviors under various
+conditions, such as temperature fluctuations and aging effects. These factors collectively
+make EMs challenging to implement and maintain, especially for real‑time applications.
+Batteries 2025, 11, 32 15 of 42
+2.3.2. Equivalent Circuit Model
+The Partnership for a New Generation of Vehicle

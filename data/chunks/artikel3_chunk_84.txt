@@ -1,0 +1,9 @@
+̸= k (8)
+Assuming that wk is additive, white, and Gaussian.
+The system’s varying dynamic nature is captured by the state equation. This equa‑
+tion, for instance, can be used to determine system stability, dynamic controllability, and
+sensitivity to disturbance.
+The second equation describing the system is the measurement equation:
+yk = Ckxk + vk (9)
+A linear combination of states is the output of the system at discrete‑time k. Measure‑
+ment noise also contributed to this output. Once more, measu

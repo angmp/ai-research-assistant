@@ -1,0 +1,7 @@
+entifiability of equivalent circuit models for Li‑ion batteries.
+Energies 2017, 10, 90. [ CrossRef]
+17. Tang, S.‑X.; Camacho‑Solorio, L.; Wang, Y.; Krstic, M. State‑of‑charge estimation from a thermal–electrochemical model of
+lithium‑ion batteries. Automatica 2017, 83, 206–219. [ CrossRef]
+18. Li, J.; Wang, L.; Lyu, C.; Pecht, M. State of charge estimation based on a simplified electrochemical model for a single LiCoO 2
+battery and battery pack. Energy 2017, 133, 572–583. [ CrossRef]
+19. Wang, Y

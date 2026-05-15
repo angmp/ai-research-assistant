@@ -1,0 +1,7 @@
+r
+predictions of k, a and b to centroid toward mean values. Future work would focus on better
+architectural design, battery dataset expansion and the optimization of the development of
+parameter predicting PINN models.
+Author Contributions: Conceptualization, Y.N., C.w.M. and E.T.M.; methodology, Y.N. and C.w.M.;
+software, Y.N.; validation, C.w.M. and E.T.M.; formal analysis, Y.N.; investigation, Y.N.; data curation,
+Y.N.; writing—original draft preparation, Y.N.; writing—review and editing, Y.N

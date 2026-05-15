@@ -1,0 +1,7 @@
+ capacity and internal impedance of
+a battery are measured using the pulse current test [ 90] or the standard capacity test [ 91].
+Since a full discharge using regulated current and temperature will disrupt regular EV
+operations, this direct method is awkward and not advised. Electrochemical impedance
+spectroscopy (EIS) of batteries can undoubtedly provide a great deal of information about
+their state of health compared to the direct measurements of internal impedance and the
+aged capacity. Ther

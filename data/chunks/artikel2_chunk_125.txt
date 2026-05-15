@@ -1,0 +1,14 @@
+er Structural Parameter Structural Parameter
+Cell Spacing Tmax −0.52
+∆T −0.47
+System Weight 2.15
+Thermal Conductivity Tmax −0.08
+∆T −0.06
+System Weight 0.12
+Inlet airflow velocity Tmax −0.12
+∆T 0.23
+System Weight 0.05
+Based on the absolute values of the coefficients and their correlation, the following
+conclusions can be drawn.
+Priority of impact on system weight: cell spacing > thermal conductivity > inlet
+airflow velocity. A 10% increase in cell spacing results in a 21.5% increase in system we

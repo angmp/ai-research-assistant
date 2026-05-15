@@ -1,0 +1,8 @@
+stem effectively removes the heat absorbed by
+the PCM in a timely manner, preventing thermal accumulation and significantly lowering
+the overall temperature of the system. These results demonstrate that the hybrid cooling
+system exhibits excellent performance in both temperature uniformity and heat dissipation,
+successfully addressing the challenge of non-uniform thermal distribution within the
+battery module.
+The parametric analyses of cell spacing, thermally conductive material, and inlet
+airf

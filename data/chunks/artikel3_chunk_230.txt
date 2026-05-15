@@ -1,0 +1,6 @@
+Figure 18. In CNN, neurons in each convolution layer are not connected to every other
+neuron, unlike in a fully connected network. This is achieved by sliding a filter across the
+input space, resulting in sparse connectivity. Convolution is a process where subsets of
+input space multiply with a filter. Three factors determine this process: filter size, number
+of filters, and step. This process allows for faster learning and reduced memory usage.
+Pooling layers decrease the size of feature maps. 

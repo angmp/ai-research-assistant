@@ -1,0 +1,7 @@
+at accumulate.
+• Difficulty in Determining Initial SOC: Accurately determining the initial state of
+charge (SOC) can be difficult in real‑time applications, particularly if the battery is
+not fully charged or depleted. Precise SOC estimation requires accurate initial SOC.
+• Calibration Challenges: Using the Ah technique for SOC estimation can present cali‑
+bration challenges for both the original SOC and current readings. To take into con‑
+sideration errors and variances in the system, calibrati

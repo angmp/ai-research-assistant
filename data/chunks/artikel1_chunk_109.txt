@@ -1,0 +1,17 @@
+ed to the recursively
+predicted SoH curve
+RUL Calculation Calculated from predicted
+k, a and b via Equation (4).
+Calculated from predicted
+k, a and b via Equation (4).
+Calculated from fitted
+Gompertz parameters k, a and b
+via Equation (4).
+Primary Objective Early-cycle RUL estimation
+from limited data
+Full-lifespan adherence to
+physical degradation laws.
+Recursive SoH forecasting
+verified by Gompertz fitting.
+The core similarities of the three GILSTM models are as follows:
+A. All three models co

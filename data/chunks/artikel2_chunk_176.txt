@@ -1,0 +1,7 @@
+brid
+cooling system under different climatic conditions, five ambient temperature cases were
+considered in this study: 15 ◦C, 20 ◦C, 25 ◦C, 30 ◦C, and 35 ◦C. The baseline flight profile,
+structural parameters, and inlet airflow velocity were kept unchanged.
+As shown in Figure 26, ambient temperature strongly affects the thermal performance
+of the hybrid cooling system. At 15 ◦C and 20 ◦C, the initial temperature is below the
+phase-change range of MPCM32D. The large temperature difference between

@@ -1,0 +1,18 @@
+tery cell cross‑sectional view.
+By resolving the five connected continuum‑scale partial differential equations (as well
+as the corresponding boundary conditions), these five electrochemical variables can be
+determined.
+Movement of Lithium‑ions in the solid particles:
+∂Cs
+∂t = Ds
+r2
+∂
+∂r
+
+r2 ∂Cs
+∂r
+
+(45)
+where Cs, Ds, and r are the concentration of lithium in the solid particles, diffusion coef‑
+ficient in the solid, and radial coordinate within the particle, respectively. This equation
+represe

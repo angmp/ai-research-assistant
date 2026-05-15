@@ -1,0 +1,6 @@
+lete IC curves [ 114]. It can be inferred from the Spearman
+correlation analysis that some of the characteristics were not used as the input vector. The
+NN model’s input was limited to the two feature values with the strongest association
+with SOH. In addition, the examination of training accuracy and speed indicates that the
+DNN’s final structure is four‑layered and has 2–5–6–1 neurons. Five features, including
+the temperature decrease rate during the CV charging mode, voltage decrease rate dur

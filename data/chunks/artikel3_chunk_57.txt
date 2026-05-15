@@ -1,0 +1,7 @@
+the integration of differ‑
+ent approaches with the OCV using the look‑up table. It is observed that between the look‑
+up table and ampere‑hour methods, the SOC of batteries serves as a bridge. An erroneous
+battery OCV is caused by an inaccurate SOC estimate determined by the ampere‑hour inte‑
+gral approach, which also raises the terminal voltage forecast inaccuracy. Thus, only after
+obtaining the optimal SOC can the battery terminal voltage prediction error be as low as
+possible. Stated differen

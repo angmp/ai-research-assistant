@@ -1,0 +1,22 @@
+0162
+Batteries 2026, 12, 162 12 of 33
+this, the study shows the potential performance of the Gompertz model. Figure 5 shows
+the pipeline used to calculate the RUL using G(x).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 5. Schematic of the RUL estimation framework using G(x) and G−1(y).
+The observed SoH on the left was fitted to the model to extract parameters k, a, and
+b, these parameters are used as targets in the GILSTM later. The parameters were used
+to calculate the exact point of intersection with t

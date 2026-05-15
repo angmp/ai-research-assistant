@@ -1,0 +1,10 @@
+2.40
+DT (K) 2.98 1.60 1.56 1.20
+GE 1 0.93 0.76 0.94
+SO 1 0.33 0.41 0.30
+In terms of structural performance: The spatial occupancy (SO) of the hybrid cooling
+system is 19.5% lower than that of the liquid cooling system, while showing a marginal
+increase compared to the passive cooling system. The grouping efficiency (GE) is 22.4%
+higher than that of the liquid cooling system and remains essentially comparable to that of
+the passive cooling system.
+To further compare the comprehensive performance 

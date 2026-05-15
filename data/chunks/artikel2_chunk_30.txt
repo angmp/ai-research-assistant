@@ -1,0 +1,9 @@
+ source model.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 4 of 37
+2.1. eVTOL Flight Condition Analysis
+This study focuses on a short-range commuter electric vertical takeoff and landing
+(eVTOL) aircraft, with the aircraft parameters primarily referenced from [3]. To meet the
+power and energy demands of short-range eVTOL operations, a lithium-ion battery with
+a capacity of 45 Ah has been selected. The complete aircraft configuration and detailed
+battery specifications are p

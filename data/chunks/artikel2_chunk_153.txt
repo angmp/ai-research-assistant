@@ -1,0 +1,8 @@
+mm, the liquid cooling plate thickness in-
+creased from 4 mm to 6 mm reduced the maximum temperature from 36.4◦C to 35.6 ◦C and
+the maximum temperature difference from 3.2◦C to 2.8 ◦C, as shown in Figure 23. However,
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 25 of 37
+the liquid cooling structure mass increased from 27.4 kg to 33.9 kg. A thicker cooling plate
+improves lateral heat conduction and temperature uniformity but also increases structural
+mass. A thinner plate red

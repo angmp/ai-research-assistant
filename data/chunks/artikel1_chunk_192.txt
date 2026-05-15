@@ -1,0 +1,7 @@
+g, S. State of Health Prediction of Lithium-Ion Batteries Based on Dual-Time-Scale
+Self-Supervised Learning. Batteries 2025, 11, 302. [CrossRef]
+38. Li, X.; Wu, G.; Chang, F.; Xia, W.; Sun, S.; Shen, Y.; Li, X.; Wu, G.; Chang, F.; Xia, W.; et al. A Physics-Guided Transformer for
+Robust State of Charge Estimation in Aging Lithium-Ion Batteries. Batteries 2025, 11, 446. [CrossRef]
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 33 of 33
+39. Madani, S.S.; Shabeer, Y.; Fowler, M.; 

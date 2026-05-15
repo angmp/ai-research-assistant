@@ -1,0 +1,7 @@
+Gompertz model was
+fitted on truncated SoH curves representing different stages of battery life (96%, 93%, 87%,
+and 78% SoH). The vertical gray line indicates the current cycle available for fitting; the red
+curve shows the Gompertz model’s extrapolation used to calculate RUL at that specific
+cycle. The main limitation was how to capture long temporal dependencies, especially
+given how the SoH curve has a non-linear shape. When calculating the RUL, the values
+were multiplied by 10,000 to obtain 

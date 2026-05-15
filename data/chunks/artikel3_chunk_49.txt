@@ -1,0 +1,11 @@
+odel‑based techniques are. It
+is presumed that the system has a mathematical model, as shown in Figure 3. The same
+input is spread throughout the model and real systems.
+Batteries 2025, 11, 32 6 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 6 of 42 
+ 
+ 
+Figure 3. State transition diagram for a hidden Markov model. 
+Comparison of measured and expected output s, use of error to update the model’s 
+estimation of the actual state measurement, and model mistakes can cause output errors. 
+Careful updati

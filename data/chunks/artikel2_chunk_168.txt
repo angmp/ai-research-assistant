@@ -1,0 +1,7 @@
+ybrid configuration achieves an integrated
+balance between efficient thermal management and structural compactness, numerically
+predicting maximum temperature and maximum temperature difference of 37.9 ◦C and
+3.1 ◦C, respectively, while establishing a uniform and moderate thermal environment.
+Existing studies confirm [45] that sustaining lithium-ion battery operation within the ideal
+20–40 ◦C range while minimizing internal temperature gradients is critical for decelerating
+aging rates and prese

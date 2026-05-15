@@ -1,0 +1,7 @@
+op.
+Based on the analysis in Section 4.2.3, the inlet airflow velocity is set to 3 m/s. As
+shown in Figure 31a,b, the temperature evolution of the battery module under different
+intervention strategies is presented with a focus on the period from t = 300 s to the end of
+the mission, to highlight the regulatory effect of air cooling on the thermal behavior during
+the mid-to-late stages. Simulation results indicate that delaying the air-cooling intervention
+leads to a gradual decline in the temper

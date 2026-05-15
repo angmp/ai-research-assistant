@@ -1,0 +1,8 @@
+s their cycle life, and confirms model generalizability over time.
+e. RMSE at cycle 100
+This is used as a benchmark result particularly because of work from Severson et al. [31]
+and BatteryML [40]. Since predicting the RUL is harder in early stages, this benchmark is
+a realistic way of comparing the performance of different models on RUL prediction. This
+benchmark relies on testing the model on data from the first 100 cycles only .
+4. Results
+This section outlines the results from Gompertz data 

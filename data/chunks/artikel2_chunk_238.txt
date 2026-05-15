@@ -1,0 +1,5 @@
+, C.; Gunti, S.R.; Kellermann, H.; Gong, A.; Coburn, S.; Moore, A.; Verstraete, D. Thermoelectric cooling systems for eVTOL
+batteries operating on hot days. Appl. Therm. Eng. 2025, 269, 125999. [CrossRef]
+24. Wang, S.; Wang, H.; Feng, Y.; Li, H.; Li, J. Propeller slipstream driven air–liquid hybrid cooling system for electric aircraft power
+cabin thermal management. Appl. Therm. Eng. 2025, 280, 128457. [CrossRef]
+25. Sun, Z.; Fan, R.; Yan, F.; Zhou, T.; Zheng, N. Thermal management of the lithiu

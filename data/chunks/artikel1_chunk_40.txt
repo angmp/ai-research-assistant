@@ -1,0 +1,7 @@
+, SoH estimation also has a direct influence on SoC and RUL.
+Accurate RUL prediction is essential for ensuring the reliability, safety and efficiency of
+battery-powered systems such as electric vehicles and renewable energy storage.
+2.3. SoH and RUL Estimation Methods
+The health and lifespan of any industrial equipment is very important, so is their
+SoH and RUL to aid in the maintenance of good operations. A battery can be defined
+specifically as equipment that stores and releases electrical ene

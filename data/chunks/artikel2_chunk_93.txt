@@ -1,0 +1,9 @@
+e equation GE is the grouping efficiency, EDbat is the energy density of battery, and
+EDsystem is the energy density of the battery system.
+Space occupancy is defined as the percentage of space occupied by the battery cooling
+system in relation to the total available space in the eVTOL, as an indicator for evaluating
+the volume of the battery cooling system. The space occupancy is expressed as follows:
+SO = VOTMS
+VOtotal
+(26)
+The equation SO is the space occupancy of the cooling system, VOTMS de

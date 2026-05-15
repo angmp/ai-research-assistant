@@ -1,0 +1,22 @@
+confidence in the state
+estimate [26].
+Summary of the Kalman filter from reference [ 27]:
+State‑space model:
+xk+1 = Ak xk + Bkuk + wk (12)
+vk = Ckxk + vk (13)
+where Ck is the measurement matrix, and wk and vk are independent, zero‑mean, Gaussian
+noise processes of covariance matrices ∑ w and ∑ v respectively.
+Initialization: for k = 0, set
+ˆx(+)
+0 = E[x0] (14)
+∑
+(+)
+e,k ∗ = E
+h
+(x0 − E[x0])(x0 − E[x0])T
+i
+(15)
+Computation: For k = 1, 2, … compute:
+State estimate propagation:
+ˆx(−)
+k = Ak−1 ˆxk−1

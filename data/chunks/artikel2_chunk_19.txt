@@ -1,0 +1,8 @@
+ while maintaining structural simplicity.
+PCM-based hybrid cooling systems have become an important research focus because
+of their comprehensive thermal performance. Sun et al. [ 25] used longitudinal fins and
+annular structures to enhance heat conduction within PCM. Their results showed that metal
+fins can form a conductive network in PCM and improve battery thermal management
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 3 of 37
+performance. Lee et al. [26] proposed a hybr

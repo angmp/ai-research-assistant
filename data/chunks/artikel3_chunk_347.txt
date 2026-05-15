@@ -1,0 +1,7 @@
+iversity of the datasets. These include temperature changes detected by resistance tem‑
+perature detectors (RTD) [ 135], volumetric changes measured by optical fiber bragging
+(FBG) sensors [136], and internal temperatures measured by thermocouples.
+In conclusion, improving training data’s accuracy, quantity, and variety is a basic but
+crucial task for the advancement of machine learning algorithms in the future.
+4.6. Hyperparameter Tuning and Structure Selection
+Because network design and hyperp

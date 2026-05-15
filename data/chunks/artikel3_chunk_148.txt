@@ -1,0 +1,6 @@
+stimation primarily revolve around their complexity and the need for de‑
+tailed and accurate data. These models are computationally intensive due to their detailed
+representation of electrochemical processes. They require precise parameters that are sen‑
+sitive to changes, such as battery aging, and these parameters can be difficult to obtain
+accurately. Additionally, EMs need extensive experimental data for calibration and vali‑
+dation, which can be time‑consuming and costly. The effectiveness 

@@ -1,0 +1,8 @@
+170 2 of 37
+congestion [2], along with its time advantages for short and medium-range travel and its
+value for sustainable development in complex traffic areas [3], has garnered widespread
+attention. Currently, most mainstream eVTOLs rely on lithium-ion batteries as the power
+source [4], which need to maintain an optimal operating temperature range of 20 ◦C to
+40 ◦C [5], with the temperature difference between individual cells strictly controlled to
+within 5 ◦C [6].
+Compared to traditional elect

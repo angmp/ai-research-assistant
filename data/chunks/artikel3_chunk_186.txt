@@ -1,0 +1,7 @@
+unters several specific limitations.
+Firstly, EIM is inherently complex in its interpretation, as it relies on analyzing impedance
+spectra. This complexity necessitates specialized knowledge, making EIM less accessible
+for standard applications. Moreover, the method’s accuracy is highly sensitive to oper‑
+ational conditions like temperature and battery aging. Fluctuations in these factors can
+lead to significant variances in impedance response, thereby affecting the precision of
+SOC estimations.

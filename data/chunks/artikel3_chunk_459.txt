@@ -1,0 +1,5 @@
+lmeyer, P.; Skells, M. LG 18650hg2 li‑ion battery data and example deep neural network xEV SOC estimator
+script. Mendeley Data 2020, 3, 2020. [ CrossRef]
+144. Saha, K.; Goebel, B. Battery Data Set. NASA Ames Prognostics Data Repository ; NASA Ames: Moffett Field, CA, USA, 2007. Avail‑
+able online: http://ti.arc.nasa.gov/project/prognostic‑data‑repository (accessed on 12 January 2025).
+145. Feng, X.; Chen, J.; Zhang, Z.; Miao, S.; Zhu, Q. State‑of‑charge estimation of lithium‑ion battery based on

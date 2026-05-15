@@ -1,0 +1,7 @@
+ the module.
+Under the high thermal load of eVTOL operation, the absence of a cooling system
+causes module overheating and strong thermal non-uniformity. Such conditions reduce cell
+cycle life and increase thermal runaway risk. In the no-cooling case, the peak temperature
+of 45.6 ◦C and temperature difference of 6.08 ◦C generate significant thermal stress. This
+stress leads to short-term overheating risk and long-term aging acceleration. Thermal
+inconsistency also aggravates cell-to-cell perform

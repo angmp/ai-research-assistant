@@ -1,0 +1,8 @@
+hermal buffering
+capacity of the system during the final high-discharge phase.
+Overall, the hybrid cooling system can still maintain good temperature control as the
+cruise duration increases. However, the increasing PCM liquid fraction indicates a gradual
+reduction in latent heat buffering margin.
+4.4.3. Effect of Hover Duration
+The takeoff and landing hover phases have the highest power demand in an eVTOL
+mission. Although these phases are short, their instantaneous heat generation rate is much

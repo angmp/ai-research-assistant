@@ -1,0 +1,6 @@
+ PCM liquid fraction is 0.76. This indicates good thermal matching
+between the PCM and the cooling system. At 30 ◦C, the initial temperature is close to the
+phase-change range of MPCM32D. PCM is activated earlier, and its latent heat reserve is
+consumed more rapidly. The maximum temperature increases to 40.6 ◦C, with a maximum
+temperature difference of 3.3 ◦C and a final liquid fraction of 0.93. At 35 ◦C, the initial
+temperature exceeds the phase-change temperature of MPCM32D. The PCM is already

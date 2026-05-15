@@ -1,0 +1,7 @@
+predictions of k, a and b centroiding to the mean values of the targets. The aggressive
+weighting of the RUL loss (γ = 104) and the data loss (α = 106) in the final training stages
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 27 of 33
+likely acted as a restrictive regularizer while this ensured the values of k, a and b predicted
+were physically consistent, it may have limited the model’s ability to capture cell-specific
+capacity fluctuations, explaining the superior performa

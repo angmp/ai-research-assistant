@@ -1,0 +1,7 @@
+the maximum battery
+temperature from 41.8 ◦C to 39.5 ◦C, corresponding to a 5.5% improvement. The maxi-
+mum temperature difference decreases from 4.46 ◦C to 3.39 ◦C, corresponding to a 23.9%
+improvement. These results indicate that better matching between cell spacing and HCP
+thickness can promote heat diffusion within the module.
+However, larger spacing also increases system mass. As shown in Figure 9, the total
+HCP mass increases from 11 kg to 44 kg as spacing increases from 0.5 mm to 2 mm. Su

@@ -1,0 +1,6 @@
+tion of other machine learning models, such as CNN with GRU or LSTM, leverages the
+strength of RNN’s sequence prediction and CNN’s feature extraction capabilities. Addi‑
+tionally, methods such as Gaussian process regression (GPR) and RBFNN [ 111] have been
+used with linear regression to improve SOC estimation accuracy. Another useful method
+to raise training precision, effectiveness, and model resilience is ensemble learning (EL). By
+cleverly mixing multiple distinct algorithms, EL aims to reduc

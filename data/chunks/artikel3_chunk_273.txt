@@ -1,0 +1,8 @@
+Fuzzy Logic
+A computational method that provides flexibility in a statement is called fuzzy logic
+(FL). This method makes it easier to understand the idea of partial truth, in which the truth
+Batteries 2025, 11, 32 25 of 42
+value might be, depending on a number between 0 and 1, entirely true, partially true, or
+fully false [ 81]. FL presents the idea of many‑valued logic as an alternative to the tradi‑
+tional two‑valued true‑or‑false logic. Fuzzification, fuzzy rule base, inference engine, and
+d

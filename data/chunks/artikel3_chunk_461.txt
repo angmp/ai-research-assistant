@@ -1,0 +1,5 @@
+ Saha, T.K. Estimating state of charge for xEV batteries using 1D convolutional neural
+networks and transfer learning. IEEE Trans. Veh. Technol. 2021, 70, 3123–3135. [ CrossRef]
+148. Kim, S.; Choi, Y.Y.; Kim, K.J.; Choi, J.‑I. Forecasting state‑of‑health of lithium‑ion batteries using variational long short‑term
+memory with transfer learning. J. Energy Storage 2021, 41, 102893. [ CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely tho

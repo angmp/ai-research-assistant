@@ -1,0 +1,24 @@
+The extended Kalman ﬁlter (EKF) on the real nonlinear 
+(40)
+State estimate update:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+yk − g
+ ˆx(−)
+k , uk
+
+(41)
+Error covariance update:
+∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k ∗ (42)
+xk+1 ≈ Akxk + [ f ( ˆxk, uk) − Ak ˆxk] + wk (43)
+yk ≈ Ckxk + [g( ˆxk, uk) − Ck ˆxk] + vk (44)
+Equations (32)–(44) give a summary of the extended Kalman filter from reference [27].
+2.3.1. Electrochemical Model
+The electrochemical model [ 29–31], reduced‑order model [ 32–34], equivalent circuit
+mo

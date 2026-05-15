@@ -1,0 +1,23 @@
+α β γ
+≤50 0 100 10,000
+≤200 100 100 10,000
+≤600 100,000 100 10,000
+≤1000 100,000 100 10,000
+Evaluation Metric Root Mean Squared Error (RMSE)
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 16 of 33
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 9. The training process for GILSTM1 and GILSTM2.
+ 
+ 
+ 
+ 
+ 
+Figure 10. The Physics-Informed Loss used for training GILSTM1 and GILSTM2.
+The orders of magnitude for α, β, γ were selected to normalize the gradient contribu-
+tions, accounting for the differences in sca

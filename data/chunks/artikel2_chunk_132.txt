@@ -1,0 +1,7 @@
+ion
+profile. As shown in Figure 15a,b, the maximum temperature reaches 45.6 ◦C, and the
+maximum temperature difference reaches 6.08 ◦C. These values exceed both the ideal
+operating temperature range of lithium-ion batteries, 20 to 40◦C, and the 5 ◦C safety thresh-
+old for inter-cell temperature difference. This result indicates severe heat accumulation
+and non-uniform temperature distribution under no cooling conditions, which cannot
+satisfy the thermal safety requirements of eVTOL battery syste

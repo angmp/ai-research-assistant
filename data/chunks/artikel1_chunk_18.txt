@@ -1,0 +1,8 @@
+2
+Batteries 2026, 12, 162 3 of 33
+energy density, lifespan, discharge duration, and peak power capacity. Table 1 outlines a
+detailed description of common battery types. LiBs have seen increasing adoption in small-
+and large-scale systems due to their growing practicability [11,12]. For instance, pumped
+hydro costs from USD 1700 to USD 5100 per kilowatt (on average USD 3400) while LiB
+systems are priced from USD 2500 to USD 3900 per kilowatt (on average USD 3200) [13]
+yet unlike LiB-based BESS w

@@ -1,0 +1,7 @@
+de-
+tailed and accurate data. These models are computationally intensive due to their detailed 
+representation of electrochemical processes. They require precise parameters that are sen-
+sitive to changes, such as ba ttery aging, and these parameters can be di ﬃcult to obtain 
+accurately. Additionally, EMs need extensive experimental data for calibration and vali-
+dation, which can be time-consuming and costly. The e ﬀectiveness of EMs is highly de-
+pendent on the accuracy of the model in reﬂect

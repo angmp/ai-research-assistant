@@ -1,0 +1,8 @@
+ermocouples were
+attached to the surface of a single battery to monitor the temperature distribution. Multiple
+charge and discharge cycles were conducted, and the corresponding data were recorded to
+verify the repeatability of the results.
+During the experiment, the ambient temperature was maintained at 25◦C. The temper-
+ature chamber effectively reduced environmental temperature fluctuations and minimized
+their influence on battery performance.
+As shown in Figure 7a, the battery thermal model w

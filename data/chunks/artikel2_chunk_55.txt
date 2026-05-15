@@ -1,0 +1,6 @@
+ulations. The battery, high-thermal-conductivity plate, and PCM were modeled as
+solid heat conduction domains, while the air domain was treated as an incompressible
+Newtonian fluid. Initially, the battery module, high-thermal-conductivity plate, PCM, and
+inlet air were in thermal equilibrium with the environment at 25 ◦C. Ideal thermal contact
+was assumed at the battery–high-thermal-conductivity plate, battery–PCM, and PCM–high-
+thermal-conductivity plate interfaces, with continuous temperature 

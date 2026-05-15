@@ -1,0 +1,7 @@
+n, an inherently interpretable white-box model, into
+Long Short-Term Memory (LSTM) networks to follow the physical laws of degradation,
+capture downward monotonic behavior and long-term dependencies from data resulting
+in Gompertz-Informed LSTMs (GILSTMs). Pure LSTMs are regarded as black box sys-
+tems and critical infrastructure operators such as battery energy storage system (BESS)
+operators may refrain from using such systems. Gray-box models such as GILSTMs may
+get over this hurdle by increa

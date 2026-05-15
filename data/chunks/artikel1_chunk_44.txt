@@ -1,0 +1,6 @@
+ding data-driven methods utilizing Neural Networks [27–30], Gaussian
+processes [31,40] and LSTMs [32,34]. Moreover, physics-based methods have recently been
+of interest in battery parameter estimation [36,37,40]. Despite these advancements in RUL
+prediction, model interpretability remains a significant challenge due to the nonlinear,
+time-variant nature of battery degradation and the strict reliability requirements of critical
+applications such as electric vehicles and battery energy storage sys

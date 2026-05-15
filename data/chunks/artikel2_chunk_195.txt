@@ -1,0 +1,8 @@
+87. This means that most of the latent heat reserve
+has been consumed. The maximum temperature reaches 39.8 ◦C, while the maximum
+temperature difference remains within 3.7 ◦C.
+These results show that the proposed hybrid cooling system has a certain adaptability
+to short-term extension of hover duration.
+4.5. Air-Cooling Intervention Strategy and Energy Efficiency Trade-Off Analysis
+In the hybrid cooling system for eVTOL power batteries, air cooling effectively sup-
+presses battery temperature ri

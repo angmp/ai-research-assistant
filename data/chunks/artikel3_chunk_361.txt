@@ -1,0 +1,7 @@
+ther models in general because of its thorough approach to battery capacity estimation.
+4.8. Evaluation and Implementation of the Algorithm
+In future research, thorough assessment and on‑device implementation of ML tech‑
+niques will be essential. First, consistent training, validation, and testing datasets are es‑
+sential for evaluating an ML method, especially when compared to other algorithms. SOC
+and SOH estimation models are built using publicly accessible datasets [ 142–144]. Fur‑
+thermore,

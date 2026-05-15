@@ -1,0 +1,9 @@
+y be fixed
+by experimentation using more feature inputs such as k, a, b and their derivatives rather
+than just the SoH.
+5. Discussion
+The evaluation of the Gompertz model, LSTM models and GILSTM models in Table 6
+and Figure 14 provide meaningful insights into their individual strengths, weaknesses and
+applicability for RUL prediction of LFP batteries. The Gompertz model offered advantages
+in physical interpretability with its parameters found to be strongly correlated to RUL,
+making it a suitabl

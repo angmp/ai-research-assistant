@@ -1,0 +1,7 @@
+ssRef]
+75. Qin, X.; Gao, M.; He, Z.; Liu, Y. State of charge estimation for lithium‑ion batteries based on NARX neural network and UKF. In
+Proceedings of the 2019 IEEE 17th International Conference on Industrial Informatics (INDIN), Helsinki‑Espoo, Finland, 22–25
+July 2019; pp. 1706–1711.
+76. Wang, Q.; Gu, H.; Ye, M.; Wei, M.; Xu, X. State of charge estimation for lithium‑ion battery based on NARX recurrent neural
+network and moving window method. IEEE Access 2021, 9, 83364–83375. [ CrossRef]
+77

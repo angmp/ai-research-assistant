@@ -1,0 +1,9 @@
+quirements for training and inference, and the complexity of model 
+architecture, which necessitates ﬁne-tuning and specialized expertise to optimize e ﬀec-
+tively. 
+• Recurrent Neural Network 
+RNNs and BPNNs share some structural similarities, with RNNs evolving from feed-
+forward neural networks. This segment reviews RNN principles and their recent applica-
+tions in SOC estimation. 
+Nonlinear autoregression with exogenous input neural network (NARXNN) is a neu-
+ral network used for predicting 

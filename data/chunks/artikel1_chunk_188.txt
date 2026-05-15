@@ -1,0 +1,5 @@
+. Real-Time Personalized Health
+Status Prediction of Lithium-Ion Batteries Using Deep Transfer Learning. Energy Environ. Sci. 2022, 15, 4083–4094. [CrossRef]
+31. Severson, K.A.; Attia, P .M.; Jin, N.; Perkins, N.; Jiang, B.; Yang, Z.; Chen, M.H.; Aykol, M.; Herring, P .K.; Fraggedakis, D.; et al.
+Data-Driven Prediction of Battery Cycle Life before Capacity Degradation. Nat. Energy 2019, 4, 383–391. [CrossRef]
+32. Catelani, M.; Ciani, L.; Fantacci, R.; Patrizi, G.; Picano, B. Remaining Useful Lif

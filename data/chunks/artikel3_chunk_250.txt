@@ -1,0 +1,8 @@
+ptimization, all 
+of which require substantial machine learning expertise to address eﬀectively. 
+2.4.2. Deep Learning 
+Vapnik introduced support vector machines (SVMs), another well-liked and often-
+used machine learning algorithm that may be  utilized for both regression and classi ﬁca-
+tion issues, particularly with smaller datasets [77]. Originally designed to address classi-
+ﬁcation issues, SVMs were later extended to address regression issues and given the name 
+support vector regression (

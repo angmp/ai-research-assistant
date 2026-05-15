@@ -1,0 +1,11 @@
+Squared Error (MSE)
+Learning Rate Scheduler StepLR (step size = 200 epochs)
+Optimizer Adam
+Initial Learning Rate 1 × 103
+Epochs 1000
+Evaluation Metric Root Mean Squared Error (RMSE)
+3.4.3. Gompertz-Informed Long Short-Term Memory (GILSTM) Models
+In this study there were three GILSTM models developed to leverage the advantages of
+LSTMs and G(x) to model battery capacity degradation. The three models were classified
+as follows:
+A. A GILSTM that directly predicted the parametersk, a and b from SoH 

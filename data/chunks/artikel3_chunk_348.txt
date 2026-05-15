@@ -1,0 +1,8 @@
+ in the future.
+4.6. Hyperparameter Tuning and Structure Selection
+Because network design and hyperparameter selection have an impact on the ML al‑
+gorithm’s performance, choosing the best structure and fine‑tuning hyperparameters are
+additional difficult challenges. Consider the neural network (NN) as an example. Gen‑
+erally speaking, the more complicated the structure, the more parameters that must be
+taught. The computing load needed to train and run the model increases with the num‑
+ber of h

@@ -1,0 +1,7 @@
+ooling configuration.
+To ensure the accuracy of the simulation results, a grid independence test was con-
+ducted for the model used in this study. The test was performed under a 1 C discharge
+mode for the battery module, with the model divided using a free tetrahedral mesh, as
+shown in Figure 3a. The highest module temperature was used as the evaluation criterion,
+and the results are shown in Figure 3b. When the number of mesh elements increased to
+2,226,318, further mesh refinement had no signi

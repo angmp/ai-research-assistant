@@ -1,0 +1,7 @@
+the model’s ability to capture cell-specific
+capacity fluctuations, explaining the superior performance of the unconstrained LSTM2
+baseline. GILSTM3 used G(x) and G−1(y) to verify the RUL predictions of LSTM2.
+From Figure 14, the GILSTM3 model was found to be performing poorly in com-
+parison to the developed baseline LSTM models as the error went up with increase in
+cycles. For all developed non-GILSTM models, RUL prediction was better in mid-cycle
+to late-cycle stages than in early-cycle stage

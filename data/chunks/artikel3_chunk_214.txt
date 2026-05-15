@@ -1,0 +1,7 @@
+ hyperparameters, challenges in generalizing across
+different battery types, reduced adaptability in non‑stationary environments due to bat‑
+tery aging or usage pattern changes, and the requirement for specialized machine learning
+expertise for development and tuning.
+The use of deep learning (DL) algorithms in the state estimation of BMS is made fea‑
+sible by the advancement of big data and cloud computing platforms. The term “deep” is
+used by the so‑called DL algorithms to characterize the uti

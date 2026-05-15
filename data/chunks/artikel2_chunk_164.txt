@@ -1,0 +1,8 @@
+tilization; however, its temperature control capability and stability are
+extremely poor, accompanied by severe heat accumulation issues that compromise battery
+thermal safety.
+Figure 25b shows that the hybrid cooling system achieves balanced performance across
+the five-evaluation metrics. The system shows relatively good performance in controlling
+the maximum temperature and temperature difference. Good temperature stability and
+structural adaptability are also maintained.
+Figure 25c displays t

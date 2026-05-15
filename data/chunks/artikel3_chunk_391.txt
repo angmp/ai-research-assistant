@@ -1,0 +1,6 @@
+pen circuit voltage tests on state of charge estimation for lithium‑
+ion batteries. Appl. Energy 2017, 205, 892–902. [ CrossRef]
+13. Liu, K.; Li, K.; Peng, Q.; Zhang, C. A brief review on key technologies in the battery management system of electric vehicles.
+Front. Mech. Eng. 2018, 14, 47–64. [ CrossRef]
+14. Zhang, B.; Lu, C.; Liu, J. Combination Algorithm for State of Charge Estimation. In Proceedings of the 2013 International Con‑
+ference on Communication Systems and Network Technologies (CSN

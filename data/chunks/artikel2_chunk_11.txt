@@ -1,0 +1,7 @@
+nt excess weight from reduc-
+ing the specific energy of the battery pack, weakening propulsion efficiency, and avoiding
+excessive power consumption that could diminish the available energy for flight [7].
+Currently, mainstream cooling strategies for lithium-ion batteries primarily include
+four categories: air cooling [8,9], liquid cooling [10,11], phase-change material (PCM) cool-
+ing [12,13], and heat pipe cooling [14]. Extensive research has been conducted to investigate
+the fundamental therma

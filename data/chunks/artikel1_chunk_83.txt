@@ -1,0 +1,7 @@
+ have
+SoH values ranging from cycle 1 to cycle N where N ranged from value 2 to value 2689 (the
+longest cell lifespan of any of the HUST cells), with an interval of 1 cycle. The schematic
+pipeline for this is shown in Figure 6. As illustrated in Figure 6, the parameters k, a and b
+are subsequently used in Equation (4) to estimate the RUL by extrapolating the cycle x at
+which the SoH drops to 0.7 due to normalization in Equation (7) the SoH values of 110% to
+80% are represented within the range 0

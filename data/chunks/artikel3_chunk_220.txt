@@ -1,0 +1,8 @@
+der-ﬁtting in data-driven approaches for SOC estimation [66]. The NN was built from 
+scratch, starting with a basic version that had a low-dimensional input vector and gradu-
+ally working its way up to a more complex structure with a high-dimensional input vec-
+tor. 
+ 
+Figure 17. Deep learning network architecture for SOC estimation [53]. 
+Although this constructive strategy was largely a trial-and-error approach, it is a cru-
+cial stage in the training of DNNs. An additional innovation was the 

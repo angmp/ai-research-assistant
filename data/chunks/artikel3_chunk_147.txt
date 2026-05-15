@@ -1,0 +1,11 @@
+e both in ﬂuenced by temperature, SOC, and 
+SOH. Terminal voltage (UL) is equal to load current (IL), which has a positive value when 
+charging and a negative value when discharging. 
+𝑈௅= 𝑈 ை஼−𝐼 ௅𝑅଴ (50)
+ 
+Figure 10. Schematic diagram of the Rint model. 
+• RC Model 
+Figure 9. The DRA‑produced ROM [ 40].
+The challenges and limitations of electrochemical model (EM) methods in state of
+charge (SOC) estimation primarily revolve around their complexity and the need for de‑
+tailed and accurate data. T

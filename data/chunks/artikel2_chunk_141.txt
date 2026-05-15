@@ -1,0 +1,8 @@
+passive cooling: (a) variation in maxi-
+mum temperature with time; (b) variation in temperature difference with time.
+Figure 18. Temperature field distribution of the battery module with passive cooling: ( a) overall
+temperature field; (b) local temperature field.
+4.3.3. Liquid Cooling Performance Analysis
+To ensure a consistent comparison, the baseline liquid cooling system was developed
+from the core structure of the hybrid cooling system. The PCM layer and air-cooling
+channels were removed. T

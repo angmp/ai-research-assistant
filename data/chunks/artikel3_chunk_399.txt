@@ -1,0 +1,5 @@
+9. Rahman, A.; Anwar, S.; Izadian, A. Electrochemical model parameter identification of a lithium‑ion battery using particle swarm
+optimization method. J. Power Sources 2016, 307, 86–97. [ CrossRef]
+30. Sung, W.; Shin, C.B. Electrochemical model of a lithium‑ion battery implemented into an automotive battery management system.
+Comput. Chem. Eng. 2015, 76, 87–97. [ CrossRef]
+31. Peng, S.; Chen, C.; Shi, H.; Yao, Z. State of charge estimation of battery energy storage systems based on adaptive uns

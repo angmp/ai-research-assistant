@@ -1,0 +1,6 @@
+t for SoH data from Beginning-of-Life (BoL) to 93% SoH (511 cycles of
+historical data) can be used to calculate the cycles needed to reach 0.9 SoH but can an
+LSTM trained using constraints informed by the Gompertz model accurately predict the k,
+a, and b parameters that would calculate the RUL accurately? The Gompertz fit at 93% SoH
+approximates a RUL of 4452 cycles. The theoretical Gompertz degradation path (red curve)
+serves as a physics-informed constraint, guiding the LSTM’sk, a, and b value

@@ -1,0 +1,47 @@
+del. 
+• RC Model 
+Figure 10. Schematic diagram of the Rint model.
+• RC Model
+" .
+Ub.
+Uc
+#
+=
+" −1
+Cb(Re+Rc)
+1
+Cb(Re+Rc)
+1
+Cc(Re+Rc)
+−1
+Cc(Re+Rc)
+#"
+Ub
+Uc
+#
++
+" −Rc
+Cb(Re+Rc)
+−Re
+Cc(Re+Rc)
+#
+[IL] (51)
+[UL]=
+h
+Rc
+(Re+Rc)
+Re
+(Re+Rc)
+i"
+Ub
+Uc
+#
++
+
+−Rt − ReRc
+(Re + Rc)
+
+[IL] (52)
+This model is made up of three resistors (R t, R e, R c) and two capacitors (C c, C b), as
+seen in Figure 11. The capacitor C c, termed the surface capacitor, has a tiny capacitance
+and mostly depicts a battery’s surface ef

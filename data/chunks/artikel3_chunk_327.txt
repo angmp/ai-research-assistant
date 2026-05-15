@@ -1,0 +1,7 @@
+ and was based on linear equations for
+retired LiBs and a weighting function [ 124]. Even in test datasets with varying battery
+materials and circumstances, the weighted LS‑SVM, when compared to the conventional
+SVM, might enhance the SOH estimate performance by weighting the error factors. Addi‑
+tionally, the PSO method was applied in a different study to enhance optimization [ 122].
+The PSO–LS‑SVR approach performed better than the LS‑SVR technique without PSO op‑
+timization, with an RMSE of l

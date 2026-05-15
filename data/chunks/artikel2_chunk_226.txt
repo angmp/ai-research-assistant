@@ -1,0 +1,20 @@
+is manuscript:
+eVTOL Electric vertical takeoff and landing
+PCM Phase-change material
+HCP High-thermal-conductivity plates
+GTOM Total takeoff weight
+ROC Climb rate
+L Lift
+D Drag
+ROD Descent rate
+TCM Temperature control margin
+ST Temperature stability
+DT Time-averaged maximum temperature difference
+GE Grouping efficiency
+SO Space occupancy ratio
+ED Energy density
+VO Volume occupies
+BTMS Battery thermal management system
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 36 of 37
+Ref

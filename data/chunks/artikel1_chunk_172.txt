@@ -1,0 +1,6 @@
+1. [CrossRef]
+2. Hu, Y.; Armada, M.; Jesús Sánchez, M. Potential Utilization of Battery Energy Storage Systems (BESS) in the Major European
+Electricity Markets. Appl. Energy 2022, 322, 119512. [CrossRef]
+3. Shafiei, K.; Zadeh, S.G.; Hagh, M.T. Planning for a Network System with Renewable Resources and Battery Energy Storage,
+Focused on Enhancing Resilience. J. Energy Storage 2024, 87, 111339. [CrossRef]
+4. Ahmed, K.M.U.; Alvarez, M.; Bollen, M.H.J. Reliability Analysis of Internal Power Supply A

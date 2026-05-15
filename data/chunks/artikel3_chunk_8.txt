@@ -1,0 +1,7 @@
+produce a battery system that can meet the criteria of EVs [ 1]. Bat‑
+tery cell performance has improved significantly thanks to the Several Year Plan like Bat‑
+tery500 Consortium and EV Everywhere Grand Challenge. Lithium‑ion batteries (LiBs)
+and nickel metal hydride (Ni–MH) have been used in a wide range of EVs.
+Effective battery management is critical for ensuring safe usage, extending opera‑
+tional longevity, increasing driving distance, fine‑tuning power management strategies,
+and lowering 

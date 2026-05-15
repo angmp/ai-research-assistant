@@ -1,0 +1,46 @@
+x(+)
+k = E[x0] (36)
+∑
+(+)
+x0
+∗ = E[(x0 − E[x0])(x0 − E[x0])ˆT] (37)
+Computation: For k = 1, 2, K, compute:
+Batteries 2025, 11, 32 12 of 42
+State estimate propagation:
+ˆx(−)
+k = f
+ ˆx(+)
+k−1, uk−1
+
+(38)
+Error covariance propagation:
+∑
+(−)
+e,k ∗ = Ak∑
+(+)
+e,k−1 ∗AT
+k + ∑ w (39)
+Kalman gain matrix:
+Lk = ∑
+(−)
+e,k ∗CT
+k
+h
+Ck∑
+(−)
+e,k ∗CT
+k + ∑ v
+i
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 
+෍∗
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term is contractive, 

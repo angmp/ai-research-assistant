@@ -1,0 +1,5 @@
+S.H.; Hussain, A.; Saad, M.H.; Ayob, A. Neural network approach for estimating state of charge of
+lithium‑ion battery using backtracking search algorithm. IEEE Access 2018, 6, 10069–10079. [ CrossRef]
+63. Hongwei, L.; Caiying, S. Methods of State of Charge Estimation of Electric Vehicle. Automot. Eng. 2017, 31–33.
+64. Xia, B.; Cui, D.; Sun, Z.; Lao, Z.; Zhang, R.; Wang, W.; Sun, W.; Lai, Y.; Wang, M. State of charge estimation of lithium‑ion
+batteries using optimized Levenberg‑Marquardt wavelet 

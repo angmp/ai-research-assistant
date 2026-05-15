@@ -1,0 +1,6 @@
+016, 190, 574–587. [ CrossRef]
+33. Zou, C.; Manzie, C.; Nesic, D. A framework for simplification of PDE‑based lithium‑ion battery models. IEEE Trans. Control.
+Syst. Technol. 2015, 24, 1594–1609. [ CrossRef]
+34. Bartlett, A.; Marcicki, J.; Onori, S.; Rizzoni, G.; Yang, X.G.; Miller, T. Electrochemical model‑based state of charge and capacity
+estimation for a composite electrode lithium‑Ion battery. IEEE Trans. Control Syst. Technol. 2015, 24, 384–399. [ CrossRef]
+35. Zhang, L.; Wang, Z.; Hu, X.; 

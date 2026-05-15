@@ -1,0 +1,6 @@
+ Charge (SoC) and is usually indicated using a battery
+status bar or battery indicator; the nominal energy is a result of multiplying the nominal
+voltage with the nominal capacity and is expressed in Watt-hours (Wh) [ 20]. This SoC
+is typically expressed as a percentage ranging from 0% (fully discharged) to 100% (fully
+charged). If a battery is discharged below 0% SoC or charged beyond 100% SoC, irreversible
+chemical reactions tend to occur, leading to accelerated degradation and a significant d

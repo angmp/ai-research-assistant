@@ -1,0 +1,8 @@
+n@njust.edu.cn
+3 Department of Engineering, Durham University, Durham DH1 3LE, UK; yaodong.wang@durham.ac.uk
+4 School of Vehicle and Mobility, Tsinghua University, Beijing 100084, China; yu_chen@mail.tsinghua.edu.cn
+5 School of Mechanical Engineering, University of Science and Technology Beijing, Beijing 100083, China;
+limengrq@outlook.com
+* Correspondence: dujiuyu@tsinghua.edu.cn (J.D.); 2023051@hebut.edu.cn (X.W.)
+Abstract
+Efficient and reliable cooling is essential for ensuring the safety and

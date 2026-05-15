@@ -1,0 +1,7 @@
+n in Section 4.2.3 that “excessively
+high flow velocity worsens temperature uniformity”. Therefore, the flow velocity should
+be controlled around 3 m/s to balance cooling efficiency with temperature uniformity.
+4.3. Comparative Performance Evaluation of Different Cooling Strategies
+The optimized configuration was selected as the representative case of the proposed
+hybrid cooling system. Its performance was compared with three reference strategies: no
+cooling, passive cooling, and liquid cooling.

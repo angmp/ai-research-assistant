@@ -1,0 +1,7 @@
+diction performance,
+although it required a large amount of computing during model simulation, as demon‑
+strated by Sung and Shin [ 30]. Next, to integrate the electrochemical model into the BMS,
+a model implementation strategy was created. The primary benefit of employing an elec‑
+trochemical model is the ability to acquire the reactions occurring within the battery. In
+real‑time applications, it might be challenging to identify numerous characteristics, such
+as the compositions of the internal

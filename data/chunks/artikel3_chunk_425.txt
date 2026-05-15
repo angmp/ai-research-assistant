@@ -1,0 +1,7 @@
+ned.pdf (accessed on 12 January 2025).
+79. Antón, J.C.; Nieto, P.J.G.; Viejo, C.B.; Vilán, J.A.V. Support vector machines used to estimate the battery state of charge. IEEE
+Trans. Power Electron. 2013, 28, 5919–5926. [ CrossRef]
+Batteries 2025, 11, 32 40 of 42
+80. Li, R.; Xu, S.; Li, S.; Zhou, Y.; Zhou, K.; Liu, X.; Yao, J. State of charge prediction algorithm of lithium‑ion battery based on
+PSO‑SVR cross validation. IEEE Access 2020, 8, 10234–10242. [ CrossRef]
+81. Novák, V.; Perfilieva, I.; Mo

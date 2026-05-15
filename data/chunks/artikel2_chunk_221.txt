@@ -1,0 +1,8 @@
+ the space occupancy
+ratio is reduced by 19.5%, and the grouping efficiency is increased by 22.4%. The adapt-
+ability analysis shows that the optimized hybrid cooling system is suitable for ambient
+temperatures below 30 ◦C.
+(3) An air-cooling intervention strategy based on the PCM liquid fraction is proposed.
+The results show that air cooling should be activated at t = 650 s, when the maximum
+temperature reaches 32.2 ◦C and the liquid fraction reaches 0.36. Under this strategy,
+the maximum batte

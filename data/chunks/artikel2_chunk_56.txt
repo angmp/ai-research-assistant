@@ -1,0 +1,7 @@
+late, battery–PCM, and PCM–high-
+thermal-conductivity plate interfaces, with continuous temperature and heat flux.
+A uniform velocity inlet was applied to the air-cooling channel, with inlet airflow
+velocities of 1, 2, 3, 4, and 5 m/s. The velocity was imposed directly on the inlet section.
+The outlet was set as a pressure outlet at 0 Pa, and no slip conditions were applied to the
+air domain walls. The pressure drop was obtained from CFD post processing and defined
+as the area-averaged static pr

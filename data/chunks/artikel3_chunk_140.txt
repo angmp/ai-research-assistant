@@ -1,0 +1,21 @@
+cient co‑efficient in the electrolyte, and transfer‑
+ence number of lithium‑ion, respectively. This equation accounts for the time‑dependent
+change in lithium concentration in the electrolyte, considering both diffusion and reaction
+contributions.
+Batteries 2025, 11, 32 14 of 42
+Charge balance in electrolyte; ion current:
+∇.
+
+κe f f ∇ϕe + κD∇ln Ce
+
++ asFj = 0. (48)
+The reaction rate (where η = (ϕs − ϕe) −Uocp − j F R f ilm ) :
+j = k0C1−α
+e (Cs,max − Cs,e) 1−αCα
+s,e
+
+exp
+ (1− ∝)F
+RT η
+
+− exp

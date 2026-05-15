@@ -1,0 +1,9 @@
+This
+mesh division effectively reduces computational resource consumption while ensuring
+computational accuracy, providing reliable numerical results for subsequent parameter
+optimization and engineering design.
+Figure 3. Grid model and validation results: (a) grid distribution and (b) grid independence valida-
+tion results.
+Additionally, to ensure that the mesh quality meets the high-precision simulation
+requirements, a comprehensive evaluation of the mesh quality was conducted, with a focus
+on

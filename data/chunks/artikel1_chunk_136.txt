@@ -1,0 +1,21 @@
+ps://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 24 of 33
+(d) 
+  
+(e) 
+  
+(f) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16. The Gompertz parameters, G(x), G′(x) , G′′(x) and SoH curves for cells 8-1 (a), 6-1 (b),
+7-5 (c), 6-2 (d), 9-2 (e) and 6-8 (f) for longitudinal analysis.
+Based on Figure 16 a BESS operator can use the stabilization from high variability
+values as a trigger to transition from low-confidence RUL predictions to high-confidence
+RUL predictions. Before these points of transition, 

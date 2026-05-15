@@ -1,0 +1,9 @@
+electrical energy to be converted into
+heat, resulting in a temperature rise. In simulation studies, the Bernardi equation [38] is
+commonly used to model the heat generation process of the battery.
+Qgen (t) = I(Uocv − Ute) + ITbat
+dUocv
+dT (14)
+In Equation (14), Qgen(t) (W) is the battery heat generation rate, I(t) (A) is the dis-
+charge current, Uocv (V) is the open-circuit voltage, Ut (V) is the terminal voltage, Tbat (K)
+is the battery temperature, and dUocv/dT (V·K−1) is the entropy coeffici

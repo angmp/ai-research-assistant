@@ -1,0 +1,5 @@
+.; Pondiche, C. Voltage and Frequency Grid Support Strategies Beyond Standards. IEEE T rans. Power
+Electron. 2017, 32, 298–309. [CrossRef]
+8. Feng, X.; Ren, D.; Ouyang, M. Safety of Lithium Battery Materials Chemistry. J. Mater. Chem. A 2023, 11, 25236–25246. [CrossRef]
+9. Wei, G.; Huang, R.; Zhang, G.; Jiang, B.; Zhu, J.; Guo, Y.; Han, G.; Wei, X.; Dai, H. A Comprehensive Insight into the Thermal
+Runaway Issues in the View of Lithium-Ion Battery Intrinsic Safety Performance and Venting Gas Expl

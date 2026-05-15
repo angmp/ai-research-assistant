@@ -1,0 +1,7 @@
+definition is applied
+to the sensitivity analysis of ∆T (◦C) and system mass m (kg). Based on the simulation
+data from Sections 4.2.1–4.2.3, small disturbances of ±10% are applied to each parameter,
+and the corresponding changes in the evaluation metrics are obtained, from which the
+sensitivity coefficients are calculated. The specific settings are as follows.
+Cell spacing: using the optimal value of 1 mm as reference, with the thermal material
+set as 6063 aluminum alloy and the inlet airflow ve

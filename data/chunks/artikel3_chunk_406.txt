@@ -1,0 +1,5 @@
+ Environmental Laboratory. Battery Test Manual for Plug‑In Hybrid Electric Vehicles ; Assistant Secre‑
+tary for Energy Efficiency and Renewable Energy (EE); Idaho Operations Office: Idaho Falls, ID, USA, 2010.
+43. Lee, E.R.; Noh, H.; Park, B.U. Model selection via Bayesian information criterion for quantile regression models. J. Am. Stat.
+Assoc. 2014, 109, 216–229. [ CrossRef]
+44. Hu, M.; Li, Y.; Li, S.; Fu, C.; Qin, D.; Li, Z. Lithium‑ion battery modeling and parameter identification based on f

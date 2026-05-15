@@ -1,0 +1,8 @@
+ormity.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 35 of 37
+(2) A multidimensional evaluation framework is established, including temperature
+control margin and space occupancy ratio. Compared with passive cooling, the hybrid
+cooling system improves the temperature control margin and thermal stability by 13.4%
+and 44.6%, respectively. Compared with the liquid cooling system, the space occupancy
+ratio is reduced by 19.5%, and the grouping efficiency is increased by 22.4%. T

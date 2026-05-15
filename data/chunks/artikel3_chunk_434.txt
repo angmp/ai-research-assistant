@@ -1,0 +1,6 @@
+Part 1: Intro‑duction
+and state estimation. J. Power Sources 2006, 161, 1356–1368. [ CrossRef]
+98. Hu, C.; Youn, B.D.; Chung, J.S.; Ortanez, R. A multiscale framework with extended kalman filter for lithium‑ion battery SOC
+and capacity estimation. ECS Meet. Abstr. 2010, 92, 694–704. [ CrossRef]
+99. Wang, J.; Liu, P.; Hicks‑Garner, J.; Sherman, E.; Soukiazian, S.; Verbrugge, M.; Tataria, H.; Musser, J.; Finamore, P. Cycle‑life
+model for graphiteLiFePO 4 cells. J. Power Sources 2010, 196, 3942–394

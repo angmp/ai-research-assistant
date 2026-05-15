@@ -1,0 +1,6 @@
+OC estimation, has been provided by [ 7,9]. Nonetheless, a
+methodical explanation of the SOC computation procedure, algorithm selection, and han‑
+dling of unpredictable environmental conditions and battery system grouping in electric
+vehicles is lacking. By examining various current approaches and addressing the major
+problems and difficulties for the SOC estimate of battery packs—rather than concentrat‑
+ing just on the battery cells—this research seeks to close the gap. Selecting the best batte

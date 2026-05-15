@@ -1,0 +1,8 @@
+SOH
+estimation. SOH is difficult to measure with commonly used sensors, much like the SOC
+of LiBs. This makes it a difficult assignment for BMS. We concentrate on ML techniques
+for SOH estimation in this section.
+A reliable and accurate estimate of SOH cannot be guaranteed by the raw data, be‑
+cause they do not contain enough information to reflect SOH directly. Consequently, the
+second stage involves removing related features from sourced data using several methods,
+including differential volta

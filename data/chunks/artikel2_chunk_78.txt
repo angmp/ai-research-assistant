@@ -1,0 +1,9 @@
+can be further equivalent to Equation (15).
+Qgen (t) = I2 · R + ITbat
+dUocv
+dT (15)
+In Equation (15), R(Ω) is the internal resistance of the battery. The first term,I2R, repre-
+sents irreversible Joule heat caused by internal resistance. The second term,ITbatdUocv/dT,
+represents reversible heat associated with the entropy change of the electrochemical reaction.
+After testing, the entropy coefficient is shown in Figure 4a, the total internal resistance
+of the battery during discharge at 0.5 C, 1 

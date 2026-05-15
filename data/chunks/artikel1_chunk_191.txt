@@ -1,0 +1,6 @@
+tion-Back Propagation Neural Network. J. Energy Storage 2022, 52, 104750. [CrossRef]
+36. Wang, S.; Fan, Y.; Jin, S.; Takyi-Aninakwa, P .; Fernandez, C. Improved Anti-Noise Adaptive Long Short-Term Memory Neural
+Network Modeling for the Robust Remaining Useful Life Prediction of Lithium-Ion Batteries. Reliab. Eng. Syst. Saf. 2023, 230,
+108920. [CrossRef]
+37. Li, Y.; Kang, L.; Wang, X.; Xie, D.; Wang, S. State of Health Prediction of Lithium-Ion Batteries Based on Dual-Time-Scale
+Self-Supervised L

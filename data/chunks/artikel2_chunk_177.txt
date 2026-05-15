@@ -1,0 +1,39 @@
+ial temperature is below the
+phase-change range of MPCM32D. The large temperature difference between the inlet air
+and the PCM surface enhances heat removal by the air-cooling channel. Therefore, the
+maximum battery temperature is lower than that under the 25 ◦C baseline condition.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 29 of 37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 26. Performance results under different ambient temperatures.
+At 15 ◦C, h

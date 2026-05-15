@@ -1,0 +1,6 @@
+ing test data. J. Power Sources 2012, 215, 248–257. [ CrossRef]
+103. Ouyang, M.; Feng, X.; Han, X.; Lu, L.; Li, Z.; He, X. A dynamic capacity degradation model and its applications considering
+varying load for a large format Li‑ion battery. Appl. Energy 2016, 165, 48–59. [ CrossRef]
+104. Gao, Y.; Jiang, J.; Zhang, C.; Zhang, W.; Ma, Z.; Jiang, Y. Lithium‑ion battery aging mechanisms and life model under different
+charging stresses. J. Power Sources 2017, 356, 103–114. [ CrossRef]
+105. Rezvanizan

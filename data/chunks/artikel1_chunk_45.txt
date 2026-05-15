@@ -1,0 +1,7 @@
+ility requirements of critical
+applications such as electric vehicles and battery energy storage systems. To address this,
+this paper proposes integrating the Gompertz degradation model with LSTM architecture.
+This approach aims at enhancing model interpretability by using the Gompertz model not
+only as a key health indicator but also as a mechanism to enforce physics constraints in the
+network’s real-time predictions.
+The study evaluates three distinct modeling strategies: (1) a physics-based G

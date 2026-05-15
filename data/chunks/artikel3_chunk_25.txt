@@ -1,0 +1,7 @@
+re 1. Classification of SOC estimation methods.
+2.1. Look‑Up‑Table‑Based SOC Estimation
+This technique looks up the battery’s terminal voltage on an “SOC versus open‑circuit
+voltage (OCV)” curve after monitoring it when it is under load. This technique is based
+on the assumption that a cell model’s terminal voltage equals the sum of the OCV and the
+voltage drop brought on by internal resistance and current. It finds the value on the “SOC
+versus OCV” curve after calculating OCV as a function of t

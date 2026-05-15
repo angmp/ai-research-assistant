@@ -1,0 +1,6 @@
+, J.; Finamore, P. Cycle‑life
+model for graphiteLiFePO 4 cells. J. Power Sources 2010, 196, 3942–3948. [ CrossRef]
+100. Todeschini, F.; Onori, S.; Rizzoni, G. An experimentally validated capacity degradation model for Li‑ion batteries in PHEVs
+applications. IFAC Proc. Vol. 2012, 45, 456–461. [ CrossRef]
+101. Omar, N.; Monem, M.A.; Firouz, Y.; Salminen, J.; Smekens, J.; Hegazy, O.; Gaulous, H.; Mulder, G.; Van Den Bossche, P.;
+Coosemans, T.; et al. Lithium iron phosphate based battery—Assessment 

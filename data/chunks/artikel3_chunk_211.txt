@@ -1,0 +1,7 @@
+ development and tuning. 
+The use of deep learning (DL) algorithms in the state estimation of BMS is made fea-
+sible by the advancement of big data and cloud computing platforms. The term “deep” is 
+used by the so-called DL algorithms to characterize the utilization of several hidden layers 
+or other distinct architectural styles [65]. Deep learning algorithms can map complex and 
+nonlinear functions more accurately and e ﬀectively than shallow neural networks. This 
+research categorizes standar

@@ -1,0 +1,8 @@
+n tasks as seen in Figure 7, their input
+tensors are similar and of the shape [batch_size, window_size, 1], where the window_size
+(WS) refers to the number of time steps used in each prediction. Experiments reported in
+this study were conducted with a window size of 100.
+Training Setup
+Model training and inference were conducted on a POSIX-compliant Linux
+x86_64 system with a P100 GPU and on a POSIX-compliant, heterogeneous linux sys-
+tem primarily based on the ARM architecture with 4 NVIDIA GH2

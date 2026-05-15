@@ -1,0 +1,7 @@
+orecast the discharging capacity of the battery
+under different situations, a robust SOC estimation was accomplished using a battery with
+Batteries 2025, 11, 32 13 of 42
+a reduced‑order model [ 34]. The simpler reduced‑order models produced by this method
+have some information loss, but they are still preferable for real‑time battery applications.
+Reduced‑order models have significantly smaller computing overheads, and the measured
+current and voltage signals can be used to determine the corresp

@@ -1,0 +1,8 @@
+ncoding ap‑
+proach on a single chromosome was employed [ 121]. A separate study talks about the
+sliding‑window‑based feature extraction (SWBFE) [ 123].
+Batteries 2025, 11, 32 31 of 42
+The least‑squares support vector machine (LS‑SVM) is a significant variation of the
+regular SVM model with an easier solving procedure. A weighted least‑squares technique
+for estimating SOH was presented in one study and was based on linear equations for
+retired LiBs and a weighting function [ 124]. Even in test da

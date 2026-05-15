@@ -1,0 +1,8 @@
+unting (CC) method. The method is simple,
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 5 of 33
+standardized and is accurate for short-term calculations [21]. The method uses the Coulomb
+Counting SoC estimation formula shown in Equation (1) [ 22,23]. Where SoC (t0) is the
+initial state of charge of the battery based on open-circuit voltage or predictive means.
+Crated is the nominal capacity of the battery/cell when it is new. Ibat is the battery current,
+t0 is the initial tim

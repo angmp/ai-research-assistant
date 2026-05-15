@@ -1,0 +1,16 @@
+ies11010032
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Review
+State of Charge and State of Health Estimation in Electric
+Vehicles: Challenges, Approaches and Future Directions
+Babatunde D. Soyoye
+ , Indranil Bhattacharya *
+ , Mary Vinolisha Anthony Dhason and Trapa Banik
+Electrical and Comp

@@ -1,0 +1,8 @@
+dation path (red curve)
+serves as a physics-informed constraint, guiding the LSTM’sk, a, and b values to predict
+the SoH curve (green line) while ensuring monotonic degradation behavior. By predicting
+the RUL, the model combines the data-driven benefits of neural networks with physics
+informed constraints derived from the Gompertz growth model [41].
+3.1.2. The Gompertz Model
+The Gompertz model [41] is a widely established sigmoidal function commonly used to
+describe growth and degradation proces

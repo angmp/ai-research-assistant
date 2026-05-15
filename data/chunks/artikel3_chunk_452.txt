@@ -1,0 +1,6 @@
+um‑ion battery pack state of charge and state of energy estimation algorithms using
+a hardwarein‑the‑loop validation. IEEE Trans. Power Electron. 2017, 32, 4421–4431. [ CrossRef]
+131. Chen, C.; Xiong, R.; Shen, W. A lithium‑ion battery‑in‑the‑loop approach to test and validate multiscale dual H infinity filters
+for state‑of charge and capacity estimation. IEEE Trans. Power Electron. 2018, 33, 332–342. [ CrossRef]
+Batteries 2025, 11, 32 42 of 42
+132. Tian, X.; Jeppesen, B.; Ikushima, T.; Baronti,

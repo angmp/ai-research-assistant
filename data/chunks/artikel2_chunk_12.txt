@@ -1,0 +1,6 @@
+ heat pipe cooling [14]. Extensive research has been conducted to investigate
+the fundamental thermal characteristics and design adaptability of cooling systems under
+the unique operating conditions of eVTOLs. To address the unclear operational character-
+istics of power batteries during eVTOL missions, Luo et al. [15] established a theoretical
+eVTOL model and showed that vertical climb and acceleration are the peak-power phases,
+with a discharge rate of 6.4 C. Park et al. [ 16] proposed a refin

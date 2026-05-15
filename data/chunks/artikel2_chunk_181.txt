@@ -1,0 +1,8 @@
+t 35 ◦C, the initial
+temperature exceeds the phase-change temperature of MPCM32D. The PCM is already
+liquid at the beginning of the mission. Its latent heat buffering effect is therefore weakened,
+and heat regulation mainly relies on sensible heat absorption and surface heat removal.
+As a result, the maximum temperature rises to 47.0 ◦C, and the maximum temperature
+difference increases to 3.7 ◦C.
+Overall, the proposed hybrid cooling system shows good adaptability at 30 ◦C. At this
+temperature, t

@@ -1,0 +1,12 @@
+ean squared error estimate ˆxk of the true state xk.
+That is, solve:
+ˆxk = argminE
+h
+(xk − ˆxk)ˆT(xk − ˆxk) ∥ u1, u2, · · · , uk, y1, y2, · · · , yk
+i
+(11)
+Batteries 2025, 11, 32 9 of 42
+This problem has a well‑known solution, which is shown in Equations (12)–(26) be‑
+low. A series of recursive relationships that incorporate the covariance and an estimate of
+the state itself form the basis of the solution and the covariance matrix ∑ e, k of the state
+estimate error xk − ˆxk. The uncertainty of t

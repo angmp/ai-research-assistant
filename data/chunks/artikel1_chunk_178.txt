@@ -1,0 +1,7 @@
+ledge_hub/watt-
+happens-next-lfp-is-taking-over-heres-why-it-matters/ (accessed on 14 April 2025).
+13. Mou, J.; Yang, Q.; Tang, Y.; Liu, Y.; Li, J.; Yu, C. Prediction of the Remaining Useful Life of Lithium-Ion Batteries Based on the 1D
+CNN-BLSTM Neural Network. Batteries 2024, 10, 152. [CrossRef]
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 32 of 33
+14. Zhang, Y.; Song, W.; Lin, S.; Feng, Z. A Novel Model of the Initial State of Charge Estimation for LiFePO4 Batteries. J. P

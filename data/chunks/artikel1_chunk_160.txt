@@ -1,0 +1,8 @@
+automated RUL forecasts, while LSTM2 is the better
+predictor, the Gompertz model acts as the confidence monitor thus one model can predict
+the RUL values while the other shows when the RUL values should be considered with
+high importance.
+The Gompertz-Informed LSTMs failed to bridge the gap between data-driven and
+physics-based models, underperforming due to overfitting and a tendency for parameter
+predictions of k, a and b to centroid toward mean values. Future work would focus on better
+archit

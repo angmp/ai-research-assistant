@@ -1,0 +1,11 @@
+, model‑free, and model‑based methods.
+Battery SOH can be simply defined as:
+(
+SOH = Caged /Cn × 100%
+SOH = Rinc /Rn × 100% (72)
+Batteries 2025, 11, 32 28 of 42
+where Cn and Rn stand for the nominal capacity and internal resistance, respectively, of
+the new battery without being used, C aged for the aged capacity, and R inc for the internal
+impedance.
+Equation (72) defines SOH as follows: the aged capacity and internal impedance of
+a battery are measured using the pulse current test [ 90] or the

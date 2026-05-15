@@ -1,0 +1,13 @@
+ases transient heat input and accelerates PCM latent heat consumption.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 28. Performance results under different hover durations.
+The thermal response differs between takeoff hover and landing hover. Takeoff hover
+occurs at the beginning of the mission. At this stage, the battery, PCM, and high-thermal-
+conductivity plate are still at relatively low temperatures. The PCM also has sufficient
+latent heat capacity. Therefore, the thermal shock during takeoff can be effectively bu

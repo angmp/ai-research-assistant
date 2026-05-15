@@ -1,0 +1,7 @@
+ that learns from examples and im‑
+proves with time. Consider it similar to training a machine to spot patterns. In this exam‑
+ple, it is utilized to anticipate how much charge a battery has remaining.
+There are two major steps. First, it follows through with a calculation process step by
+step, much like adding numbers. It then double‑checks its replies and corrects any errors.
+It makes use of battery performance metrics, such as how much power the battery is using,
+the temperature, and the batt

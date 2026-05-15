@@ -1,0 +1,8 @@
+ct of completely charged or discharged tem‑
+peratures (e.g., 25 ◦C, 45 ◦C) on calendar life was thoroughly examined. Reference per‑
+formance tests (RPTs) were conducted for ten months to monitor the degradation trend.
+The findings show that by calibrating the available capacity at specific conditions, sug‑
+gested approaches may not only forecast the battery SOH well but also increase accuracy
+in prediction.
+It is commonly known that the caliber of the input features has a significant impact
+on t

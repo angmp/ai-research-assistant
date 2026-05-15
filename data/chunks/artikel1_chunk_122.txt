@@ -1,0 +1,8 @@
+ting
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 19 of 33
+RUL. The results of these experiments are on fullSoH curves. Prior to the development of RUL
+prediction models, the relationships betweenSoH and the Gompertz parameters as well as
+between RUL and the Gompertz parameters were investigated. This initial experimentation
+was to check whether the Gompertz model had captured any valuable information that was
+relevant to the cells’ RUL. The variables represented the values 

@@ -1,0 +1,7 @@
+erature reaches 32.2 ◦C and the liquid fraction reaches 0.36. Under this strategy,
+the maximum battery module temperature is limited to 38.9 ◦C, while good temperature
+uniformity is maintained. Compared with continuous air cooling, the air-cooling energy
+consumption during a single flight mission is reduced by 43.3%.
+Although this study systematically investigates the structural design, parameter op-
+timization, performance evaluation, and air-cooling intervention strategy of the hybrid
+cooling 

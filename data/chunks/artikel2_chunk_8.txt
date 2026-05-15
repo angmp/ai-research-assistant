@@ -1,0 +1,9 @@
+em;
+energy efficiency optimization
+1. Introduction
+Electric vertical takeoff and landing (eVTOL) aircraft is a disruptive transportation
+technology that is expected to transform future transportation systems [1]. The significant
+potential of eVTOL aircraft in enhancing commuting efficiency and alleviating ground
+Batteries 2026, 12, 170 https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 2 of 37
+congestion [2], along with its time advantages for short and medium-range travel and its

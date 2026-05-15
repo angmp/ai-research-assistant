@@ -1,0 +1,7 @@
+n SoH data from all cycles. For the inference stage, the predicted k, a, and b
+were passed through the inverse Gompertz layer to predict each test cell’s RUL. This
+inverse Gompertz layer is based on the Equation (4).
+C. A GILSTM that predicts RUL using LSTM2, the model predicts the next cycle’sSoH
+from historical SoH values (GILSTM3), when used recursively, it can predict the RUL.
+G(x) was fitted on the recursively output SoH curve and using the generated k, a, and
+b parameters were passed throu

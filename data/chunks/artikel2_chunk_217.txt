@@ -1,0 +1,7 @@
+experiments. Three key
+structural parameters are investigated, including cell spacing, high-thermal-conductivity
+plate material, and inlet airflow velocity. Sensitivity analysis is used to rank their effects
+on thermal performance and structural compactness. A multidimensional evaluation
+framework is established to compare the proposed system with no cooling, passive cooling,
+and liquid cooling strategies. The adaptability of the hybrid cooling system under different
+operating conditions is furt

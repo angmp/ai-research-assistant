@@ -1,0 +1,7 @@
+ifficult to achieve, and the observer performance test of the
+SOC is done under given conditions. Consequently, it is impossible to guarantee the
+estimation performance under time‑varied real‑world circumstances that differ from the
+test conditions.
+A generic flowchart of model‑based SOC estimate techniques is displayed in Figure 4.
+These techniques are a subset of fusion techniques which involve the integration of differ‑
+ent approaches with the OCV using the look‑up table. It is observed that 

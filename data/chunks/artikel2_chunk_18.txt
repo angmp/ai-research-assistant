@@ -1,0 +1,6 @@
+tion. Zhao et al. [23] integrated a thermoelectric heat exchanger into a liquid cooling
+system. The system improved high-temperature adaptability up to 45 ◦C but introduced
+trade-offs between system weight and flight cycles. Wang et al. [24] proposed a propeller
+slipstream-driven air–liquid hybrid cooling system. Experimental results showed effective
+heat dissipation over the full flight envelope, while maintaining structural simplicity.
+PCM-based hybrid cooling systems have become an important 

@@ -1,0 +1,6 @@
+ Brosa Planella, F. A Comparison of Standard SEI Growth Models in the Context of Battery
+Formation. J. Electrochem. Soc. 2024, 171, 100530. [CrossRef]
+26. Adenusi, H.; Chass, G.A.; Passerini, S.; Tian, K.V .; Chen, G. Lithium Batteries and the Solid Electrolyte Interphase (SEI)—Progress
+and Outlook. Adv. Energy Mater. 2023, 13, 2203307. [CrossRef]
+27. Frankenberger, M.; Trunk, M.; Seidlmayer, S.; Dinter, A.; Dittloff, J.; Werner, L.; Gernhäuser, R.; Revay, Z.; Märkisch, B.; Gilles, R.;
+et al. SE

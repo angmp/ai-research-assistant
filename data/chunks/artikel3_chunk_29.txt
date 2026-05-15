@@ -1,0 +1,8 @@
+ open-cir-
+cuit voltage (OCV)” curve after monitoring it when it is under load. This technique is 
+based on the assumption that a cell model’s terminal voltage equals the sum of the OCV 
+and the voltage drop brought on by internal resistance and current. It ﬁnds the value on 
+the “SOC versus OCV” curve after calculating OCV as a function of time. Although this 
+is a step above the straightforward voltage- based approach, there are still several draw-
+backs [10], such as internal resistance (R
+0)

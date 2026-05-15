@@ -1,0 +1,23 @@
+directly using a 0 K temperature difference. The energy equation is as follows:
+ρpcm
+∂H
+∂t = kpcm ∇2T (17)
+H = hp + ∆H (18)
+h =
+Z T
+T0
+CpcmdT (19)
+∆H = βλ (20)
+β =
+
+
+
+0, T ≤ Ts
+T−Ts
+Tl −Ts , Ts < T < Tl
+1, T ≥ Tl
+(21)
+In Equations (17)–(21), ρpcm (kg·m−3) is the PCM density, kpcm (W·m−1·K−1) is the
+PCM thermal conductivity, T (K) is temperature, and H (J·kg−1) is the total enthalpy of
+the PCM. hp (J·kg−1) is the sensible enthalpy, and ∆H (J·kg−1) is the latent enthalpy. Cpcm
+(J·kg−1·K−1) is

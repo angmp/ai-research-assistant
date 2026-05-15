@@ -1,0 +1,23 @@
+tudinal analysis
+of the HUST dataset was the transition from high parameter variability in early life to
+low and stable variability as the SoH approached the point of maximum curvature in the
+degradation curve and into later life stages. Figure 16 presents 6 sample cells and the values
+of respective Gompertz parameters (k, a and b), G(x), G′(x) and G′′(x).
+(a) 
+ 
+(b) 
+ 
+(c) 
+ 
+Figure 16. Cont.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 24 of 33
+(d) 
+  
+(e) 
+  
+(f) 
+ 
+ 
+ 
+ 

@@ -1,0 +1,6 @@
+ single battery cell (with dimensions of 320 mm × 115 mm × 10 mm) has
+an effective heat dissipation surface area of approximately 368 cm2. During the landing
+phase, with a high discharge rate of 4.3 C, the instantaneous discharge current of the cell
+reaches 193.5 A, corresponding to a current density of 0.526 A/cm2, which is significantly
+higher than the typical current density of 0.12 A/cm2 under 1 C discharge conditions in
+conventional electric vehicles. Due to the compact structure of the cel

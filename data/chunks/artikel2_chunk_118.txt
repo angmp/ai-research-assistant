@@ -1,0 +1,7 @@
+ttery module.
+The parametric analyses of cell spacing, thermally conductive material, and inlet
+airflow velocity identified the optimal configuration of the hybrid cooling system. The cell
+spacing was set to 1 mm, 6063 aluminum alloy was selected as the thermally conductive
+material, and the inlet airflow velocity was set to 3 m/s. Under this configuration, the sys-
+tem achieves a good balance between temperature regulation and structural compactness.
+Therefore, this parameter combination is use

@@ -1,0 +1,7 @@
+es or discharges. This factor accounts
+for energy conversion efficiency losses that occur when the battery is being charged and
+discharged. Because it takes energy losses into account, it is a crucial parameter in SOC
+estimation. Cn is the battery’s nominal capacity, which is the amount the manufacturer
+states it can hold. It serves as a benchmark for SOC computations. The technique depends
+on determining the amount of current ( I) entering or leaving the battery. Charging is rep‑
+resented by po

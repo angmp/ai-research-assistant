@@ -1,0 +1,6 @@
+torage 2024, 97, 112720. [CrossRef]
+19. Wu, Z.; Lian, W.; Chen, B.; Zheng, C. Research on battery heat generation characteristics and thermal management system applied
+to a typical eVTOL. Appl. Therm. Eng. 2024, 257, 124187. [CrossRef]
+20. Zhao, C.; Clarke, M.; Kellermann, H.; Verstraete, D. Liquid cooling systems for batteries of electric vertical takeoff and landing
+aircraft. J. Aircr. 2024, 61, 667–683. [CrossRef]
+21. Zhao, C.; Mazo, J.R.; Verstraete, D. Optimizations of a liquid cooling syst

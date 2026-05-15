@@ -1,0 +1,8 @@
+ comparable to that of
+the passive cooling system.
+To further compare the comprehensive performance of different cooling strategies, a
+visual comparative analysis of key performance indicators across all cooling strategies was
+conducted, with results presented in the radar chart in Figure 25:
+In Figure 25a, the no cooling system exhibits certain advantages in structural compact-
+ness and spatial utilization; however, its temperature control capability and stability are
+extremely poor, accompanie

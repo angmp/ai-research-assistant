@@ -1,0 +1,38 @@
+ safe
+range -
+Cooling
+system mass
+<20% of
+battery mass
+Reduces battery
+degradation
+compared with
+air cooling.
+Chai et al. [22] eVTOL
+battery pack
+PCM–
+immersion
+cooling
+<48◦C 4.74 ◦C
+PCM mass
+5.32% of
+battery pack
+mass
+Combines PCM
+buffering and
+immersion
+cooling.
+Lee et al. [26]
+Fast-charging
+battery
+module
+Liquid-cooled
+baseplate–
+fins–PCM
+38.4◦C 3.9 ◦C -
+Compact
+hybrid cooling
+system under
+fast charging.
+4.4. Adaptability Analysis of the Hybrid Cooling System
+Based on the multi-condition sett

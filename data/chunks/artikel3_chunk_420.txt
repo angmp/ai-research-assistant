@@ -1,0 +1,5 @@
+M.; Blaabjerg, F. SOC estimation of Li‑ion batteries
+with learning rate‑optimized deep fully convolutional network. IEEE Trans. Power Electron. 2020, 36, 7349–7353. [ CrossRef]
+71. Hu, J.; Hu, J.; Lin, H.; Li, X.; Jiang, C.; Qiu, X.; Li, W. State‑of‑charge estimation for battery management system using optimized
+support vector machine for regression. J. Power Sources 2014, 269, 682–693. [ CrossRef]
+72. Jiménez‑Bermejo, D.; Fraile‑Ardanuy, J.; Castaño‑Solis, S.; Merino, J.; Álvaro‑Hermana, R. Usi

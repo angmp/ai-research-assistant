@@ -1,0 +1,8 @@
+SOC and current readings. To take into con‑
+sideration errors and variances in the system, calibrations are required.
+In conclusion, the Ah method for estimating SOC is a simple technique that depends
+on current measurements; yet, it has issues with accuracy, accumulation of errors, and
+determining the initial SOC. Improving the accuracy of SOC estimates while utilizing this
+method requires addressing these issues.
+2.2.2. Discharge Test Method
+This approach is thought to be the most accurate for

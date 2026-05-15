@@ -1,0 +1,18 @@
+ Management System
+CC Coulomb Counting
+Crated Nominal Capacity/Rated Capacity
+EoL End of Life
+EV Electric Vehicle
+GILSTM Gompertz-Informed Long Short-Term Memory
+kWh Kilowatt hour
+LFP Lithium iron phosphate
+LiB Lithium ion battery
+LSTM Long Short-Term Memory
+MSE Mean squared error
+NCA lithium nickel cobalt aluminum oxide
+NMC lithium nickel manganese cobalt oxide
+SAIDI System Average Interruption Duration Index
+SoC State of Charge
+SoH State of Health
+RMSE Root mean squared error
+RUL Remaining Use

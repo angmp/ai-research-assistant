@@ -1,0 +1,8 @@
+d to the cells at a constant temperature of
+30 ◦C to ensure thermal consistency across the dataset. The dataset is meant to be used to
+model battery health, thus relevant to the study in this paper. The raw HUST data has been
+packaged in pickle format (.pkl) and are serialized python objects that had been converted
+into a byte stream for storage purposes.
+3.3. Dataset Analysis and Preparation
+The raw HUST data were stored in dictionary format, that dictionary contained three
+nested dictionaries,

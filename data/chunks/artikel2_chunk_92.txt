@@ -1,0 +1,11 @@
+, and Tmin is the minimum temperature of the
+battery module.
+Group efficiency is an indicator used to assess the weight of the battery cooling system.
+It is defined as the energy density of a single battery divided by the energy density of the
+entire battery system, reflecting the lightweight level of the cooling system. The definition
+of group efficiency is as follows:
+GE = EDbat
+EDsystem
+(25)
+The equation GE is the grouping efficiency, EDbat is the energy density of battery, and
+EDsystem is th

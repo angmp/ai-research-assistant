@@ -1,0 +1,7 @@
+ation Study of GILSTMs
+An ablation study was conducted as reported in Table 7 to identify the reason of failure
+of the GILSTM. This required four training experiments to isolate the source of failure
+which could have been the GILSTM’s architecture, the physics-informed loss function’s
+weighting or the instability in weighting optimization. The training and validation metrics
+for each of these configurations is present in Appendix B.
+Table 7. Ablation study of loss components of GILSTM performanc

@@ -1,0 +1,7 @@
+del into the BMS, 
+a model implementation strategy was created. The primary beneﬁt of employing an elec-
+trochemical model is the ability to acquire the reactions occurring within the ba ttery. In 
+real-time applications, it might be challenging to identify numerous characteristics, such 
+as the compositions of the internal chemicals. 
+Furthermore, there are signi ﬁcant computing overheads associated with these elec-
+trochemical models, because they typically require the solution of several part

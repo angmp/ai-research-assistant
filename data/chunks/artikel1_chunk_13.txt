@@ -1,0 +1,7 @@
+cy of power grids [7].
+However, these batteries degrade over time and can cause unintended failures to occur
+if not managed properly. Knowing when to replace or derate the batteries is crucial. This
+paper looks at understanding lithium iron phosphate (LFP) battery lifespan by conducting
+a comparative study on the Gompertz model, Long Short-Term Memory networks (LSTMs)
+and Gompertz-Informed LSTM methods toward estimation of the battery lifespan. The
+paper also addresses the potential implications

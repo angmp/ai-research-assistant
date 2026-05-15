@@ -1,0 +1,8 @@
+hold charge chemically is a result of its large capacitance, which is what bulk 
+capacitors are known for. By measuring the voltage across the bulk capacitor, one can ﬁnd 
+the SOC. Terminal resistor, end resistor, and capacitor resistor are the names given to the 
+resistors Rt, Re, and Rc, respectively. The voltages across Cb and Cc are denoted by Ub and 
+Uc, respectively. Equations (51) and (52) represent the electrical behavior of the RC model 
+circuit. 
+ 
+Figure 11. Schematic diagram of the R

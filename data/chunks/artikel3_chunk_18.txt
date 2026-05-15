@@ -1,0 +1,8 @@
+entrat‑
+ing just on the battery cells—this research seeks to close the gap. Selecting the best battery
+management and energy management technique will be highly beneficial for the scientist,
+researcher, and car maker.
+A taxonomy of the current SOC estimate techniques is presented in this research. It
+describes battery SOC estimate techniques in EV applications in a methodical manner, in‑
+cluding every step of each type’s operation. Comprehensive information about up‑to‑date
+SOC estimation techni

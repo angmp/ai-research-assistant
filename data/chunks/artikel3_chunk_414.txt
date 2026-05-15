@@ -1,0 +1,5 @@
+tion based on visual interaction and extreme learning
+machine. Neurocomputing 2017, 275, 2093–2103. [ CrossRef]
+59. Silver, D.; Huang, A.; Maddison, C.J.; Guez, A.; Sifre, L.; van den Driessche, G.; Schrittwieser, J.; Antonoglou, I.; Panneershelvam,
+V.; Lanctot, M.; et al. Mastering the game of Go with deep neural networks and tree search. Nature 2016, 529, 484–489. [ CrossRef]
+60. Anand, I.; Mathur, B. State of charge estimation of lead acid batteries using neural networks. In Proceedings of th

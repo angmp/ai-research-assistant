@@ -1,0 +1,7 @@
+oling.
+The battery dimensions and performance parameters were kept consistent with those
+used in this study. The selected liquid cooling system serves only as a baseline configuration.
+Its channel geometry, coolant flow rate, pressure drop, mass, and volume were not fully
+optimized. The baseline liquid cooling system is shown in Figure 19. The dimensions of the
+cooling plates are 197 × 320 × 5 mm. Each aluminum cooling plate has 44 square cooling
+channels, with the dimensions of each channel bei

@@ -1,0 +1,15 @@
+r duration from 30 s to 50 s increases
+the thermal load of the battery module. The maximum temperature rises from 37.9 ◦C to
+39.8 ◦C. The maximum temperature difference increases from 3.1 ◦C to 3.7 ◦C. The PCM
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 31 of 37
+liquid fraction also increases from 0.76 to 0.87. This indicates that a longer high-discharge
+period directly increases transient heat input and accelerates PCM latent heat consumption.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 28. Perf

@@ -1,0 +1,7 @@
+aining. When the optimizer encountered the extreme
+gradients produced by the inverse layer, the LSTM adopted a defensive learning strategy
+while the physics-informed model attempts to satisfy an underdetermined physical form
+where parameters a, and b are not yet constrained by the lack of observed curvature.
+Consequently, the GILSTMs failed to generalize to individual cell trajectories and instead
+centroided toward the mean k, a, and b parameter values of the training set. This suggests
+that Gom

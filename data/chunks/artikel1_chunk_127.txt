@@ -1,0 +1,9 @@
+omplete
+SoH curves. Furthermore, the cells’ completeSoH curves were fitted on G(x), and the RUL
+was calculated using G−1(y) (Equation (4)) resulting in a mean RMSE of 27.9 cycles (1.4%).
+Such results would be excellent, but they can only be calculated given the actualSoH curves
+are known beforehand.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 21 of 33
+Figure 13. The relationship between a and b (left), a and k (middle), and b and k (right) color-coded
+according to those RUL

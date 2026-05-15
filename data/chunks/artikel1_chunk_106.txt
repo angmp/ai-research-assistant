@@ -1,0 +1,9 @@
+ β, γ were selected to normalize the gradient contribu-
+tions, accounting for the differences in scale between the RUL values and the Gompertz
+parameters.
+Summary of similarities and differences in GILSTM models’ architecture and methodologies.
+Table 5 summarizes the shared foundations and distinct operational differences of the
+three Gompertz-Informed LSTM (GILSTM) models developed in this study.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 17 of 33
+Table 5. Summary of simi

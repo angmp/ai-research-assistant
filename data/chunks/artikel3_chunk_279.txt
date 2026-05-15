@@ -1,0 +1,7 @@
+e, cooling air temperature, and battery ther‑
+mal factor, an ANFIS‑based SOC estimate model can be constructed. Ten distinct driving
+cycles are used to assess the training and testing outcomes.
+The findings show that in varied driving cycles, the ANFIS model performs with an
+SOC error of less than 1%. To calculate SOC for lithium‑ion batteries, an ANFIS model
+was constructed in [ 88] using current, voltage, capacity, and temperature. It is stated that
+the average percentage inaccuracy is merely 

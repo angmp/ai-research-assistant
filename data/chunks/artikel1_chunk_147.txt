@@ -1,0 +1,7 @@
+90% SoH G(x), G′(x) and G′′(x) were seen to stabilize into smoother curves
+explaining the superior performance in mid-cycle and late-cycle stages; the performance in
+these stages catches up to LSTM1 and LSTM2, the best models in this study.
+The extreme RMSE (861%) observed for the Real-Time Gompertz model at cycle
+100 highlights fundamental mathematical instability ofG(x) in high SoH regions (above 0.9).
+In these high SoH regions, G−1(y) calculation for RUL becomes numerically ill-conditioned.
+A

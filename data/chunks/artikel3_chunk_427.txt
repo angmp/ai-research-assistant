@@ -1,0 +1,6 @@
+logy. J. Power Sources 1999, 80, 293–300. [ CrossRef]
+83. Sheng, H.; Xiao, J. Electric vehicle state of charge estimation: Nonlinear correlation and fuzzy support vector machine. J. Power
+Sources 2015, 281, 131–137. [ CrossRef]
+84. Li, Y.; Wang, C.; Gong, J. A combination Kalman filter approach for state of charge estimation of lithium‑ion battery considering
+model uncertainty. Energy 2016, 109, 933–946. [ CrossRef]
+85. Singh, P.; Vinjamuri, R.; Wang, X.; Reisner, D. Design and implementation of

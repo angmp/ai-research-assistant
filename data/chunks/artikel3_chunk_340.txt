@@ -1,0 +1,6 @@
+ lithium‑ion battery‑in‑loop testing apparatus was built
+and benched with an xPC target to verify a multiscale dual Hoo filter for real‑time SOC
+and capacity estimation and to mimic electric vehicle (EV) drive cycles [131]. In one study’s
+evaluation of SOC using a system‑in‑the‑loop configuration for lithium batteries, a field‑
+programmable gate array (FPGA)‑based BMS attained a remarkably quick execution time
+of 16.5 microseconds and compatibility with inexpensive hardware [ 132]. Furthermore,

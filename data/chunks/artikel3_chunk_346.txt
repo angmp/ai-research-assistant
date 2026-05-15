@@ -1,0 +1,7 @@
+such as constant charge or discharge
+and dynamic drive cycles, have been used in the majority of research. Only a small number
+of studies, though, have included data from real EV usage [134]. These real‑world datasets
+are essential for training machine learning models, because they introduce changes in pat‑
+terns that are different from lab simulations. Additional data types greatly increase the
+diversity of the datasets. These include temperature changes detected by resistance tem‑
+perature det

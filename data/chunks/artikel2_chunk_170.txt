@@ -1,0 +1,10 @@
+lity.
+Additionally, a performance comparison is conducted with other systems reported in
+the literature. Table 7 summarizes recent comparable studies, indicating that the present
+design effectively meets the performance requirements for electric aircraft and offers a
+robust solution for maintaining component reliability under variable operating conditions.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 28 of 37
+Table 7. Comparison of similar studies.
+Study Application
+Scenario

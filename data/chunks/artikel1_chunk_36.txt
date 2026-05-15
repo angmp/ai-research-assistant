@@ -1,0 +1,11 @@
+g-term drift of the battery capacity from the rated capac-
+ity [21]. Enhanced coulomb counting methods have been proposed to address long-term
+drift [14,15,24], each of which highlights the need to include battery decay by including the
+shift in SoH over time as shown in Equation (2).
+SoC(t) = SoC (t0) + 100%
+SoH ∗ Crated
+Z t0+t
+t0
+Ibat (τ)dτ (2)
+This improvement is the integration of SoH into the traditional coulomb counting
+method used for State of Charge ( SoC) estimation. By accounting for t

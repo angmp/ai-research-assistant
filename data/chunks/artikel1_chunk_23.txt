@@ -1,0 +1,7 @@
+er and a more thermally stable
+variant of lithium ion batteries, known for their lower risk of thermal runaway [8–11], with
+a thermal runaway threshold ranging from 180 to 250 ◦C, as seen in Table 2. LFPs typically
+offer a lifespan ranging from 1000 to 10,000 charge–discharge cycles, which translates to
+approximately 2.74 to 27.4 years when used at a rate of one cycle per day. In 2024, LFPs
+accounted for approximately 40% to 59% of electric vehicle (EV) battery deployments, and
+dominated the BES

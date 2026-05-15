@@ -1,0 +1,9 @@
+ [18].
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 23 of 37
+Figure 19. Schematic of the baseline liquid cooling system.
+The simulation results indicate that, as shown in Figure 20a,b, the temperature varia-
+tions in the active liquid cooling system closely follow the flight conditions and discharge
+rates, exhibiting a two-peak, two-plateau profile. Throughout the entire process, the max-
+imum temperature is only 35.9 ◦C, and the temperature never exceeds the upper limit
+of 

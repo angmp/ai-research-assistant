@@ -1,0 +1,7 @@
+ment system using heat pipe under
+different ambient temperatures. Energy Convers. Manag. 2018, 155, 1–9. [CrossRef]
+15. Luo, Y.; Qian, Y.; Zeng, Z.; Zhang, Y. Simulation and analysis of operating characteristics of power battery for flying car utilization.
+eTransportation 2021, 8, 100111. [CrossRef]
+16. Park, J.; Jeong, T.; Yee, K. Refined air-cooled battery sizing process for conceptual design of eVTOL aircraft.Appl. Energy 2025,
+377, 124567. [CrossRef]
+17. Park, J.; Yee, K. Development of Liqu

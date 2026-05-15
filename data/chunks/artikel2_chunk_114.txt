@@ -1,0 +1,10 @@
+atteries 2026, 12, 170 18 of 37
+As shown in Figure 13, module temperature continues to rise when the PCM heat
+absorption rate is lower than the battery heat generation rate. Among the tested cases,
+an inlet velocity of 3 m/s provides the best balance between heat removal and tempera-
+ture uniformity. The corresponding maximum temperature and maximum temperature
+difference are 37.9 ◦C and 3.1 ◦C, respectively.
+ 
+ 
+Figure 13. Combined characteristics of temperature parameters and flow rate.
+Figure

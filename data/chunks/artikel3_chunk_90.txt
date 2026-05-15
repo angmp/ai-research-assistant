@@ -1,0 +1,16 @@
+)
+e,k ∗ (20)
+The Kalman filter is initialized with the best available information on the state and
+error covariance. ˆx(+)
+0 = E[x0] (21)
+∑
+(+)
+x,0 ∗ = E
+h
+(x0 − E[x0])(x0 − E[x0])T
+i
+(22)
+Although this initialization must frequently be done on the fly, the Kalman filter
+rapidly converges on the correct values as it operates.
+After initialization, the Kalman filter repeats two actions. Initially, it predicts the er‑
+ror covariance, system output, and the value of the subsequent state. Second, it

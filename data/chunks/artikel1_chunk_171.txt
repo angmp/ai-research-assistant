@@ -1,0 +1,8 @@
+
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 31 of 33
+Figure A5. GILSTM trained only on data with SoH less than 0.85 (stable data).
+References
+1. Dowejko, J.; Jaworski, J. Beyond Traditional Grid: A Novel Quantitative Framework for Assessing Automation’s Impact on System
+Average Interruption Duration Index and System Average Interruption Frequency Index.Energies 2025, 18, 2671. [CrossRef]
+2. Hu, Y.; Armada, M.; Jesús Sánchez, M. Potential Utilization of Battery Energy Stora

@@ -1,0 +1,17 @@
+Academic Editor: Pascal Venet
+Received: 13 April 2026
+Revised: 7 May 2026
+Accepted: 11 May 2026
+Published: 14 May 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+Article
+Structural Parameter Optimization and Performance Evaluation
+of Hybrid Cooling Systems for Electric Vertical Takeoff and
+Landing Aircraft Battery Modules
+Siyuan Yang 1
+ 

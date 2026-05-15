@@ -1,0 +1,30 @@
+for all
+cycles of cell 2–2 from the HUST dataset on the left (a) and on the right (b) are the same
+plots over time but only for the first ten cycles.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 10 of 33
+(a) ( b) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 3. The plots of the dependent variables over time for cycles of cell 2–2.
+The RUL of the cell equaled zero when the usable cell capacity dropped to 880 mAh
+(80% of the nominal capacity). Figure 3b zooms in to the fir

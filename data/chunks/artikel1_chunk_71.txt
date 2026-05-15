@@ -1,0 +1,7 @@
+–45]; moreover, since the
+Coulomb Counting SoC equation uses the rated capacity instead of the current capacity,
+this detail is reinforced. As mentioned earlier the coulomb counting equation typically
+uses the nominal capacity to calculate SoC, if a SoH degradation model such as an LSTM or
+a Gompertz model is used, the capacity can be adjusted such that each percentage value
+of the SoC from 0% to 100% of each cycle is corrected, that is, 1% should represent 1% of
+the current capacity not rated c

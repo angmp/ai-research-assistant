@@ -1,0 +1,8 @@
+e current(A)
+Figure 1. Battery discharge current during different flight phases.
+In summary, by dividing the flight mission into stages and calculating the power
+requirements for each stage, the real-time discharge parameters of the battery at different
+flight stages can be determined, which in turn allows for the construction of a time-varying
+discharge curve. These results provide key input data for the subsequent development of
+the Bernardi thermal model for the battery.
+To further characteri

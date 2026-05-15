@@ -1,0 +1,22 @@
+early-stage
+thermal buffering, whereas air cooling governs sustained heat dissipation in the middle
+and later stages.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 29. Time evolution curves of maximum temperature and temperature difference for the
+passive cooling system and hybrid cooling system. The asterisk indicates the characteristic time point
+at t = 500 s.
+Furthermore, the PCM liquid fraction was adopted as a quantitative measure of latent
+heat consumption, providing a physically interpretable basis 

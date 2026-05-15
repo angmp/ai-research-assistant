@@ -1,0 +1,13 @@
+ for the subsequent development of
+the Bernardi thermal model for the battery.
+To further characterize the SOC evolution, the ampere-hour integration method was
+used to calculate the SOC:
+SOC(t) = SOC0 − 1
+3600Qcell
+tZ
+0
+I(τ)dτ (5)
+In Equation (5), SOC(t) is the state of charge at timet, SOC0 is the initial state of charge,
+Qcell (Ah) is the rated capacity of a single cell, I(t) (A) is the time-varying discharge current
+during flight, and t (s) is the mission time.
+3. Hybrid Cooling System Struc

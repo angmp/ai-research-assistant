@@ -1,0 +1,6 @@
+ C.C.; Wang, Y.Y. Thermal analysis of lithium-ion batteries. J. Power Sources 2005, 140, 111–124. [CrossRef]
+41. Türkakar, G. Thermal analysis and parametric investigation of phase change material-air cooled lithium ion battery pack. J. Heat
+Transf. 2021, 143, 122901. [CrossRef]
+42. Yin, H.N.; Xuan, Y.M.; Lian, W.L.; Wang, T. A comprehensive set of criteria for evaluating thermal management systems of aerial
+vehicles. Sci. China Technol. Sci. 2023, 66, 2093–2107. [CrossRef]
+43. Beven, K. A sensi

@@ -1,0 +1,7 @@
+w-confidence RUL predictions to high-confidence
+RUL predictions. Before these points of transition, RUL estimates could be treated as
+provisional; after stabilization, the model’s RUL outputs would be of higher reliability.
+Moreover, based on such transitions a BESS operator can implement dynamic derating
+limiting the C-rates to mitigate the aging effects and the possibilities of BESS failures.
+Furthermore, a similar visualization of the Gompertz parameters of all the HUST cells
+illustrated in F

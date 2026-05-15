@@ -1,0 +1,8 @@
+or unseen data, especially 
+when operational conditions signiﬁcantly deviate from the training scenarios. 
+• Convolutional Neural Network 
+CNN is used in lithium ba ttery state estimation research. A typical CNN includes 
+convolutional and pooling layers, fully connect ed layers, and an output layer, as shown 
+in Figure 18. In CNN, neurons in each convolution layer are not connected to every other 
+neuron, unlike in a fully connected network. This is achieved by sliding a ﬁlter across the 
+input

@@ -1,0 +1,9 @@
+l of the hybrid cooling system.
+Figure 25d presents the performance characteristics of the liquid cooling system: its
+temperature control effectiveness slightly surpasses that of the hybrid cooling system, but
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 27 of 37
+constrained by its complex structural design, it shows relatively low module efficiency and
+spatial utilization.
+Figure 25. Comparison diagram of integrated radar: ( a) no cooling radar plot; (b) hybrid cooling
+rada

@@ -1,0 +1,6 @@
+raw HUST data were stored in dictionary format, that dictionary contained three
+nested dictionaries, the first contained data representing the calculated RUL at each battery
+cycle, the second contained the battery capacity after each cycle and the third contained
+data indicating the charging status, cycle number, current in milliamperes, voltage, capacity
+of stored power and the time since the cycle started. To conduct the study in this paper, the
+data was aggregated into a refined dataset. The 

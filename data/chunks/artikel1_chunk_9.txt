@@ -1,0 +1,7 @@
+health estimation; remaining useful life; lithium-ion batteries; lithium
+iron phosphate batteries; LSTM; Gompertz model; hybrid modelling; physics-informed
+machine learning; state of health; state of charge; coulomb counting equation
+1. Introduction
+An ideal power grid can match power supply and power demand by seamlessly bal-
+ancing generation and consumption of power in real time. With the global rise in the use of
+solar and wind sources, renewable and cheap energy is now more accessible. Unfo

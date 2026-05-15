@@ -1,0 +1,8 @@
+accuracy of SOC estimates. Prior studies have examined these
+issues in great depth [ 128].
+4.5. Data Quality
+Large amounts of data are essential for ML state estimate techniques. For them to
+succeed, obtaining high‑quality datasets is also essential.
+First, the accuracy of the data determines how reliable high‑quality datasets are. Usu‑
+ally, advanced battery testing devices with a controller, programmable load, and an inte‑
+grated software system within the host computer are used to gather thes

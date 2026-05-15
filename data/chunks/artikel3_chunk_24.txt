@@ -1,0 +1,11 @@
+ltage- based approach, there are still several draw-
+backs [10], such as internal resistance (R
+0) losses, diﬀusion voltages, and hysteresis among 
+others that impact the accuracy of SOC estimations in ba tteries. The OCV curve may in-
+clude some ﬂat areas, as shown in Figure 2, in which it is challenging to calculate SOC 
+with any degree of accuracy. 
+ 
+Figure 2. Open-circuit voltage curve. 
+Figure 1. Classification of SOC estimation methods.
+2.1. Look‑Up‑Table‑Based SOC Estimation
+This techniq

@@ -1,0 +1,7 @@
+ycle stage results are attributed to
+the high variability behaviours seen in Figures 16 and 17, as well as Figure A1 when the
+SoH is higher than 85–90%. Nevertheless, the Gompertz parameters, the G(x), G′(x) and
+G′′(x) show significant evidence that they can be used to define a transitionary stage from
+where predicted RUL from theG(x) and the LSTMs can be regarded with higher confidence.
+Below 85–90% SoH G(x), G′(x) and G′′(x) were seen to stabilize into smoother curves
+explaining the superior p

@@ -1,0 +1,7 @@
+to provide better results. To improve the accuracy and
+resilience of SOC estimate techniques, for example, more sophisticated filters like EKF,
+UKF, and adaptive UKF are frequently combined with simpler neural network forms like
+BPNN, RBFNN, and ELM. Optimization via UKF and particle filter (PF) is advantageous
+for deep learning algorithms such as DNN, NARXNN, and LSTM. Additionally, the com‑
+bination of other machine learning models, such as CNN with GRU or LSTM, leverages the
+strength of RNN’s

@@ -1,0 +1,6 @@
+th varying unknown in itial SOCs, was used. In all scenarios, 
+the proposed approach is capable of producing accurate results. Particle swarm optimiza-
+tion (PSO) and latent semantic analysis (LSA) optimization techniques were found to im-
+prove NARXNN’s SOC estimation capabilities in a study [73]. Heuristic optimization 
+methods can be used to save time and allow for model performance tweaking. NARXNN 
+alone, as a result of noises, can lead to no isy estimation [74]. To enhance the overall SOC 

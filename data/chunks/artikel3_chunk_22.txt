@@ -1,0 +1,10 @@
+dable SOC estimation of a bat-
+tery. As a result, SOC estimation is done in real-time using various techniques. We have 
+divided these approaches into four groups to compare them in further detail: Figure 1 
+shows this division. 
+ 
+Figure 1. Classiﬁcation of SOC estimation methods. 
+2.1. Look-up-Table-Based SOC Estimation 
+This technique looks up the ba ttery’s terminal voltage on an “SOC versus open-cir-
+cuit voltage (OCV)” curve after monitoring it when it is under load. This technique is 
+bas

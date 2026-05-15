@@ -1,0 +1,6 @@
+is then used to optimize important model parameters, resulting 
+in the establishment of an electrochemical model to represent the electrochemical behav-
+iors of batteries. The electrochemical model demonstrated strong prediction performance, 
+although it required a large amount of co mputing during model simulation, as demon-
+strated by Sung and Shin [30]. Next, to integrate the electrochemical model into the BMS, 
+a model implementation strategy was created. The primary beneﬁt of employing an e

@@ -1,0 +1,6 @@
+Figure 7, the left-hand graph, titled  Kalman ﬁlter in action’, compares the true 
+state of a system (solid line) against th e estimated state provided by the Kalman ﬁlter 
+(dashed line) across iterations. The magenta bounds represent the estimated uncertainty 
+or conﬁdence interval. The right- hand graph, titled Error with bounds’, shows the esti-
+mation error (solid blue line) and its bounds (dashed magenta line), which likely represent 
+the expected range of error, across the same iteration

@@ -1,0 +1,37 @@
+ RUL within the
+inverse Gompertz layer.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 15 of 33
+(a) 
+(b) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 8. (a) The architecture for GILSTM1 and GILSTM2 used in training. (b) The architecture for
+GILSTM1 and GILSTM2 used during inference.
+The GILSTM1 and GILSTM2 models were used to predict the parameters first to
+ensure that the models learnt the physical degradation of the battery’s capacities. Training
+of these mode

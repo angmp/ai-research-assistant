@@ -1,0 +1,6 @@
+
+Runaway Issues in the View of Lithium-Ion Battery Intrinsic Safety Performance and Venting Gas Explosion Hazards. Appl.
+Energy 2023, 349, 121651. [CrossRef]
+10. Li, W.; Wang, H.; Zhang, Y.; Ouyang, M. Flammability Characteristics of the Battery Vent Gas: A Case of NCA and LFP
+Lithium-Ion Batteries during External Heating Abuse. J. Energy Storage 2019, 24, 100775. [CrossRef]
+11. Brand, M.; Gläser, S.; Geder, J.; Menacher, S.; Obpacher, S.; Jossen, A.; Quinger, D. Electrical Safety of Commercial 

@@ -1,0 +1,7 @@
+. hp (J·kg−1) is the sensible enthalpy, and ∆H (J·kg−1) is the latent enthalpy. Cpcm
+(J·kg−1·K−1) is the PCM specific heat capacity, T (K) is the reference temperature, and
+λ (J·kg−1) is the latent heat of phase change. β is the PCM liquid fraction, Ts (K) is the
+solidus temperature, and Tl (K) is the liquidus temperature. For MPCM32D, Ts = 30 ◦C
+and Tl = 32 ◦C. β = 0 denotes a fully solid state, β = 1 denotes a fully liquid state, and
+0 < β < 1 denotes the mushy region.
+3.5. Cooling System Perf

@@ -1,0 +1,7 @@
+ility.
+As indicated by the evolution curve of the PCM liquid fraction in Figure 30, when
+t = 800 s, more than 50% of the PCM latent heat has been consumed, corresponding to
+a liquid fraction of 0.5. This moment can therefore be regarded as a critical transition
+point at which the PCM shifts from a latent-heat-sufficient stage to a thermal storage
+degradation stage. Beyond this point, the heat removal capacity at the convective boundary
+gradually becomes the dominant factor in suppressing tempera

@@ -1,0 +1,10 @@
+pectively.
+Batteries 2025, 11, x FOR PEER REVIEW 22 of 42 
+ 
+where h and l are the number of hidden neurons; fo(·) and fh(·) are activation functions of 
+the output layer and hidden layer, respectively; du and dy represent the input and output 
+delays, respectively; and [b h, bo] and [w ih, wjh, who] are biases and weights between the 
+corresponding layers, respectively. 
+ 
+Figure 19. The structure of the NARXNN [71]. 
+Time-sequence knowledge is enhanced by the prior knowledge of inputs and out-

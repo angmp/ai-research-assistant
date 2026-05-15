@@ -1,0 +1,7 @@
+ing a multifaceted analytical framework.
+Second, prior research has usually used the same kind of battery for both model eval‑
+uation and training. However, the performance of the pretrained ML models frequently
+deteriorates when these models are applied to batteries with differences in their param‑
+eters, such as their capacity or electrode material. Furthermore, collecting fresh training
+data and retraining models for each type of battery is not feasible. There is a need for more
+research to i

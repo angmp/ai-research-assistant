@@ -1,0 +1,7 @@
+nd battery life. Their results provided
+guidance for mission adaptive design. Chai et al. [22] proposed a PCM–immersion hybrid
+cooling strategy. The system kept the battery pack temperature below 48 ◦C from an initial
+temperature of 25 ◦C, with a maximum cell to cell temperature difference of 4.74 ◦C. PCM
+accounted for only 5.32% of the battery pack mass, showing potential for repeated eVTOL
+operation. Zhao et al. [23] integrated a thermoelectric heat exchanger into a liquid cooling
+system. The 

@@ -1,0 +1,8 @@
+rreversible
+chemical reactions tend to occur, leading to accelerated degradation and a significant drop
+in the SoH. Therefore, battery engineers have developed charging and discharging limits to
+properly approximate this SoC based on usage related properties as seen in Table 2.
+One method for approximating SoC that has become very common for continuously
+operating battery systems is the Coulomb Counting (CC) method. The method is simple,
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 

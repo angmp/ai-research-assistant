@@ -1,0 +1,7 @@
+ls
+Considering cost effectiveness and scalability, three thermally conductive materials
+were evaluated: 1060 aluminum alloy, 6063 aluminum alloy, and aluminum nitride (AlN)
+ceramic. The simulations were performed under the same conditions, with an ambient
+temperature of 25 ◦C, an inlet airflow velocity of 1 m/s, and a cell spacing of 1 mm. The eval-
+uation focused on the maximum temperature, temperature uniformity, and system mass.
+As shown in Figures 10 and 11, 1060 aluminum alloy provides good

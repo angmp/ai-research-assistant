@@ -1,0 +1,7 @@
+ng and costly. The e ﬀectiveness of EMs is highly de-
+pendent on the accuracy of the model in reﬂecting actual battery behaviors under various 
+conditions, such as temperature ﬂuctuations and aging e ﬀects. These factors collectively 
+make EMs challenging to implement and maintain, especially for real-time applications. 
+2.3.2. Equivalent Circuit Model 
+The Partnership for a New Generation of  Vehicles (PNGV) model, Rint model, 
+Thevenin model, and the RC model are just a few of the analogous ci

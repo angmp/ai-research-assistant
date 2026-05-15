@@ -1,0 +1,6 @@
+acy. Therefore, advanced battery testing systems are essential for lower‑
+ing measurement noise and offering a solid foundation for model training and validation.
+Furthermore, the volume of data gathered also affects the datasets’ quality. Theoretically,
+expanding the training data can improve the generalization of DL algorithms and reduce
+problems like model overfitting. Since LiBs are affected by their operating environment,
+the quality of training data has a major impact on how well ML algori

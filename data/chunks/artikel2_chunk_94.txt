@@ -1,0 +1,10 @@
+lows:
+SO = VOTMS
+VOtotal
+(26)
+The equation SO is the space occupancy of the cooling system, VOTMS denotes the
+volume occupied by the cooling system, both the actual volume and the volume that cannot
+be occupied by other equipment or components due to the arrangement of the cooling
+system, and VOtotal denotes the total available space in the eVTOL.
+For a better overall comparison, the above evaluation metrics need to be normalized.
+TCM max , STmax and DTmax are based on the operating limits of th

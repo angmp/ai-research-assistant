@@ -1,0 +1,8 @@
+ various aging profiles and
+temperatures in a comparative study referenced in [129]. According to the results, LiFePO4
+batteries have an RMSE of 0.50305% at 25 ◦C, whereas LTO batteries exhibit an RMSE of
+0.7012%. Additionally, the study showed that LiFePO4 batteries deteriorate considerably
+with prolonged cycling, with an RMSE rising to 0.4547% after 1000 cycles, while LTO bat‑
+teries exhibit greater aging resistance, maintaining a constant RMSE of 0.00334% after the
+same number of cycles.
+4.4.

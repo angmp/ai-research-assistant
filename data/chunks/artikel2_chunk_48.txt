@@ -1,0 +1,8 @@
+rying discharge current
+during flight, and t (s) is the mission time.
+3. Hybrid Cooling System Structural Design and Modeling
+3.1. Hybrid Cooling System Structural Design
+As described in Section 2.1, the target battery pack energy for the eVTOL platform is
+66 kWh. The selected lithium-ion pouch cell has a nominal capacity of 45 Ah and a nominal
+voltage of 3.2 V , corresponding to 144 Wh per cell. The main power battery system consists
+of 13 standardized modules. Each module adopts an 18S2P confi

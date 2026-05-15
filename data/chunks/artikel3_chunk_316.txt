@@ -1,0 +1,7 @@
+(CEEMDAN) method. A different study
+created an adaptive adjustable hybrid RBF network that shares most of the characteristics
+of the autoregressive model [ 112]. Brownian motion (BM) and PF update the structural
+parameters, which is the primary benefit of the suggested RBF network. Furthermore, as
+Batteries 2025, 11, 32 30 of 42
+an input feature, the Kullback–Leibler distance was calculated using a continuous hidden
+Markov model (CHMM) and a kernel density estimation (KDE) technique. In the Nati

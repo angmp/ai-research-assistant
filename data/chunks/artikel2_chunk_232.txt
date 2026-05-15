@@ -1,0 +1,6 @@
+ulation of cooling plate effect on a battery
+module with different channel arrangement. J. Energy Storage 2022, 49, 104113. [CrossRef]
+11. Qian, Z.; Li, Y.; Rao, Z. Thermal performance of lithium-ion battery thermal management system by using mini-channel cooling.
+Energy Convers. Manag. 2016, 126, 622–631. [CrossRef]
+12. Heyhat, M.M.; Mousavi, S.; Siavashi, M. Battery thermal management with thermal energy storage composites of PCM, metal
+foam, fin and nanoparticle. J. Energy Storage 2020, 28, 1

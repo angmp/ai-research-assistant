@@ -1,0 +1,5 @@
+ S.; Lu, Z.; Gui, X.; Xu, W.; Bian, J. Accurate Battery Lifetime Prediction across Diverse Aging Conditions
+with Deep Learning. arXiv 2023, arXiv:2310.05052. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions o

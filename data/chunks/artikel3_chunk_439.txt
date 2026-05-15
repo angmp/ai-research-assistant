@@ -1,0 +1,6 @@
+ven method based on particle swarm optimization and
+k‑nearest neighbor regression for estimating capacity of lithium‑ion battery. Appl. Energy 2014, 129, 49–55. [ CrossRef]
+Batteries 2025, 11, 32 41 of 42
+107. Liu, D.; Zhou, J.; Liao, H.; Peng, Y.; Peng, X. A health indicator extraction and optimization framework for lithium‑ion battery
+degradation modeling and prognostics. IEEE Trans. Syst. Man Cybern. Syst. 2015, 45, 915–928. [ CrossRef]
+108. Klass, V.; Behm, M.; Lindbergh, G. A support vector

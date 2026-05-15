@@ -1,0 +1,8 @@
+very step of each type’s operation. Comprehensive information about up‑to‑date
+SOC estimation techniques and difficulties is succinctly explained in Section2. In Section 3,
+the techniques and difficulties associated with SOH techniques for battery packs are dis‑
+cussed. Section 4 discusses the key challenges faced in battery state estimation. Section 5
+present the conclusion and recommendations.
+Batteries 2025, 11, 32 3 of 42
+2. SOC Estimation
+As stated in the beginning, a battery management sys

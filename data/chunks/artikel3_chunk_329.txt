@@ -1,0 +1,6 @@
+ithium‑ion battery (LIB) pack found in electric vehicles (EVs). Be‑
+cause each cell’s state of charge (SOC) varies due to physical changes from repeated cy‑
+cles of charging and discharging, monitoring and measuring SOC across these packs is
+extremely difficult. SOC variations are caused by constraints in manufacturing methods,
+material faults, and different operating conditions, which all affect cell performance in
+terms of capacity and aging. The LIB’s overall safety systems may be impacted by

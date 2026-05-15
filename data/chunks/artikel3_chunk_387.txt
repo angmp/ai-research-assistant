@@ -1,0 +1,6 @@
+approach. Energies 2012, 5, 1455–1469. [ CrossRef]
+4. Xing, Y.; Ma, E.W.M.; Tsui, K.L.; Pecht, M. Battery management systems in electric and hybrid vehicles. Energies 2011, 4,
+1840–1857. [ CrossRef]
+5. Lillehei, C.; Cruz, A.B.; Johnsrude, I.; Sellers, R.D. A new method of assessing the state of charge of implanted cardiac pacemaker
+batteries. Am. J. Cardiol. 1965, 16, 717–721. [ CrossRef]
+6. Hannan, M.A.; Lipu, M.S.H.; Hussain, A.; Mohamed, A. A review of lithium‑ion battery state of charge esti

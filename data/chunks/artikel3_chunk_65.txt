@@ -1,0 +1,7 @@
+ere u k, w k, and v k are a measured input, process random, and sensor random input,
+respectively. We note that f (.) and h (.) are time‑varying. Estimating the present state
+xk of a dynamic system using Yk = {y0, y1 . . . yk}, we can “peep” at what is going on
+Batteries 2025, 11, 32 7 of 42
+in the actual system thanks to the observations. We estimate the state based on our model
+and observations, but randomness in process noise and sensor noise prevents us from ever
+being able to calculate the 

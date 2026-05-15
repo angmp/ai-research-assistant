@@ -1,0 +1,6 @@
+mportance akin to that of a fuel gauge in traditional vehi‑
+cles, and addresses the challenges in accurately determining SOC given the intricate elec‑
+trochemical nature of batteries. It also discusses the imperative of SOH estimation, a less
+defined but critical parameter reflecting battery health and longevity. The review presents
+a comprehensive taxonomy of current SOC estimation methods in EVs, detailing the op‑
+eration of each type and succinctly discussing the advantages and disadvantages 

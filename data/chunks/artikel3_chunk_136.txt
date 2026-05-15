@@ -1,0 +1,8 @@
+e simpler reduced-order models produced by this method 
+have some information loss, but they are still preferable for real-time battery applications. 
+Reduced-order models have signi ﬁcantly smaller computing overheads, and the meas-
+ured current and voltage signals can be used to determine the corresponding parameters. 
+ 
+Figure 8. Typical battery cell cross-sectional view. 
+Figure 8. Typical battery cell cross‑sectional view.
+By resolving the five connected continuum‑scale partial differential

@@ -1,0 +1,7 @@
+l height and liquid cooling plate
+thickness were varied to evaluate their effects on temperature control performance and
+system mass. A new liquid cooling comparison scheme was then determined. This
+scheme was used for subsequent comparison of structural mass among different cooling
+configurations under similar temperature control levels.
+The system mass considered in this analysis includes the cooling plates, liquid cool-
+ing channels, coolant, and local cooling structures inside the module. Ex

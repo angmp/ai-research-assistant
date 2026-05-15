@@ -1,0 +1,6 @@
+mmercial lithium‑
+ion batteries using support vector regression: A parametric study. Energies 2018, 11, 2323. [ CrossRef]
+119. Guo, Y.; Huang, K.; Hu, X. A state‑of‑health estimation method of lithium‑ion batteries based on multi‑feature extracted from
+constant current charging curve. J. Energy Storage 2021, 36, 102372. [ CrossRef]
+120. Widodo, A.; Shim, M.‑C.; Caesarendra, W.; Yang, B.‑S. Intelligent prognostics for battery health monitoring based on sample
+entropy. Expert Syst. Appl. 2011, 38,

@@ -1,0 +1,7 @@
+ng risk and long-term aging acceleration. Thermal
+inconsistency also aggravates cell-to-cell performance divergence.
+Previous studies have shown that prolonged exposure to high temperature accelerates
+capacity fading and internal resistance growth in lithium-ion batteries [ 44]. The main
+mechanisms include continuous solid electrolyte interphase growth, structural degradation
+of active materials, and electrolyte decomposition. Large temperature gradients also cause
+non-uniform aging among cells,

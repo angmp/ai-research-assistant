@@ -1,0 +1,8 @@
+r no cooling conditions, which cannot
+satisfy the thermal safety requirements of eVTOL battery systems. The spatial temperature
+distributions in Figure 16a,b further show that high-temperature regions are concentrated
+near the cell center. Clear temperature gradients appear in the surrounding regions. This
+phenomenon reflects insufficient heat dissipation paths and delayed thermal diffusion
+within the module.
+Under the high thermal load of eVTOL operation, the absence of a cooling system
+causes 

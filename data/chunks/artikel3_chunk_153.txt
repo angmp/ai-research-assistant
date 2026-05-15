@@ -1,0 +1,7 @@
+s can be di ﬃcult to obtain 
+accurately. Additionally, EMs need extensive experimental data for calibration and vali-
+dation, which can be time-consuming and costly. The e ﬀectiveness of EMs is highly de-
+pendent on the accuracy of the model in reﬂecting actual battery behaviors under various 
+conditions, such as temperature ﬂuctuations and aging e ﬀects. These factors collectively 
+make EMs challenging to implement and maintain, especially for real-time applications. 
+2.3.2. Equivalent Circuit 

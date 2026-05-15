@@ -1,0 +1,19 @@
+uation:
+∇ · u = 0 (10)
+The momentum conservation equation can be written as
+ρair
+ ∂u
+∂t + u · ∇u
+
+= −∇p + ∇
+h
+(µ air + µ t)
+
+∇u + ∇uT
+i
+(11)
+In Equations (10) and (11), u (m·s−1) is the air velocity vector, p (Pa) is pressure, ρair
+(kg·m−3) is the air density, µ air (Pa·s) is the dynamic viscosity of air, and µ t (Pa·s) is the
+turbulent eddy viscosity. For the laminar cases, µ t = 0. For the 4 and 5 m ·s−1 cases, µ t is
+obtained from the SST k-ω turbulence model.
+The transport equations of t

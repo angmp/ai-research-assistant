@@ -1,0 +1,51 @@
+ are repre‑
+sented by U Th. The current that exits C Th is denoted as I Th. Equations (53) and (54) can be
+used to express the Thevenin model’s electrical behavior.
+.
+UTh = − UTh
+RTh CTh
++ IL
+CTh
+(53)
+UL = UOC − UTh − ILRO (54)
+Batteries 2025, 11, x FOR PEER REVIEW 15 of 42 
+ 
+ቈ𝑈௕ሶ
+𝑈௖ሶ቉=  
+⎣
+⎢
+⎢
+⎡ −1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௖ (𝑅௘+ 𝑅 ௖)
+−1
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+൤𝑈௕
+𝑈௖
+൨+  
+⎣
+⎢
+⎢
+⎡ −𝑅௖
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+−𝑅௘
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+[𝐼௅] (51)
+[𝑈௅] = ቂ
+ோ೎
+(ோ೐ା ோ೎)
+ோ೐
+(ோ೐ା ோ೎)ቃ൤𝑈௕
+𝑈௖
+൨+  ቂ − 𝑅௧−
+ோ೐ோ೎
+(ோ೐ା

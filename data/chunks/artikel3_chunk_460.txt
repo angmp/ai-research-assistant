@@ -1,0 +1,6 @@
+.; Chen, J.; Zhang, Z.; Miao, S.; Zhu, Q. State‑of‑charge estimation of lithium‑ion battery based on clockwork recurrent
+neural network. Energy 2021, 236, 121360. [ CrossRef]
+146. Yang, F.; Song, X.; Xu, F.; Tsui, K.‑L. State‑of‑charge estimation of lithium‑ion batteries via long short‑term memory network.
+IEEE Access 2019, 7, 53792–53799. [ CrossRef]
+147. Bhattacharjee, A.; Verma, A.; Mishra, S.; Saha, T.K. Estimating state of charge for xEV batteries using 1D convolutional neural
+networks and 

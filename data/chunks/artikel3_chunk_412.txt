@@ -1,0 +1,7 @@
+ddin, M.N. Extreme learning machine model for state‑of‑
+charge estimation of lithium‑ion battery using gravitational search algorithm. IEEE Trans. Ind. Appl. 2019, 55, 4225–4234.
+[CrossRef]
+55. Hu, X.; Li, S.E.; Yang, Y. Advanced machine learning approach for lithium‑ion battery state estimation in ELECTRIC VEHICLES.
+IEEE Trans. Transp. Electrif. 2015, 2, 140–149. [ CrossRef]
+56. Giger, M.L. Machine learning in medical imaging. J. Amer. Coll. Radiol. 2018, 15, 512–520. [ CrossRef]
+57. Chatzis, S

@@ -1,0 +1,7 @@
+he baseline Gompertz fit. The second method was testing the Gompertz
+model’s real time RUL estimation performance from cycle 1 to cycle N where N ranged from
+value 2 to value 2689 (the longest cell lifespan of any of the HUST cells). For the second
+method, G−1(y), Equation (4), was also used. This method is referred to as Real-Time
+Gompertz Testing. Data analysis was conducted to explore the relationship between the
+Gompertz parameters k, a, and b, and the battery RULs.
+A. Baseline Gompertz Fit

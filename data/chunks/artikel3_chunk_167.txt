@@ -1,0 +1,11 @@
+2) represent the electrical behavior of the RC model 
+circuit. 
+ 
+Figure 11. Schematic diagram of the RC model. 
+• The Thevenin Model 
+The Thevenin Model is primarily made up of three components, as seen in Figure 12: 
+equivalent capacitances, internal resistances, and open-circuit voltage (U OC). Ro and R Th 
+are examples of internal resistances. The transient response while charging and discharg-
+ing is expressed in terms of the equivalent capacitance, or C
+Th. CTh voltages are represented 
+by

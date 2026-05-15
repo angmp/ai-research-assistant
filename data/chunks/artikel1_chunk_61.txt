@@ -1,0 +1,16 @@
+he curve;
+• b controls the rate of capacity degradation.
+The model parameters (k, a, b) are estimated using non-linear least squares optimiza-
+tion. Equation (3) can be rearranged to Equation (4) to solve for x (cycles) given a specific
+target SoH ( ˆy), facilitating the inverse mapping strategy described in Figure 2. The inverse
+Gompertz function will be referred to as G−1(y).
+G−1(y) = x =
+a − ln
+
+ln
+
+k
+y
+
+b (4)
+Furthermore, to ensure the neural network adheres to physical degradation laws,

@@ -1,0 +1,6 @@
+in, S.; Feng, Z. A Novel Model of the Initial State of Charge Estimation for LiFePO4 Batteries. J. Power
+Sources 2014, 248, 1028–1033. [CrossRef]
+15. Feng, F.; Lu, R.; Zhu, C. A Combined State of Charge Estimation Method for Lithium-Ion Batteries Used in a Wide Ambient
+Temperature Range. Energies 2014, 7, 3004–3032. [CrossRef]
+16. Gailani, A.; Mokidm, R.; El-Dalahmeh, M.; El-Dalahmeh, M.; Al-Greer, M. Analysis of Lithium-Ion Battery Cells Degradation
+Based on Different Manufacturers. In 2020 55t

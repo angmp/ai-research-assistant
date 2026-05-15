@@ -1,0 +1,7 @@
+ude crucial decision‑making elements for power distribution and energy management
+for vehicles [2,3].
+The percentage of a battery’s maximum possible capacity that remains is known as its
+state of charge or SOC. Battery SOC performs a function akin to that of a gasoline‑powered
+vehicle’s fuel gauge, indicating the remaining energy in a battery that powers an electric
+vehicle. Precise calculation of the battery, in addition to offering information about the bat‑
+tery’s current energy and capacity,

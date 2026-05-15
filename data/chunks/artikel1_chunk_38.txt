@@ -1,0 +1,6 @@
+ing below the minimum discharge voltage limit can result in over-
+discharge, leading to irreversible chemical changes that degrade the battery’s capacity
+and potentially render the cell unusable. Higher speeds of discharging/charging of the
+cells relative to the nominal capacity (C-rate) may increase internal resistance and thermal
+stress, leading to faster degradation. Studies show capacity fade correlates with cycles,
+temperature, and depth of discharge [16]. Proper estimation of SoC is usuall

@@ -1,0 +1,21 @@
+𝑅 ௖)
+−𝑅௘
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+[𝐼௅] (51)
+[𝑈௅] = ቂ
+ோ೎
+(ோ೐ା ோ೎)
+ோ೐
+(ோ೐ା ோ೎)ቃ൤𝑈௕
+𝑈௖
+൨+  ቂ − 𝑅௧−
+ோ೐ோ೎
+(ோ೐ା ோ೎)ቃ [𝐼௅] (52)
+This model is made up of three resistors (R t, Re, Rc) and two capacitors (C c, Cb), as 
+seen in Figure 11. The capacitor C c, termed the surface capacitor, has a tiny capacitance 
+and mostly depicts a ba ttery’s surface e ﬀects, while Cb is the bulk capacitor. A ba ttery’s 
+ability to hold charge chemically is a result of its large capacitance, which is what bulk 
+capacitors are k

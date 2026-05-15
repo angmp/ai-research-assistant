@@ -1,0 +1,8 @@
+ of 1 mm as reference, with the thermal material
+set as 6063 aluminum alloy and the inlet airflow velocity at 3 m/s, the variations in a, b,
+and system weight m are recorded.
+Thermal conductivity: using the thermal conductivity of 6063 aluminum alloy as the
+reference, with the cell spacing fixed at 1 mm and the inlet airflow velocity at 3 m/s, the
+variations in a, b, and system weight m are recorded.
+Inlet airflow velocity: using the optimal value of 3 m/s as the reference, with the cell
+spacing

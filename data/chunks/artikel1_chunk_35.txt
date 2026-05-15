@@ -1,0 +1,11 @@
+inal capacity of the battery/cell when it is new. Ibat is the battery current,
+t0 is the initial time and t is the time when charging or discharging occurs. This equation
+simply calculates the area under the curve of current over time.
+SoC(t) = SoC (t0) + 100%
+Crated
+Z t0+t
+t0
+Ibat (τ)dτ (1)
+The coulomb counting equation does not directly address battery decay; thus, it
+can be erroneous due to long-term drift of the battery capacity from the rated capac-
+ity [21]. Enhanced coulomb counting metho

@@ -1,0 +1,8 @@
+ts in the GILSTM later. The parameters were used
+to calculate the exact point of intersection with the failure threshold by using G−1(y),
+Equation (4), where y = 0.7, resulting in predicted RUL values.
+B. Real-Time Gompertz Testing
+In practice, the complete SoH curves are not known if the cell has not reached its RUL,
+the curves need to be approximated from the known values of SoH. Each cell would have
+SoH values ranging from cycle 1 to cycle N where N ranged from value 2 to value 2689 (the
+long

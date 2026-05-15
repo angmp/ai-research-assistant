@@ -1,0 +1,16 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 26. Performance results under different ambient temperatures.
+At 15 ◦C, heat regulation mainly depends on lateral heat spreading through the high-
+thermal-conductivity plate and sensible heat absorption by solid PCM. Only limited phase
+change occurs in the later stage. The maximum temperature is 30.6 ◦C, and the final
+PCM liquid fraction is 0.18. At 20 ◦C, the PCM enters the phase-change range during
+takeoff hover and the middle-to-late cruise stage. The liquid fractio

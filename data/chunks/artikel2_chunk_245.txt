@@ -1,0 +1,6 @@
+[CrossRef]
+36. Cheng, Z.; Koh, Y.R.; Mamun, A.; Shi, J.; Bai, T.; Huynh, K.; Yates, L.; Liu, Z.; Li, R.; Lee, E.; et al. Experimental observation of
+high intrinsic thermal conductivity of AlN. Phys. Rev. Mater. 2020, 4, 044602. [CrossRef]
+37. Peng, G.; Dou, G.; Hu, Y.; Sun, Y.; Chen, Z. Phase change material (PCM) microcapsules for thermal energy storage.Adv. Polym.
+Technol. 2020, 2020, 9490873. [CrossRef]
+38. Bernardi, D.; Pawlikowski, E.; Newman, J. A general energy balance for battery systems

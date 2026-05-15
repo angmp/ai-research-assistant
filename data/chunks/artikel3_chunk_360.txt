@@ -1,0 +1,7 @@
+diately entering raw data, such as current,
+voltage, and time, into the model without any preprocessing. This resulted in a minimal
+computing demand and resulting estimates with an RMSE of less than 1.3%. Another study
+evaluated the classifier against decision trees and RF using time‑related variables collected
+from charge–discharge cycles [ 141]. The results showed that RF performed better than
+other models in general because of its thorough approach to battery capacity estimation.
+4.8. Evaluat

@@ -1,0 +1,20 @@
+, voltage, capacity, and temperature. It is stated that
+the average percentage inaccuracy is merely 0.53%. Figure 21 shows the ANFIS structure
+with five computations for its SOC estimation. The five‑stage ANFIS configuration’s math‑
+ematical representations are given in Equations (63)–(70).
+µ A = 1
+1 +
+ x−ci
+ai
+2bi
+(63)
+{Q2,1 = w1 = µ A2(x) µ B1(y) (64)
+{Q2,2 = w2 = µ A2(x) µ B2(y) (65)
+Q3,1 = w1 = w1
+w1 + w2
+(66)
+Q3,2 = w2 = w2
+w1 + w2
+(67)
+Q4,1 = w1 f1 = w1(p1x1 + q1y1 + r1) (68)
+Q4,2 = 

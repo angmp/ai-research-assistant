@@ -1,0 +1,12 @@
+s12050170
+Batteries 2026, 12, 170 13 of 37
+The equation TCM is the temperature control margin, Tlimit a is the upper limit of
+the permissible temperature of the battery,Ttr is the transient temperature, trunning is the
+running time.
+Temperature stability is the standard deviation of the maximum temperature, reflecting
+temperature fluctuations and evaluating the ability of the cooling system to control the
+battery temperature. Temperature control stability can be expressed as:
+ST =
+vuuut
+R t1
+t0

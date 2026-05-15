@@ -1,0 +1,7 @@
+d correspondingly, based on the features and
+accuracy of each method. The initial state‑of‑charge estimation is the primary application
+for the ampere‑hour (Ah) integral approach. However, as test times increase, the accuracy
+of this method declines due to the continual changes in internal resistance caused by var‑
+ious factors. Although the discharge test method is quite precise, it can only be used in a
+laboratory setting and is not appropriate for use on actual automobiles.
+2.3. Model‑Based S

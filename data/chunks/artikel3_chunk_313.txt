@@ -1,0 +1,7 @@
+t al.
+worked diligently to gather datasets from comprehensive dynamic driving profiles over
+more than a year at different temperatures [ 109]. A BPNN‑based SOH estimate method
+was then trained using temperature, current, and voltage. In a different study, eight com‑
+mercial 15‑Ah lithium batteries provided the data needed for training and verifying a back‑
+propagation NN SOH model [ 110]. The impact of completely charged or discharged tem‑
+peratures (e.g., 25 ◦C, 45 ◦C) on calendar life was thor

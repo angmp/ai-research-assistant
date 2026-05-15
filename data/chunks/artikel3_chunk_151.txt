@@ -1,0 +1,11 @@
+d Equation (50). U OC, which is the voltage
+when the circuit is opened, and resistance Ro are both influenced by temperature, SOC,
+and SOH. Terminal voltage (U L) is equal to load current (I L), which has a positive value
+when charging and a negative value when discharging.
+UL = UOC − ILR0 (50)
+Batteries 2025, 11, x FOR PEER REVIEW 14 of 42 
+ 
+ 
+Figure 9. The DRA-produced ROM [40]. 
+The challenges and limitations of electrochemical model (EM) methods in state of 
+charge (SOC) estimation primaril

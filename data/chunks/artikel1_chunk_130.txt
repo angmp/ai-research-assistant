@@ -1,0 +1,8 @@
+
+BatteryML “Discharge” Model (best) on HUST dataset [40] 322 (17.08%) Not Applicable
+BatteryML LSTM Model on HUST dataset [40] 443 (23.5%) Not Applicable
+BatteryML Transformer Model on HUST dataset [40] 391 (20.74%) Not Applicable
+BatLiNet Model on HUST dataset [51] 264 (14%) Not Applicable
+In Table 6, there is presented the performance of the developed models compared to
+the various baseline models. The baseline “Discharge” model used linear regression on
+capacity-voltage curves [51] whereas th

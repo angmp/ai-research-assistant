@@ -1,0 +1,7 @@
+n to renewable, decarbonized energy systems. These advantages of
+LiBs would be of benefit to power grids, especially regarding reducing SAIDI, integration
+of wind and solar energies, massively reducing the amount of grid energy that is curtailed
+and playing as a substitute to expensive fossil fuel power plants.
+2.2. Characteristics of LFP Batteries
+Lithium iron phosphate batteries (LFPs) are a safer and a more thermally stable
+variant of lithium ion batteries, known for their lower risk of therm

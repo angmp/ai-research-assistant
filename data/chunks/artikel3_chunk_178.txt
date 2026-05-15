@@ -1,0 +1,17 @@
+ that models the variable open-circuit voltage behavior under load conditions. 
+The electrical behavior of the PNGV model can be expressed by Equation (56): 
+𝑈ௗሶ= 𝑈 ை஼
+ᇱሶ  𝐼௅ (55)
+𝑈௉ேሶ= 𝑈௉ே
+𝑅௉ே𝐶௉ே
+ሶ
++ 𝐼௅
+𝐶௉ே
+ (56)
+𝑈௅= 𝑈 ை஼− 𝑈 ௗ− 𝑈 ௉ே− 𝐼 ௅𝑅଴ (57)
+ 
+Figure 13. PNGV model. 
+• The Dual Polarization (DP) Framework 
+The test framework shows that polarization is one of a lithium-ion battery’s proper-
+ties. The Thevenin model might replicate the po larization characteristic to some extent, 
+but in the ﬁ

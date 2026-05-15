@@ -1,0 +1,18 @@
+ny
+consecutive 100 cycles
+Output Layer Directly predicts Gompertz
+parameters k, a and b
+Directly predicts Gompertz
+parameters k, a and b
+Predicts next-cycle State of
+Health (SoH) until SoH
+≤0.7
+Training Data Scope First 100 cycles only All available cycles All available cycles
+Physics Integration Inverse Gompertz layer
+used during inference
+Inverse Gompertz layer
+used during inference
+G(x) is fitted to the recursively
+predicted SoH curve
+RUL Calculation Calculated from predicted
+k, a and b via E

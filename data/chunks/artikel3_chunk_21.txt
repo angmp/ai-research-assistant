@@ -1,0 +1,9 @@
+ded these approaches into four groups to compare them in further detail: Figure 1
+shows this division.
+Batteries 2025, 11, x FOR PEER REVIEW 3 of 42 
+ 
+2. SOC Estimation 
+As stated in the beginning, a battery management system’s determination of its SOC 
+is always a crucial component. The optimal design of the control system and vehicle en-
+ergy management can be facilitated by a precise and dependable SOC estimation of a bat-
+tery. As a result, SOC estimation is done in real-time using various 

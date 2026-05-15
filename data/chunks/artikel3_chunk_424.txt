@@ -1,0 +1,7 @@
+ recurrent neural
+network and moving window method. IEEE Access 2021, 9, 83364–83375. [ CrossRef]
+77. Vapnik, V. The Support Vector Method of Function Estimation. In Nonlinear Modeling; Springer: Boston, MA, USA, 1998; pp. 55–
+85. [ CrossRef]
+78. Fletcher, T. Support vector machines explained. Tutor. Pap. 2009, 1118, 1–19. Available online: http://sutikno.blog.undip.ac.id/
+files/2011/11/SVM‑Explained.pdf (accessed on 12 January 2025).
+79. Antón, J.C.; Nieto, P.J.G.; Viejo, C.B.; Vilán, J.A.V. Su

@@ -1,0 +1,7 @@
+ging Strategy
+Recent years have seen a significant increase in interest in the charging procedures
+for LIBs in EVs. Since EVs do not yet have sophisticated fast‑charging technologies, the
+delayed charging procedure could be a deterrent to wider adoption. On the other hand,
+quick charging techniques that raise the charging current might cause a lot of heat to be pro‑
+duced, which will shorten the battery’s lifespan. It is difficult to create a charging method
+that strikes a compromise between bat

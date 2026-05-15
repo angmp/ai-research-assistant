@@ -1,0 +1,7 @@
+the
+Huazhong University of Science and Technology (HUST) battery dataset [42]. The HUST
+battery dataset was downloaded directly from Mendeley data. The raw HUST dataset
+comprises of charging and discharging data from 77 LFP cells, each with a nominal capacity
+of 1.1 Ah. From the data, all cells were cycled using a standardized charging protocol, with
+different multistage discharge protocols applied to the cells at a constant temperature of
+30 ◦C to ensure thermal consistency across the dataset. 

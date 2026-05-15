@@ -1,0 +1,21 @@
+bh +
+du
+∑
+i=0
+wih x(n − i) +
+dy
+∑
+j=0
+wjhy(n − j)
+1
+A
+3
+5 (61)
+Batteries 2025, 11, 32 23 of 42
+where h and l are the number of hidden neurons; f o(·) and f h(·) are activation functions of
+the output layer and hidden layer, respectively; d u and dy represent the input and output
+delays, respectively; and [b h, b o] and [w ih, w jh, w ho] are biases and weights between the
+corresponding layers, respectively.
+Batteries 2025, 11, x FOR PEER REVIEW 22 of 42 
+ 
+where h and l are the number of hidden 

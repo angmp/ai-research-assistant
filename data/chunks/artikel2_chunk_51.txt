@@ -1,0 +1,8 @@
+].
+Figure 2 shows a schematic diagram of the hybrid cooling system structure; the pro-
+posed hybrid cooling system integrates battery cells, PCM layers, high-thermal-conductivity
+plates, and air-cooling channels into a unified structure. High-thermal-conductivity plates
+are inserted between adjacent cells. Cell spacing directly determines the plate thickness [32].
+These plates provide lateral heat spreading and reduce local heat accumulation inside the
+https://doi.org/10.3390/batteries12050170
+B

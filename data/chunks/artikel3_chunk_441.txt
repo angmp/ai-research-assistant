@@ -1,0 +1,5 @@
+16, 176, 92–103. [ CrossRef]
+110. Kashkooli, A.G.; Fathiannasab, H.; Mao, Z.; Chen, Z. Application of artificial intelligence to state‑of‑charge and state‑of‑health
+estimation of calendar‑aged lithium‑ion pouch cells. J. Electrochem. Soc. 2019, 166, A605–A615. [ CrossRef]
+111. Mao, L.; Hu, H.; Chen, J.; Zhao, J.; Qu, K.; Jiang, L. Online state‑of‑health estimation method for lithium‑ion battery based on
+CEEMDAN for feature analysis and RBF neural network. IEEE J. Emerg. Sel. Top. Power Electron.

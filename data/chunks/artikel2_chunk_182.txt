@@ -1,0 +1,7 @@
+Overall, the proposed hybrid cooling system shows good adaptability at 30 ◦C. At this
+temperature, the PCM latent heat can be effectively activated, although it is nearly depleted
+near the end of the mission.
+4.4.2. Effect of Cruise Duration
+Although the discharge rate during cruise is lower than that during takeoff and
+landing hover, the cruise phase has the longest duration. Therefore, it strongly affects the
+PCM latent heat consumption and SOC variation during the mission. In this study, the

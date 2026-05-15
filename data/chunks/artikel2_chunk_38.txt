@@ -1,0 +1,6 @@
+(N·m−2) is the disk loading. ρair (kg·m−3) is the air density, and ρair = 1.225 kg·m−3. ηh,
+ηi and η are the hover efficiency, battery pack integration efficiency, and propulsion-system
+efficiency, respectively [30]. ROC (m·s−1) and ROD (m·s−1) denote the rate of climb and
+the rate of descent, respectively. Scl (m·s−1), Scr (m·s−1), and Sde (m·s−1) are the horizontal
+flight speeds during climb, cruise, and descent, respectively. (L/D)cl, (L/D)cr, and (L/D)de
+are the lift-to-drag ratios in the cl

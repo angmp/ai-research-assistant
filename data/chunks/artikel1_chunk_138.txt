@@ -1,0 +1,8 @@
+rthermore, a similar visualization of the Gompertz parameters of all the HUST cells
+illustrated in Figure 17, shows that all the cells’ Gompertz parameters evolve and stabilize
+by the 85% SoH point.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 25 of 33
+Figure 17. The Evolution of Gompertz parameters with SoH for all HUST cells.
+The stabilization of Gompertz parameters on Figures 17 and A1 allows for a BESS op-
+erator to pre-emptively isolate or replace specific batteries tha

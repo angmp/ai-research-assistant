@@ -1,0 +1,7 @@
+els. By 
+accurately representing battery concentration, electrode potential, and Butler–Volmer ki-
+netics, the electrochemical model can simulate the complex interplay of chemical and elec-
+trical processes that occurs within the battery during intercalation. This enables better con-
+trol and regulation of the battery’s performance and lifespan [29]. The particle swarm op-
+timization (PSO) method is then used to optimize important model parameters, resulting 
+in the establishment of an electroch

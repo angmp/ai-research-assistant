@@ -1,0 +1,37 @@
+re 57.4%, 45.1%, and 32.6%, respectively.
+As shown in Figure 27, the maximum temperature, maximum temperature difference,
+and PCM liquid fraction all increase as the cruise duration increases from 800 s to 1600 s.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 30 of 37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 27. Performance results under different cruise durations.
+When the cruise duration is 800 s, the total mission time is short, and the final SOC 

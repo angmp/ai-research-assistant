@@ -1,0 +1,7 @@
+eld.
+For SOC estimation, a dynamic neural network model based on the NARX structure was
+proposed [72]. An actual dataset of driving cycles of an electric vehicle, obtained from 54
+different 800 km trips with varying unknown initial SOCs, was used. In all scenarios, the
+proposed approach is capable of producing accurate results. Particle swarm optimization
+(PSO) and latent semantic analysis (LSA) optimization techniques were found to improve
+NARXNN’s SOC estimation capabilities in a study [ 73]. 

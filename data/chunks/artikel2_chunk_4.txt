@@ -1,0 +1,6 @@
+, and phase-change material (PCM). The power demand in different eVTOL flight
+phases is first analyzed. A single-cell simulation model is then developed and validated
+through experiments. The effects of three key structural parameters on system performance
+are investigated, and their relative importance is quantified using sensitivity analysis. A
+multi-objective evaluation framework is further established to compare the proposed sys-
+tem with no cooling, passive cooling, and liquid cooling strat

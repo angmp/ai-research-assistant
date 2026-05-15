@@ -1,0 +1,7 @@
+lectric grids. Issues
+regarding power grid reliability will be exacerbated with the installation of data centers
+which are very sensitive to shifts in power grid frequency and can cause catastrophic
+blackouts [4–6]. Lithium iron phosphate battery-based BESS play a crucial role in storing
+excess energy and dispatching it when needed, energy arbitrage and providing support to
+maintaining the frequency of power grids [7].
+However, these batteries degrade over time and can cause unintended failures 

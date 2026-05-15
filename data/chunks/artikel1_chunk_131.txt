@@ -1,0 +1,7 @@
+ls. The baseline “Discharge” model used linear regression on
+capacity-voltage curves [51] whereas the BatLiNet model uses an Encoder–Decoder neural
+network with embedding spaces to achieve superior performance. The models developed
+in this study were also tested on RMSE per cycle resulting in Figure 14.
+The relationship between SoH, G(x), G′(x) and G′′(x) was also investigated for all
+cells and is shown in Figure A1. The performance failures ofG(x) in the early cycles (before
+cycle 500) can be a

@@ -1,0 +1,8 @@
+put space.
+As a result, one of SVM’s benefits is to permit linear separation. The basic tenets of
+SVM theory can be found in references [ 77,78].
+Batteries 2025, 11, 32 24 of 42
+Let us choose a training dataset D = {(xi, yi) , i = 1, . . . , L} where xi and y i repre‑
+sent the input and output vector, respectively; the support vector machine is defined as:
+f (xi) = W T. ϕ(xi) + b, w ∈ Rn, xi ∈ Rm, b ∈ R (62)
+where b and W are the parameters to be determined; φ(·) is a mapping function; and (Rm)

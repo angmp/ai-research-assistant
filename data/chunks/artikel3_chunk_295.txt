@@ -1,0 +1,20 @@
+ief
+Networks
+Voltage, Current,
+Temperature SOC R², MSE, MAE Layers, LR, Epochs Multivariate
+time series
+Convolutional
+NN
+Voltage, Current,
+Temperature SOC Accuracy, Precision,
+Recall Filters, Kernel Size Image,
+Sequential data
+k‑NN Voltage, Current,
+Temperature SOC Accuracy, RMSE,
+Precision Number of Neighbors Cycles, Driving
+conditions
+Decision Trees Voltage, Current,
+Temperature SOC Accuracy, R², RMSE Depth, Min Samples Cycles, Varied
+temps
+3. SOH Estimation
+Battery SOH is a performance metric

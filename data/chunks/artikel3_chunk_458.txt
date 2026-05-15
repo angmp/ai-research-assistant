@@ -1,0 +1,6 @@
+. Appl. Energy 2018, 232, 197–210. [ CrossRef]
+141. Xu, H.; Peng, Y.; Su, L. Health state estimation method of lithium ion battery based on NASA experimental data set. IOP Conf.
+Ser. Mater. Sci. Eng. 2018, 452, 032067. [ CrossRef]
+142. Kollmeyer, P. Panasonic 18650PF li‑ion battery data. In Mendeley Data ; Elsevier Inc: Amsterdam, The Netherlands, 2018; Vol‑
+ume 1. [ CrossRef]
+143. Naguib, M.; Kollmeyer, P.; Skells, M. LG 18650hg2 li‑ion battery data and example deep neural network xEV SOC estim

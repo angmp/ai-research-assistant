@@ -1,0 +1,8 @@
+ameters, SoH and RUL, are
+closely related and are both critical in battery management systems (BMS) for ensuring safe
+operation, optimizing performance, and planning timely replacements in grid scale and
+consumer applications. By monitoring the usage-related properties of an LFP battery, with
+reference to those in Table 2, the SoH and RUL of an LFP battery can be estimated. The SoH
+values are fixed percentage points dependent on cycling conditions while the RUL varies
+greatly based on usage.
+Bat

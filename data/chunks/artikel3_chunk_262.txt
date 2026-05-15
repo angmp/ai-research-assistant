@@ -1,0 +1,7 @@
+ma-
+tion due to their strong regression capabilities with tiny sample sizes. An SVM-based ap-
+proach has been used to calculate SOC utilizing temperature, voltage, and current infor-
+mation gathered from working cycles at variou s DST driving cycles [79]. In addition to 
+validating the SOC prediction’s performance, this approach was utilized to determine the 
+ideal hyperparameters. The ﬁndings show that throughout the whole test, the RMSE was 
+just 0.71%, and the prediction errors were consisten

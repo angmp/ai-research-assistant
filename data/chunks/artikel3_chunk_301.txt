@@ -1,0 +1,7 @@
+e, it takes a long time to complete an
+EIS test.
+In the model‑based approach, the electrochemical model [ 94] and the battery equiva‑
+lent circuit model [ 95] are used to determine the time‑varying parameters, such as battery
+capacity or internal resistance. The resistance during battery operations is then estimated
+using a variety of observers, including particle filters [ 96], Kalman filters [ 97], and sliding
+mode [98], allowing the SOH to be determined appropriately. However, the decay in th

@@ -1,0 +1,6 @@
+eral drawbacks, including a substantial need for large datasets 
+for training, high susceptibility to over ﬁtting, considerable computational resources for 
+model training and operation, complexity in architecture leading to di ﬃculties in tuning 
+and optimization, a “black box” nature that obscures interpretability of the decision-mak-
+ing process, and potential challenges in generalizing to new or unseen data, especially 
+when operational conditions signiﬁcantly deviate from the training scena

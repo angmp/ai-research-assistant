@@ -1,0 +1,1752 @@
+Academic Editor: Pascal Venet
+Received: 13 April 2026
+Revised: 7 May 2026
+Accepted: 11 May 2026
+Published: 14 May 2026
+Copyright: © 2026 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license.
+Article
+Structural Parameter Optimization and Performance Evaluation
+of Hybrid Cooling Systems for Electric Vertical Takeoff and
+Landing Aircraft Battery Modules
+Siyuan Yang 1
+ , Jinlei Sun 2, Yaodong Wang 3
+ , Yu Chen 4, Meng Li 5
+ , Jiuyu Du 4,* and Xiaogang Wu 1,*
+1 School of Electrical Engineering, Hebei University of Technology, Tianjin 300401, China; ysy0334@163.com
+2 School of Automation, Nanjing University of Science and Technology, Nanjing 210094, China;
+jinlei.sun@njust.edu.cn
+3 Department of Engineering, Durham University, Durham DH1 3LE, UK; yaodong.wang@durham.ac.uk
+4 School of Vehicle and Mobility, Tsinghua University, Beijing 100084, China; yu_chen@mail.tsinghua.edu.cn
+5 School of Mechanical Engineering, University of Science and Technology Beijing, Beijing 100083, China;
+limengrq@outlook.com
+* Correspondence: dujiuyu@tsinghua.edu.cn (J.D.); 2023051@hebut.edu.cn (X.W.)
+Abstract
+Efficient and reliable cooling is essential for ensuring the safety and performance of battery
+packs in electric vertical takeoff and landing (eVTOL) aircraft. To address the limitations
+of existing cooling methods in cooling capability and structural integration, this study
+proposes a hybrid cooling system combining air cooling, high-thermal-conductivity plates
+(HCPs), and phase-change material (PCM). The power demand in different eVTOL flight
+phases is first analyzed. A single-cell simulation model is then developed and validated
+through experiments. The effects of three key structural parameters on system performance
+are investigated, and their relative importance is quantified using sensitivity analysis. A
+multi-objective evaluation framework is further established to compare the proposed sys-
+tem with no cooling, passive cooling, and liquid cooling strategies. The adaptability of the
+hybrid cooling system under different operating conditions is also evaluated. Finally, an
+air-cooling intervention strategy is proposed based on the PCM liquid fraction. The results
+show that the optimized hybrid cooling system limits the maximum battery temperature
+and maximum temperature difference to 37.9 ◦C and 3.1 ◦C, respectively. Compared with
+passive cooling, the proposed system improves temperature stability by 44.6%. Compared
+with the liquid cooling system, space occupancy is reduced by 19.5%, and the grouping
+efficiency is increased by 22.4%. The adaptability analysis indicates that the optimized
+system is suitable for ambient temperatures not exceeding 30 ◦C. In addition, the pro-
+posed air-cooling intervention strategy reduces the air-cooling energy consumption by
+43.3% compared with continuous air cooling, while maintaining temperature uniformity.
+These findings provide a numerical reference for the preliminary design of eVTOL battery
+cooling systems.
+Keywords: electric vertical takeoff and landing; lithium-ion battery; hybrid cooling system;
+energy efficiency optimization
+1. Introduction
+Electric vertical takeoff and landing (eVTOL) aircraft is a disruptive transportation
+technology that is expected to transform future transportation systems [1]. The significant
+potential of eVTOL aircraft in enhancing commuting efficiency and alleviating ground
+Batteries 2026, 12, 170 https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 2 of 37
+congestion [2], along with its time advantages for short and medium-range travel and its
+value for sustainable development in complex traffic areas [3], has garnered widespread
+attention. Currently, most mainstream eVTOLs rely on lithium-ion batteries as the power
+source [4], which need to maintain an optimal operating temperature range of 20 ◦C to
+40 ◦C [5], with the temperature difference between individual cells strictly controlled to
+within 5 ◦C [6].
+Compared to traditional electric vehicles, the design of eVTOL battery cooling systems
+faces two unique challenges: first, the need for efficient thermal regulation to handle the
+intense heat generation during high-discharge-rate phases of flight; second, the need to
+strictly control system weight and power consumption to prevent excess weight from reduc-
+ing the specific energy of the battery pack, weakening propulsion efficiency, and avoiding
+excessive power consumption that could diminish the available energy for flight [7].
+Currently, mainstream cooling strategies for lithium-ion batteries primarily include
+four categories: air cooling [8,9], liquid cooling [10,11], phase-change material (PCM) cool-
+ing [12,13], and heat pipe cooling [14]. Extensive research has been conducted to investigate
+the fundamental thermal characteristics and design adaptability of cooling systems under
+the unique operating conditions of eVTOLs. To address the unclear operational character-
+istics of power batteries during eVTOL missions, Luo et al. [15] established a theoretical
+eVTOL model and showed that vertical climb and acceleration are the peak-power phases,
+with a discharge rate of 6.4 C. Park et al. [ 16] proposed a refined eVTOL battery sizing
+method considering thermal effects. Their Thevenin equivalent circuit simulations con-
+firmed the important influence of temperature on battery performance. Park et al. [ 17]
+proposed a sizing method for an eVTOL liquid cooling battery system. The battery, cooling
+channels, coolant, and cooling loop were considered within a unified design framework.
+The results indicated that eVTOL liquid cooling design should consider not only tempera-
+ture control, but also system mass, power consumption, and spatial integration. For eVTOL
+battery thermal management, Zhaotian Wang et al. [18] developed a liquid cooling battery
+structure with embedded surface channels. The spiral channel showed the best overall
+performance, with a maximum battery temperature of 31.1 ◦C and a temperature difference
+of 4.8 ◦C. Zhiwei Wu et al. [19] proposed a flat heat pipe–ram air passive cooling system.
+The effects of ambient temperature, inlet mass flow rate, and fin spacing were investigated.
+The system maintained the battery temperature below 38.46 ◦C, with a maximum tem-
+perature difference of 3.85 ◦C. Zhao et al. [20] evaluated a channel-based liquid cooling
+strategy for tilt wing and lift cruise aircraft. The results showed that liquid cooling could
+maintain safe battery temperatures while keeping the cooling system mass below 20% of
+the total battery mass. Zhao et al. [21] further analyzed the effects of flight parameters and
+battery capacity on the mass of liquid-cooled BTMS and battery life. Their results provided
+guidance for mission adaptive design. Chai et al. [22] proposed a PCM–immersion hybrid
+cooling strategy. The system kept the battery pack temperature below 48 ◦C from an initial
+temperature of 25 ◦C, with a maximum cell to cell temperature difference of 4.74 ◦C. PCM
+accounted for only 5.32% of the battery pack mass, showing potential for repeated eVTOL
+operation. Zhao et al. [23] integrated a thermoelectric heat exchanger into a liquid cooling
+system. The system improved high-temperature adaptability up to 45 ◦C but introduced
+trade-offs between system weight and flight cycles. Wang et al. [24] proposed a propeller
+slipstream-driven air–liquid hybrid cooling system. Experimental results showed effective
+heat dissipation over the full flight envelope, while maintaining structural simplicity.
+PCM-based hybrid cooling systems have become an important research focus because
+of their comprehensive thermal performance. Sun et al. [ 25] used longitudinal fins and
+annular structures to enhance heat conduction within PCM. Their results showed that metal
+fins can form a conductive network in PCM and improve battery thermal management
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 3 of 37
+performance. Lee et al. [26] proposed a hybrid cooling system integrating a liquid-cooled
+baseplate, aluminum fins, and PCM. The validated model showed that the system limited
+the maximum battery temperature to 38.4 ◦C and the temperature difference to 3.9 ◦C. Ling
+et al. [27] developed a PCM air cooling system. Their results showed that weak natural
+convection caused heat accumulation in the PCM, whereas forced airflow helped restore
+its thermal storage capacity. Ma et al. [28] proposed a PCM–water-cooling plate structure.
+They analyzed the effects of cell spacing and coolant flow direction. The results indicated a
+trade-off in thermal distribution, as larger spacing reduced the maximum temperature but
+increased the minimum temperature. Zhonghao Rao et al. [29] designed a variable contact
+liquid cooling system for cylindrical lithium-ion battery modules. Aluminum blocks were
+used to transfer heat from the batteries to the coolant, thereby improving temperature
+uniformity within the module.
+Existing studies have proposed various solutions for eVTOL battery thermal manage-
+ment and have improved temperature control and mission adaptability. However, several
+limitations remain. Liquid cooling provides strong heat dissipation but increases system
+complexity because of coolants, pumps, pipelines, and sealing components. Heat pipes,
+ram air cooling, and passive cooling structures are lightweight, but their performance
+depends strongly on external heat transfer conditions and flight states. Stable thermal
+control over the full mission therefore remains difficult.
+PCM-based hybrid cooling can reduce the limitations of single cooling methods. How-
+ever, most existing designs are developed for electric vehicles or cylindrical battery packs.
+These designs usually rely on PCM encapsulation to improve temperature uniformity and
+heat storage. For compactly stacked large-format pouch cells in eVTOLs, the low thermal
+conductivity of PCM limits heat removal from the module core. Therefore, thermal manage-
+ment for eVTOL pouch cells requires both transient heat buffering during high-discharge
+phases and a low resistance internal heat conduction path. Continuous heat release after
+PCM heat absorption is also necessary.
+To address the heat dissipation demand and structural compactness constraint of
+eVTOL power batteries under high-rate discharge conditions, this study proposes a hybrid
+cooling system combining air cooling, high-thermal-conductivity plates, and PCM. The
+power demand in different flight phases is first analyzed using a typical eVTOL mission
+profile. A single-cell thermal model is then developed and experimentally validated to
+provide heat source input for subsequent module-level simulations. Three key structural
+parameters are investigated, including cell spacing, thermally conductive material, and
+inlet airflow velocity. Sensitivity analysis is used to quantify their relative effects on
+cooling performance. A multi-objective evaluation framework is established to compare
+the proposed system with no cooling, passive cooling, and liquid cooling strategies. System
+adaptability is further examined under different ambient temperatures, cruise durations,
+and hover durations. Finally, an air-cooling intervention strategy based on the PCM liquid
+fraction is proposed to reduce the energy consumption caused by continuous air cooling.
+2. Analysis of Power Requirements for eVTOL Flight Conditions
+Based on the typical eVTOL aircraft parameters and mission profile, this section devel-
+ops a propulsion power model for each flight phase. By integrating the basic parameters
+of the battery system, the model calculates the discharge rate and current curves for each
+phase, enabling precise quantification of power demands throughout the entire flight mis-
+sion. These calculation results provide key benchmark data for subsequent simulations of
+the cooling system and the development of the thermal source model.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 4 of 37
+2.1. eVTOL Flight Condition Analysis
+This study focuses on a short-range commuter electric vertical takeoff and landing
+(eVTOL) aircraft, with the aircraft parameters primarily referenced from [3]. To meet the
+power and energy demands of short-range eVTOL operations, a lithium-ion battery with
+a capacity of 45 Ah has been selected. The complete aircraft configuration and detailed
+battery specifications are provided in Table 1. Under nominal operating conditions, the
+aircraft maintains a cruising altitude of 305 m (1000 feet) above ground. The flight condition
+adopted in this study is not based on measured flight data. Instead, it is assumed and
+constructed based on the typical eVTOL mission parameters reported in Ref. [7]. As shown
+in Table 2, the flight condition includes five phases: takeoff hover, climb, cruise, descent,
+and landing hover. The duration of these phases is set to 30 s, 120 s, 1200 s, 120 s, and
+30 s, respectively.
+Table 1. Parameters and specifications of flying cars and lithium iron phosphate batteries.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vehicle Parameters Value Battery Parameters Value
+Total takeoff weight, GTOM (kg) 1500 Capacity, (Ah) 45
+Unladen weight, me (kg) 700 Mass, mbat (g) 820
+Battery pack capacity, Ebat (kWh) 66 Nominal voltage, Vbat (V) 3.2
+hover efficiency, ηh 0.64 Working voltage range, (V) 2.7–3.65
+Pulp tray load, σ (N/m2) 450 Thermal conductivity, (W/m ·K) 3.1 × 23.56 × 23.56
+System efficiency, η 0.85 Specific energy, ebat (Wh/kg) 175.6
+Cruise lift-to-drag ratio, (L/D)cr 14
+Battery pack integration efficiency, ηi 0.8
+Climb/descent lift-to-drag ratio, (L/D)cl 12
+Cruising speed, Scr (km/h) 241
+Table 2. eVTOL flight conditions.
+Flight Phase Operating Status
+Takeoff and Hover Hover for 30 s after takeoff
+Climb Climb for 120 s at horizontal speed Sh and vertical
+speed Sv, where Sh = 3√
+1/3Scr, Sv ≈ 9 (km/h)
+Cruise Cruise at 241 km/h for tcr = 1200 s
+Descent Descend for 120 s at horizontal speed Sh and vertical
+speed Sv
+Hover landing Hover for 30 s during landing
+Each flight phase exhibits distinct duration, velocity, and discharge rate character-
+istics. To estimate the power requirements for each eVTOL flight phase, we developed
+phase-specific power calculation models, enabling evaluation of battery thermal load char-
+acteristics under different flight conditions. The specific formulations are presented below:
+Pta = 1
+ωbat
+g
+ηh
+mbat
+ηi
+r σ
+2ρair
+(1)
+Pcl = 1
+ωbat
+g
+η
+mbat
+ηi
+
+ROC + Scl
+(L/D)cl
+
+(2)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 5 of 37
+Pcr = 1
+ωbat
+g
+η
+mbat
+ηi
+Scr
+(L/D)cr
+(3)
+Pde = 1
+ωbat
+g
+η
+mbat
+ηi
+
+ROD + Sde
+(L/D)de
+
+(4)
+In Equations (1)–(4), Pta (W), Pcl (W), Pcr (W), and Pde (W) denote the cell-level power
+demand during takeoff or landing hover, climb, cruise, and descent, respectively.ωbat is
+the battery mass fraction, defined as the ratio of the total battery pack mass to the gross
+takeoff mass of the aircraft. mbat (kg) is the mass of a single cell. GTOM (kg) is the gross
+takeoff mass of the aircraft. g (m·s−2) is the gravitational acceleration, and g = 9.81 m·s−2.
+σ (N·m−2) is the disk loading. ρair (kg·m−3) is the air density, and ρair = 1.225 kg·m−3. ηh,
+ηi and η are the hover efficiency, battery pack integration efficiency, and propulsion-system
+efficiency, respectively [30]. ROC (m·s−1) and ROD (m·s−1) denote the rate of climb and
+the rate of descent, respectively. Scl (m·s−1), Scr (m·s−1), and Sde (m·s−1) are the horizontal
+flight speeds during climb, cruise, and descent, respectively. (L/D)cl, (L/D)cr, and (L/D)de
+are the lift-to-drag ratios in the climb, cruise, and descent phases, respectively [7].
+2.2. Analysis of Flight Condition Load Parameters
+Based on the flight condition parameters defined in Section 2.1 and the corresponding
+thrust power expressions for each flight phase, the dynamic variations in the thermal load
+throughout the entire eVTOL mission profile can be systematically characterized. This
+section derives the power requirements for the different flight phases of the aircraft, and by
+dividing the required propulsion power by the battery output voltage, the battery discharge
+rate can be calculated. The results are summarized in Table 3. Multiplying the discharge
+rate of each flight phase by the rated capacity of the battery provides the corresponding
+discharge current. The trend of discharge current variation for each flight phase is shown
+in Figure 1: during takeoff and landing phases, the propulsion system demands peak
+power, leading to significant spikes in the battery discharge current, while during cruise
+and descent, system loads stabilize, resulting in lower discharge currents. For example,
+in this study, a single battery cell (with dimensions of 320 mm × 115 mm × 10 mm) has
+an effective heat dissipation surface area of approximately 368 cm2. During the landing
+phase, with a high discharge rate of 4.3 C, the instantaneous discharge current of the cell
+reaches 193.5 A, corresponding to a current density of 0.526 A/cm2, which is significantly
+higher than the typical current density of 0.12 A/cm2 under 1 C discharge conditions in
+conventional electric vehicles. Due to the compact structure of the cell, the heat generation
+rate per unit surface area caused by Ohmic heating increases substantially under such
+conditions, with the instantaneous thermal flux density being more than 300% higher than
+that of traditional electric vehicle batteries. This imposes more stringent requirements
+on the heat diffusion path inside the cell and the response time of the external cooling
+system. Therefore, accurately characterizing the battery discharge behavior under real
+flight conditions is crucial for designing and developing an efficient cooling system suitable
+for eVTOL applications.
+Table 3. Power requirements and battery discharge rates for different flight phases of eVTOLs.
+Flight Phase Duration (s) Power
+Requirement (W) Discharge Rate (C)
+Takeoff and Hover 30 623.2 4.3
+Climb 120 233.4 1.6
+Cruise 1200 165.4 1.1
+Descent 120 138.5 0.9
+Hover landing 30 623.2 4.3
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 6 of 37
+Take off and hover
+Climb
+Cruise Decline
+Hover landing
+0 200 400 600 800 1000 1200 1400
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200Discharge current(A)
+Time(s)
+ Discharge current(A)
+Figure 1. Battery discharge current during different flight phases.
+In summary, by dividing the flight mission into stages and calculating the power
+requirements for each stage, the real-time discharge parameters of the battery at different
+flight stages can be determined, which in turn allows for the construction of a time-varying
+discharge curve. These results provide key input data for the subsequent development of
+the Bernardi thermal model for the battery.
+To further characterize the SOC evolution, the ampere-hour integration method was
+used to calculate the SOC:
+SOC(t) = SOC0 − 1
+3600Qcell
+tZ
+0
+I(τ)dτ (5)
+In Equation (5), SOC(t) is the state of charge at timet, SOC0 is the initial state of charge,
+Qcell (Ah) is the rated capacity of a single cell, I(t) (A) is the time-varying discharge current
+during flight, and t (s) is the mission time.
+3. Hybrid Cooling System Structural Design and Modeling
+3.1. Hybrid Cooling System Structural Design
+As described in Section 2.1, the target battery pack energy for the eVTOL platform is
+66 kWh. The selected lithium-ion pouch cell has a nominal capacity of 45 Ah and a nominal
+voltage of 3.2 V , corresponding to 144 Wh per cell. The main power battery system consists
+of 13 standardized modules. Each module adopts an 18S2P configuration and contains
+36 pouch cells. The rated energy of each module is 5.18 kWh. Therefore, the total installed
+energy reaches 67.4 kWh, which satisfies the system-level energy requirement of 66 kWh.
+To assess structural integration on the eVTOL platform, a complete battery system
+with 13 modules was assembled. The whole system contains 468 cells. After assembly, the
+total mass is about 459 kg, the total volume is about 221 L, and the installed energy is about
+67.4 kWh. In comparison, battery systems in leading eVTOL prototypes, such as Joby S4
+and City Airbus, can reach about 900 kg. Therefore, the proposed battery system remains
+within a reasonable range for integration and packaging [31].
+Figure 2 shows a schematic diagram of the hybrid cooling system structure; the pro-
+posed hybrid cooling system integrates battery cells, PCM layers, high-thermal-conductivity
+plates, and air-cooling channels into a unified structure. High-thermal-conductivity plates
+are inserted between adjacent cells. Cell spacing directly determines the plate thickness [32].
+These plates provide lateral heat spreading and reduce local heat accumulation inside the
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 7 of 37
+module. PCM layers made of polyethylene-based encapsulating material [26] are arranged
+on both sides of each cell. PCM absorbs excess heat during high-rate discharge and sup-
+presses rapid temperature rise. However, PCM heat storage is transient. Continuous heat
+rejection is required to remove stored heat and recover latent heat capacity. Air-cooling
+channels are placed on the outer surface of the PCM layers. During flight, airflow produces
+forced convection and removes heat released from the PCM.
+ 
+ 
+ 
+Figure 2. Schematic diagram of the hybrid cooling system structure.
+The three components form a clear heat transfer path. Heat generated by the cells
+first spreads laterally through the high-thermal-conductivity plates. The PCM then buffers
+the peak thermal load through phase change. Finally, air cooling removes heat from the
+PCM surface.
+3.2. Simulation Model Boundary and Parameter Setting
+To ensure comparability among different cooling structures and parameters, the
+same thermal boundary conditions and interface treatments were used in the baseline
+simulations. The battery, high-thermal-conductivity plate, and PCM were modeled as
+solid heat conduction domains, while the air domain was treated as an incompressible
+Newtonian fluid. Initially, the battery module, high-thermal-conductivity plate, PCM, and
+inlet air were in thermal equilibrium with the environment at 25 ◦C. Ideal thermal contact
+was assumed at the battery–high-thermal-conductivity plate, battery–PCM, and PCM–high-
+thermal-conductivity plate interfaces, with continuous temperature and heat flux.
+A uniform velocity inlet was applied to the air-cooling channel, with inlet airflow
+velocities of 1, 2, 3, 4, and 5 m/s. The velocity was imposed directly on the inlet section.
+The outlet was set as a pressure outlet at 0 Pa, and no slip conditions were applied to the
+air domain walls. The pressure drop was obtained from CFD post processing and defined
+as the area-averaged static pressure difference between the inlet and outlet sections. It
+only represents the internal flow resistance of the modeled air-cooling channel, without
+additional losses from external pipes or components. Forced convection acted only on the
+PCM outer surface within the air-cooling channel. Natural convection was applied to the
+remaining external module surfaces, with a heat transfer coefficient of 10 W·m−2·K−1 [33].
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 8 of 37
+The boundary conditions at the interface between the battery and the PCM depend on
+the energy conservation Equation (6):
+−kbat
+∂T
+∂n = −kPCM
+∂T
+∂n (6)
+In Equation (6), kbat (W·m−1·K−1) is the battery thermal conductivity , and kPCM
+(W·m−1·K−1) is the thermal conductivity of the PCM.∂T/∂n is the temperature gradient.
+The contact surface between the PCM and the high-thermal-conductivity plate has a
+similar energy conservation, as shown in Equation (7),
+−kPCM
+∂T
+∂n = −kHCP
+∂T
+∂n (7)
+In Equation (7), kHCP (W·m−1·K−1) is the thermal conductivity of the heat-conducting
+plate.
+The boundary conditions for PCM exposed to air cooling are shown in Equation (8),
+−kPCM
+∂T
+∂n = h(TPCM − Tair ) (8)
+In Equation (8), h (W·m−2·K−1) and Tpcm (K) denote the PCM thermal conductivity,
+convective heat transfer coefficient and the temperature of the PCM in contact with the air
+cooling, respectively.
+The flow regime in the air-cooling channel was evaluated using the Reynolds number,
+defined as
+Re = ρairuinDh
+µ air
+(9)
+In Equation (9), Re is the Reynolds number, ρair (kg·m−3) is the air density, uin (m·s−1)
+is the inlet airflow velocity, Dh (m) is the hydraulic diameter of the air-cooling channel, and
+µ air (Pa·s) is the dynamic viscosity of air. Based on the inlet airflow velocities of 1, 2, 3, 4,
+and 5 m/s, the corresponding Reynolds numbers were calculated as 630, 1261, 1891, 2522,
+and 3152, respectively. Therefore, the cases with inlet airflow velocities of 1–3 m/s were
+treated as laminar flow. The cases with inlet airflow velocities of 4–5 m/s fall within the
+transitional regime of internal flow; however, considering the possible local flow instability
+and pronounced near-wall effects in the narrow channel, the SST k-ω model was adopted
+for these cases.
+The airflow domain satisfies the continuity equation:
+∇ · u = 0 (10)
+The momentum conservation equation can be written as
+ρair
+ ∂u
+∂t + u · ∇u
+
+= −∇p + ∇
+h
+(µ air + µ t)
+
+∇u + ∇uT
+i
+(11)
+In Equations (10) and (11), u (m·s−1) is the air velocity vector, p (Pa) is pressure, ρair
+(kg·m−3) is the air density, µ air (Pa·s) is the dynamic viscosity of air, and µ t (Pa·s) is the
+turbulent eddy viscosity. For the laminar cases, µ t = 0. For the 4 and 5 m ·s−1 cases, µ t is
+obtained from the SST k-ω turbulence model.
+The transport equations of the SST k-ω model are given by
+∂(ρk)
+∂t + ∇(ρku) = ∇[(µ + σkµ t)∇k] + Pk − β∗ρkω (12)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 9 of 37
+∂(ρω)
+∂t + ∇(ρωu) = ∇[(µ + σωµ t)∇ω] + α ω
+k Pk − βρω2 + Dω (13)
+where k is the turbulent kinetic energy,ω is the specific dissipation rate, Pk is the production
+term of turbulent kinetic energy, and Dω is the cross-diffusion term. The SST k-ω model
+combines the near-wall prediction capability of the standardk-ω model with the robustness
+of the k-ε model in the free-stream region and is therefore suitable for narrow-channel flows
+with strong near-wall gradients and possible local flow instability, as encountered in the
+present hybrid cooling configuration.
+To ensure the accuracy of the simulation results, a grid independence test was con-
+ducted for the model used in this study. The test was performed under a 1 C discharge
+mode for the battery module, with the model divided using a free tetrahedral mesh, as
+shown in Figure 3a. The highest module temperature was used as the evaluation criterion,
+and the results are shown in Figure 3b. When the number of mesh elements increased to
+2,226,318, further mesh refinement had no significant effect on the maximum temperature.
+Compared to the case with 4,176,062 mesh elements, the maximum temperature error for
+the case with 2,226,318 mesh elements did not exceed 1%. Considering both computational
+cost and accuracy, 2,226,318 mesh elements were selected for subsequent simulations. This
+mesh division effectively reduces computational resource consumption while ensuring
+computational accuracy, providing reliable numerical results for subsequent parameter
+optimization and engineering design.
+Figure 3. Grid model and validation results: (a) grid distribution and (b) grid independence valida-
+tion results.
+Additionally, to ensure that the mesh quality meets the high-precision simulation
+requirements, a comprehensive evaluation of the mesh quality was conducted, with a focus
+on two key parameters: skewness and orthogonality. Skewness measures the degree to
+which a mesh element deviates from its ideal shape, and lower skewness values contribute
+to improved numerical solution stability. Orthogonality, on the other hand, reflects the
+angular relationship between the edges of a mesh element and those of its neighboring
+elements. High orthogonality enhances computational accuracy and convergence. In
+this study, skewness was maintained below 0.3, and the orthogonality of most mesh cells
+exceeded 95%, effectively ensuring mesh quality and the reliability and stability of the
+simulation results.
+In addition, the thermal conductivity and thermophysical properties of the PCM are
+critical to the cooling performance. The properties of the PCM and thermally conductive
+materials are listed in Table 4. In this study, MPCM32D [34] and thermal-conducting plates
+were selected to enhance heat transfer from the cell surface to the PCM, thereby improving
+the temperature uniformity of the battery module. The thermophysical properties of the
+battery, PCM, and thermal-conducting plates were obtained from experimental measure-
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 10 of 37
+ments, material handbooks, and published literature, and were treated as constants. The
+properties of air and liquid water were defined using the built-in temperature-dependent
+functions in the COMSOL Multiphysics 6.2 simulation software.
+Table 4. Properties of phase change and thermally conductive materials.
+Material Parameters MPCM32D 1060 AL
+Alloy
+6063 AL
+Alloy AlN Ceramic
+Specific heat capacity,
+(J/kg·K) 2500 - - -
+Thermal conductivity,
+(W/m·K) 0.6 231 200 204
+Density, (kg·m3) 1000 2700 2000 3280
+Latent heat, (kJ/kg) 106 - - -
+Phase transition
+temperature, (◦C) 30–32 - - -
+Considering engineering feasibility and cost effectiveness, 1060 aluminum alloy,
+6063 aluminum alloy, and AlN ceramic were used as thermally conductive materials.
+These materials have good thermal conductivity, machinability, weldability, and relatively
+low cost [ 35,36]. MPCM32D also provides high latent heat and good thermal cycling
+stability. Therefore, the selected materials can meet the thermal management requirements
+and show good potential for large-scale manufacturing and cost control [37].
+3.3. Battery Thermal Model
+3.3.1. Battery Heat Generation Equation
+Heat generation in lithium-ion batteries primarily occurs during the charging and dis-
+charging processes. Complex chemical reactions take place inside the battery, accompanied
+by the consumption and generation of materials. Additionally, the internal resistance of the
+battery during charging and discharging causes some electrical energy to be converted into
+heat, resulting in a temperature rise. In simulation studies, the Bernardi equation [38] is
+commonly used to model the heat generation process of the battery.
+Qgen (t) = I(Uocv − Ute) + ITbat
+dUocv
+dT (14)
+In Equation (14), Qgen(t) (W) is the battery heat generation rate, I(t) (A) is the dis-
+charge current, Uocv (V) is the open-circuit voltage, Ut (V) is the terminal voltage, Tbat (K)
+is the battery temperature, and dUocv/dT (V·K−1) is the entropy coefficient.
+During actual charging and discharging processes, the open-circuit voltage of the
+battery cannot be measured in real time. For convenience in calculation, the Joule heating
+component is often approximated by the heat generated by the internal resistance of the
+battery. Therefore, Equation (14) can be further equivalent to Equation (15).
+Qgen (t) = I2 · R + ITbat
+dUocv
+dT (15)
+In Equation (15), R(Ω) is the internal resistance of the battery. The first term,I2R, repre-
+sents irreversible Joule heat caused by internal resistance. The second term,ITbatdUocv/dT,
+represents reversible heat associated with the entropy change of the electrochemical reaction.
+After testing, the entropy coefficient is shown in Figure 4a, the total internal resistance
+of the battery during discharge at 0.5 C, 1 C, and 2 C rates are shown in Figure 4b.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 11 of 37
+ 
+Figure 4. (a) Entropy coefficient of the battery; ( b) battery internal resistance at different dis-
+charge rates.
+Due to the potential hazards associated with high-rate charge–discharge experiments,
+this study will predict the internal resistance of high-rate discharge batteries under flight
+conditions based on existing experimental data using a fitting function. According to the
+research in Reference [ 39], there is a significant nonlinear relationship between battery
+internal resistance and discharge rate. The nonlinear fitting results of internal resistance
+relative to discharge rate at 100% SOC are shown in Figure 5a. Similarly, the total internal
+resistance of the battery at different discharge rates is shown in Figure 5b. All subsequent
+simulations are based on the current fitting results, and when the difference in discharge
+rates is not significant, the internal resistance is approximated as the nearest integer multiple
+of the internal resistance.
+Figure 5. (a) Internal resistance at different discharge rates under 100% SOC; ( b) battery internal
+resistance at varying discharge rates.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 12 of 37
+3.3.2. Battery Heat Transfer Equation
+In the operating temperature range of the battery, the electrolyte is mostly static and
+the temperature distribution inside the battery follows the basic equations of solid-state
+heat transfer [40]:
+ρbatCbat
+dT(t)
+dt = ∂
+∂x
+
+kx,bat
+∂T
+∂x
+
++ ∂
+∂y
+
+ky,bat
+∂T
+∂y
+
++ ∂
+∂z
+
+kz,bat
+∂T
+∂z
+
++ Qgen (t) (16)
+In Equation (16), ρbat (kg·m−3) is the battery density, Cbat (kg−1·K−1) is the battery
+specific heat capacity,T(t) (K) is the transient battery temperature, and Qgen(t) (W·m−3) is
+the volumetric heat generation rate of the battery. kx,bat, ky,bat, and kz,bat (W·m−1·K−1) are
+the battery thermal conductivities in the x, y, and z directions, respectively.
+3.4. Phase-Change Material Model
+In this study, the enthalpy method is used to simulate the heat transfer process of
+PCM [41]. A transition temperature difference is introduced within the solid–liquid phase
+change temperature range in the simulation to avoid the issue of non-convergence caused
+by directly using a 0 K temperature difference. The energy equation is as follows:
+ρpcm
+∂H
+∂t = kpcm ∇2T (17)
+H = hp + ∆H (18)
+h =
+Z T
+T0
+CpcmdT (19)
+∆H = βλ (20)
+β =
+
+
+
+0, T ≤ Ts
+T−Ts
+Tl −Ts , Ts < T < Tl
+1, T ≥ Tl
+(21)
+In Equations (17)–(21), ρpcm (kg·m−3) is the PCM density, kpcm (W·m−1·K−1) is the
+PCM thermal conductivity, T (K) is temperature, and H (J·kg−1) is the total enthalpy of
+the PCM. hp (J·kg−1) is the sensible enthalpy, and ∆H (J·kg−1) is the latent enthalpy. Cpcm
+(J·kg−1·K−1) is the PCM specific heat capacity, T (K) is the reference temperature, and
+λ (J·kg−1) is the latent heat of phase change. β is the PCM liquid fraction, Ts (K) is the
+solidus temperature, and Tl (K) is the liquidus temperature. For MPCM32D, Ts = 30 ◦C
+and Tl = 32 ◦C. β = 0 denotes a fully solid state, β = 1 denotes a fully liquid state, and
+0 < β < 1 denotes the mushy region.
+3.5. Cooling System Performance Evaluation Index System
+The battery cooling system is an essential aspect of eVTOL design, requiring an
+effective evaluation method. This method, based on [ 42], constructs multidimensional
+performance indicators for the cooling system, providing comprehensive and intuitive
+standards for the design of eVTOL cooling systems.
+The concept of temperature control margin, which is the difference between the
+maximum allowable temperature of the battery and the actual average temperature, is used
+to evaluate the capability of the cooling system to control battery temperature. Temperature
+control margin can be expressed as:
+TCM = Tlimit −
+R
+Ttrdt
+trunning
+(22)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 13 of 37
+The equation TCM is the temperature control margin, Tlimit a is the upper limit of
+the permissible temperature of the battery,Ttr is the transient temperature, trunning is the
+running time.
+Temperature stability is the standard deviation of the maximum temperature, reflecting
+temperature fluctuations and evaluating the ability of the cooling system to control the
+battery temperature. Temperature control stability can be expressed as:
+ST =
+vuuut
+R t1
+t0
+Ttr −
+R
+Ttrdt
+t
+dt
+tend − tstrat
+(23)
+The equation ST is the temperature stability, where Ttr is the transient temperature
+of the element. The start time tstrat and end time tend correspond to the operating state of
+the element.
+The time-averaged maximum temperature difference is the average value of the
+difference between the highest and lowest temperatures in the battery module, which
+is used as an index to evaluate the temperature uniformity of the battery module. The
+time-averaged maximum temperature difference is defined as follows:
+DT =
+R
+(Tmax − Tmin)dt
+t (24)
+The equation DT is time-averaged maximum temperature difference, Tmax is the
+maximum temperature of the battery module, and Tmin is the minimum temperature of the
+battery module.
+Group efficiency is an indicator used to assess the weight of the battery cooling system.
+It is defined as the energy density of a single battery divided by the energy density of the
+entire battery system, reflecting the lightweight level of the cooling system. The definition
+of group efficiency is as follows:
+GE = EDbat
+EDsystem
+(25)
+The equation GE is the grouping efficiency, EDbat is the energy density of battery, and
+EDsystem is the energy density of the battery system.
+Space occupancy is defined as the percentage of space occupied by the battery cooling
+system in relation to the total available space in the eVTOL, as an indicator for evaluating
+the volume of the battery cooling system. The space occupancy is expressed as follows:
+SO = VOTMS
+VOtotal
+(26)
+The equation SO is the space occupancy of the cooling system, VOTMS denotes the
+volume occupied by the cooling system, both the actual volume and the volume that cannot
+be occupied by other equipment or components due to the arrangement of the cooling
+system, and VOtotal denotes the total available space in the eVTOL.
+For a better overall comparison, the above evaluation metrics need to be normalized.
+TCM max , STmax and DTmax are based on the operating limits of the battery.
+TCM ∗ = TCM /TCM max (27)
+ST ∗ = 1 − ST/STmax (28)
+DT ∗ = 1 − DT/DTmax (29)
+GE∗ = GE (30)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 14 of 37
+SO∗ = 1 − SO (31)
+4. Results and Discussion
+4.1. Model Validation
+To ensure reliable heat source input for subsequent module-level simulations, the
+battery thermal response model was validated by comparing experimental and simulated
+temperature data. As shown in Figure 6a, the experimental platform consisted of a bat-
+tery tester for charge and discharge cycles and data acquisition, a temperature chamber
+for maintaining constant environmental conditions, and a temperature acquisition and
+control system.
+Figure 6. Experiment and simulation platform: (a) structure of the experimental setup; (b) physical
+drawing of the thermocouple; (c) simulation model thermocouple arrangement.
+Two batteries from the same batch were used in the experiment. The capacity dif-
+ference between the two batteries was less than 0.1 Ah, which ensured good consistency
+and representativeness of the samples. As shown in Figure 6b,c, five thermocouples were
+attached to the surface of a single battery to monitor the temperature distribution. Multiple
+charge and discharge cycles were conducted, and the corresponding data were recorded to
+verify the repeatability of the results.
+During the experiment, the ambient temperature was maintained at 25◦C. The temper-
+ature chamber effectively reduced environmental temperature fluctuations and minimized
+their influence on battery performance.
+As shown in Figure 7a, the battery thermal model was validated under 1C, 2C, and 3C
+discharge conditions by comparing the simulated temperature with the average measured
+temperature. To further assess the applicability of the model under dynamic loading,
+additional validation was performed under the eVTOL flight profile, as shown in Figure 7b.
+Under both conditions, the simulated results agree well with the experimental data, with
+deviations within 2%. These results support the use of the single-cell heat generation model
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 15 of 37
+and heat source input in subsequent module-level simulations. The performance of the
+hybrid cooling system is mainly evaluated through numerical simulation.
+Figure 7. Comparison of simulated and experimental temperature rise: (a) 1 C, 2 C, and 3 C discharge
+rates; (b) eVTOL flight conditions.
+4.2. Optimization Analysis of Hybrid Cooling System Parameters
+This section employs a multi-physics coupling model to study the hybrid cooling
+system, with a focus on three key structural parameters: cell spacing, thermally conduc-
+tive material and inlet airflow velocity. The goal is to determine the optimal parameter
+configuration for the synergistic enhancement of performance.
+4.2.1. Effect of Cell Spacing
+Cell spacing is a key structural parameter for reducing heat accumulation within the
+module. The coupling between cell spacing and HCP thickness directly affects thermal
+performance and structural compactness. Therefore, four cell spacings of 0.5, 1, 1.5, and
+2 mm were evaluated. The ambient temperature, inlet airflow velocity, and HCP material
+were set to 25 ◦C, 1 m/s, and 1060 aluminum alloy, respectively.
+Larger cell spacing allows thicker HCPs to be placed between adjacent cells. This
+enhances lateral heat conduction and improves temperature uniformity. As shown in
+Figure 8a,b, increasing the spacing from 0.5 mm to 2 mm reduces the maximum battery
+temperature from 41.8 ◦C to 39.5 ◦C, corresponding to a 5.5% improvement. The maxi-
+mum temperature difference decreases from 4.46 ◦C to 3.39 ◦C, corresponding to a 23.9%
+improvement. These results indicate that better matching between cell spacing and HCP
+thickness can promote heat diffusion within the module.
+However, larger spacing also increases system mass. As shown in Figure 9, the total
+HCP mass increases from 11 kg to 44 kg as spacing increases from 0.5 mm to 2 mm. Such a
+mass increase is unsuitable for weight-constrained eVTOL applications.
+Considering thermal safety and lightweight design requirements, a cell spacing of
+1 mm was selected. This spacing provides a reasonable balance between cooling perfor-
+mance and structural compactness and serves as the basis for the integrated design of the
+hybrid cooling system.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 16 of 37
+Figure 8. Impact of cell spacing on thermal performance: (a) variation of maximum temperature with
+spacing; (b) variation of temperature difference with spacing.
+Figure 9. Temperature and HCP weight versus cell spacing.
+4.2.2. Influence of Thermally Conductive Materials
+Considering cost effectiveness and scalability, three thermally conductive materials
+were evaluated: 1060 aluminum alloy, 6063 aluminum alloy, and aluminum nitride (AlN)
+ceramic. The simulations were performed under the same conditions, with an ambient
+temperature of 25 ◦C, an inlet airflow velocity of 1 m/s, and a cell spacing of 1 mm. The eval-
+uation focused on the maximum temperature, temperature uniformity, and system mass.
+As shown in Figures 10 and 11, 1060 aluminum alloy provides good overall thermal
+performance. The maximum temperature is 40.20 ◦C, and the maximum temperature differ-
+ence is 2.651 ◦C. However, the corresponding HCP mass reaches 22 kg. The 6063-aluminum
+alloy shows the best temperature uniformity, with the lowest maximum temperature dif-
+ference of 2.31 ◦C. The maximum temperature is 39.90 ◦C. More importantly, its HCP
+mass is only 16.3 kg, which gives a clear advantage for lightweight design. AlN ceramic
+shows moderate thermal performance, with a maximum temperature of 41.05 ◦C and a
+temperature difference of 2.55 ◦C. However, its HCP mass reaches 25.8 kg, which limits its
+suitability for weight-sensitive eVTOL applications.
+Overall, 6063 aluminum alloy offers the best balance between thermal performance
+and lightweight design, and the system mass is 19.4 kg. Therefore, 6063 aluminum alloy
+was selected as the thermally conductive material for the proposed hybrid cooling system.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 17 of 37
+Figure 10. Effect of thermal conductivity materials on thermal performance: (a) maximum tempera-
+ture variation with material; (b) temperature difference variation with material.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11. HCP weight variation with thermal conductivity material.
+4.2.3. Effect of Inlet Airflow Velocity
+This section evaluates the effect of inlet airflow velocity on PCM latent heat recovery
+and thermal regulation performance. The simulations were conducted at an ambient
+temperature of 25 ◦C, using 6063 aluminum alloy as the thermally conductive material and
+a cell spacing of 1 mm. Five inlet airflow velocities were considered: 1, 2, 3, 4, and 5 m/s.
+As shown in Figure 12a,b, inlet airflow velocity has a coupled effect on the battery
+temperature field. Increasing the velocity from 1 m/s to 5 m/s enhances convective heat
+transfer and reduces the maximum module temperature from 39.9 ◦C to 37.2 ◦C. How-
+ever, excessive airflow deteriorates temperature uniformity. The maximum temperature
+difference increases from 2.3 ◦C to 3.7 ◦C.
+Figure 12. Effect of inlet airflow velocity on thermal performance: ( a) variation of maximum
+temperature with flow velocity; (b) variation of temperature difference with airflow velocity.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 18 of 37
+As shown in Figure 13, module temperature continues to rise when the PCM heat
+absorption rate is lower than the battery heat generation rate. Among the tested cases,
+an inlet velocity of 3 m/s provides the best balance between heat removal and tempera-
+ture uniformity. The corresponding maximum temperature and maximum temperature
+difference are 37.9 ◦C and 3.1 ◦C, respectively.
+ 
+ 
+Figure 13. Combined characteristics of temperature parameters and flow rate.
+Figure 14a,b further illustrates the thermal conduction pathways and temperature
+field distribution from a spatial perspective. The heat conduction plate establishes an
+efficient thermal bridge between the high-temperature region at the center of the battery
+and the surrounding PCM, enabling effective upward heat transfer into the PCM layer.
+This mechanism facilitates improved thermal diffusion and contributes to a more uniform
+temperature distribution across the module.
+Figure 14. Characteristics of battery module temperature distribution for hybrid cooling system:
+(a) module temperature field distribution; (b) localized module temperature field distribution.
+Simultaneously, the air-cooling subsystem effectively removes the heat absorbed by
+the PCM in a timely manner, preventing thermal accumulation and significantly lowering
+the overall temperature of the system. These results demonstrate that the hybrid cooling
+system exhibits excellent performance in both temperature uniformity and heat dissipation,
+successfully addressing the challenge of non-uniform thermal distribution within the
+battery module.
+The parametric analyses of cell spacing, thermally conductive material, and inlet
+airflow velocity identified the optimal configuration of the hybrid cooling system. The cell
+spacing was set to 1 mm, 6063 aluminum alloy was selected as the thermally conductive
+material, and the inlet airflow velocity was set to 3 m/s. Under this configuration, the sys-
+tem achieves a good balance between temperature regulation and structural compactness.
+Therefore, this parameter combination is used as the reference configuration for subsequent
+comparisons with other cooling strategies.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 19 of 37
+4.2.4. Structural Parameter Sensitivity Analysis
+This section introduces local sensitivity coefficients to quantitatively evaluate the
+effects of three key parameters, namely cell spacing, the thermal conductivity of the high-
+thermal-conductivity plate material, and inlet airflow velocity, on the thermal performance
+and structural compactness of the hybrid cooling system [ 43]. The results help clarify
+the relative importance of these structural parameters and provide a theoretical basis for
+parameter control and design prioritization in engineering applications.
+Sx = ∂Tmax
+∂xi
+xi
+Tmax
+(32)
+In Equation (32), Sx is the local sensitivity coefficient, xi is the actual value of the
+structural parameter, and Tmax (◦C) is the corresponding maximum module temperature.
+A positive Sx indicates that Tmax increases as the parameter increases, whereas a negative
+Sx indicates that Tmax decreases as the parameter increases. The same definition is applied
+to the sensitivity analysis of ∆T (◦C) and system mass m (kg). Based on the simulation
+data from Sections 4.2.1–4.2.3, small disturbances of ±10% are applied to each parameter,
+and the corresponding changes in the evaluation metrics are obtained, from which the
+sensitivity coefficients are calculated. The specific settings are as follows.
+Cell spacing: using the optimal value of 1 mm as reference, with the thermal material
+set as 6063 aluminum alloy and the inlet airflow velocity at 3 m/s, the variations in a, b,
+and system weight m are recorded.
+Thermal conductivity: using the thermal conductivity of 6063 aluminum alloy as the
+reference, with the cell spacing fixed at 1 mm and the inlet airflow velocity at 3 m/s, the
+variations in a, b, and system weight m are recorded.
+Inlet airflow velocity: using the optimal value of 3 m/s as the reference, with the cell
+spacing at 1 mm and the thermal material set as 6063 aluminum alloy, the variations in a, b,
+and system weight m are recorded.
+The sensitivity coefficients of each parameter for different evaluation metrics are
+shown in Table 5.
+Table 5. Sensitivity coefficients of structural parameters.
+Structural Parameter Structural Parameter Structural Parameter
+Cell Spacing Tmax −0.52
+∆T −0.47
+System Weight 2.15
+Thermal Conductivity Tmax −0.08
+∆T −0.06
+System Weight 0.12
+Inlet airflow velocity Tmax −0.12
+∆T 0.23
+System Weight 0.05
+Based on the absolute values of the coefficients and their correlation, the following
+conclusions can be drawn.
+Priority of impact on system weight: cell spacing > thermal conductivity > inlet
+airflow velocity. A 10% increase in cell spacing results in a 21.5% increase in system weight,
+making it the key parameter affecting structural lightweight design. This also confirms
+the conclusion in Section 4.2.1 that “a 1 mm cell spacing is the balance point between
+thermal performance and lightweight design”, indicating that the cell spacing should not
+be excessively increased to lower the temperature.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 20 of 37
+Priority of impact on maximum temperature: cell spacing > inlet airflow velocity >
+thermal conductivity. A 10% increase in cell spacing can reduce the maximum temperature
+by 5.2%, while a 10% increase in thermal conductivity only reduces the maximum tempera-
+ture by 0.8%. This suggests that when selecting materials, there is no need to excessively
+pursue high thermal conductivity, as the thermal performance of 6063 aluminum alloy is
+sufficient to meet the requirements.
+Priority of impact on temperature uniformity: inlet airflow velocity > cell spacing
+> thermal conductivity. A 10% increase in inlet airflow velocity raises the temperature
+difference by 2.3%, which is consistent with the conclusion in Section 4.2.3 that “excessively
+high flow velocity worsens temperature uniformity”. Therefore, the flow velocity should
+be controlled around 3 m/s to balance cooling efficiency with temperature uniformity.
+4.3. Comparative Performance Evaluation of Different Cooling Strategies
+The optimized configuration was selected as the representative case of the proposed
+hybrid cooling system. Its performance was compared with three reference strategies: no
+cooling, passive cooling, and liquid cooling. To ensure objective and consistent comparison,
+all strategies were evaluated under the same flight mission profile, battery discharge rate
+curve, and initial temperature of 25 ◦C. The same thermal model parameters and boundary
+conditions were also used in all simulations. Therefore, differences in thermal perfor-
+mance were attributed only to the cooling strategy. This comparison verifies the relative
+advantages of the proposed hybrid cooling system for practical engineering applications.
+4.3.1. No Cooling Performance Analysis
+A thermal field simulation model of the battery module without any cooling struc-
+ture was established to reveal the extreme thermal response over the full eVTOL mission
+profile. As shown in Figure 15a,b, the maximum temperature reaches 45.6 ◦C, and the
+maximum temperature difference reaches 6.08 ◦C. These values exceed both the ideal
+operating temperature range of lithium-ion batteries, 20 to 40◦C, and the 5 ◦C safety thresh-
+old for inter-cell temperature difference. This result indicates severe heat accumulation
+and non-uniform temperature distribution under no cooling conditions, which cannot
+satisfy the thermal safety requirements of eVTOL battery systems. The spatial temperature
+distributions in Figure 16a,b further show that high-temperature regions are concentrated
+near the cell center. Clear temperature gradients appear in the surrounding regions. This
+phenomenon reflects insufficient heat dissipation paths and delayed thermal diffusion
+within the module.
+Under the high thermal load of eVTOL operation, the absence of a cooling system
+causes module overheating and strong thermal non-uniformity. Such conditions reduce cell
+cycle life and increase thermal runaway risk. In the no-cooling case, the peak temperature
+of 45.6 ◦C and temperature difference of 6.08 ◦C generate significant thermal stress. This
+stress leads to short-term overheating risk and long-term aging acceleration. Thermal
+inconsistency also aggravates cell-to-cell performance divergence.
+Previous studies have shown that prolonged exposure to high temperature accelerates
+capacity fading and internal resistance growth in lithium-ion batteries [ 44]. The main
+mechanisms include continuous solid electrolyte interphase growth, structural degradation
+of active materials, and electrolyte decomposition. Large temperature gradients also cause
+non-uniform aging among cells, which intensifies pack-level performance imbalance and
+shortens service life. Therefore, an efficient thermal management system is essential for
+long-term battery health, operational stability, and thermal safety.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 21 of 37
+Figure 15. Thermal performance of the battery module without cooling: (a) variation in maximum
+temperature with time; (b) variation in temperature difference with time.
+Figure 16. Temperature field distribution of the battery module without cooling: (a) overall tempera-
+ture field; (b) local temperature field.
+4.3.2. Passive Cooling Performance Analysis
+The passive cooling system was derived from the proposed hybrid cooling system by
+retaining the high-thermal-conductivity plates and PCM, while removing active air cooling.
+The thermal conducting material was 6063 aluminum alloy, and the cell spacing was 1 mm.
+This configuration represents the passive heat dissipation limit under natural convection.
+As shown in Figure 17a,b, the passive cooling system improves the temperature
+uniformity of the battery module. The maximum temperature difference is controlled
+within 2.2 ◦C. Figure 18a,b further show the spatial temperature distribution. Heat is
+effectively transferred from the high-temperature region of the cells to the PCM through
+the thermal conduction structure, leading to a more uniform temperature field.
+However, without an active heat rejection path, heat removal mainly depends on PCM
+heat absorption. Under high-rate discharge, heat accumulation exceeds the phase change
+buffering capacity of the PCM. As a result, the maximum temperature still reaches 43.1 ◦C,
+which is difficult to satisfy the temperature control requirement of eVTOL battery modules.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 22 of 37
+Figure 17. Thermal performance of the battery module with passive cooling: (a) variation in maxi-
+mum temperature with time; (b) variation in temperature difference with time.
+Figure 18. Temperature field distribution of the battery module with passive cooling: ( a) overall
+temperature field; (b) local temperature field.
+4.3.3. Liquid Cooling Performance Analysis
+To ensure a consistent comparison, the baseline liquid cooling system was developed
+from the core structure of the hybrid cooling system. The PCM layer and air-cooling
+channels were removed. The 6063-aluminum alloy high-thermal-conductivity plate and
+1 mm cell gap were retained. Symmetric liquid cooling plates were added to both sides
+of the battery module. This configuration combines lateral heat spreading through the
+high-thermal-conductivity plate with forced convection from liquid cooling.
+The battery dimensions and performance parameters were kept consistent with those
+used in this study. The selected liquid cooling system serves only as a baseline configuration.
+Its channel geometry, coolant flow rate, pressure drop, mass, and volume were not fully
+optimized. The baseline liquid cooling system is shown in Figure 19. The dimensions of the
+cooling plates are 197 × 320 × 5 mm. Each aluminum cooling plate has 44 square cooling
+channels, with the dimensions of each channel being 2 × 320 × 3 mm. The coolant used is a
+50% ethylene glycol solution, with a density of 1071.11 kg/m3, specific heat of 3281 J/kg·K,
+thermal conductivity of 0.384 W/m·K, and dynamic viscosity of 0.00339 Pas. The cooling
+system operates at 25 ◦C, with the inlet velocity of the coolant set to 0.9 m/s [18].
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 23 of 37
+Figure 19. Schematic of the baseline liquid cooling system.
+The simulation results indicate that, as shown in Figure 20a,b, the temperature varia-
+tions in the active liquid cooling system closely follow the flight conditions and discharge
+rates, exhibiting a two-peak, two-plateau profile. Throughout the entire process, the max-
+imum temperature is only 35.9 ◦C, and the temperature never exceeds the upper limit
+of 40 ◦C within the optimal operating range. The maximum temperature difference is
+2.9 ◦C, while the minimum temperature difference during the cruise phase is only 2.1 ◦C,
+all remaining below the safety threshold of 5 ◦C. As shown in Figure 21a,b, the spatial
+temperature distribution exhibits a mild gradient, with lower temperatures at both sides
+and slightly higher temperatures in the middle. The highest temperature is located at the
+center of the module, with no significant thermal accumulation, demonstrating excellent
+temperature stability and uniformity. In comparison, the hybrid cooling system proposed
+in this study achieves a peak temperature of 37.9◦C and a maximum temperature difference
+of 3.1 ◦C, indicating that the two systems exhibit closely comparable thermal performance.
+Figure 20. Thermal performance of the battery module with liquid cooling: (a) variation in maximum
+temperature with time; (b) variation in temperature difference with time.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 24 of 37
+Figure 21. Temperature field distribution of the battery module with liquid cooling: ( a) overall
+temperature field; (b) local temperature field.
+To improve the rationality of the comparison between the proposed hybrid cooling
+system and the baseline liquid cooling system, a structural parameter sensitivity analysis
+was further conducted for the baseline liquid cooling configuration. The coolant inlet
+velocity was kept at 0.9 m/s. The liquid cooling channel height and liquid cooling plate
+thickness were varied to evaluate their effects on temperature control performance and
+system mass. A new liquid cooling comparison scheme was then determined. This
+scheme was used for subsequent comparison of structural mass among different cooling
+configurations under similar temperature control levels.
+The system mass considered in this analysis includes the cooling plates, liquid cool-
+ing channels, coolant, and local cooling structures inside the module. External pumps,
+pipelines, connectors, and heat exchangers were not included.
+When the liquid cooling plate thickness was fixed at 5 mm, increasing the channel
+height from 2 mm to 4 mm reduced the maximum temperature from 36.3 ◦C to 35.6 ◦C, the
+maximum temperature difference from 3.1 ◦C to 2.8 ◦C, and the liquid cooling structure
+mass from 31.2 kg to 30.0 kg, as shown in Figure 22. A larger channel height increases the
+coolant flow area and enhances channel heat transfer. Meanwhile, the solid metal volume
+of the cooling plate decreases.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 22. Effect of liquid cooling channel height on the performance of the cooling system.
+When the channel height was fixed at 3 mm, the liquid cooling plate thickness in-
+creased from 4 mm to 6 mm reduced the maximum temperature from 36.4◦C to 35.6 ◦C and
+the maximum temperature difference from 3.2◦C to 2.8 ◦C, as shown in Figure 23. However,
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 25 of 37
+the liquid cooling structure mass increased from 27.4 kg to 33.9 kg. A thicker cooling plate
+improves lateral heat conduction and temperature uniformity but also increases structural
+mass. A thinner plate reduces mass but weakens heat spreading.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 23. Effect of liquid cooling plate thickness on the performance of the liquid cooling system.
+These results show that the liquid cooling channel height mainly affects the coolant
+flow area and channel heat transfer capacity. Increasing the channel height can reduce both
+thermal indicators and cooling plate mass within the investigated range. In contrast, the
+liquid cooling plate thickness mainly affects lateral heat conduction and structural mass.
+Increasing plate thickness improves temperature control but increases system mass.
+According to the sensitivity analysis, a new liquid cooling scheme was further con-
+structed to compare the structural characteristics of the liquid cooling system and the
+hybrid cooling system under similar thermal control levels. In this scheme, the liquid
+cooling plate thickness was reduced from 5 mm to 3 mm, the channel height was reduced
+from 3 mm to 2.0 mm, and the coolant inlet velocity was kept at 0.9 m/s. As shown in
+Figure 24, the maximum temperature and maximum temperature difference are 38.1 ◦C
+and 3.1 ◦C, respectively, which are close to those of the hybrid cooling system, 37.9 ◦C and
+3.1 ◦C. The mass of the liquid cooling system is 24.8 kg.
+Figure 24. Thermal performance of the liquid cooling system. (a) Variation in maximum temperature
+with time; (b) variation in temperature difference with time.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 26 of 37
+4.3.4. Comprehensive Performance Evaluation
+Based on the comprehensive performance evaluation metric system established in
+Section 3.5, this section conducts a systematic comparative analysis of the no cooling
+system, hybrid cooling system, liquid cooling system, and passive cooling system under
+the same flight conditions. To ensure comparability of the metrics and the objectivity
+of the normalization process, the grouping efficiency and space occupancy of the no
+cooling system, which are used to measure structural compactness, are set as the reference
+benchmark, with a normalized value of 1. These values serve as the relative performance
+reference for other cooling systems.
+Based on the comprehensive performance evaluation results in Table 6. In terms of
+thermal performance: compared with the no cooling approach, the hybrid cooling system
+reduces the maximum temperature and maximum temperature difference by 16.8% and
+49%, respectively. Relative to the passive cooling system, the temperature control margin
+(TCM) is improved by 13.4%, and the fluctuation amplitude of temperature stability (ST) is
+improved by 44.6%. However, its performance in controlling the maximum temperature
+difference (DT) is 33.3% lower than that of the passive cooling system. The overall temper-
+ature control capability of the hybrid cooling system is comparable to that of the liquid
+cooling system.
+Table 6. Comprehensive performance assessment results.
+Performance
+Indicators No Cooling Hybrid
+Cooling
+Liquid
+Cooling
+Passive
+Cooling
+TCM (K) 14.81 21.53 21.7 18.98
+ST (K) 2.84 1.33 1.35 2.40
+DT (K) 2.98 1.60 1.56 1.20
+GE 1 0.93 0.76 0.94
+SO 1 0.33 0.41 0.30
+In terms of structural performance: The spatial occupancy (SO) of the hybrid cooling
+system is 19.5% lower than that of the liquid cooling system, while showing a marginal
+increase compared to the passive cooling system. The grouping efficiency (GE) is 22.4%
+higher than that of the liquid cooling system and remains essentially comparable to that of
+the passive cooling system.
+To further compare the comprehensive performance of different cooling strategies, a
+visual comparative analysis of key performance indicators across all cooling strategies was
+conducted, with results presented in the radar chart in Figure 25:
+In Figure 25a, the no cooling system exhibits certain advantages in structural compact-
+ness and spatial utilization; however, its temperature control capability and stability are
+extremely poor, accompanied by severe heat accumulation issues that compromise battery
+thermal safety.
+Figure 25b shows that the hybrid cooling system achieves balanced performance across
+the five-evaluation metrics. The system shows relatively good performance in controlling
+the maximum temperature and temperature difference. Good temperature stability and
+structural adaptability are also maintained.
+Figure 25c displays the performance of the passive cooling system: this system per-
+forms well in temperature stability and structural compactness; however, due to the absence
+of an active cooling mechanism, its peak temperature control capability is limited, resulting
+in overall performance that does not reach the level of the hybrid cooling system.
+Figure 25d presents the performance characteristics of the liquid cooling system: its
+temperature control effectiveness slightly surpasses that of the hybrid cooling system, but
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 27 of 37
+constrained by its complex structural design, it shows relatively low module efficiency and
+spatial utilization.
+Figure 25. Comparison diagram of integrated radar: ( a) no cooling radar plot; (b) hybrid cooling
+radar plot; (c) passive cooling radar plot; (d) liquid cooling radar plot.
+This system effectively mitigates the thermal safety risks associated with the no cooling
+approach, the structural redundancy of liquid cooling, and the peak temperature control
+limitations of passive cooling. Specifically, the hybrid configuration achieves an integrated
+balance between efficient thermal management and structural compactness, numerically
+predicting maximum temperature and maximum temperature difference of 37.9 ◦C and
+3.1 ◦C, respectively, while establishing a uniform and moderate thermal environment.
+Existing studies confirm [45] that sustaining lithium-ion battery operation within the ideal
+20–40 ◦C range while minimizing internal temperature gradients is critical for decelerating
+aging rates and preserving cell-to-cell performance consistency. Consequently, the hybrid
+cooling system not only ensures thermal safety during individual eVTOL flights but
+also fundamentally supports long-term healthy operation of the power battery, thereby
+enhancing lifecycle economic viability and operational reliability.
+Additionally, a performance comparison is conducted with other systems reported in
+the literature. Table 7 summarizes recent comparable studies, indicating that the present
+design effectively meets the performance requirements for electric aircraft and offers a
+robust solution for maintaining component reliability under variable operating conditions.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 28 of 37
+Table 7. Comparison of similar studies.
+Study Application
+Scenario
+Cooling
+Method
+Maximum
+Temperature
+Maximum
+Temperature
+Difference
+Energy
+Saving Ratio Key Feature
+The proposed
+work
+eVTOL
+pouch-cell
+battery
+module
+HCP-PCM air
+cooling 37.9◦C 3.1 ◦C
+43.3%
+reduction
+compared
+with
+continuous air
+cooling
+Balances
+thermal control,
+compactness,
+and air cooling
+energy use.
+Z. Wang
+et al. [18]
+Flying-
+car/eVTOL
+battery
+system
+Optimized
+liquid-cooled
+plate
+31.1◦C 4.8 ◦C -
+Strong heat
+dissipation,
+higher
+structural
+complexity.
+Wu et al. [19]
+Typical
+eVTOL
+battery
+system
+Flat heat
+pipe–ram air
+passive
+cooling
+<38.46◦C 3.85 ◦C -
+Uses ram air,
+suitable for
+lightweight
+passive cooling.
+Zhao
+et al. [20]
+Tilt-wing and
+lift-cruise
+eVTOL
+Channel-
+based liquid
+cooling
+Within safe
+range -
+Cooling
+system mass
+<20% of
+battery mass
+Reduces battery
+degradation
+compared with
+air cooling.
+Chai et al. [22] eVTOL
+battery pack
+PCM–
+immersion
+cooling
+<48◦C 4.74 ◦C
+PCM mass
+5.32% of
+battery pack
+mass
+Combines PCM
+buffering and
+immersion
+cooling.
+Lee et al. [26]
+Fast-charging
+battery
+module
+Liquid-cooled
+baseplate–
+fins–PCM
+38.4◦C 3.9 ◦C -
+Compact
+hybrid cooling
+system under
+fast charging.
+4.4. Adaptability Analysis of the Hybrid Cooling System
+Based on the multi-condition settings and SOC calculation method defined in
+Section 2.2, this section analyzes the effects of ambient temperature, cruise duration, and
+hover duration on the thermal performance of the proposed hybrid cooling system.
+4.4.1. Effect of Ambient Temperature
+Ambient temperature is an important boundary condition affecting the performance
+of the hybrid cooling system. It influences the heat transfer temperature difference between
+the battery module and the external air. It also affects the initial phase state of the PCM,
+the utilization of latent heat, and the ability of the air-cooling channel to remove heat from
+the outer surface of the PCM. To further evaluate the adaptability of the proposed hybrid
+cooling system under different climatic conditions, five ambient temperature cases were
+considered in this study: 15 ◦C, 20 ◦C, 25 ◦C, 30 ◦C, and 35 ◦C. The baseline flight profile,
+structural parameters, and inlet airflow velocity were kept unchanged.
+As shown in Figure 26, ambient temperature strongly affects the thermal performance
+of the hybrid cooling system. At 15 ◦C and 20 ◦C, the initial temperature is below the
+phase-change range of MPCM32D. The large temperature difference between the inlet air
+and the PCM surface enhances heat removal by the air-cooling channel. Therefore, the
+maximum battery temperature is lower than that under the 25 ◦C baseline condition.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 29 of 37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 26. Performance results under different ambient temperatures.
+At 15 ◦C, heat regulation mainly depends on lateral heat spreading through the high-
+thermal-conductivity plate and sensible heat absorption by solid PCM. Only limited phase
+change occurs in the later stage. The maximum temperature is 30.6 ◦C, and the final
+PCM liquid fraction is 0.18. At 20 ◦C, the PCM enters the phase-change range during
+takeoff hover and the middle-to-late cruise stage. The liquid fraction increases to 0.43, and
+the maximum temperature reaches 34.2 ◦C. The maximum temperature differences are
+3.4 ◦C and 3.2 ◦C at 15 ◦C and 20 ◦C, respectively. Under the 25 ◦C baseline condition,
+the maximum temperature and maximum temperature difference are 37.9 ◦C and 3.1 ◦C,
+respectively. The final PCM liquid fraction is 0.76. This indicates good thermal matching
+between the PCM and the cooling system. At 30 ◦C, the initial temperature is close to the
+phase-change range of MPCM32D. PCM is activated earlier, and its latent heat reserve is
+consumed more rapidly. The maximum temperature increases to 40.6 ◦C, with a maximum
+temperature difference of 3.3 ◦C and a final liquid fraction of 0.93. At 35 ◦C, the initial
+temperature exceeds the phase-change temperature of MPCM32D. The PCM is already
+liquid at the beginning of the mission. Its latent heat buffering effect is therefore weakened,
+and heat regulation mainly relies on sensible heat absorption and surface heat removal.
+As a result, the maximum temperature rises to 47.0 ◦C, and the maximum temperature
+difference increases to 3.7 ◦C.
+Overall, the proposed hybrid cooling system shows good adaptability at 30 ◦C. At this
+temperature, the PCM latent heat can be effectively activated, although it is nearly depleted
+near the end of the mission.
+4.4.2. Effect of Cruise Duration
+Although the discharge rate during cruise is lower than that during takeoff and
+landing hover, the cruise phase has the longest duration. Therefore, it strongly affects the
+PCM latent heat consumption and SOC variation during the mission. In this study, the
+takeoff hover, climb, descent, and landing hover phases were kept unchanged. Only the
+cruise duration was varied. Three cases were considered: 800 s, 1200 s, and 1600 s. The
+1200 s case was used as the baseline. According to the SOC calculation, the final SOC values
+for the three cruise durations were 57.4%, 45.1%, and 32.6%, respectively.
+As shown in Figure 27, the maximum temperature, maximum temperature difference,
+and PCM liquid fraction all increase as the cruise duration increases from 800 s to 1600 s.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 30 of 37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 27. Performance results under different cruise durations.
+When the cruise duration is 800 s, the total mission time is short, and the final SOC re-
+mains high. The total heat generation of the battery module is relatively low. Thus, the PCM
+latent heat is only partially consumed. The final PCM liquid fraction is 0.66. The maximum
+temperature and maximum temperature difference are 36.7 ◦C and 2.8 ◦C, respectively.
+This indicates that the hybrid cooling system has sufficient thermal buffering capacity.
+When the cruise duration increases to 1200 s, the system operates under the baseline
+condition. Continuous heat generation during cruise increases the PCM liquid fraction.
+In the middle and later stages of flight, the heat storage capacity of PCM begins to de-
+cline. The final PCM liquid fraction is about 0.76. However, air cooling continuously
+removes heat from the PCM and partially restores its heat storage capacity. Therefore, the
+maximum temperature and maximum temperature difference are limited to 37.9 ◦C and
+3.1 ◦C, respectively.
+When the cruise duration further increases to 1600 s, the total mission time reaches
+1900 s. The final SOC decreases to 32.6%. The total heat generation increases, and the
+PCM remains at a high liquid fraction. As a result, the maximum temperature rises to
+39.5 ◦C, and the maximum temperature difference increases to 3.5 ◦C. The final PCM liquid
+fraction reaches 0.88. Although the maximum temperature remains below 40 ◦C and the
+temperature difference remains below 5◦C, the remaining latent heat capacity of the PCM is
+significantly reduced. This suggests that long-range missions weaken the thermal buffering
+capacity of the system during the final high-discharge phase.
+Overall, the hybrid cooling system can still maintain good temperature control as the
+cruise duration increases. However, the increasing PCM liquid fraction indicates a gradual
+reduction in latent heat buffering margin.
+4.4.3. Effect of Hover Duration
+The takeoff and landing hover phases have the highest power demand in an eVTOL
+mission. Although these phases are short, their instantaneous heat generation rate is much
+higher than that during cruise. To evaluate the effect of high-discharge duration on the
+hybrid cooling system, the takeoff and landing hover durations were simultaneously set to
+30 s, 40 s, and 50 s. All other flight conditions were kept unchanged.
+As shown in Figure 28, increasing the single hover duration from 30 s to 50 s increases
+the thermal load of the battery module. The maximum temperature rises from 37.9 ◦C to
+39.8 ◦C. The maximum temperature difference increases from 3.1 ◦C to 3.7 ◦C. The PCM
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 31 of 37
+liquid fraction also increases from 0.76 to 0.87. This indicates that a longer high-discharge
+period directly increases transient heat input and accelerates PCM latent heat consumption.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 28. Performance results under different hover durations.
+The thermal response differs between takeoff hover and landing hover. Takeoff hover
+occurs at the beginning of the mission. At this stage, the battery, PCM, and high-thermal-
+conductivity plate are still at relatively low temperatures. The PCM also has sufficient
+latent heat capacity. Therefore, the thermal shock during takeoff can be effectively buffered
+by heat spreading through the high-thermal-conductivity plate and heat absorption by the
+PCM. In contrast, landing hover occurs near the end of the mission. After climbing and
+long cruises, the battery SOC decreases and the PCM liquid fraction increases. Thus, under
+the same discharge rate and duration, landing hover is more likely to cause the maximum
+temperature of the entire mission.
+When the single hover duration increases to 40 s, the PCM still retains part of its latent
+heat capacity. Air cooling can also help recover its heat storage ability. The maximum
+temperature increases to 38.9 ◦C. When the hover duration further increases to 50 s, the
+final PCM liquid fraction reaches 0.87. This means that most of the latent heat reserve
+has been consumed. The maximum temperature reaches 39.8 ◦C, while the maximum
+temperature difference remains within 3.7 ◦C.
+These results show that the proposed hybrid cooling system has a certain adaptability
+to short-term extension of hover duration.
+4.5. Air-Cooling Intervention Strategy and Energy Efficiency Trade-Off Analysis
+In the hybrid cooling system for eVTOL power batteries, air cooling effectively sup-
+presses battery temperature rise by enhancing convective heat transfer and is therefore
+essential for thermal safety under high-rate discharge conditions. However, continuous
+operation of the air-cooling subsystem throughout the entire flight mission leads to addi-
+tional energy consumption, which may undermine the requirements of eVTOL systems for
+high energy efficiency and extended endurance.
+As shown in Figure 29, compared with the pure PCM cooling system, the hybrid
+cooling system more effectively suppresses the continuous temperature rise of the battery
+module during the later stage of flight. In particular. After t = 500 s, the temperature
+difference (∆T) between the two systems increases rapidly from 0.8 ◦C to 5.2 ◦C, indicating
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 32 of 37
+that air cooling gradually becomes the dominant temperature regulation mechanism. When
+sufficient latent heat remains in the PCM, the peak temperature rise is relatively insensitive
+to the inlet airflow velocity, suggesting that the system mainly relies on PCM-based latent
+heat storage for passive thermal regulation in the early stage of flight. As the PCM latent
+heat is progressively depleted, its independent thermal buffering capability weakens, and
+the air-cooling subsystem increasingly assumes the primary heat dissipation role through
+forced convection and accelerated heat release from the PCM. Overall, the hybrid cooling
+system exhibits a clear stage-dependent functional division: PCM dominates early-stage
+thermal buffering, whereas air cooling governs sustained heat dissipation in the middle
+and later stages.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 29. Time evolution curves of maximum temperature and temperature difference for the
+passive cooling system and hybrid cooling system. The asterisk indicates the characteristic time point
+at t = 500 s.
+Furthermore, the PCM liquid fraction was adopted as a quantitative measure of latent
+heat consumption, providing a physically interpretable basis for determining the air-cooling
+intervention timing. This parameter directly reflects the phase-change progression of the
+PCM and is negatively correlated with the remaining latent heat capacity. It therefore serves
+as a key physical metric for characterizing the degradation of thermal storage capability.
+As indicated by the evolution curve of the PCM liquid fraction in Figure 30, when
+t = 800 s, more than 50% of the PCM latent heat has been consumed, corresponding to
+a liquid fraction of 0.5. This moment can therefore be regarded as a critical transition
+point at which the PCM shifts from a latent-heat-sufficient stage to a thermal storage
+degradation stage. Beyond this point, the heat removal capacity at the convective boundary
+gradually becomes the dominant factor in suppressing temperature rise, whereas the
+ability of PCM phase change to mitigate the peak temperature and temperature difference
+begins to weaken. The multiparameter coupled evolution shown in Figure 30 further
+clarifies the physical states corresponding to different intervention times. At t = 500 s,
+the maximum battery module temperature Tmax is 31.5 ◦C and the PCM liquid fraction is
+0.28, indicating that the PCM is still in a latent-heat-sufficient stage dominated by passive
+thermal regulation. At t = 650 s, Tmax rises to 32.2 ◦C and the liquid fraction increases
+to 0.36, suggesting that latent heat consumption is gradually increasing but has not yet
+entered the degradation stage. At t = 800 s, Tmax reaches 32.9 ◦C and the liquid fraction
+exceeds 0.5, indicating that more than 50% of the latent heat has been consumed and that
+the PCM has formally entered the thermal storage degradation stage. At t = 950 s, Tmax
+further increases to 34.1 ◦C and the liquid fraction approaches 0.62, implying that the latent
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 33 of 37
+heat reserve is close to depletion and the thermal storage regulation capability has been
+significantly weakened.
+Figure 30. Temperature and liquid fraction at the cooling activation time.
+Based on the thermal evolution pattern and intrinsic functional mechanisms, an air-
+cooling intervention strategy is proposed and verified through simulations. Specifically,
+when the PCM system temperature reaches 31.5 ◦C at t = 500 s, it is determined as the
+critical response threshold to activate the air cooling. To evaluate the impact of different
+intervention timings on thermal behavior and air-cooling energy consumption, four repre-
+sentative intervention time points are selected around this response threshold: t = 500 s,
+650 s, 800 s, and 950 s, with a 150 s interval between each to balance the strategy coverage
+and experimental resolution.
+The energy consumption corresponding to each time sequenced air-cooling strategy is
+quantitatively assessed using the following method:
+E = mair · ∆pair
+ρair · η f an
+· ∆t (33)
+In Equation (33), ∆pair denotes the static pressure difference of the modeled air-cooling
+channel obtained from CFD postprocessing. At the baseline inlet velocity of 3 m/s, the inlet
+area is 1.63 × 10−3 m2, giving an air volume flow rate of 4.89 × 10−3 m3/s. The air density
+and fan efficiency are set to 1.184 kg/m3 and 0.60, respectively. The pressure difference is
+defined as the area-averaged static pressure difference between the inlet and outlet sections
+of the modeled air-cooling channel. This power model represents the ideal air transport
+power required to overcome the channel pressure drop.
+Based on the analysis in Section 4.2.3, the inlet airflow velocity is set to 3 m/s. As
+shown in Figure 31a,b, the temperature evolution of the battery module under different
+intervention strategies is presented with a focus on the period from t = 300 s to the end of
+the mission, to highlight the regulatory effect of air cooling on the thermal behavior during
+the mid-to-late stages. Simulation results indicate that delaying the air-cooling intervention
+leads to a gradual decline in the temperature control capability of the system. In addition,
+a joint visualization of cooling duration, maximum temperature, and energy consumption
+reveals the trade-off between thermal performance and energy cost for each strategy. While
+the t = 0 s (continuous air cooling) strategy achieves the lowest peak temperature of 37.9◦C,
+it incurs the highest energy consumption at 34.13 J. Conversely, the t = 950 s strategy yields
+the lowest energy use (12.51 J) but allows the maximum temperature to rise to 40.7 ◦C,
+indicating insufficient thermal regulation. Comprehensive analysis shows that the t = 650 s
+intervention strategy achieves the optimal balance between thermal control and energy
+efficiency. Within a total air-cooling duration of 850 s, it limits the maximum temperature
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 34 of 37
+to 38.9 ◦C while consuming only 19.34 J of energy, outperforming both earlier and later
+intervention schemes in terms of synergistic regulation.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 31. Simulation results: ( a) temperature evolution of the battery module under different
+air-cooling intervention times; (b) correlation between maximum system temperature and energy
+consumption under different air-cooling durations.
+Compared to continuous air cooling, the intervention strategy at t = 650s reduces
+energy consumption by approximately 43.3%, while the peak temperature increases by
+only about 2.6%. In conclusion, the air-cooling intervention strategy, based on the peak
+temperature response window of the battery module, effectively activates cooling potential
+in the later stages of the flight mission. This significantly reduces energy consumption while
+ensuring thermal safety, providing a feasible path and parameter reference for intelligent
+thermal management under multi-stage operating conditions in eVTOLs.
+5. Conclusions
+To address the challenges of heat dissipation and structural compactness in eVTOL
+power batteries under high-rate discharge conditions, this study proposes a hybrid battery
+cooling system integrating forced air convection, high-thermal-conductivity plates, and
+PCM. The power demand in different eVTOL flight phases is first analyzed. A single-
+cell simulation model is then developed and validated through experiments. Three key
+structural parameters are investigated, including cell spacing, high-thermal-conductivity
+plate material, and inlet airflow velocity. Sensitivity analysis is used to rank their effects
+on thermal performance and structural compactness. A multidimensional evaluation
+framework is established to compare the proposed system with no cooling, passive cooling,
+and liquid cooling strategies. The adaptability of the hybrid cooling system under different
+operating conditions is further analyzed. In addition, an air-cooling intervention strategy
+is proposed to reduce the high energy consumption caused by continuous airflow:
+(1) A hybrid battery cooling system combining air cooling, high-thermal-conductivity
+plates, and PCM is developed. Under the optimized configuration, with a cell spacing of
+1 mm, a 6063-aluminum alloy high-thermal-conductivity plate, and an inlet airflow velocity
+of 3 m/s, the maximum battery temperature and maximum temperature difference are
+limited to 37.9 ◦C and 3.1 ◦C, respectively. Sensitivity analysis shows that cell spacing
+has the greatest effect on system mass and peak temperature, while inlet airflow velocity
+mainly affects temperature uniformity.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 35 of 37
+(2) A multidimensional evaluation framework is established, including temperature
+control margin and space occupancy ratio. Compared with passive cooling, the hybrid
+cooling system improves the temperature control margin and thermal stability by 13.4%
+and 44.6%, respectively. Compared with the liquid cooling system, the space occupancy
+ratio is reduced by 19.5%, and the grouping efficiency is increased by 22.4%. The adapt-
+ability analysis shows that the optimized hybrid cooling system is suitable for ambient
+temperatures below 30 ◦C.
+(3) An air-cooling intervention strategy based on the PCM liquid fraction is proposed.
+The results show that air cooling should be activated at t = 650 s, when the maximum
+temperature reaches 32.2 ◦C and the liquid fraction reaches 0.36. Under this strategy,
+the maximum battery module temperature is limited to 38.9 ◦C, while good temperature
+uniformity is maintained. Compared with continuous air cooling, the air-cooling energy
+consumption during a single flight mission is reduced by 43.3%.
+Although this study systematically investigates the structural design, parameter op-
+timization, performance evaluation, and air-cooling intervention strategy of the hybrid
+cooling system, some limitations remain. The present analysis is limited to a single mission
+simulation. Future work will further consider repeated mission cycles, low temperature
+starts up, high-temperature operation, and experimental validation under wide tempera-
+ture conditions.
+Author Contributions: Conceptualization, X.W.; methodology, S.Y.; software, Y.C.; validation, X.W.
+and M.L.; formal analysis, J.S.; investigation, Y.C.; data curation, S.Y.; writing—original draft prepara-
+tion, S.Y.; writing—review and editing, J.S., Y.W. and J.D.; visualization, Y.W. and M.L.; supervision,
+J.D.; project administration, X.W.; funding acquisition, X.W. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This research was funded by the Natural Science Foundation of Hebei Province, grant
+number E2024202014.
+Data Availability Statement: The raw data supporting the conclusions of this article will be made
+available by the authors upon request.
+Conflicts of Interest: The authors declare no conflicts of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+eVTOL Electric vertical takeoff and landing
+PCM Phase-change material
+HCP High-thermal-conductivity plates
+GTOM Total takeoff weight
+ROC Climb rate
+L Lift
+D Drag
+ROD Descent rate
+TCM Temperature control margin
+ST Temperature stability
+DT Time-averaged maximum temperature difference
+GE Grouping efficiency
+SO Space occupancy ratio
+ED Energy density
+VO Volume occupies
+BTMS Battery thermal management system
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 36 of 37
+References
+1. Yang, X.G.; Liu, T.; Ge, S.; Rountree, E.; Wang, C.-Y. Challenges and key requirements of batteries for electric vertical takeoff and
+landing aircraft. Joule 2021, 5, 1644–1659. [CrossRef]
+2. Cohen, A.P .; Shaheen, S.A.; Farrar , E.M. Urban air mobility: History, ecosystem, market potential, and challenges.IEEE Trans.
+Intell. Transp. Syst. 2021, 22, 6074–6087. [CrossRef]
+3. Fredericks, W.L.; Sripad, S.; Bower, G.C.; Viswanathan, V . Performance Metrics Required of Next-Generation Batteries to Electrify
+Vertical Takeoff and Landing (VTOL) Aircraft.ACS Energy Lett. 2018, 3, 2989–2994. [CrossRef]
+4. Jinghui, D. Technical status and development of electric vertical take-off and landing aircraft. Acta Aeronaut. Astronaut. Sin. 2024,
+45, 529937.
+5. Huang, Y.; Mei, P .; Lu, Y.; Huang, R.; Yu, X.; Chen, Z.; Roskilly, A.P . A novel approach for Lithium-ion battery thermal management
+with streamline shape mini channel cooling plates. Appl. Therm. Eng. 2019, 157, 113623. [CrossRef]
+6. Yan, J.; Wang, Q.; Li, K.; Sun, J. Numerical study on the thermal performance of a composite board in battery thermal management
+system. Appl. Therm. Eng. 2016, 106, 131–140. [CrossRef]
+7. Kasliwal, A.; Furbush, N.J.; Gawron, J.H.; McBride, J.R.; Wallington, T.J.; De Kleine, R.D.; Kim, H.C.; Keoleian, G.A. Role of Flying
+Cars in Sustainable Mobility. Nat. Commun. 2019, 10, 1555. [CrossRef]
+8. Yang, C.; Xi, H.; Wang, M. Structure optimization of air cooling battery thermal management system based on lithium-ion battery.
+J. Energy Storage 2023, 59, 106538. [CrossRef]
+9. Fan, Y.; Bao, Y.; Ling, C.; Chu, Y.; Tan, X.; Yang, S. Experimental study on the thermal management performance of air cooling for
+high energy density cylindrical lithium-ion batteries. Appl. Therm. Eng. 2019, 155, 96–109. [CrossRef]
+10. Li, X.; Zhao, J.; Duan, J.; Panchal, S.; Yuan, J.; Fraser, R.; Fowler, M.; Chen, M. Simulation of cooling plate effect on a battery
+module with different channel arrangement. J. Energy Storage 2022, 49, 104113. [CrossRef]
+11. Qian, Z.; Li, Y.; Rao, Z. Thermal performance of lithium-ion battery thermal management system by using mini-channel cooling.
+Energy Convers. Manag. 2016, 126, 622–631. [CrossRef]
+12. Heyhat, M.M.; Mousavi, S.; Siavashi, M. Battery thermal management with thermal energy storage composites of PCM, metal
+foam, fin and nanoparticle. J. Energy Storage 2020, 28, 101235. [CrossRef]
+13. Cai, S.; Zhang, X.; Ji, J. Recent advances in phase change material-based battery thermal management systems for electric vehicles.
+J. Energy Storage 2023, 72, 108750. [CrossRef]
+14. Liang, J.; Gan, Y.; Li, Y. Investigation on the thermal performance of a battery thermal management system using heat pipe under
+different ambient temperatures. Energy Convers. Manag. 2018, 155, 1–9. [CrossRef]
+15. Luo, Y.; Qian, Y.; Zeng, Z.; Zhang, Y. Simulation and analysis of operating characteristics of power battery for flying car utilization.
+eTransportation 2021, 8, 100111. [CrossRef]
+16. Park, J.; Jeong, T.; Yee, K. Refined air-cooled battery sizing process for conceptual design of eVTOL aircraft.Appl. Energy 2025,
+377, 124567. [CrossRef]
+17. Park, J.; Yee, K. Development of Liquid-Cooled Battery System Sizing Method for eVTOL Aircraft. In Proceedings of the AIAA
+SciTech 2025 Forum, Orlando, FL, USA, 6–10 January 2025; p. 0222.
+18. Wang, Z.; Guan, Q.; Zhang, H.; Wu, X.; Yu, D. Optimized design of liquid-cooled plate structure for flying car power battery
+system. J. Energy Storage 2024, 97, 112720. [CrossRef]
+19. Wu, Z.; Lian, W.; Chen, B.; Zheng, C. Research on battery heat generation characteristics and thermal management system applied
+to a typical eVTOL. Appl. Therm. Eng. 2024, 257, 124187. [CrossRef]
+20. Zhao, C.; Clarke, M.; Kellermann, H.; Verstraete, D. Liquid cooling systems for batteries of electric vertical takeoff and landing
+aircraft. J. Aircr. 2024, 61, 667–683. [CrossRef]
+21. Zhao, C.; Mazo, J.R.; Verstraete, D. Optimizations of a liquid cooling system for eVTOL aircraft: Impact of sizing mission and
+battery size. Appl. Therm. Eng. 2024, 246, 122988. [CrossRef]
+22. Chai, X.; Xu, X.; Liang, X. Strategy of battery thermal management for eVTOL by combination of PCM and immersion cooling.
+Therm. Sci. Eng. Prog. 2025, 64, 103824. [CrossRef]
+23. Zhao, C.; Gunti, S.R.; Kellermann, H.; Gong, A.; Coburn, S.; Moore, A.; Verstraete, D. Thermoelectric cooling systems for eVTOL
+batteries operating on hot days. Appl. Therm. Eng. 2025, 269, 125999. [CrossRef]
+24. Wang, S.; Wang, H.; Feng, Y.; Li, H.; Li, J. Propeller slipstream driven air–liquid hybrid cooling system for electric aircraft power
+cabin thermal management. Appl. Therm. Eng. 2025, 280, 128457. [CrossRef]
+25. Sun, Z.; Fan, R.; Yan, F.; Zhou, T.; Zheng, N. Thermal management of the lithium-ion battery by the composite PCM-Fin structures.
+Int. J. Heat Mass Transf. 2019, 145, 118739. [CrossRef]
+26. Lee, S.; Han, U.; Lee, H. Development of a hybrid battery thermal management system coupled with phase change material
+under fast charging conditions. Energy Convers. Manag. 2022, 268, 116015. [CrossRef]
+27. Ling, Z.; Wang, F.; Fang, X.; Gao, X.; Zhang, Z. A hybrid thermal management system for lithium ion batteries combining phase
+change material with forced-air cooling. Appl. Energy 2015, 148, 403–409. [CrossRef]
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 37 of 37
+28. Ma, Y.; Chiang, S.W.; Chu, X.; Li, J.; Gan, L.; Xu, C.; Yao, Y.; He, Y.; Li, B.; Kang, F.; et al. Thermal design and optimization of
+lithium ion batteries for unmanned aerial vehicles. Energy Storage 2019, 1, e48. [CrossRef]
+29. Rao, Z.; Qian, Z.; Kuang, Y.; Li, Y. Thermal performance of liquid cooling based thermal management system for cylindrical
+lithium-ion battery module with variable contact surface. Appl. Therm. Eng. 2017, 123, 1514–1522. [CrossRef]
+30. Liu, T.; Yang, X.G.; Ge, S.; Leng, Y.; Wang, C.-Y. Ultrafast charging of energy-dense lithium-ion batteries for urban air mobility.
+eTransportation 2021, 7, 100103. [CrossRef]
+31. Moller, P .S.Review of Selected Advanced Air Mobility Aircraft; Moller International and Freedom Motors, Inc.: Dixon, CA, USA, 2022.
+32. Zhao, J.; Rao, Z.; Huo, Y.; Liu, X.; Li, Y. Thermal management of cylindrical power battery module for extending the life of new
+energy electric vehicles. Appl. Therm. Eng. 2015, 85, 33–43. [CrossRef]
+33. Shah, K.; Jain, A. Prediction of thermal runaway and thermal management requirements in cylindrical Li-ion batteries in realistic
+scenarios. Int. J. Energy Res. 2019, 43, 1827–1838. [CrossRef]
+34. Skurkyte-Papieviene, V .; Abraitiene, A.; Sankauskaite, A.; Rubeziene, V .; Baltusnikaite-Guzaitiene, J. Enhancement of the thermal
+performance of the paraffin-based microcapsules intended for textile applications. Polymers 2021, 13, 1120. [CrossRef]
+35. Peng, Y.; Zhang, Q.; Wen, L.; Xie, Z.; Huang, B.; Hu, S.; Tang, H.; Wei, C. An investigation into microstructures and mechanical
+properties of 1060 pure aluminum during submerged friction stir processing at a high rotating speed. Metals 2022, 12, 201.
+[CrossRef]
+36. Cheng, Z.; Koh, Y.R.; Mamun, A.; Shi, J.; Bai, T.; Huynh, K.; Yates, L.; Liu, Z.; Li, R.; Lee, E.; et al. Experimental observation of
+high intrinsic thermal conductivity of AlN. Phys. Rev. Mater. 2020, 4, 044602. [CrossRef]
+37. Peng, G.; Dou, G.; Hu, Y.; Sun, Y.; Chen, Z. Phase change material (PCM) microcapsules for thermal energy storage.Adv. Polym.
+Technol. 2020, 2020, 9490873. [CrossRef]
+38. Bernardi, D.; Pawlikowski, E.; Newman, J. A general energy balance for battery systems. J. Electrochem. Soc. 1985, 132, 5.
+[CrossRef]
+39. Lempert, J.; Kollmeyer, P .J.; He, M.; Haußmann, M.; Cotton, J.S.; Emadi, A. Battery selection and thermal management system
+design for a 5C-rate ultrafast charging battery module. J. Power Sources 2022, 550, 232121. [CrossRef]
+40. Chen, S.C.; Wan, C.C.; Wang, Y.Y. Thermal analysis of lithium-ion batteries. J. Power Sources 2005, 140, 111–124. [CrossRef]
+41. Türkakar, G. Thermal analysis and parametric investigation of phase change material-air cooled lithium ion battery pack. J. Heat
+Transf. 2021, 143, 122901. [CrossRef]
+42. Yin, H.N.; Xuan, Y.M.; Lian, W.L.; Wang, T. A comprehensive set of criteria for evaluating thermal management systems of aerial
+vehicles. Sci. China Technol. Sci. 2023, 66, 2093–2107. [CrossRef]
+43. Beven, K. A sensitivity analysis of the Penman-Monteith actual evapotranspiration estimates. J. Hydrol. 1979, 44, 169–190.
+[CrossRef]
+44. Park, S.J.; Song, Y.W.; Kang, B.; Kang, M.-J.; Kim, M.-Y.; Choi, Y.-J.; Lim, J.; Kim, H.-S.; Hong, Y. Effect of High-temperature thermal
+management on degradation of li-ion battery for fast charging. IEEE Trans. Transp. Electrif. 2023, 10, 2912–2922. [CrossRef]
+45. Zhang, X.; Li, Z.; Luo, L.; Fan, Y.; Du, Z. A review on thermal management of lithium-ion batteries for electric vehicles. Energy
+2022, 238, 121652. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+https://doi.org/10.3390/batteries12050170

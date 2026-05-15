@@ -1,0 +1,7 @@
+onﬁrmed under four lithium-
+ion ba ttery fault states: excessive internal resist ance, excess temperature, and terminal 
+voltage above the upper or lower cut-oﬀ voltage. Under these four battery failure scenar-
+ios, the suggested method’s average errors were all less than 2.5%. 
+The primary drawback of using an SVM for SOC estimation is its sensitivity to the 
+choice of kernel and hyperparameters, which requires careful tuning, along with its po-
+tential diﬃculty in handling large datasets due t

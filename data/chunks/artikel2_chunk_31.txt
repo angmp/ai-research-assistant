@@ -1,0 +1,6 @@
+ Ah has been selected. The complete aircraft configuration and detailed
+battery specifications are provided in Table 1. Under nominal operating conditions, the
+aircraft maintains a cruising altitude of 305 m (1000 feet) above ground. The flight condition
+adopted in this study is not based on measured flight data. Instead, it is assumed and
+constructed based on the typical eVTOL mission parameters reported in Ref. [7]. As shown
+in Table 2, the flight condition includes five phases: takeoff hover,

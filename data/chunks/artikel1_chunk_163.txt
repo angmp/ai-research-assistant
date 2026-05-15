@@ -1,0 +1,8 @@
+al support of the UK government’s Foreign, Commonwealth, and Develop-
+ment Office (FCDO) and Canada’s International Development Research Centre (IDRC). In addition,
+we appreciate support from Arm and Google.org to DSAIL.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 28 of 33
+Data Availability Statement: The original HUST Battery dataset presented in this study are openly
+available on Mendeley data at https://data.mendeley.com/datasets/nsc7hnsg4s/2 (accessed on
+4 October 2024)

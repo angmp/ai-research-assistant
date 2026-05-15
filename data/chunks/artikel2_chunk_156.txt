@@ -1,0 +1,7 @@
+on-
+structed to compare the structural characteristics of the liquid cooling system and the
+hybrid cooling system under similar thermal control levels. In this scheme, the liquid
+cooling plate thickness was reduced from 5 mm to 3 mm, the channel height was reduced
+from 3 mm to 2.0 mm, and the coolant inlet velocity was kept at 0.9 m/s. As shown in
+Figure 24, the maximum temperature and maximum temperature difference are 38.1 ◦C
+and 3.1 ◦C, respectively, which are close to those of the hybrid coo

@@ -1,0 +1,16 @@
+is an unlimited range of PDFs; however, while creating the Kalman ﬁlter, only 
+the (multivariable) Gaussian PDF is utilized. It is assumed that all sounds and the state 
+vector are Gaussian random vectors. 
+The Gaussian or normal PDF as presented in ﬁgure 5 is deﬁned as: 
+𝑋~ 𝒩 ቀ𝑥
+̅,෍𝑋 ෨ቁ (5)
+𝐹௑(𝑥) = 1
+ඥ(2𝜋)௡|∑ 𝑋|
+ 𝑒𝑥𝑝 ൬−1
+2 (𝑥−  𝑥 ̅)^்෍ (𝑥−  𝑥 ̅)
+ିଵ
+௑෨
+൰ (6)
+where n is the dimensionality of the random variable X, |∑ 𝑋| is the determinant of the 
+covariance ∑ 𝑋, and (𝑥−  𝑥 ̅)^்∑( 𝑥−  𝑥 ̅)ିଵ
+௑෨  i

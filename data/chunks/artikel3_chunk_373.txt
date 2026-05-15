@@ -1,0 +1,11 @@
+ePO4
+batteries and inapplicable in real time for EVs.
+• The computing requirement and parameter estimation time provide difficulties for
+EM and ECM.
+• Complex operations and sensitivity to model errors are KF’s limitations.
+• NN requires extensive training, yet it produces reliable estimates in a variety
+of scenarios.
+• The computational complexity and optimization difficulties of FL, ANFIS, GA, and
+PSO place limitations on them.
+Batteries 2025, 11, 32 36 of 42
+ML techniques approaches to SOC an

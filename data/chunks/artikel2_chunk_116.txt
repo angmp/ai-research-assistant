@@ -1,0 +1,7 @@
+ard heat transfer into the PCM layer.
+This mechanism facilitates improved thermal diffusion and contributes to a more uniform
+temperature distribution across the module.
+Figure 14. Characteristics of battery module temperature distribution for hybrid cooling system:
+(a) module temperature field distribution; (b) localized module temperature field distribution.
+Simultaneously, the air-cooling subsystem effectively removes the heat absorbed by
+the PCM in a timely manner, preventing thermal accumul

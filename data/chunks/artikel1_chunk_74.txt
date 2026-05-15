@@ -1,0 +1,9 @@
+lls often exhibit an initial capacity significantly higher than their labelled
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 11 of 33
+nominal capacity. This ensures that normalized SoHs do not exceed 1.0 at the Beginning
+of Life (BoL) which would otherwise distort the training of machine learning models like
+LSTM; thus 80% of the nominal capacity is normalized to 70% SoH.
+normalized SoH (t) = SoH
+115.0 (7)
+Following the completion of data preprocessing and calculations, the c

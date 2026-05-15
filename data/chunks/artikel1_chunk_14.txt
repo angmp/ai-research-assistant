@@ -1,0 +1,8 @@
+thods toward estimation of the battery lifespan. The
+paper also addresses the potential implications and the ability of the methods to be inter-
+pretable by following physical degradation laws particularly the downward monotonic
+behavior of LFP battery capacity degradation.
+2. Background and Prior Work
+This section details the technical and economic context for the research, beginning with
+a comparative analysis of energy storage technologies to highlight the advantages of lithium
+ion as a stora

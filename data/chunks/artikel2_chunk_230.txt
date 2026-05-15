@@ -1,0 +1,7 @@
+n battery thermal management
+system. Appl. Therm. Eng. 2016, 106, 131–140. [CrossRef]
+7. Kasliwal, A.; Furbush, N.J.; Gawron, J.H.; McBride, J.R.; Wallington, T.J.; De Kleine, R.D.; Kim, H.C.; Keoleian, G.A. Role of Flying
+Cars in Sustainable Mobility. Nat. Commun. 2019, 10, 1555. [CrossRef]
+8. Yang, C.; Xi, H.; Wang, M. Structure optimization of air cooling battery thermal management system based on lithium-ion battery.
+J. Energy Storage 2023, 59, 106538. [CrossRef]
+9. Fan, Y.; Bao, Y.; Ling, C

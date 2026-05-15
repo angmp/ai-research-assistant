@@ -1,0 +1,6 @@
+sed on
+CEEMDAN for feature analysis and RBF neural network. IEEE J. Emerg. Sel. Top. Power Electron. 2021, 11, 187–200. [ CrossRef]
+112. Lin, M.; Zeng, X.; Wu, J. State of health estimation of lithium‑ion battery based on an adaptive tunable hybrid radial basis function
+network. J. Power Sources 2021, 504, 230063. [ CrossRef]
+113. Saha, B.; Goebel, K.; Poll, S.; Christophersen, J. Prognostics methods for battery health monitoring using a bayesian framework.
+IEEE Trans. Instrum. Meas. 2008, 58, 2

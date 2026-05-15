@@ -1,0 +1,16 @@
+
+
+ln
+
+k
+y
+
+b (4)
+Furthermore, to ensure the neural network adheres to physical degradation laws,
+the differential form of the Gompertz equation is utilized as a constraint during training.
+This enforces a Physics-Informed framework where the network outputs satisfy the rate
+of change defined by Equation (5). The first derivative of the Gompertz function will be
+referred to as G′(x) while the second derivative will be referred to using G′′(x).
+G′(x) = dy
+dx = bye a−bx (5)
+By integrating Equat

@@ -1,0 +1,6 @@
+ of voltage, current, time, capacity, dq and cycles to modelSoH and RUL, and it
+was required to understand the relationship between these variables and how they can
+be used to obtain SoC and SoH. For the SoC to be computed, the Coulomb Counting SoC
+estimation formula shown in Equation (1) was used because SoH is defined as the ratio
+of the capacity of a battery in a used state and a new state [ 43–45]; moreover, since the
+Coulomb Counting SoC equation uses the rated capacity instead of the curre

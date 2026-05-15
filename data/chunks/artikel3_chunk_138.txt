@@ -1,0 +1,11 @@
+ficient in the solid, and radial coordinate within the particle, respectively. This equation
+represents Fick’s law of diffusion in spherical coordinates.
+Charge balance in particles; electron current:
+∇.
+
+σe f f ∇ϕs
+
+= as F j . (46)
+where ϕs, σe f f , as, F, and j are the electric potential in the solid, effective conductivity of
+the solid, specific surface area of the particles, Faraday’s constant, and reaction current
+density, respectively. This equation ensures that the divergence of the el

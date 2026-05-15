@@ -1,0 +1,12 @@
+ed.
+Inlet airflow velocity: using the optimal value of 3 m/s as the reference, with the cell
+spacing at 1 mm and the thermal material set as 6063 aluminum alloy, the variations in a, b,
+and system weight m are recorded.
+The sensitivity coefficients of each parameter for different evaluation metrics are
+shown in Table 5.
+Table 5. Sensitivity coefficients of structural parameters.
+Structural Parameter Structural Parameter Structural Parameter
+Cell Spacing Tmax −0.52
+∆T −0.47
+System Weight 2.15
+The

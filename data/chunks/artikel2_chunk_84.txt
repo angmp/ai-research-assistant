@@ -1,0 +1,10 @@
+z,bat (W·m−1·K−1) are
+the battery thermal conductivities in the x, y, and z directions, respectively.
+3.4. Phase-Change Material Model
+In this study, the enthalpy method is used to simulate the heat transfer process of
+PCM [41]. A transition temperature difference is introduced within the solid–liquid phase
+change temperature range in the simulation to avoid the issue of non-convergence caused
+by directly using a 0 K temperature difference. The energy equation is as follows:
+ρpcm
+∂H
+∂t = kpcm ∇2

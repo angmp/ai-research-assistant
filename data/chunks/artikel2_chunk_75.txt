@@ -1,0 +1,8 @@
+trol [37].
+3.3. Battery Thermal Model
+3.3.1. Battery Heat Generation Equation
+Heat generation in lithium-ion batteries primarily occurs during the charging and dis-
+charging processes. Complex chemical reactions take place inside the battery, accompanied
+by the consumption and generation of materials. Additionally, the internal resistance of the
+battery during charging and discharging causes some electrical energy to be converted into
+heat, resulting in a temperature rise. In simulation studies,

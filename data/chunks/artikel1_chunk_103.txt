@@ -1,0 +1,8 @@
+om these fitted k, a, and b is then
+conducted. All models were developed and tested using the same hardware infrastructure
+as the purely data-driven baselines to ensure comparative consistency, moreover, Table 4
+presents the training hyperparameters used in the GILSTM1 and GILSTM2 models. A
+curriculum learning [50] schedule was utilized to manage the multi-objective optimization
+of parameters (k, a, b), ordinary differentials and the final RUL.
+Table 4. GILSTM Key Training hyperparameters.
+Loss 

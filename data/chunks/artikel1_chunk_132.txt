@@ -1,0 +1,8 @@
+ shown in Figure A1. The performance failures ofG(x) in the early cycles (before
+cycle 500) can be attributed to the high variability of the Gompertz parameters and large
+derivative values exhibited by the Gompertz as shown in Figure A1. As seen in Table 6 and
+Figure 14, LSTM1 and LSTM2 had the best performance at all stages of life.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 22 of 33
+Figure 14. The RMSE per cycle for each of the models developed in this study.
+The various

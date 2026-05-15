@@ -1,0 +1,15 @@
+predicted parameters through the inverse Gompertz layer;
+c. Root Mean Squared Error (RMSE): Square root of MSE as illustrated in Equation (10).
+Sensitive to outliers and is in the same unit as the original data. %RMSE is the RMSE
+divided by the mean target RUL.
+RMSE =
+r
+1
+n ∑
+n
+i=1(yi − ˆyi)2 (10)
+d. RMSE vs. Cycle
+This is used to evaluate how the models RUL RMSE changes as batteries degrade
+across their cycle life, and confirms model generalizability over time.
+e. RMSE at cycle 100
+This is used

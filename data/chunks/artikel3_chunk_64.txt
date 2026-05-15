@@ -1,0 +1,12 @@
+ [23]. 
+  
+Figure 4. Flowchart of a model‑based SOC estimation.
+A particular example of sequential probabilistic inference is the Kalman filter, which
+provides the best state estimate under certain circumstances.
+Linear Kalman filter and variations
+Sequential Probabilistic Inference.
+We start by assuming a general, possibly nonlinear model:
+xk = f (xk−1, uk−1, wk−1) (2)
+yk = h (xk, uk, vk), (3)
+where u k, w k, and v k are a measured input, process random, and sensor random input,
+respectively. W

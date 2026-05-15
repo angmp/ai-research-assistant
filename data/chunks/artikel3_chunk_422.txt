@@ -1,0 +1,5 @@
+ battery using pso algorithm. In Proceedings of the 2018 IEEE Symposium on Computer
+Applications & Industrial Electronics (ISCAIE), Penang, Malaysia, 28–29 April 2018; pp. 354–359.
+74. Sun, W.; Qiu, Y.; Sun, L.; Hua, Q. Neural network‑based learning and estimation of batterystate‑of‑charge: A comparison study
+between direct and indirect methodology. Int. J. Energy Res. 2020, 44, 10307–10319. [ CrossRef]
+75. Qin, X.; Gao, M.; He, Z.; Liu, Y. State of charge estimation for lithium‑ion batteries ba

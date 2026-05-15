@@ -1,0 +1,9 @@
+ and
+degradation of batteries.
+• Creation of efficient SOC and SOH management controllers and real‑time SOC and
+SOH estimation systems.
+• Optimization‑based reduction of computing complexity in data‑driven approaches.
+In summary, while significant strides have been made in battery technology and man‑
+agement for EVs, accurately estimating SOC and SOH remains a complex challenge. Ad‑
+dressing this requires a multifaceted approach, including ongoing research, advanced al‑
+gorithm development, leve

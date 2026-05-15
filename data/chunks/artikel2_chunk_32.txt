@@ -1,0 +1,31 @@
+reported in Ref. [7]. As shown
+in Table 2, the flight condition includes five phases: takeoff hover, climb, cruise, descent,
+and landing hover. The duration of these phases is set to 30 s, 120 s, 1200 s, 120 s, and
+30 s, respectively.
+Table 1. Parameters and specifications of flying cars and lithium iron phosphate batteries.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vehicle Parameters Value Battery Parameters Value
+Total takeoff weight, GTOM (kg) 1500 Capacity, (Ah) 45
+Unladen weight, me (kg

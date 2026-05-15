@@ -1,0 +1,7 @@
+le started. To conduct the study in this paper, the
+data was aggregated into a refined dataset. The refined dataset includes five dependent
+variables: current, voltage, cell capacity (Q), RUL, and change in capacity (dq), as well as
+two independent variables: time and cycle number. Figure 3 shows how these variables
+change over time for cell 2–2. The plots are of the dependent variables over time for all
+cycles of cell 2–2 from the HUST dataset on the left (a) and on the right (b) are the same
+p

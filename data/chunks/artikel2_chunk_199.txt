@@ -1,0 +1,6 @@
+gulation in the early stage of flight. As the PCM latent
+heat is progressively depleted, its independent thermal buffering capability weakens, and
+the air-cooling subsystem increasingly assumes the primary heat dissipation role through
+forced convection and accelerated heat release from the PCM. Overall, the hybrid cooling
+system exhibits a clear stage-dependent functional division: PCM dominates early-stage
+thermal buffering, whereas air cooling governs sustained heat dissipation in the middle

@@ -1,0 +1,9 @@
+VR approach performed better than the LS‑SVR technique without PSO op‑
+timization, with an RMSE of less than 2%.
+4. Challenges and Prospects
+SOC and SOH estimations for electric vehicles (EVs) present a spectrum of intricate
+challenges and considerations:
+4.1. State of Charge Balancing Issues
+To meet high voltage and energy needs, hundreds of cells are connected in series or
+parallel to form the lithium‑ion battery (LIB) pack found in electric vehicles (EVs). Be‑
+cause each cell’s state of charg

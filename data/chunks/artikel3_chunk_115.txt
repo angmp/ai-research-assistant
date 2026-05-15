@@ -1,0 +1,21 @@
+
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term is contractive, reducing uncertainty. The process 
+noise always increases the uncertainty ∑ ௪. 
+The state correction step is: 
+𝑥௞
+(ା)෢ = 𝑥 ௞
+(ି)෢ + 𝐿 ௞ቂ𝑣௞− 𝐶 ௞ 𝑥௞
+(ି)෢ ቃ (25)
+In other words, the predicted state estimate plus a weighted correction factor equals 
+the new state estimate. Subtracting the expected cell voltage from the measured cell volt-
+age equals the term enclosed in square brackets [28]. 
+Due to m

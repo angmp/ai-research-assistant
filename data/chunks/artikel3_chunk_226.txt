@@ -1,0 +1,7 @@
+architecture for SOC estimation [ 53].
+Although this constructive strategy was largely a trial‑and‑error approach, it is a cru‑
+cial stage in the training of DNNs. An additional innovation was the use of the unscented
+Kalman filter (UKF) to filter the DNN outputs, which helped to increase their accuracy.
+After noise reduction, the suggested method’s root mean square error (RMSE) was 1.4%,
+and its maximum error was only 1.9%, which is less than 2% under the Federal Urban Driv‑
+ing Schedule (FUDS)

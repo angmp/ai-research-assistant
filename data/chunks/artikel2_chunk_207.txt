@@ -1,0 +1,7 @@
+ s, it is determined as the
+critical response threshold to activate the air cooling. To evaluate the impact of different
+intervention timings on thermal behavior and air-cooling energy consumption, four repre-
+sentative intervention time points are selected around this response threshold: t = 500 s,
+650 s, 800 s, and 950 s, with a 150 s interval between each to balance the strategy coverage
+and experimental resolution.
+The energy consumption corresponding to each time sequenced air-cooling strat

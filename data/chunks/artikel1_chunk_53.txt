@@ -1,0 +1,7 @@
+Using Gompertz Parameters for RUL Prediction
+3.1.1. Monotonicity and RUL Prediction
+LiB capacity degradation is inherently a downward monotonic process. While predict-
+ing the SoH at future cycles is a common approach to estimating the RUL, direct multistep
+forecasting often suffers from error accumulation (drift) as the prediction horizon increases.
+To address this contention around predicting RUL, this study proposes an inverse mapping
+strategy. Rather than predicting the SoH for a given cycle

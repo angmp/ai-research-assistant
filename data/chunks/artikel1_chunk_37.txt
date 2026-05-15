@@ -1,0 +1,7 @@
+ traditional coulomb counting
+method used for State of Charge ( SoC) estimation. By accounting for the reduction in
+usable capacity over time can provide more accurate real-time SoC estimates. To achieve
+the inclusion of SoH, causes of degradation need to be well understood. Charging above
+the maximum charge voltage can lead to overcharging, which has been found to accelerate
+degradation. Discharging below the minimum discharge voltage limit can result in over-
+discharge, leading to irreversible

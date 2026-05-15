@@ -1,0 +1,7 @@
+mputing overheads, and the measured
+current and voltage signals can be used to determine the corresponding parameters.
+Continuum porous‑electrode models use physics concepts to develop equations that
+explain all of the internal events that occur within a cell. These equations are linked by par‑
+tial differential equations (PDEs). The models take into account many state variables that
+are vital for understanding what is going on inside the cell, incorporating the solid‑state
+amount of lithium, C 

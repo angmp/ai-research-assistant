@@ -1,0 +1,7 @@
+ce of normalized SoH values as
+input, these values are derived from the SoC calculations over a fixed window of prior
+cycles, here a window size of 100 cycles is used. LSTM1 outputs a single RUL prediction.
+LSTM2 outputs the next cycle’s SoH value, the RUL is obtained from it by recursively
+popping out the first value in the window, shifting the remaining window forward by one
+and popping in the predicted SoH value at the end of the window then running the model
+on this new window. The number of

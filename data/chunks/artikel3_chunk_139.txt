@@ -1,0 +1,19 @@
+ant, and reaction current
+density, respectively. This equation ensures that the divergence of the electric current in
+the solid balances the reaction current.
+Diffusion of lithium in electrolyte:
+∂(εeCe)
+∂t = ∇.
+
+De,e f f ∇Ce
+
++ as
+
+1 − t0
++
+
+j. (47)
+where Ce, εe, De,e f f , and t0
++ are the lithium concentration in the electrolyte, porosity of the
+electrolyte phase, effective diffusion coefficient co‑efficient in the electrolyte, and transfer‑
+ence number of lithium‑ion, respectively. This 

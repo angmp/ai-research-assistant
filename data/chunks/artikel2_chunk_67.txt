@@ -1,0 +1,7 @@
+re 3b. When the number of mesh elements increased to
+2,226,318, further mesh refinement had no significant effect on the maximum temperature.
+Compared to the case with 4,176,062 mesh elements, the maximum temperature error for
+the case with 2,226,318 mesh elements did not exceed 1%. Considering both computational
+cost and accuracy, 2,226,318 mesh elements were selected for subsequent simulations. This
+mesh division effectively reduces computational resource consumption while ensuring
+computation

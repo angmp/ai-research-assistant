@@ -1,0 +1,8 @@
+rtz fitting.
+The core similarities of the three GILSTM models are as follows:
+A. All three models combine the data-driven temporal learning of LSTMs with the physi-
+cal interpretability of G(x).
+B. Each of the three models produces the Gompertz parameters k, a, and b and eventually
+relys on the inverse Gompertz equation (Equation (4)) to determine the battery’s RUL.
+C. The models utilize LSTMs to capture non-linear degradation dynamics and long-term
+dependencies within the battery capacity data.

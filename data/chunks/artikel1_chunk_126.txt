@@ -1,0 +1,8 @@
+at had a RUL of 1000–1500,
+34 cells with a RUL of 1500–2000 and 29 cells with a RUL of more than 2000. As part of
+the study, the relationship between these three various tranches of RUL and the Gompertz
+parameters k, a, and b was investigated and shown in Figure 13. The variable b delineates
+these three tranches precisely.
+Figure 13 proves that G(x) can be used to confirm the RUL of a cell given complete
+SoH curves. Furthermore, the cells’ completeSoH curves were fitted on G(x), and the RUL
+was 

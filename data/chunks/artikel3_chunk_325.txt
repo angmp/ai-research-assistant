@@ -1,0 +1,7 @@
+peak values and position [ 119], constant current charging
+time, sample entropy [ 120], energy signal, response of the voltage under pulse test of the
+current [121], mean and standard deviation of the measured current and voltage, and pa‑
+rameters of ECM [ 122] are among the frequently used features. To achieve simultaneous
+optimization of feature extraction and hyperparameter tweaking, a hybrid encoding ap‑
+proach on a single chromosome was employed [ 121]. A separate study talks about the
+slid

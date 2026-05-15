@@ -1,0 +1,6 @@
+gent prognostics for battery health monitoring based on sample
+entropy. Expert Syst. Appl. 2011, 38, 11763–11769. [ CrossRef]
+121. Cai, L.; Meng, J.; Stroe, D.‑I.; Luo, G.; Teodorescu, R. An evolutionary framework for lithium‑ion battery state of health estimation.
+J. Power Sources 2018, 412, 615–622. [ CrossRef]
+122. Yang, D.; Wang, Y.; Pan, R.; Chen, R.; Chen, Z. State‑of‑health estimation for the lithium‑ion battery based on support vector
+regression. Appl. Energy 2018, 227, 273–283. [ CrossR

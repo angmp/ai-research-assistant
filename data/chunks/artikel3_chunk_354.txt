@@ -1,0 +1,8 @@
+. Furthermore, there has not been
+sufficient comparison between the heuristic optimization methods used in hyperparame‑
+ter tuning mentioned above. As a result, future research must enhance the ML algorithm’s
+hyperparameter tweaking and optimal structure selection.
+4.7. Hybrid Algorithms and Ensemble Learning
+For the estimation of SOC or SOH, recent studies have mostly used a single approach.
+Nonetheless, hybrid algorithms—which blend several algorithms—have become more
+and more well‑liked for i

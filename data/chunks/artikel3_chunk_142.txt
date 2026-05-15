@@ -1,0 +1,8 @@
+od to convert the PDEs into a discrete‑time reduced‑order model was sug‑
+gested, and two fundamental presumptions in simulation were made [ 40]:
+• The presumption was of linear behavior: a Taylor series was used to linearize the
+nonlinear equations.
+• By assuming that the electrolyte concentration C e(x,t) was not a function of the reac‑
+tion current j(x,t), transfer functions were built.
+Next, a discrete‑time state‑space model was made using a technique known as the
+“discrete‑time realization a

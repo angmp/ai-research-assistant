@@ -1,0 +1,7 @@
+teries considering the internal temperature
+gradient. Energies 2018, 11, 220. [ CrossRef]
+Batteries 2025, 11, 32 39 of 42
+53. Chemali, E.; Kollmeyer, P.J.; Preindl, M.; Emadi, A. State‑of‑charge estimation of Li‑ion batteries using deep neural networks: A
+machine learning approach. J. Power Sources 2018, 400, 242–255. [ CrossRef]
+54. Lipu, M.S.H.; Hannan, M.A.; Hussain, A.; Saad, M.H.; Ayob, A.; Uddin, M.N. Extreme learning machine model for state‑of‑
+charge estimation of lithium‑ion battery usi

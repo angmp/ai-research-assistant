@@ -1,0 +1,9 @@
+ith a basic version that had a low‑dimensional input vector and gradually work‑
+ing its way up to a more complex structure with a high‑dimensional input vector.
+Batteries 2025, 11, x FOR PEER REVIEW 20 of 42 
+ 
+neural network (DNN). The fundamental idea s and uses of these three SOC estimating 
+techniques are thoroughly described in this section. 
+• Deep Neural Network 
+A deep neural network (DNN) is an extension of a back-propagation neural network 
+(BPNN) with additional hidden layers, as sh o

@@ -1,0 +1,14 @@
+7], and sliding
+mode [98], allowing the SOH to be determined appropriately. However, the decay in the
+battery capacity is defined as:
+Cdecay =
+
+Caged − Cn
+
+/Cn × 100% (73)
+such that,
+Cdecay = δ f unc( f )Ahz (74)
+f represents the stress factors, which are external factors or conditions that contribute
+to the degradation of a system, z is a parameter used to model how the capacity of the
+system decreases as a function of the cumulative current passing through it, and δ f unc
+represents the agin

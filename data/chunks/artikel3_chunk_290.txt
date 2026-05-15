@@ -1,0 +1,34 @@
+uared Error,
+MSE Mean Squared
+Error
+MAE Mean
+Absolute Error
+Learning Rate (LR),
+Regularization (REG)
+Cycles,
+Temperature
+Variant
+Support Vector
+Machine (SVM)
+Voltage, Current,
+Temperature SOC Accuracy, Precision,
+Recall Kernel, C, Gamma ( γ) Cycles, Load
+prof
+Back‑
+Propagation
+Neural Network
+(BPNN)
+Voltage, Current,
+Temperature SOC
+Coefficient of
+Determination R²,
+MSE, RMSE
+LR, Momentum
+(MOM), Layers
+Lab, Driving
+past
+Recurrent
+Neural Network
+(RNN)
+Voltage, Current,
+Temperature SOC Accuracy, RMS

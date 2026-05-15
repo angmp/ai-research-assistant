@@ -1,0 +1,15 @@
+redicted SoH value at the end of the window then running the model
+on this new window. The number of cycles needed to output a SoH prediction lower than
+80% of the nominal capacity is taken as the predicted RUL. This type of LSTM is known as
+a sequence-to-one LSTM.
+ 
+(a) 
+ 
+(b) 
+ 
+ 
+ 
+ 
+Figure 7. (a) The labeled architecture for the SoH-to-RUL LSTM (LSTM1). (b) The labeled architecture
+for the SoH-to-SoH LSTM (LSTM2).
+These two models are baseline data-driven LSTM models for comparison with the

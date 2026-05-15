@@ -1,0 +1,10 @@
+ndom variable X, |∑ 𝑋| is the determinant of the 
+covariance ∑ 𝑋, and (𝑥−  𝑥 ̅)^்∑( 𝑥−  𝑥 ̅)ିଵ
+௑෨  is the Mahalanobis distance measuring how far 
+x is from the mean in terms of the variance. 
+ 
+Figure 5. 3D Surface plot showing a single-peak distribution. 
+Linear Kalman Filtering 
+Kalman ﬁltering theory was introduced in 1960 [24]. Consider the linear discrete-time 
+system in Figure 6. The unit-delay operator is z −1I, and the matrices A k, Bk, and C k are 
+(possibly) time-varying. The system’s 

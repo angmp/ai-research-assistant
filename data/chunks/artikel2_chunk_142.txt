@@ -1,0 +1,7 @@
+ core structure of the hybrid cooling system. The PCM layer and air-cooling
+channels were removed. The 6063-aluminum alloy high-thermal-conductivity plate and
+1 mm cell gap were retained. Symmetric liquid cooling plates were added to both sides
+of the battery module. This configuration combines lateral heat spreading through the
+high-thermal-conductivity plate with forced convection from liquid cooling.
+The battery dimensions and performance parameters were kept consistent with those
+used in thi

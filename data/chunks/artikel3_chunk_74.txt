@@ -1,0 +1,8 @@
+lay operator is z −1I, and the matrices A k, Bk, and C k are 
+(possibly) time-varying. The system’s deterministic input is uk, and its output is yk. Addi-
+tionally, there are two stochastic inputs: measurement noise vk, which does not aﬀect the 
+state xk, and process noise wk, which does. Inferred, the system state, xk, is an internal (hid-
+den) signal. 
+Figure 5. 3D Surface plot showing a single‑peak distribution.
+Linear Kalman Filtering
+Kalman filtering theory was introduced in 1960 [ 24]. Con

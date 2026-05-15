@@ -1,0 +1,8 @@
+assess
+SOC for lithium batteries. Additionally, according to some researchers, model‑based SOC
+estimation produces strong closed‑loop control, high adaptability, and good real‑time per‑
+formance [49]. Unfortunately, based on models, modeling complexity is a drawback of the
+Batteries 2025, 11, 32 19 of 42
+accurate SOC prediction approach. Considering the great variation in battery chemistries
+and constructions, this might be a significant obstacle to researchers in fully comprehend‑
+ing the disti

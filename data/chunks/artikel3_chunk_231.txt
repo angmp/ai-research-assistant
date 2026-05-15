@@ -1,0 +1,12 @@
+ows for faster learning and reduced memory usage.
+Pooling layers decrease the size of feature maps. Rectified linear unit (ReLU) activation is
+typically used in a CNN.
+Batteries 2025, 11, 32 22 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 21 of 42 
+ 
+Pooling layers decrease the size of feature maps. Rectiﬁed linear unit (ReLU) activation is 
+typically used in a CNN. 
+ 
+Figure 18. The structure of CNN [67]. 
+Hybrid CNN–RNN networks are often used to estimate SOC. In one study, a CNN–
+long short-te

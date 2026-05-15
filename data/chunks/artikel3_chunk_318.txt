@@ -1,0 +1,8 @@
+ion results even when Gaussian white noise is added
+to dynamic discharge patterns.
+3.1.2. Deep Learning Algorithm
+As deep neural networks (DNNs) encompass numerous hidden layers, they excel
+in efficiently mapping complex and nonlinear functions compared to shallow neural net‑
+works. In a specific study, using the smoothing filter, five distinctive characteristics were
+initially derived from incomplete IC curves [ 114]. It can be inferred from the Spearman
+correlation analysis that some of the ch

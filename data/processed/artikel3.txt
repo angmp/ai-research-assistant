@@ -1,0 +1,3151 @@
+Academic Editors: Dongliang Chao
+and Harry E. Hoster
+Received: 1 December 2024
+Revised: 2 January 2025
+Accepted: 13 January 2025
+Published: 17 January 2025
+Citation: Soyoye, B.D.;
+Bhattacharya, I.; Anthony Dhason,
+M.V.; Banik, T. State of Charge and
+State of Health Estimation in Electric
+Vehicles: Challenges, Approaches
+and Future Directions. Batteries 2025,
+11, 32. https://doi.org/10.3390/
+batteries11010032
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Review
+State of Charge and State of Health Estimation in Electric
+Vehicles: Challenges, Approaches and Future Directions
+Babatunde D. Soyoye
+ , Indranil Bhattacharya *
+ , Mary Vinolisha Anthony Dhason and Trapa Banik
+Electrical and Computer Engineering Department, Tennessee Technological University, Cookeville, TN 38505,
+USA; bdsoyoye42@tntech.edu (B.D.S.); mantonydh42@tntech.edu (M.V.A.D.); tbanik42@tntech.edu (T.B.)
+* Correspondence: ibhattacharya@tntech.edu
+Abstract: This critical review paper delves into the complex and evolving landscape of
+the state of health (SOH) and state of charge (SOC) in electric vehicles (EVs), highlight‑
+ing the pressing need for accurate battery management to enhance safety, efficiency, and
+longevity. With the global shift towards EVs, understanding and improving battery per‑
+formance has become crucial. The paper systematically explores various SOC estimation
+techniques, emphasizing their importance akin to that of a fuel gauge in traditional vehi‑
+cles, and addresses the challenges in accurately determining SOC given the intricate elec‑
+trochemical nature of batteries. It also discusses the imperative of SOH estimation, a less
+defined but critical parameter reflecting battery health and longevity. The review presents
+a comprehensive taxonomy of current SOC estimation methods in EVs, detailing the op‑
+eration of each type and succinctly discussing the advantages and disadvantages of these
+methods. Furthermore, it scrutinizes the difficulties in applying different SOC techniques
+to battery packs, offering insights into the challenges posed by battery aging, tempera‑
+ture variations, and charge–discharge cycles. By examining an array of approaches—from
+traditional methods such as look‑up tables and direct measurements to advanced model‑
+based and data‑driven techniques—the paper provides a holistic view of the current state
+and potential future of battery management systems (BMS) in EVs. It concludes with rec‑
+ommendations and future directions, aiming to bridge the gap for researchers, scientists,
+and automotive manufacturers in selecting optimal battery management and energy man‑
+agement strategies.
+Keywords: electric vehicles; state of charge; state of health; battery management systems;
+electrochemical models; data‑driven methods; machine learning
+1. Introduction
+Battery technology is a key challenge in the development of electric vehicles (EVs).
+Many countries, including the United States, have initiated special programs to increase
+battery performance to produce a battery system that can meet the criteria of EVs [ 1]. Bat‑
+tery cell performance has improved significantly thanks to the Several Year Plan like Bat‑
+tery500 Consortium and EV Everywhere Grand Challenge. Lithium‑ion batteries (LiBs)
+and nickel metal hydride (Ni–MH) have been used in a wide range of EVs.
+Effective battery management is critical for ensuring safe usage, extending opera‑
+tional longevity, increasing driving distance, fine‑tuning power management strategies,
+and lowering battery costs.
+A battery management system is made up of several types of communication lines,
+actuators, controllers, and sensors. Ensuring the safe and efficient utilization of battery
+Batteries 2025, 11, 32 https://doi.org/10.3390/batteries11010032
+Batteries 2025, 11, 32 2 of 42
+energy and furnishing precise battery status data to the vehicle energy management sys‑
+tem constitute the fundamental functions of a BMS. It should also be able to provide the
+necessary interventions for the battery system if it is operating abnormally. Charging and
+discharging batteries are observed and managed for this purpose. Measuring current, volt‑
+age, and temperature by the gating signal received from the control circuit is the primary
+function of the sample circuit. With measurements of battery current, voltage, and tem‑
+perature converted from the analog signal, the control circuit’s primary job is to estimate
+the batteries’ states of charge (SOC), health (SOH), available power capability (SOP), and
+life (SOL) using sophisticated algorithms. The vehicle controller receives these data, which
+include crucial decision‑making elements for power distribution and energy management
+for vehicles [2,3].
+The percentage of a battery’s maximum possible capacity that remains is known as its
+state of charge or SOC. Battery SOC performs a function akin to that of a gasoline‑powered
+vehicle’s fuel gauge, indicating the remaining energy in a battery that powers an electric
+vehicle. Precise calculation of the battery, in addition to offering information about the bat‑
+tery’s current energy and capacity, ensures a dependable and secure driving experience.
+However, estimating the state of charge (SOC) of batteries with some accuracy is a difficult
+process due to their complicated electrochemical nature, which exhibits diverse nonlinear
+behavior based on both external and internal factors. To meet the needs of electric vehicles
+(EVs), thousands of cells must be connected in corresponding series and in parallel due to
+the low voltage and energy of a single cell. Given the heterogeneous cell properties of op‑
+eration and performance within each battery pack, predictions of the cells’ inner occupied
+states continue to pose significant challenges. Furthermore, aging, temperature changes,
+and charge–discharge cycles all have a significant impact on battery performance, making
+it extremely difficult to estimate an exact state of charge [ 4].
+Given the critical role that battery SOC plays in battery management, numerous ap‑
+proaches have been put forth to precisely determine the SOC. Scientists, researchers, and
+academics have been conducting in‑depth studies since the early 1960s [ 5]. Nevertheless,
+there are not many publications that offer a thorough explanation of the main challenges
+in estimating battery SOC. Despite over fifty years of work, the problem of estimating the
+state of charge in batteries accurately has not been effectively resolved [ 6–8]. A thorough
+SOC estimation, including information on general research progress, future development
+patterns, and the origins of SOC estimation, has been provided by [ 7,9]. Nonetheless, a
+methodical explanation of the SOC computation procedure, algorithm selection, and han‑
+dling of unpredictable environmental conditions and battery system grouping in electric
+vehicles is lacking. By examining various current approaches and addressing the major
+problems and difficulties for the SOC estimate of battery packs—rather than concentrat‑
+ing just on the battery cells—this research seeks to close the gap. Selecting the best battery
+management and energy management technique will be highly beneficial for the scientist,
+researcher, and car maker.
+A taxonomy of the current SOC estimate techniques is presented in this research. It
+describes battery SOC estimate techniques in EV applications in a methodical manner, in‑
+cluding every step of each type’s operation. Comprehensive information about up‑to‑date
+SOC estimation techniques and difficulties is succinctly explained in Section2. In Section 3,
+the techniques and difficulties associated with SOH techniques for battery packs are dis‑
+cussed. Section 4 discusses the key challenges faced in battery state estimation. Section 5
+present the conclusion and recommendations.
+Batteries 2025, 11, 32 3 of 42
+2. SOC Estimation
+As stated in the beginning, a battery management system’s determination of its SOC
+is always a crucial component. The optimal design of the control system and vehicle en‑
+ergy management can be facilitated by a precise and dependable SOC estimation of a bat‑
+tery. As a result, SOC estimation is done in real‑time using various techniques. We have
+divided these approaches into four groups to compare them in further detail: Figure 1
+shows this division.
+Batteries 2025, 11, x FOR PEER REVIEW 3 of 42 
+ 
+2. SOC Estimation 
+As stated in the beginning, a battery management system’s determination of its SOC 
+is always a crucial component. The optimal design of the control system and vehicle en-
+ergy management can be facilitated by a precise and dependable SOC estimation of a bat-
+tery. As a result, SOC estimation is done in real-time using various techniques. We have 
+divided these approaches into four groups to compare them in further detail: Figure 1 
+shows this division. 
+ 
+Figure 1. Classiﬁcation of SOC estimation methods. 
+2.1. Look-up-Table-Based SOC Estimation 
+This technique looks up the ba ttery’s terminal voltage on an “SOC versus open-cir-
+cuit voltage (OCV)” curve after monitoring it when it is under load. This technique is 
+based on the assumption that a cell model’s terminal voltage equals the sum of the OCV 
+and the voltage drop brought on by internal resistance and current. It ﬁnds the value on 
+the “SOC versus OCV” curve after calculating OCV as a function of time. Although this 
+is a step above the straightforward voltage- based approach, there are still several draw-
+backs [10], such as internal resistance (R
+0) losses, diﬀusion voltages, and hysteresis among 
+others that impact the accuracy of SOC estimations in ba tteries. The OCV curve may in-
+clude some ﬂat areas, as shown in Figure 2, in which it is challenging to calculate SOC 
+with any degree of accuracy. 
+ 
+Figure 2. Open-circuit voltage curve. 
+Figure 1. Classification of SOC estimation methods.
+2.1. Look‑Up‑Table‑Based SOC Estimation
+This technique looks up the battery’s terminal voltage on an “SOC versus open‑circuit
+voltage (OCV)” curve after monitoring it when it is under load. This technique is based
+on the assumption that a cell model’s terminal voltage equals the sum of the OCV and the
+voltage drop brought on by internal resistance and current. It finds the value on the “SOC
+versus OCV” curve after calculating OCV as a function of time. Although this is a step
+above the straightforward voltage‑based approach, there are still several drawbacks [ 10],
+such as internal resistance (R0) losses, diffusion voltages, and hysteresis among others that
+impact the accuracy of SOC estimations in batteries. The OCV curve may include some flat
+areas, as shown in Figure 2, in which it is challenging to calculate SOC with any degree
+of accuracy.
+Batteries 2025, 11, x FOR PEER REVIEW 3 of 42 
+ 
+2. SOC Estimation 
+As stated in the beginning, a battery management system’s determination of its SOC 
+is always a crucial component. The optimal design of the control system and vehicle en-
+ergy management can be facilitated by a precise and dependable SOC estimation of a bat-
+tery. As a result, SOC estimation is done in real-time using various techniques. We have 
+divided these approaches into four groups to compare them in further detail: Figure 1 
+shows this division. 
+ 
+Figure 1. Classiﬁcation of SOC estimation methods. 
+2.1. Look-up-Table-Based SOC Estimation 
+This technique looks up the ba ttery’s terminal voltage on an “SOC versus open-cir-
+cuit voltage (OCV)” curve after monitoring it when it is under load. This technique is 
+based on the assumption that a cell model’s terminal voltage equals the sum of the OCV 
+and the voltage drop brought on by internal resistance and current. It ﬁnds the value on 
+the “SOC versus OCV” curve after calculating OCV as a function of time. Although this 
+is a step above the straightforward voltage- based approach, there are still several draw-
+backs [10], such as internal resistance (R
+0) losses, diﬀusion voltages, and hysteresis among 
+others that impact the accuracy of SOC estimations in ba tteries. The OCV curve may in-
+clude some ﬂat areas, as shown in Figure 2, in which it is challenging to calculate SOC 
+with any degree of accuracy. 
+ 
+Figure 2. Open-circuit voltage curve. 
+Figure 2. Open‑circuit voltage curve.
+Batteries 2025, 11, 32 4 of 42
+It has been established that a nonlinear relationship exists between the SOC and OCV
+of a battery; as a result, estimating battery SOC by OCV after sufficient resting has grown
+in popularity and effectiveness and has been used in numerous applications [ 11,12].
+The OCV approach can estimate battery SOC with excellent accuracy; however, a ma‑
+jor drawback of OCV‑based SOC estimation is the resting time. After cutting off the load
+current, it usually takes a while to regain equilibrium. Furthermore, changes in tempera‑
+ture affect the relationship between the SOC and OCV of a battery.
+Due to its shortcomings, the open‑circuit voltage (OCV) approach is not as appro‑
+priate for broad application in electric vehicles (EVs). Its impracticality for application in
+real‑time scenarios, such as when the car is moving, is one of the main problems. The
+state of charge (SOC) of the EV battery might be estimated if it were possible to obtain the
+OCV data in real time while driving. This refers to being aware of the battery’s remaining
+charge while operating the car, which is essential for organizing and arranging one’s driv‑
+ing range [ 13]. The technique, like the voltage‑based method, might not take hysteresis
+and diffusion voltages into full consideration.
+In some circumstances, this approach may yield noisy SOC estimates, which reduces
+its accuracy.
+Filtering can be used to increase estimate accuracy, but it may cause delays that should
+be considered for real‑time applications.
+Another challenging element that may impair the precision of SOC estimation is hys‑
+teresis, which is the reliance of a system’s state on its past.
+Notwithstanding these drawbacks, there are still situations where moderately noisy
+SOC estimates are appropriate or can be refined further to increase accuracy when using
+the look‑up‑table‑based technique. When applying this approach to SOC estimation, it is
+critical to understand its limitations and possible causes of mistakes [ 10].
+2.2. Direct‑Based Method
+2.2.1. Ampere‑Hour Integral Method
+This technique is used to determine a battery’s state of charge. SOC stands for a bat‑
+tery’s current state of charge, which is usually stated as a percentage.
+SOC(k) = SOC(ko) +
+Z k
+ko
+η I(t)dt/Cn (1)
+SOC(k) denotes state of charge at time ‘k’, while SOC(ko) denotes initial SOC (known esti‑
+mate), η represents the efficiency of charging or discharging the battery, C n is its nominal
+capacity, and I(t) is the current being supplied to or drawn from the battery.
+According to the formula, the starting SOC, current measurements, battery efficiency,
+and nominal capacity may all be used to determine the SOC at any given time ‘k’. Efficiency
+factor η represents how efficiently a battery charges or discharges. This factor accounts
+for energy conversion efficiency losses that occur when the battery is being charged and
+discharged. Because it takes energy losses into account, it is a crucial parameter in SOC
+estimation. Cn is the battery’s nominal capacity, which is the amount the manufacturer
+states it can hold. It serves as a benchmark for SOC computations. The technique depends
+on determining the amount of current ( I) entering or leaving the battery. Charging is rep‑
+resented by positive current values, whereas negative values represent discharging. The
+accuracy of SOC estimation depends critically on the precision of current measurements.
+Several difficulties with the ampere‑hour (Ah) method of SOC estimation are men‑
+tioned in this paragraph. These difficulties consist of:
+Batteries 2025, 11, 32 5 of 42
+• Dependence on Current Measurements: The precision of current measurements has
+a significant impact on SOC estimation when utilizing the ampere‑hour method. In‑
+accuracies in SOC estimates may result from current measurement mistakes.
+• Error Accumulation: The accuracy of SOC estimates may be considerably impacted
+over time by inaccuracies in current measurements that accumulate.
+• Difficulty in Determining Initial SOC: Accurately determining the initial state of
+charge (SOC) can be difficult in real‑time applications, particularly if the battery is
+not fully charged or depleted. Precise SOC estimation requires accurate initial SOC.
+• Calibration Challenges: Using the Ah technique for SOC estimation can present cali‑
+bration challenges for both the original SOC and current readings. To take into con‑
+sideration errors and variances in the system, calibrations are required.
+In conclusion, the Ah method for estimating SOC is a simple technique that depends
+on current measurements; yet, it has issues with accuracy, accumulation of errors, and
+determining the initial SOC. Improving the accuracy of SOC estimates while utilizing this
+method requires addressing these issues.
+2.2.2. Discharge Test Method
+This approach is thought to be the most accurate for estimating SOC. The discharge
+test method is reliable [ 14,15]. The battery must be discharged at a constant current, and
+the product of the discharge current and time yields the SOC. This is a flexible approach
+that works with different kinds of batteries. It is frequently used in scientific settings to
+investigate battery charging, discharging characteristics, and maintenance as well as to
+define a benchmark for SOC accuracy.
+The limitations of the discharge test approach are that it is time‑consuming and not
+appropriate for determining SOC while a vehicle is in motion, despite its excellent accuracy.
+It therefore constitutes requires a laboratory process.
+In conclusion, the classic direct‑based method of estimation has the benefit of an al‑
+gorithm that is straightforward to implement; however, due to the greater hardware re‑
+quirements, a significant amount of experimental investment is required, and the method’s
+performance is limited to estimating SOC.
+The voltage‑based method’s accuracy rises with the battery’s standby period, mean‑
+ing that the test duration will be increased correspondingly, based on the features and
+accuracy of each method. The initial state‑of‑charge estimation is the primary application
+for the ampere‑hour (Ah) integral approach. However, as test times increase, the accuracy
+of this method declines due to the continual changes in internal resistance caused by var‑
+ious factors. Although the discharge test method is quite precise, it can only be used in a
+laboratory setting and is not appropriate for use on actual automobiles.
+2.3. Model‑Based State Estimation
+It is necessary to carefully create a good battery model for the model‑based techniques.
+Battery equivalent circuit models [16] and electrochemical models [17,18] are typically used
+to estimate SOC in a battery, using state space. Subsequently, a range of state observers,
+including the sliding mode observer, Kalman filter (KF), and the extended, adaptive, and
+unscented Kalman filter are employed for online SOC estimation [ 19–22]. Training the
+battery models, selecting the right tools to monitor them, making important model settings,
+and fine‑tuning the way we observe them using a particular method called the Kalman
+filter all have a significant impact on how accurate these model‑based techniques are. It
+is presumed that the system has a mathematical model, as shown in Figure 3. The same
+input is spread throughout the model and real systems.
+Batteries 2025, 11, 32 6 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 6 of 42 
+ 
+ 
+Figure 3. State transition diagram for a hidden Markov model. 
+Comparison of measured and expected output s, use of error to update the model’s 
+estimation of the actual state measurement, and model mistakes can cause output errors. 
+Careful updating is required to account for each of these. Furthermore, a trustworthy con-
+ﬁdence zone is typically diﬃcult to achieve, and the observer performance test of the SOC 
+is done under given conditions. Consequently, it is impossible to guarantee the estimation 
+performance under time-varied real-world circumstances that di ﬀer from the test condi-
+tions. 
+A generic ﬂowchart of model-based SOC estimate techniques is displayed in Figure 
+4. These techniques are a subset of fusion techniques which involve the integration of dif-
+ferent approaches with the OCV using the look -up table. It is observed that between the 
+look-up table and ampere-hour methods, the SOC of batteries serves as a bridge. An erro-
+neous battery OCV is caused by an inaccurate SOC estimate determined by the ampere-
+hour integral approach, which also raises the terminal voltage forecast inaccuracy. Thus, 
+only after obtaining the optimal SOC can the battery terminal voltage prediction error be 
+as low as possible. Stated diﬀerently, the estimation error can be corrected using the OCV. 
+ 
+Figure 4. Flowchart of a model-based SOC estimation. 
+A particular example of sequential probabilistic inference is the Kalman ﬁlter, which 
+provides the best state estimate under certain circumstances. 
+Linear Kalman ﬁlter and variations 
+Sequential Probabilistic Inference. 
+We start by assuming a general, possibly nonlinear model: 
+𝑥௞= 𝑓 (𝑥௞ିଵ,𝑢 ௞ିଵ,𝑤 ௞ିଵ) (2)
+𝑦௞=ℎ  (𝑥௞,𝑢 ௞,𝑣 ௞), (3)
+where uk, wk, and v k are a measured input, process random, and sensor random input, 
+respectively. We note that 𝑓 (. ) and ℎ (. ) are time-varying. Estimating the present state xk 
+of a dynamic system using 𝕐௞= ሼ𝑦଴,𝑦ଵ… 𝑦 ௞ሽ, we can “peep” at what is going on in the 
+actual system thanks to the observations. We  estimate the state based on our model and 
+observations, but randomness in process noise and sensor noise prevents us from ever 
+being able to calculate the state exactly [23]. 
+  
+Figure 3. State transition diagram for a hidden Markov model.
+Comparison of measured and expected outputs, use of error to update the model’s
+estimation of the actual state measurement, and model mistakes can cause output errors.
+Careful updating is required to account for each of these. Furthermore, a trustworthy
+confidence zone is typically difficult to achieve, and the observer performance test of the
+SOC is done under given conditions. Consequently, it is impossible to guarantee the
+estimation performance under time‑varied real‑world circumstances that differ from the
+test conditions.
+A generic flowchart of model‑based SOC estimate techniques is displayed in Figure 4.
+These techniques are a subset of fusion techniques which involve the integration of differ‑
+ent approaches with the OCV using the look‑up table. It is observed that between the look‑
+up table and ampere‑hour methods, the SOC of batteries serves as a bridge. An erroneous
+battery OCV is caused by an inaccurate SOC estimate determined by the ampere‑hour inte‑
+gral approach, which also raises the terminal voltage forecast inaccuracy. Thus, only after
+obtaining the optimal SOC can the battery terminal voltage prediction error be as low as
+possible. Stated differently, the estimation error can be corrected using the OCV.
+Batteries 2025, 11, x FOR PEER REVIEW 6 of 42 
+ 
+ 
+Figure 3. State transition diagram for a hidden Markov model. 
+Comparison of measured and expected output s, use of error to update the model’s 
+estimation of the actual state measurement, and model mistakes can cause output errors. 
+Careful updating is required to account for each of these. Furthermore, a trustworthy con-
+ﬁdence zone is typically diﬃcult to achieve, and the observer performance test of the SOC 
+is done under given conditions. Consequently, it is impossible to guarantee the estimation 
+performance under time-varied real-world circumstances that di ﬀer from the test condi-
+tions. 
+A generic ﬂowchart of model-based SOC estimate techniques is displayed in Figure 
+4. These techniques are a subset of fusion techniques which involve the integration of dif-
+ferent approaches with the OCV using the look -up table. It is observed that between the 
+look-up table and ampere-hour methods, the SOC of batteries serves as a bridge. An erro-
+neous battery OCV is caused by an inaccurate SOC estimate determined by the ampere-
+hour integral approach, which also raises the terminal voltage forecast inaccuracy. Thus, 
+only after obtaining the optimal SOC can the battery terminal voltage prediction error be 
+as low as possible. Stated diﬀerently, the estimation error can be corrected using the OCV. 
+ 
+Figure 4. Flowchart of a model-based SOC estimation. 
+A particular example of sequential probabilistic inference is the Kalman ﬁlter, which 
+provides the best state estimate under certain circumstances. 
+Linear Kalman ﬁlter and variations 
+Sequential Probabilistic Inference. 
+We start by assuming a general, possibly nonlinear model: 
+𝑥௞= 𝑓 (𝑥௞ିଵ,𝑢 ௞ିଵ,𝑤 ௞ିଵ) (2)
+𝑦௞=ℎ  (𝑥௞,𝑢 ௞,𝑣 ௞), (3)
+where uk, wk, and v k are a measured input, process random, and sensor random input, 
+respectively. We note that 𝑓 (. ) and ℎ (. ) are time-varying. Estimating the present state xk 
+of a dynamic system using 𝕐௞= ሼ𝑦଴,𝑦ଵ… 𝑦 ௞ሽ, we can “peep” at what is going on in the 
+actual system thanks to the observations. We  estimate the state based on our model and 
+observations, but randomness in process noise and sensor noise prevents us from ever 
+being able to calculate the state exactly [23]. 
+  
+Figure 4. Flowchart of a model‑based SOC estimation.
+A particular example of sequential probabilistic inference is the Kalman filter, which
+provides the best state estimate under certain circumstances.
+Linear Kalman filter and variations
+Sequential Probabilistic Inference.
+We start by assuming a general, possibly nonlinear model:
+xk = f (xk−1, uk−1, wk−1) (2)
+yk = h (xk, uk, vk), (3)
+where u k, w k, and v k are a measured input, process random, and sensor random input,
+respectively. We note that f (.) and h (.) are time‑varying. Estimating the present state
+xk of a dynamic system using Yk = {y0, y1 . . . yk}, we can “peep” at what is going on
+Batteries 2025, 11, 32 7 of 42
+in the actual system thanks to the observations. We estimate the state based on our model
+and observations, but randomness in process noise and sensor noise prevents us from ever
+being able to calculate the state exactly [ 23].
+Review of probability
+Noise is by definition random in some way; it is not deterministic. Hence, to dis‑
+cuss how noise affects system dynamics, it is necessary to comprehend “random vari‑
+ables” (RVs).
+We are unable to precisely forecast the results of each measurement or sample of the
+random variable, but we can use the “probability density function” (PDF) to describe the
+probability of each sample value. Random vector X and sample vector x0 are defined as:
+X =
+2
+66664
+X1
+X2
+...
+Xn
+3
+77775
+, x0 =
+2
+66664
+x1
+x2
+...
+xn
+3
+77775
+, (4)
+where X1 through Xn are scalar random variables, and x1 through xn are scalar constants.
+X described by (scalar function) joint PDF f X(x) of vector X.
+fX (x0) means f X (X1 = x 1, X 2 = x 2, …, X n = x n). That is, f X (x0) dx 1 dx2 … dx n is the
+probability that X is between x 0 and x0 + dx.
+There is an unlimited range of PDFs; however, while creating the Kalman filter, only
+the (multivariable) Gaussian PDF is utilized. It is assumed that all sounds and the state
+vector are Gaussian random vectors.
+The Gaussian or normal PDF as presented in Figure 5 is defined as:
+X ∼ N
+
+x, ∑
+∼
+X
+
+(5)
+FX(x) = 1q
+(2π)n|∑ X|
+exp
+
+− 1
+2 (x − x)ˆT
+∑
+−1
+∼
+X
+(x − x)
+
+(6)
+where n is the dimensionality of the random variable X, |∑ X| is the determinant of the
+covariance ∑ X, and (x − x)ˆT∑−1
+∼
+X
+(x − x) is the Mahalanobis distance measuring how far
+x is from the mean in terms of the variance.
+Batteries 2025, 11, x FOR PEER REVIEW 7 of 42 
+ 
+Review of probability 
+Noise is by deﬁnition random in some way; it is not deterministic. Hence, to discuss 
+how noise a ﬀects system dynamics, it is necessar y to comprehend “random variables” 
+(RVs). 
+We are unable to precisely forecast the results of each measurement or sample of the 
+random variable, but we can use the “probability density function” (PDF) to describe the 
+probability of each sample value. Random vector X and sample vector x0 are deﬁned as: 
+𝑋=  ൦
+𝑋ଵ
+𝑋ଶ
+⋮
+𝑋௡
+൪,𝑥଴= ൦
+𝑥ଵ
+𝑥ଶ
+⋮
+𝑥௡
+൪, (4)
+where X1 through Xn are scalar random variables, and x1 through xn are scalar constants. 
+X described by (scalar function) joint PDF fX(x) of vector X. 
+fX (x0) means fX (X1 = x1, X2 = x2, …, Xn = xn). That is, fX (x0) dx1 dx2 … dxn is the proba-
+bility that X is between x0 and x0 + dx. 
+There is an unlimited range of PDFs; however, while creating the Kalman ﬁlter, only 
+the (multivariable) Gaussian PDF is utilized. It is assumed that all sounds and the state 
+vector are Gaussian random vectors. 
+The Gaussian or normal PDF as presented in ﬁgure 5 is deﬁned as: 
+𝑋~ 𝒩 ቀ𝑥
+̅,෍𝑋 ෨ቁ (5)
+𝐹௑(𝑥) = 1
+ඥ(2𝜋)௡|∑ 𝑋|
+ 𝑒𝑥𝑝 ൬−1
+2 (𝑥−  𝑥 ̅)^்෍ (𝑥−  𝑥 ̅)
+ିଵ
+௑෨
+൰ (6)
+where n is the dimensionality of the random variable X, |∑ 𝑋| is the determinant of the 
+covariance ∑ 𝑋, and (𝑥−  𝑥 ̅)^்∑( 𝑥−  𝑥 ̅)ିଵ
+௑෨  is the Mahalanobis distance measuring how far 
+x is from the mean in terms of the variance. 
+ 
+Figure 5. 3D Surface plot showing a single-peak distribution. 
+Linear Kalman Filtering 
+Kalman ﬁltering theory was introduced in 1960 [24]. Consider the linear discrete-time 
+system in Figure 6. The unit-delay operator is z −1I, and the matrices A k, Bk, and C k are 
+(possibly) time-varying. The system’s deterministic input is uk, and its output is yk. Addi-
+tionally, there are two stochastic inputs: measurement noise vk, which does not aﬀect the 
+state xk, and process noise wk, which does. Inferred, the system state, xk, is an internal (hid-
+den) signal. 
+Figure 5. 3D Surface plot showing a single‑peak distribution.
+Linear Kalman Filtering
+Kalman filtering theory was introduced in 1960 [ 24]. Consider the linear discrete‑
+time system in Figure 6. The unit‑delay operator is z −1I, and the matrices A k, Bk, and C k
+are (possibly) time‑varying. The system’s deterministic input is u k, and its output is y k.
+Additionally, there are two stochastic inputs: measurement noise vk, which does not affect
+Batteries 2025, 11, 32 8 of 42
+the state xk, and process noise wk, which does. Inferred, the system state, xk, is an internal
+(hidden) signal.
+Batteries 2025, 11, x FOR PEER REVIEW 8 of 42 
+ 
+ 
+Figure 6. Block diagram showing SOC state estimation. 
+The foundation of Kalman’s theory is the id ea of the state. A system’s state is the 
+smallest possible collection of information needed to accurately characterize its unforced 
+dynamics [25]. Stated di ﬀerently, it is the minimum amount  of historical behavior data 
+needed to forecast future behavior. The status is usually unknown and might not be quan-
+tiﬁable. We must use observations on yk to determine its value. 
+We may mathematically describe the system in Figure 6 with two equations. The state 
+equation is: 
+ 𝑥௞ାଵ= 𝐴௞ 𝑥௞+ 𝐵 ௞𝑢௞+ 𝑤 ௞ (7)
+The zero mean and covariance matrix is as follows: 
+𝐸[𝑤௡𝑤௞
+்] = ቊ෍𝑤 𝑛 = 𝑘
+0𝑛  ≠ 𝑘
+ (8)
+Assuming that wk is additive, white, and Gaussian. 
+The system’s varying dynamic nature is ca ptured by the state equation. This equa-
+tion, for instance, can be used to determine system stability, dynamic controllability, and 
+sensitivity to disturbance. 
+The second equation describing the system is the measurement equation: 
+ 𝑦௞= 𝐶 ௞𝑥௞+ 𝑣 ௞ (9)
+A linear combination of states is the output of the system at discrete-time k. Measure-
+ment noise also contributed to this output. Once more, measurement noise vk is assumed 
+by Kalman ﬁlter theory to be additive, white, and Gaussian, with zero mean and covari-
+ance matrix: 
+𝐸[𝑣௡𝑣௞
+்] = ቊ෍𝑣 𝑛 = 𝑘
+0𝑛  ≠ 𝑘
+ (10)
+The Kalman ﬁlter problem is then: Use all of the observed data ൛𝑢ଵ,𝑢ଶ,⋯,𝑢 ௞ൟ  and 
+ሼ𝑦ଵ,𝑦 ଶ,⋯,𝑦 ௞ሽ to ﬁnd the minimum mean squared error estimate 𝑥ො௞ of the true state 𝑥௞. 
+That is, solve: 
+𝑥ො௞=a r g m i n 𝐸[(𝑥௞− 𝑥ො௞)^்(𝑥௞− 𝑥ො௞) ∥𝑢 ଵ,𝑢 ଶ,⋯,𝑢 ௞,𝑦ଵ,𝑦 ଶ,⋯,𝑦 ௞] (11)
+This problem has a well-known solution, which is shown in Equations (12) to (26) 
+below. A series of recursive relationships that incorporate the covariance and an estimate 
+of the state itself form the basis of the solution and the covariance matrix ∑ 𝑒, 𝑘 of the state 
+estimate error 𝑥௞− 𝑥ො௞. The uncertainty of the covariance matrix is shown by the state es-
+timation, and it might be applied to provide estimate error bounds. A “large” ∑ 𝑒, 𝑘 (one 
+with large singular values) suggests a high level of uncertainty in the estimate; a “small” 
+∑ 𝑒, 𝑘 (one with small singular values) implies a signiﬁcant level of conﬁdence in the state 
+estimate [26]. 
+Summary of the Kalman ﬁlter from reference [27]: 
+Figure 6. Block diagram showing SOC state estimation.
+The foundation of Kalman’s theory is the idea of the state. A system’s state is the
+smallest possible collection of information needed to accurately characterize its unforced
+dynamics [ 25]. Stated differently, it is the minimum amount of historical behavior data
+needed to forecast future behavior. The status is usually unknown and might not be quan‑
+tifiable. We must use observations on yk to determine its value.
+We may mathematically describe the system in Figure6 with two equations. The state
+equation is:
+xk+1 = Ak xk + Bkuk + wk (7)
+The zero mean and covariance matrix is as follows:
+E
+h
+wnwT
+k
+i
+=
+(
+∑ w n = k
+0 n ̸= k (8)
+Assuming that wk is additive, white, and Gaussian.
+The system’s varying dynamic nature is captured by the state equation. This equa‑
+tion, for instance, can be used to determine system stability, dynamic controllability, and
+sensitivity to disturbance.
+The second equation describing the system is the measurement equation:
+yk = Ckxk + vk (9)
+A linear combination of states is the output of the system at discrete‑time k. Measure‑
+ment noise also contributed to this output. Once more, measurement noise vk is assumed
+by Kalman filter theory to be additive, white, and Gaussian, with zero mean and covari‑
+ance matrix:
+E
+h
+vnvT
+k
+i
+=
+(
+∑ v n = k
+0 n ̸= k (10)
+The Kalman filter problem is then: Use all of the observed data {u1, u2, · · · , uk} and
+{y1, y2, · · · , yk} to find the minimum mean squared error estimate ˆxk of the true state xk.
+That is, solve:
+ˆxk = argminE
+h
+(xk − ˆxk)ˆT(xk − ˆxk) ∥ u1, u2, · · · , uk, y1, y2, · · · , yk
+i
+(11)
+Batteries 2025, 11, 32 9 of 42
+This problem has a well‑known solution, which is shown in Equations (12)–(26) be‑
+low. A series of recursive relationships that incorporate the covariance and an estimate of
+the state itself form the basis of the solution and the covariance matrix ∑ e, k of the state
+estimate error xk − ˆxk. The uncertainty of the covariance matrix is shown by the state es‑
+timation, and it might be applied to provide estimate error bounds. A “large” ∑ e, k (one
+with large singular values) suggests a high level of uncertainty in the estimate; a “small”
+∑ e, k (one with small singular values) implies a significant level of confidence in the state
+estimate [26].
+Summary of the Kalman filter from reference [ 27]:
+State‑space model:
+xk+1 = Ak xk + Bkuk + wk (12)
+vk = Ckxk + vk (13)
+where Ck is the measurement matrix, and wk and vk are independent, zero‑mean, Gaussian
+noise processes of covariance matrices ∑ w and ∑ v respectively.
+Initialization: for k = 0, set
+ˆx(+)
+0 = E[x0] (14)
+∑
+(+)
+e,k ∗ = E
+h
+(x0 − E[x0])(x0 − E[x0])T
+i
+(15)
+Computation: For k = 1, 2, … compute:
+State estimate propagation:
+ˆx(−)
+k = Ak−1 ˆxk−1 (+) + Bk−1uk−1 (16)
+Error covariance propagation:
+∑
+(−)
+e,k ∗ = Ak−1∑e,k−1(+)AT
+k−1 + ∑ w (17)
+Kalman gain matrix:
+Lk = ∑
+(−)
+e,k ∗CT
+k
+h
+Ck∑
+(−)
+e,k ∗CT
+k + ∑
+i
+ˆ−1 (18)
+State estimate update:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+vk − Ck
+ˆx(−)
+k
+
+(19)
+Error covariance update:
+the ∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k ∗ (20)
+The Kalman filter is initialized with the best available information on the state and
+error covariance. ˆx(+)
+0 = E[x0] (21)
+∑
+(+)
+x,0 ∗ = E
+h
+(x0 − E[x0])(x0 − E[x0])T
+i
+(22)
+Although this initialization must frequently be done on the fly, the Kalman filter
+rapidly converges on the correct values as it operates.
+After initialization, the Kalman filter repeats two actions. Initially, it predicts the er‑
+ror covariance, system output, and the value of the subsequent state. Second, it corrects
+the present state estimate based on a measurement of the system output ˆx(−)
+k and ∑(−)
+e,k ∗,
+Batteries 2025, 11, 32 10 of 42
+respectively, representing the estimated error covariance and predicted state at time index
+k but before the measurement. Following the measurement, the corrected estimations are
+indicated by ˆx(+)
+k and ∑(+)
+e,k ∗.
+The prediction step is accomplished by propagating the system through the system
+dynamics:
+ˆx(−)
+k+1 = Ak x(+)
+k + Bkuk (23)
+The state uncertainty is also updated:
+∑
+(−)
+e,k+1 ∗ = Ak∑
+(+)
+e,k ∗AT
+k + ∑ w (24)
+If the system is stable, the first term is contractive, reducing uncertainty. The process
+noise always increases the uncertainty ∑ w.
+The state correction step is:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+vk − Ck
+ˆx(−)
+k
+
+(25)
+In other words, the predicted state estimate plus a weighted correction factor equals
+the new state estimate. Subtracting the expected cell voltage from the measured cell volt‑
+age equals the term enclosed in square brackets [ 28].
+Due to measurement noise, an erroneous state estimate ˆx(−)
+k , or an imprecise cell
+model, this term might not be zero. It is frequently referred to as the “innovation” process,
+as it symbolizes the “new information” in the measurement. A major innovation usually
+results in a large state update. A tiny innovation usually results in a small state update.
+The innovation is weighted by the Kalman gain L k:
+Lk = ∑
+(−)
+e,k ∗CT
+k
+h
+Ck∑
+(−)
+e,k ∗CT
+k + ∑ v
+i
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 
+෍∗
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term is contractive, reducing uncertainty. The process 
+noise always increases the uncertainty ∑ ௪. 
+The state correction step is: 
+𝑥௞
+(ା)෢ = 𝑥 ௞
+(ି)෢ + 𝐿 ௞ቂ𝑣௞− 𝐶 ௞ 𝑥௞
+(ି)෢ ቃ (25)
+In other words, the predicted state estimate plus a weighted correction factor equals 
+the new state estimate. Subtracting the expected cell voltage from the measured cell volt-
+age equals the term enclosed in square brackets [28]. 
+Due to measurement noise, an erroneous state estimate 𝑥௞
+(ି)෢  , or an imprecise cell 
+model, this term might not be zero. It is frequently referred to as the “innovation” process, 
+as it symbolizes the “new information” in the measurement. A major innovation usually 
+results in a large state update. A tiny innovation usually results in a small state update. 
+The innovation is weighted by the Kalman gain Lk: 
+𝐿௞= ෍ ∗
+(ି)
+௘,௞
+𝐶௞
+்ቈ𝐶௞෍∗
+(ି)
+௘,௞
+𝐶௞
+்+ ෍𝑣቉ 〖 ିଵ (26)
+A signiﬁcant update is required if the present state estimate is highly uncertain, as 
+indicated by large values of the ∑ 𝑒, 𝑘 and 𝐿௞. 𝐿௞ is tiny, and the state-estimate update is 
+minimal if the current state estimate is cert ain. Furthermore, a considerable amount of 
+sensor noise results in a large ∑ 𝑣, which in turn causes a small 𝐿௞ and a small update. 
+The covariance correction step is: 
+∑ ∗(ା)
+௘,௞ = (𝐼−  𝐿 ௞𝐶௞)∑ ∗(ି)
+௘,௞  (27)
+The state uncertainty always decreases due to the new information provided by the 
+measurement. 
+In Figure 7, the left-hand graph, titled  Kalman ﬁlter in action’, compares the true 
+state of a system (solid line) against th e estimated state provided by the Kalman ﬁlter 
+(dashed line) across iterations. The magenta bounds represent the estimated uncertainty 
+or conﬁdence interval. The right- hand graph, titled Error with bounds’, shows the esti-
+mation error (solid blue line) and its bounds (dashed magenta line), which likely represent 
+the expected range of error, across the same iterations. These plots are instrumental in 
+evaluating the accuracy and reliability of Kalman ﬁlter predictions over time. 
+ 
+Figure 7. Performance analysis of a Kalman ﬁlter. 
+Extended Kalman Filtering 
+The Kalman ﬁlter is the best state estimator. In a nonlinear system, we can approxi-
+mate the nonlinear system with a linear time-varying (LTV) system by using a lineariza-
+tion procedure at each time step. The extended Kalman ﬁlter (EKF) on the real nonlinear 
+(26)
+A significant update is required if the present state estimate is highly uncertain, as
+indicated by large values of the ∑ e, k and Lk. Lk is tiny, and the state‑estimate update is
+minimal if the current state estimate is certain. Furthermore, a considerable amount of
+sensor noise results in a large ∑ v, which in turn causes a small Lk and a small update.
+The covariance correction step is:
+∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k ∗ (27)
+The state uncertainty always decreases due to the new information provided by the
+measurement.
+In Figure 7, the left‑hand graph, titled ‘Kalman filter in action’, compares the true state
+of a system (solid line) against the estimated state provided by the Kalman filter (dashed
+line) across iterations. The magenta bounds represent the estimated uncertainty or con‑
+fidence interval. The right‑hand graph, titled ‘Error with bounds’, shows the estimation
+error (solid blue line) and its bounds (dashed magenta line), which likely represent the ex‑
+pected range of error, across the same iterations. These plots are instrumental in evaluating
+the accuracy and reliability of Kalman filter predictions over time.
+Batteries 2025, 11, 32 11 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 
+෍∗
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term is contractive, reducing uncertainty. The process 
+noise always increases the uncertainty ∑ ௪. 
+The state correction step is: 
+𝑥௞
+(ା)෢ = 𝑥 ௞
+(ି)෢ + 𝐿 ௞ቂ𝑣௞− 𝐶 ௞ 𝑥௞
+(ି)෢ ቃ (25)
+In other words, the predicted state estimate plus a weighted correction factor equals 
+the new state estimate. Subtracting the expected cell voltage from the measured cell volt-
+age equals the term enclosed in square brackets [28]. 
+Due to measurement noise, an erroneous state estimate 𝑥௞
+(ି)෢  , or an imprecise cell 
+model, this term might not be zero. It is frequently referred to as the “innovation” process, 
+as it symbolizes the “new information” in the measurement. A major innovation usually 
+results in a large state update. A tiny innovation usually results in a small state update. 
+The innovation is weighted by the Kalman gain Lk: 
+𝐿௞= ෍ ∗
+(ି)
+௘,௞
+𝐶௞
+்ቈ𝐶௞෍∗
+(ି)
+௘,௞
+𝐶௞
+்+ ෍𝑣቉ 〖 ିଵ (26)
+A signiﬁcant update is required if the present state estimate is highly uncertain, as 
+indicated by large values of the ∑ 𝑒, 𝑘 and 𝐿௞. 𝐿௞ is tiny, and the state-estimate update is 
+minimal if the current state estimate is cert ain. Furthermore, a considerable amount of 
+sensor noise results in a large ∑ 𝑣, which in turn causes a small 𝐿௞ and a small update. 
+The covariance correction step is: 
+∑ ∗(ା)
+௘,௞ = (𝐼−  𝐿 ௞𝐶௞)∑ ∗(ି)
+௘,௞  (27)
+The state uncertainty always decreases due to the new information provided by the 
+measurement. 
+In Figure 7, the left-hand graph, titled  Kalman ﬁlter in action’, compares the true 
+state of a system (solid line) against th e estimated state provided by the Kalman ﬁlter 
+(dashed line) across iterations. The magenta bounds represent the estimated uncertainty 
+or conﬁdence interval. The right- hand graph, titled Error with bounds’, shows the esti-
+mation error (solid blue line) and its bounds (dashed magenta line), which likely represent 
+the expected range of error, across the same iterations. These plots are instrumental in 
+evaluating the accuracy and reliability of Kalman ﬁlter predictions over time. 
+ 
+Figure 7. Performance analysis of a Kalman ﬁlter. 
+Extended Kalman Filtering 
+The Kalman ﬁlter is the best state estimator. In a nonlinear system, we can approxi-
+mate the nonlinear system with a linear time-varying (LTV) system by using a lineariza-
+tion procedure at each time step. The extended Kalman ﬁlter (EKF) on the real nonlinear 
+Figure 7. Performance analysis of a Kalman filter.
+Extended Kalman Filtering
+The Kalman filter is the best state estimator. In a nonlinear system, we can approxi‑
+mate the nonlinear system with a linear time‑varying (LTV) system by using a linearization
+procedure at each time step. The extended Kalman filter (EKF) on the real nonlinear sys‑
+tem is produced by using this LTV system in the Kalman filter. Keep in mind that while
+EKF is not always the best option, it frequently functions more effectively than others [ 28].
+The nonlinear system may be modeled as:
+xk+1 = f (xk, uk) + wk (28)
+yk = g(xk, uk) + vk (29)
+As before, wk and vk are zero mean white Gaussian stochastic processes with covari‑
+ance matrices ∑ v and ∑ w, respectively. Now, f (.) is a nonlinear transition matrix function,
+and g (.) is a nonlinear measurement matrix.
+At each time step, f (.) and g (.) are linearized by a Taylor‑series expansion.
+f (xk, uk) ≈ f ( ˆxk, uk) + ∂ f (xk, uk)
+∂x ∥ .xk= ˆxk (xk − ˆxk) (30)
+g (xk, uk) ≈ g( ˆxk, uk) + ∂g(xk, uk)
+∂x ∥ .xk= ˆxk (xk − ˆxk) (31)
+So, we have the linearized system:
+State‑space model:
+xk+1 = f (xk, uk) + wk (32)
+yk = gxyk = g(xk, uk) + vk, yk = g(xk, uk) + vk (33)
+where wk and vk are independent, zero‑mean, Gaussian noise processes of covariance ma‑
+trices ∑ v and ∑ w, respectively.
+Definitions:
+Ak = ∂ f (xk, uk)
+∂x ∥ xk = ˆx(+)
+k (34)
+Ck = ∂g(xk, uk)
+∂x ∥ xk = ˆx(−)
+k (35)
+Initialization: For k = 0, set
+ˆx(+)
+k = E[x0] (36)
+∑
+(+)
+x0
+∗ = E[(x0 − E[x0])(x0 − E[x0])ˆT] (37)
+Computation: For k = 1, 2, K, compute:
+Batteries 2025, 11, 32 12 of 42
+State estimate propagation:
+ˆx(−)
+k = f
+ ˆx(+)
+k−1, uk−1
+
+(38)
+Error covariance propagation:
+∑
+(−)
+e,k ∗ = Ak∑
+(+)
+e,k−1 ∗AT
+k + ∑ w (39)
+Kalman gain matrix:
+Lk = ∑
+(−)
+e,k ∗CT
+k
+h
+Ck∑
+(−)
+e,k ∗CT
+k + ∑ v
+i
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 
+෍∗
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term is contractive, reducing uncertainty. The process 
+noise always increases the uncertainty ∑ ௪. 
+The state correction step is: 
+𝑥௞
+(ା)෢ = 𝑥 ௞
+(ି)෢ + 𝐿 ௞ቂ𝑣௞− 𝐶 ௞ 𝑥௞
+(ି)෢ ቃ (25)
+In other words, the predicted state estimate plus a weighted correction factor equals 
+the new state estimate. Subtracting the expected cell voltage from the measured cell volt-
+age equals the term enclosed in square brackets [28]. 
+Due to measurement noise, an erroneous state estimate 𝑥௞
+(ି)෢  , or an imprecise cell 
+model, this term might not be zero. It is frequently referred to as the “innovation” process, 
+as it symbolizes the “new information” in the measurement. A major innovation usually 
+results in a large state update. A tiny innovation usually results in a small state update. 
+The innovation is weighted by the Kalman gain Lk: 
+𝐿௞= ෍ ∗
+(ି)
+௘,௞
+𝐶௞
+்ቈ𝐶௞෍∗
+(ି)
+௘,௞
+𝐶௞
+்+ ෍𝑣቉ 〖 ିଵ (26)
+A signiﬁcant update is required if the present state estimate is highly uncertain, as 
+indicated by large values of the ∑ 𝑒, 𝑘 and 𝐿௞. 𝐿௞ is tiny, and the state-estimate update is 
+minimal if the current state estimate is cert ain. Furthermore, a considerable amount of 
+sensor noise results in a large ∑ 𝑣, which in turn causes a small 𝐿௞ and a small update. 
+The covariance correction step is: 
+∑ ∗(ା)
+௘,௞ = (𝐼−  𝐿 ௞𝐶௞)∑ ∗(ି)
+௘,௞  (27)
+The state uncertainty always decreases due to the new information provided by the 
+measurement. 
+In Figure 7, the left-hand graph, titled  Kalman ﬁlter in action’, compares the true 
+state of a system (solid line) against th e estimated state provided by the Kalman ﬁlter 
+(dashed line) across iterations. The magenta bounds represent the estimated uncertainty 
+or conﬁdence interval. The right- hand graph, titled Error with bounds’, shows the esti-
+mation error (solid blue line) and its bounds (dashed magenta line), which likely represent 
+the expected range of error, across the same iterations. These plots are instrumental in 
+evaluating the accuracy and reliability of Kalman ﬁlter predictions over time. 
+ 
+Figure 7. Performance analysis of a Kalman ﬁlter. 
+Extended Kalman Filtering 
+The Kalman ﬁlter is the best state estimator. In a nonlinear system, we can approxi-
+mate the nonlinear system with a linear time-varying (LTV) system by using a lineariza-
+tion procedure at each time step. The extended Kalman ﬁlter (EKF) on the real nonlinear 
+(40)
+State estimate update:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+yk − g
+ ˆx(−)
+k , uk
+
+(41)
+Error covariance update:
+∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k ∗ (42)
+xk+1 ≈ Akxk + [ f ( ˆxk, uk) − Ak ˆxk] + wk (43)
+yk ≈ Ckxk + [g( ˆxk, uk) − Ck ˆxk] + vk (44)
+Equations (32)–(44) give a summary of the extended Kalman filter from reference [27].
+2.3.1. Electrochemical Model
+The electrochemical model [ 29–31], reduced‑order model [ 32–34], equivalent circuit
+model [35–37], and data‑driven model [ 38,39] are the primary battery‑electric models. By
+accurately representing battery concentration, electrode potential, and Butler–Volmer ki‑
+netics, the electrochemical model can simulate the complex interplay of chemical and elec‑
+trical processes that occurs within the battery during intercalation. This enables better con‑
+trol and regulation of the battery’s performance and lifespan [ 29]. The particle swarm op‑
+timization (PSO) method is then used to optimize important model parameters, resulting
+in the establishment of an electrochemical model to represent the electrochemical behav‑
+iors of batteries. The electrochemical model demonstrated strong prediction performance,
+although it required a large amount of computing during model simulation, as demon‑
+strated by Sung and Shin [ 30]. Next, to integrate the electrochemical model into the BMS,
+a model implementation strategy was created. The primary benefit of employing an elec‑
+trochemical model is the ability to acquire the reactions occurring within the battery. In
+real‑time applications, it might be challenging to identify numerous characteristics, such
+as the compositions of the internal chemicals.
+Furthermore, there are significant computing overheads associated with these elec‑
+trochemical models, because they typically require the solution of several partial differen‑
+tial equations. Reduced‑order electrochemical models can approximate full‑order models
+with appropriate assumptions.
+An estimated technique was developed with a way to capture and understand the
+diffusion of compositions inside batteries. This helps us to understand what is happening
+inside the battery [32]. Subsequently, a simplified electrochemical model based on physics
+was created to estimate the state of charge of lithium‑ion batteries with Figure 8 showing
+a cross‑sectional view of battery cells. To forecast the discharging capacity of the battery
+under different situations, a robust SOC estimation was accomplished using a battery with
+Batteries 2025, 11, 32 13 of 42
+a reduced‑order model [ 34]. The simpler reduced‑order models produced by this method
+have some information loss, but they are still preferable for real‑time battery applications.
+Reduced‑order models have significantly smaller computing overheads, and the measured
+current and voltage signals can be used to determine the corresponding parameters.
+Continuum porous‑electrode models use physics concepts to develop equations that
+explain all of the internal events that occur within a cell. These equations are linked by par‑
+tial differential equations (PDEs). The models take into account many state variables that
+are vital for understanding what is going on inside the cell, incorporating the solid‑state
+amount of lithium, C s(x,r,t); lithium present on the cell’s surface, C s(x,t); the electrolyte’s
+lithium content, Ce(x,t); the solid’s potential, ϕs(x,t); the electrolyte’s potential, ϕe(x,t); and
+the lithium migration rate, j(x,t), between phases [ 40].
+Batteries 2025, 11, x FOR PEER REVIEW 12 of 42 
+ 
+෍∗
+(ା)
+௘,௞
+ = (𝐼−  𝐿 ௞𝐶௞) ෍∗
+(ି)
+௘,௞
+ (42)
+𝑥௞ାଵ≈ 𝐴௞𝑥௞+ [𝑓(𝑥ො௞,𝑢 ௞) − 𝐴௞𝑥ො௞] + 𝑤 ௞ (43)
+𝑦௞≈ 𝐶 ௞𝑥௞+ [𝑔(𝑥ො௞,𝑢 ௞) − 𝐶 ௞𝑥ො௞] + 𝑣 ௞ (44)
+Equations (32)–(44) give a summa ry of the extended Kalman ﬁlter from reference 
+[27]. 
+2.3.1. Electrochemical Model 
+The electrochemical model [29–31], reduc ed-order model [32–34], equivalent circuit 
+model [35–37], and data-driven model [38,39] are the primary battery-electric models. By 
+accurately representing battery concentration, electrode potential, and Butler–Volmer ki-
+netics, the electrochemical model can simulate the complex interplay of chemical and elec-
+trical processes that occurs within the battery during intercalation. This enables better con-
+trol and regulation of the battery’s performance and lifespan [29]. The particle swarm op-
+timization (PSO) method is then used to optimize important model parameters, resulting 
+in the establishment of an electrochemical model to represent the electrochemical behav-
+iors of batteries. The electrochemical model demonstrated strong prediction performance, 
+although it required a large amount of co mputing during model simulation, as demon-
+strated by Sung and Shin [30]. Next, to integrate the electrochemical model into the BMS, 
+a model implementation strategy was created. The primary beneﬁt of employing an elec-
+trochemical model is the ability to acquire the reactions occurring within the ba ttery. In 
+real-time applications, it might be challenging to identify numerous characteristics, such 
+as the compositions of the internal chemicals. 
+Furthermore, there are signi ﬁcant computing overheads associated with these elec-
+trochemical models, because they typically require the solution of several partial diﬀeren-
+tial equations. Reduced-order electrochemical models can approximate full-order models 
+with appropriate assumptions. 
+An estimated technique was developed with a way to capture and understand the 
+diﬀusion of compositions inside batteries. This helps us to understand what is happening 
+inside the battery [32]. Subsequently, a simpliﬁed electrochemical model based on physics 
+was created to estimate the state of charge of lithium-ion batteries with Figure 8 showing 
+a cross-sectional view of ba ttery cells. To forecast the discharging capacity of the ba ttery 
+under diﬀerent situations, a robust SOC estimation was accomplished using a battery with 
+a reduced-order model [34]. The simpler reduced-order models produced by this method 
+have some information loss, but they are still preferable for real-time battery applications. 
+Reduced-order models have signi ﬁcantly smaller computing overheads, and the meas-
+ured current and voltage signals can be used to determine the corresponding parameters. 
+ 
+Figure 8. Typical battery cell cross-sectional view. 
+Figure 8. Typical battery cell cross‑sectional view.
+By resolving the five connected continuum‑scale partial differential equations (as well
+as the corresponding boundary conditions), these five electrochemical variables can be
+determined.
+Movement of Lithium‑ions in the solid particles:
+∂Cs
+∂t = Ds
+r2
+∂
+∂r
+
+r2 ∂Cs
+∂r
+
+(45)
+where Cs, Ds, and r are the concentration of lithium in the solid particles, diffusion coef‑
+ficient in the solid, and radial coordinate within the particle, respectively. This equation
+represents Fick’s law of diffusion in spherical coordinates.
+Charge balance in particles; electron current:
+∇.
+
+σe f f ∇ϕs
+
+= as F j . (46)
+where ϕs, σe f f , as, F, and j are the electric potential in the solid, effective conductivity of
+the solid, specific surface area of the particles, Faraday’s constant, and reaction current
+density, respectively. This equation ensures that the divergence of the electric current in
+the solid balances the reaction current.
+Diffusion of lithium in electrolyte:
+∂(εeCe)
+∂t = ∇.
+
+De,e f f ∇Ce
+
++ as
+
+1 − t0
++
+
+j. (47)
+where Ce, εe, De,e f f , and t0
++ are the lithium concentration in the electrolyte, porosity of the
+electrolyte phase, effective diffusion coefficient co‑efficient in the electrolyte, and transfer‑
+ence number of lithium‑ion, respectively. This equation accounts for the time‑dependent
+change in lithium concentration in the electrolyte, considering both diffusion and reaction
+contributions.
+Batteries 2025, 11, 32 14 of 42
+Charge balance in electrolyte; ion current:
+∇.
+
+κe f f ∇ϕe + κD∇ln Ce
+
++ asFj = 0. (48)
+The reaction rate (where η = (ϕs − ϕe) −Uocp − j F R f ilm ) :
+j = k0C1−α
+e (Cs,max − Cs,e) 1−αCα
+s,e
+
+exp
+ (1− ∝)F
+RT η
+
+− exp
+
+− αF
+RT η
+
+(49)
+It was discovered that these equations could be resolved using simulation; however,
+the method demanded a significant amount of processing power. Furthermore, past per‑
+formance demonstrates that PDE simulators can be quite brittle, unable to converge to
+stable solutions.
+A method to convert the PDEs into a discrete‑time reduced‑order model was sug‑
+gested, and two fundamental presumptions in simulation were made [ 40]:
+• The presumption was of linear behavior: a Taylor series was used to linearize the
+nonlinear equations.
+• By assuming that the electrolyte concentration C e(x,t) was not a function of the reac‑
+tion current j(x,t), transfer functions were built.
+Next, a discrete‑time state‑space model was made using a technique known as the
+“discrete‑time realization algorithm” (DRA), as shown below in Figure 9.
+Batteries 2025, 11, x FOR PEER REVIEW 14 of 42 
+ 
+ 
+Figure 9. The DRA-produced ROM [40]. 
+The challenges and limitations of electrochemical model (EM) methods in state of 
+charge (SOC) estimation primarily revolve around their complexity and the need for de-
+tailed and accurate data. These models are computationally intensive due to their detailed 
+representation of electrochemical processes. They require precise parameters that are sen-
+sitive to changes, such as ba ttery aging, and these parameters can be di ﬃcult to obtain 
+accurately. Additionally, EMs need extensive experimental data for calibration and vali-
+dation, which can be time-consuming and costly. The e ﬀectiveness of EMs is highly de-
+pendent on the accuracy of the model in reﬂecting actual battery behaviors under various 
+conditions, such as temperature ﬂuctuations and aging e ﬀects. These factors collectively 
+make EMs challenging to implement and maintain, especially for real-time applications. 
+2.3.2. Equivalent Circuit Model 
+The Partnership for a New Generation of  Vehicles (PNGV) model, Rint model, 
+Thevenin model, and the RC model are just a few of the analogous circuit models that are 
+commonly used in EV research today [41,42]. 
+• Rint Model 
+The Rint model de ﬁnes the ba ttery open-circuit voltage by implementing an ideal 
+voltage source UOC, as seen in Figure 10 and Equation (50). UOC, which is the voltage when 
+the circuit is opened, and resistance Ro are both in ﬂuenced by temperature, SOC, and 
+SOH. Terminal voltage (UL) is equal to load current (IL), which has a positive value when 
+charging and a negative value when discharging. 
+𝑈௅= 𝑈 ை஼−𝐼 ௅𝑅଴ (50)
+ 
+Figure 10. Schematic diagram of the Rint model. 
+• RC Model 
+Figure 9. The DRA‑produced ROM [ 40].
+The challenges and limitations of electrochemical model (EM) methods in state of
+charge (SOC) estimation primarily revolve around their complexity and the need for de‑
+tailed and accurate data. These models are computationally intensive due to their detailed
+representation of electrochemical processes. They require precise parameters that are sen‑
+sitive to changes, such as battery aging, and these parameters can be difficult to obtain
+accurately. Additionally, EMs need extensive experimental data for calibration and vali‑
+dation, which can be time‑consuming and costly. The effectiveness of EMs is highly de‑
+pendent on the accuracy of the model in reflecting actual battery behaviors under various
+conditions, such as temperature fluctuations and aging effects. These factors collectively
+make EMs challenging to implement and maintain, especially for real‑time applications.
+Batteries 2025, 11, 32 15 of 42
+2.3.2. Equivalent Circuit Model
+The Partnership for a New Generation of Vehicles (PNGV) model, Rint model,
+Thevenin model, and the RC model are just a few of the analogous circuit models that
+are commonly used in EV research today [ 41,42].
+• Rint Model
+The Rint model defines the battery open‑circuit voltage by implementing an ideal
+voltage source U OC, as seen in Figure 10 and Equation (50). U OC, which is the voltage
+when the circuit is opened, and resistance Ro are both influenced by temperature, SOC,
+and SOH. Terminal voltage (U L) is equal to load current (I L), which has a positive value
+when charging and a negative value when discharging.
+UL = UOC − ILR0 (50)
+Batteries 2025, 11, x FOR PEER REVIEW 14 of 42 
+ 
+ 
+Figure 9. The DRA-produced ROM [40]. 
+The challenges and limitations of electrochemical model (EM) methods in state of 
+charge (SOC) estimation primarily revolve around their complexity and the need for de-
+tailed and accurate data. These models are computationally intensive due to their detailed 
+representation of electrochemical processes. They require precise parameters that are sen-
+sitive to changes, such as ba ttery aging, and these parameters can be di ﬃcult to obtain 
+accurately. Additionally, EMs need extensive experimental data for calibration and vali-
+dation, which can be time-consuming and costly. The e ﬀectiveness of EMs is highly de-
+pendent on the accuracy of the model in reﬂecting actual battery behaviors under various 
+conditions, such as temperature ﬂuctuations and aging e ﬀects. These factors collectively 
+make EMs challenging to implement and maintain, especially for real-time applications. 
+2.3.2. Equivalent Circuit Model 
+The Partnership for a New Generation of  Vehicles (PNGV) model, Rint model, 
+Thevenin model, and the RC model are just a few of the analogous circuit models that are 
+commonly used in EV research today [41,42]. 
+• Rint Model 
+The Rint model de ﬁnes the ba ttery open-circuit voltage by implementing an ideal 
+voltage source UOC, as seen in Figure 10 and Equation (50). UOC, which is the voltage when 
+the circuit is opened, and resistance Ro are both in ﬂuenced by temperature, SOC, and 
+SOH. Terminal voltage (UL) is equal to load current (IL), which has a positive value when 
+charging and a negative value when discharging. 
+𝑈௅= 𝑈 ை஼−𝐼 ௅𝑅଴ (50)
+ 
+Figure 10. Schematic diagram of the Rint model. 
+• RC Model 
+Figure 10. Schematic diagram of the Rint model.
+• RC Model
+" .
+Ub.
+Uc
+#
+=
+" −1
+Cb(Re+Rc)
+1
+Cb(Re+Rc)
+1
+Cc(Re+Rc)
+−1
+Cc(Re+Rc)
+#"
+Ub
+Uc
+#
++
+" −Rc
+Cb(Re+Rc)
+−Re
+Cc(Re+Rc)
+#
+[IL] (51)
+[UL]=
+h
+Rc
+(Re+Rc)
+Re
+(Re+Rc)
+i"
+Ub
+Uc
+#
++
+
+−Rt − ReRc
+(Re + Rc)
+
+[IL] (52)
+This model is made up of three resistors (R t, R e, R c) and two capacitors (C c, C b), as
+seen in Figure 11. The capacitor C c, termed the surface capacitor, has a tiny capacitance
+and mostly depicts a battery’s surface effects, while C b is the bulk capacitor. A battery’s
+ability to hold charge chemically is a result of its large capacitance, which is what bulk
+capacitors are known for. By measuring the voltage across the bulk capacitor, one can find
+the SOC. Terminal resistor, end resistor, and capacitor resistor are the names given to the
+resistors R t, R e, and R c, respectively. The voltages across C b and C c are denoted by U b
+and Uc, respectively. Equations (51) and (52) represent the electrical behavior of the RC
+model circuit.
+Batteries 2025, 11, x FOR PEER REVIEW 15 of 42 
+ 
+ቈ𝑈௕ሶ
+𝑈௖ሶ቉=  
+⎣
+⎢
+⎢
+⎡ −1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௖ (𝑅௘+ 𝑅 ௖)
+−1
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+൤𝑈௕
+𝑈௖
+൨+  
+⎣
+⎢
+⎢
+⎡ −𝑅௖
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+−𝑅௘
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+[𝐼௅] (51)
+[𝑈௅] = ቂ
+ோ೎
+(ோ೐ା ோ೎)
+ோ೐
+(ோ೐ା ோ೎)ቃ൤𝑈௕
+𝑈௖
+൨+  ቂ − 𝑅௧−
+ோ೐ோ೎
+(ோ೐ା ோ೎)ቃ [𝐼௅] (52)
+This model is made up of three resistors (R t, Re, Rc) and two capacitors (C c, Cb), as 
+seen in Figure 11. The capacitor C c, termed the surface capacitor, has a tiny capacitance 
+and mostly depicts a ba ttery’s surface e ﬀects, while Cb is the bulk capacitor. A ba ttery’s 
+ability to hold charge chemically is a result of its large capacitance, which is what bulk 
+capacitors are known for. By measuring the voltage across the bulk capacitor, one can ﬁnd 
+the SOC. Terminal resistor, end resistor, and capacitor resistor are the names given to the 
+resistors Rt, Re, and Rc, respectively. The voltages across Cb and Cc are denoted by Ub and 
+Uc, respectively. Equations (51) and (52) represent the electrical behavior of the RC model 
+circuit. 
+ 
+Figure 11. Schematic diagram of the RC model. 
+• The Thevenin Model 
+The Thevenin Model is primarily made up of three components, as seen in Figure 12: 
+equivalent capacitances, internal resistances, and open-circuit voltage (U OC). Ro and R Th 
+are examples of internal resistances. The transient response while charging and discharg-
+ing is expressed in terms of the equivalent capacitance, or C
+Th. CTh voltages are represented 
+by UTh. The current that exits CTh is denoted as ITh. Equations (53) and (54) can be used to 
+express the Thevenin model’s electrical behavior. 
+𝑈ሶ்௛= − 𝑈்௛
+𝑅்௛𝐶்௛
++ 𝐼௅
+𝐶்௛
+ (53)
+𝑈௅= 𝑈 ை஼− 𝑈 ்௛− 𝐼 ௅𝑅ை (54)
+ 
+Figure 12. Schematic diagram of the Thevenin model. 
+Figure 11. Schematic diagram of the RC model.
+Batteries 2025, 11, 32 16 of 42
+• The Thevenin Model
+The Thevenin Model is primarily made up of three components, as seen in Figure 12:
+equivalent capacitances, internal resistances, and open‑circuit voltage (U OC). R o and R Th
+are examples of internal resistances. The transient response while charging and discharg‑
+ing is expressed in terms of the equivalent capacitance, or C Th. C Th voltages are repre‑
+sented by U Th. The current that exits C Th is denoted as I Th. Equations (53) and (54) can be
+used to express the Thevenin model’s electrical behavior.
+.
+UTh = − UTh
+RTh CTh
++ IL
+CTh
+(53)
+UL = UOC − UTh − ILRO (54)
+Batteries 2025, 11, x FOR PEER REVIEW 15 of 42 
+ 
+ቈ𝑈௕ሶ
+𝑈௖ሶ቉=  
+⎣
+⎢
+⎢
+⎡ −1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௖ (𝑅௘+ 𝑅 ௖)
+−1
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+൤𝑈௕
+𝑈௖
+൨+  
+⎣
+⎢
+⎢
+⎡ −𝑅௖
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+−𝑅௘
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+[𝐼௅] (51)
+[𝑈௅] = ቂ
+ோ೎
+(ோ೐ା ோ೎)
+ோ೐
+(ோ೐ା ோ೎)ቃ൤𝑈௕
+𝑈௖
+൨+  ቂ − 𝑅௧−
+ோ೐ோ೎
+(ோ೐ା ோ೎)ቃ [𝐼௅] (52)
+This model is made up of three resistors (R t, Re, Rc) and two capacitors (C c, Cb), as 
+seen in Figure 11. The capacitor C c, termed the surface capacitor, has a tiny capacitance 
+and mostly depicts a ba ttery’s surface e ﬀects, while Cb is the bulk capacitor. A ba ttery’s 
+ability to hold charge chemically is a result of its large capacitance, which is what bulk 
+capacitors are known for. By measuring the voltage across the bulk capacitor, one can ﬁnd 
+the SOC. Terminal resistor, end resistor, and capacitor resistor are the names given to the 
+resistors Rt, Re, and Rc, respectively. The voltages across Cb and Cc are denoted by Ub and 
+Uc, respectively. Equations (51) and (52) represent the electrical behavior of the RC model 
+circuit. 
+ 
+Figure 11. Schematic diagram of the RC model. 
+• The Thevenin Model 
+The Thevenin Model is primarily made up of three components, as seen in Figure 12: 
+equivalent capacitances, internal resistances, and open-circuit voltage (U OC). Ro and R Th 
+are examples of internal resistances. The transient response while charging and discharg-
+ing is expressed in terms of the equivalent capacitance, or C
+Th. CTh voltages are represented 
+by UTh. The current that exits CTh is denoted as ITh. Equations (53) and (54) can be used to 
+express the Thevenin model’s electrical behavior. 
+𝑈ሶ்௛= − 𝑈்௛
+𝑅்௛𝐶்௛
++ 𝐼௅
+𝐶்௛
+ (53)
+𝑈௅= 𝑈 ை஼− 𝑈 ்௛− 𝐼 ௅𝑅ை (54)
+ 
+Figure 12. Schematic diagram of the Thevenin model. 
+Figure 12. Schematic diagram of the Thevenin model.
+• The PNGV Model
+Figure 13 illustrates a PNGV model with an open‑circuit voltage source U oc, in series
+with an internal resistance Ro and a dynamic element represented by a capacitor 1/U′oc and
+a voltage U d; alongside this series connection is a parallel network of a capacitor C PN and
+resistor RPN, with the current IPN flowing out of CPN, and the entire assembly is connected
+to a load characterized by a current IL and voltage UL, forming a modified Thevenin equiv‑
+alent circuit that models the variable open‑circuit voltage behavior under load conditions.
+The electrical behavior of the PNGV model can be expressed by Equation (56):
+..
+Ud = U′
+OC IL (55)
+.
+.
+UPN = UPN
+RPN CPN
++ IL
+CPN
+(56)
+UL = UOC − Ud − UPN − ILR0 (57)
+Batteries 2025, 11, x FOR PEER REVIEW 16 of 42 
+ 
+• The PNGV Model 
+Figure 13 illustrates a PNGV model with an open-circuit voltage source Uoc, in series 
+with an internal resistance Ro and a dynamic element represented by a capacitor 1/𝑈′oc and 
+a voltage Ud; alongside this series connection is a parallel network of a capacitor CPN and 
+resistor RPN, with the current IPN ﬂowing out of CPN, and the entire assembly is connected 
+to a load characterized by a current IL and voltage UL, forming a modiﬁed Thevenin equiv-
+alent circuit that models the variable open-circuit voltage behavior under load conditions. 
+The electrical behavior of the PNGV model can be expressed by Equation (56): 
+𝑈ௗሶ= 𝑈 ை஼
+ᇱሶ  𝐼௅ (55)
+𝑈௉ேሶ= 𝑈௉ே
+𝑅௉ே𝐶௉ே
+ሶ
++ 𝐼௅
+𝐶௉ே
+ (56)
+𝑈௅= 𝑈 ை஼− 𝑈 ௗ− 𝑈 ௉ே− 𝐼 ௅𝑅଴ (57)
+ 
+Figure 13. PNGV model. 
+• The Dual Polarization (DP) Framework 
+The test framework shows that polarization is one of a lithium-ion battery’s proper-
+ties. The Thevenin model might replicate the po larization characteristic to some extent, 
+but in the ﬁnal moments of charge or discharge, the di ﬀerences between concentration 
+polarization and electrochemical polarization result in an erroneous projection. To more 
+accurately describe polarization features and simulate concentration and electrochemical 
+polarization independently, an enhanced circ uit model, referred to as the dual polariza-
+tion (DP) model, is shown in Figure 14. 
+ 
+Figure 14. Schematic diagram of the dual polarization model. 
+The DP model is divided into three sections: The ﬁrst three parameters are the OCV 
+(Uoc); the second is the internal resistance, which includes the ohmic resistance Ro and the 
+Figure 13. PNGV model.
+Batteries 2025, 11, 32 17 of 42
+• The Dual Polarization (DP) Framework
+The test framework shows that polarization is one of a lithium‑ion battery’s proper‑
+ties. The Thevenin model might replicate the polarization characteristic to some extent,
+but in the final moments of charge or discharge, the differences between concentration
+polarization and electrochemical polarization result in an erroneous projection. To more
+accurately describe polarization features and simulate concentration and electrochemical
+polarization independently, an enhanced circuit model, referred to as the dual polarization
+(DP) model, is shown in Figure 14.
+Batteries 2025, 11, x FOR PEER REVIEW 16 of 42 
+ 
+• The PNGV Model 
+Figure 13 illustrates a PNGV model with an open-circuit voltage source Uoc, in series 
+with an internal resistance Ro and a dynamic element represented by a capacitor 1/𝑈′oc and 
+a voltage Ud; alongside this series connection is a parallel network of a capacitor CPN and 
+resistor RPN, with the current IPN ﬂowing out of CPN, and the entire assembly is connected 
+to a load characterized by a current IL and voltage UL, forming a modiﬁed Thevenin equiv-
+alent circuit that models the variable open-circuit voltage behavior under load conditions. 
+The electrical behavior of the PNGV model can be expressed by Equation (56): 
+𝑈ௗሶ= 𝑈 ை஼
+ᇱሶ  𝐼௅ (55)
+𝑈௉ேሶ= 𝑈௉ே
+𝑅௉ே𝐶௉ே
+ሶ
++ 𝐼௅
+𝐶௉ே
+ (56)
+𝑈௅= 𝑈 ை஼− 𝑈 ௗ− 𝑈 ௉ே− 𝐼 ௅𝑅଴ (57)
+ 
+Figure 13. PNGV model. 
+• The Dual Polarization (DP) Framework 
+The test framework shows that polarization is one of a lithium-ion battery’s proper-
+ties. The Thevenin model might replicate the po larization characteristic to some extent, 
+but in the ﬁnal moments of charge or discharge, the di ﬀerences between concentration 
+polarization and electrochemical polarization result in an erroneous projection. To more 
+accurately describe polarization features and simulate concentration and electrochemical 
+polarization independently, an enhanced circ uit model, referred to as the dual polariza-
+tion (DP) model, is shown in Figure 14. 
+ 
+Figure 14. Schematic diagram of the dual polarization model. 
+The DP model is divided into three sections: The ﬁrst three parameters are the OCV 
+(Uoc); the second is the internal resistance, which includes the ohmic resistance Ro and the 
+Figure 14. Schematic diagram of the dual polarization model.
+The DP model is divided into three sections: The first three parameters are the OCV
+(Uoc); the second is the internal resistance, which includes the ohmic resistance Ro and the
+effective resistances Rpa and Rpc, which characterize the electrochemical and concentration
+polarization, respectively; and the third is the effective capacitance, which includes C pa
+and Cpc, which describe the concentration and electrochemical polarization separately and
+characterize the transient response during power transfer to and from the battery. U pa and
+Upc represent Cpa and Cpc voltages, respectively. The currents of C pa and Cpc are Ipa and
+Ipc, respectively. Equation (60) can be used to express the circuit’s electrical behavior:
+.
+Upa= − Upa
+RpaCpa
++ IL
+Cpa
+(58)
+.
+UPC = Upc
+RpcCpc
++ IL
+Cpc
+(59)
+UL = Uoc − Upa − Upc − ILR0 (60)
+2.3.3. Electrochemical Impedance Model
+In addition to incorporated components and porous electrode theory, the electrochem‑
+ical impedance model (EIM)‑based SOC assessment incorporates additional parameters
+into the model by including Warburg, constant phase, and Z arc elements [43–46]. A basic
+schematic diagram of the EIM is displayed in Figure 15. A potent method for examining
+the internal dynamics of batteries across a variety of periods is electrochemical impedance
+spectroscopy (EIS). The electrochemical system comprising the battery’s capacitive and in‑
+ductive components may be recognized and measured by EIS by measuring the battery’s
+impedance throughout a broad frequency range [ 47]. Electric double‑layer effects, ion dif‑
+fusion, and charge transfer reactions are just a few of the internal processes that may be
+Batteries 2025, 11, 32 18 of 42
+understood by estimating the battery’s impedance using these measures. Battery research
+and diagnostics have found that EIS is a useful tool, as it produces accurate findings with
+little computing demand when combined with an appropriate electrochemical model, such
+as the EIM.
+The EIM method, used in SOC estimation, encounters several specific limitations.
+Firstly, EIM is inherently complex in its interpretation, as it relies on analyzing impedance
+spectra. This complexity necessitates specialized knowledge, making EIM less accessible
+for standard applications. Moreover, the method’s accuracy is highly sensitive to oper‑
+ational conditions like temperature and battery aging. Fluctuations in these factors can
+lead to significant variances in impedance response, thereby affecting the precision of
+SOC estimations.
+Batteries 2025, 11, x FOR PEER REVIEW 17 of 42 
+ 
+eﬀective resistances Rpa and Rpc, which characterize the electrochemical and concentration 
+polarization, respectively; and the third is the e ﬀective capacitance, which includes C pa 
+and Cpc, which describe the concentration and electrochemical polarization separately and 
+characterize the transient response during power transfer to and from the battery. Upa and 
+Upc represent Cpa and Cpc voltages, respectively. The currents of Cpa and Cpc are Ipa and Ipc, 
+respectively. Equation (60) can be used to express the circuit’s electrical behavior: 
+𝑈௣௔ሶ = −
+௎೛ೌ
+ோ೛ೌ஼೛ೌ
++ 
+ூಽ
+஼೛ೌ
+ (58)
+𝑈௉஼ሶ= 𝑈௣௖
+𝑅௣௖𝐶௣௖
++ 𝐼௅
+𝐶௣௖
+ (59)
+𝑈௅= 𝑈 ௢௖− 𝑈 ௣௔− 𝑈 ௣௖− 𝐼 ௅𝑅଴ (60)
+2.3.3. Electrochemical Impedance Model 
+In addition to incorporated components and porous electrode theory, the electro-
+chemical impedance model (EIM)-based SOC assessment incorporates additional param-
+eters into the model by including Warburg, constant phase, and Z arc elements [43–46]. A 
+basic schematic diagram of the EIM is displayed in Figure 15. A potent method for exam-
+ining the internal dynamics of ba tteries across a variety of periods is electrochemical im-
+pedance spectroscopy (EIS). The electrochemical system comprising the ba ttery’s capaci-
+tive and inductive components may be recognized and measured by EIS by measuring 
+the battery’s impedance throughout a broad freque ncy range [47]. Electric double-layer 
+eﬀects, ion diﬀusion, and charge transfer reactions are just a few of the internal processes 
+that may be understood by estimating the battery’s impedance using these measures. Bat-
+tery research and diagnostics have found that EIS is a useful tool, as it produces accurate 
+ﬁndings with little computing demand when combined with an appropriate electrochem-
+ical model, such as the EIM. 
+ 
+Figure 15. Schematic diagram of EIM. 
+The EIM method, used in SOC estimation, encounters several speci ﬁc limitations. 
+Firstly, EIM is inherently complex in its interpretation, as it relies on analyzing impedance 
+spectra. This complexity necessitates specialized knowledge, making EIM less accessible 
+for standard applications. Moreover, the method’s accuracy is highly sensitive to opera-
+tional conditions like temperature and battery aging. Fluctuations in these factors can lead 
+to signiﬁcant variances in impedance response, thereby aﬀecting the precision of SOC es-
+timations. 
+In addition, EIM demands a comprehensive understanding of the ba ttery’s electro-
+chemical properties, involving detailed and complex electrochemical analysis. This re-
+quirement often makes EIM a more specialized approach, limited to scenarios where such 
+Figure 15. Schematic diagram of EIM.
+In addition, EIM demands a comprehensive understanding of the battery’s electro‑
+chemical properties, involving detailed and complex electrochemical analysis. This re‑
+quirement often makes EIM a more specialized approach, limited to scenarios where
+such expertise is available. Another considerable limitation is the time‑intensive nature
+of impedance spectroscopy measurements. These measurements often require the battery
+to be in a stable state, which limits the method’s applicability in dynamic or real‑time sce‑
+narios, where quick and responsive SOC estimation is crucial.
+Furthermore, EIM requires specialized and often costly equipment to measure
+impedance spectra, which may not be practical or affordable for all applications. The
+method’s effectiveness also varies across different types of batteries, and it may not be
+suitable for all battery chemistries or designs. Lastly, translating impedance data into ac‑
+curate SOC values involves complex modeling, especially challenging due to the nonlinear
+behavior of batteries.
+In summary, while EIM offers detailed insights into a battery’s electrochemical pro‑
+cesses, its practical application in SOC estimation is constrained by its interpretational com‑
+plexity, operational sensitivity, specialized knowledge requirements, measurement con‑
+straints, equipment costs, battery type limitations, and the complex modeling needed for
+accurate data translation.
+If the battery is accurately modeled, precision is the benefit of model‑based SOC esti‑
+mation. This has been demonstrated in [ 48], where EIM and EKF are combined to assess
+SOC for lithium batteries. Additionally, according to some researchers, model‑based SOC
+estimation produces strong closed‑loop control, high adaptability, and good real‑time per‑
+formance [49]. Unfortunately, based on models, modeling complexity is a drawback of the
+Batteries 2025, 11, 32 19 of 42
+accurate SOC prediction approach. Considering the great variation in battery chemistries
+and constructions, this might be a significant obstacle to researchers in fully comprehend‑
+ing the distinctive electrochemical characteristics of the particular battery type they are
+modeling [ 50]. The exhaustive experimentation necessary to determine the correlations
+between numerous factors adds to the process’s time‑consuming nature [ 51]. The diffi‑
+cult work of identifying every important parameter that goes into creating a strong model
+frequently requires iterative testing and improvement. Sometimes, an extra Warburg
+element—which symbolizes the battery’s frequency‑dependent diffusion impedance—is
+added to these models to improve their accuracy for specific batteries. This adds another
+level of complexity, but improves the model’s ability to mirror actual battery behavior [52].
+Creating an excellent model is usually difficult and necessitates extensive prior knowl‑
+edge. Consequently, it is not always feasible to apply the model‑based approach to all
+battery types.
+2.4. Data‑Driven Model Estimation
+Battery parameters like current, voltage, and temperature can be measured and used
+in data‑based techniques for SOC estimation. As a result, an additional filter in the model‑
+based approach is avoided [ 53]. Additionally, the self‑learning algorithm determines the
+network parameters of data‑driven methods [ 54]. This process is entirely different from
+model‑based estimation techniques, which require significant time and human expertise
+for parameter estimation.
+Machine learning (ML) platforms are frequently required in data‑driven approaches
+to extract relationships and rules from the data [ 55]. Their algorithms are used today to
+achieve on‑par or sometimes even super‑human performance in a variety of fields, includ‑
+ing medical diagnosis [ 56], stock trading [ 57], robotics [ 58], mastering board games [ 59],
+and more.
+This section concerns data‑driven approaches for battery SOC estimation.
+2.4.1. Neural Network Method
+A neural network (NN) is a created intelligence that learns from examples and im‑
+proves with time. Consider it similar to training a machine to spot patterns. In this exam‑
+ple, it is utilized to anticipate how much charge a battery has remaining.
+There are two major steps. First, it follows through with a calculation process step by
+step, much like adding numbers. It then double‑checks its replies and corrects any errors.
+It makes use of battery performance metrics, such as how much power the battery is using,
+the temperature, and the battery resistance, as input data [ 59–61]. Depending on all of
+these variables, our neural network assists us in determining a battery’s level of charge.
+The hidden layer serves as the system’s activation function. Figure 16 depicts the basic
+processing sequence of a neural network method. The experimental results validate the
+resilience and accuracy of this technique, which provides a quick and efficient calculation
+of SOC.
+Batteries 2025, 11, 32 20 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 19 of 42 
+ 
+A neural network (NN) is a created intelligence that learns from examples and im-
+proves with time. Consider it similar to training a machine to spot patterns. In this exam-
+ple, it is utilized to anticipate how much charge a battery has remaining. 
+There are two major steps. First, it follows through with a calculation process step by 
+step, much like adding numbers. It then double-checks its replies and corrects any errors. 
+It makes use of battery performance metrics, such as how much power the battery is using, 
+the temperature, and the ba ttery resistance, as input data [59–61]. Depending on all of 
+these variables, our neural networ k assists us in determining a ba ttery’s level of charge. 
+The hidden layer serves as the system’s activa tion function. Figure 16 depicts the basic 
+processing sequence of a neural network method. The experimental results validate the 
+resilience and accuracy of this technique, which provides a quick and eﬃcient calculation 
+of SOC. 
+ 
+Figure 16. Three-layer neural network architecture for SOC estimation [62]. 
+Despite its beneﬁts, this strategy has inherent limits. A large number of training data 
+are used to adequately train the algorithm. The quantity and quality of training data have 
+a considerable in ﬂuence on accuracy [63,64]. In summary, NNs for SOC estimation face 
+drawbacks such as a heavy reliance on extensive data for training, risk of over ﬁtting, 
+opaque black box’ decision-making processes, computational intensity in training, sensi-
+tivity to network architecture and hyperparameters, challenges in generalizing across dif-
+ferent battery types, reduced adaptability in non-stationary environments due to ba ttery 
+aging or usage pattern changes, and the requirement for specialized machine learning ex-
+pertise for development and tuning. 
+The use of deep learning (DL) algorithms in the state estimation of BMS is made fea-
+sible by the advancement of big data and cloud computing platforms. The term “deep” is 
+used by the so-called DL algorithms to characterize the utilization of several hidden layers 
+or other distinct architectural styles [65]. Deep learning algorithms can map complex and 
+nonlinear functions more accurately and e ﬀectively than shallow neural networks. This 
+research categorizes standard DL algorithms into three groups based on their architec-
+tures: convolutional neural network (CNN), recurrent neural network (RNN), and deep 
+Figure 16. Three‑layer neural network architecture for SOC estimation [ 62].
+Despite its benefits, this strategy has inherent limits. A large number of training data
+are used to adequately train the algorithm. The quantity and quality of training data
+have a considerable influence on accuracy [ 63,64]. In summary, NNs for SOC estimation
+face drawbacks such as a heavy reliance on extensive data for training, risk of overfitting,
+opaque ‘black box’ decision‑making processes, computational intensity in training, sen‑
+sitivity to network architecture and hyperparameters, challenges in generalizing across
+different battery types, reduced adaptability in non‑stationary environments due to bat‑
+tery aging or usage pattern changes, and the requirement for specialized machine learning
+expertise for development and tuning.
+The use of deep learning (DL) algorithms in the state estimation of BMS is made fea‑
+sible by the advancement of big data and cloud computing platforms. The term “deep” is
+used by the so‑called DL algorithms to characterize the utilization of several hidden layers
+or other distinct architectural styles [ 65]. Deep learning algorithms can map complex and
+nonlinear functions more accurately and effectively than shallow neural networks. This re‑
+search categorizes standard DL algorithms into three groups based on their architectures:
+convolutional neural network (CNN), recurrent neural network (RNN), and deep neural
+network (DNN). The fundamental ideas and uses of these three SOC estimating techniques
+are thoroughly described in this section.
+• Deep Neural Network
+A deep neural network (DNN) is an extension of a back‑propagation neural network
+(BPNN) with additional hidden layers, as shown in Figure 17. Each hidden layer may
+contain a different number of hidden neurons, represented by l 1, … l M. Both DNN and
+BPNN use the same learning method and information transformation principles. A multi‑
+layer feed‑forward NN was developed to tackle the common issues of over‑fitting or under‑
+fitting in data‑driven approaches for SOC estimation [ 66]. The NN was built from scratch,
+Batteries 2025, 11, 32 21 of 42
+starting with a basic version that had a low‑dimensional input vector and gradually work‑
+ing its way up to a more complex structure with a high‑dimensional input vector.
+Batteries 2025, 11, x FOR PEER REVIEW 20 of 42 
+ 
+neural network (DNN). The fundamental idea s and uses of these three SOC estimating 
+techniques are thoroughly described in this section. 
+• Deep Neural Network 
+A deep neural network (DNN) is an extension of a back-propagation neural network 
+(BPNN) with additional hidden layers, as sh own in Figure 17. Each hidden layer may 
+contain a di ﬀerent number of hidden neurons, represented by l 1, … l M. Both DNN and 
+BPNN use the same learning method and in formation transformation principles. A mul-
+tilayer feed-forward NN was developed to tackle the common issues of over- ﬁtting or 
+under-ﬁtting in data-driven approaches for SOC estimation [66]. The NN was built from 
+scratch, starting with a basic version that had a low-dimensional input vector and gradu-
+ally working its way up to a more complex structure with a high-dimensional input vec-
+tor. 
+ 
+Figure 17. Deep learning network architecture for SOC estimation [53]. 
+Although this constructive strategy was largely a trial-and-error approach, it is a cru-
+cial stage in the training of DNNs. An additional innovation was the use of the unscented 
+Kalman ﬁlter (UKF) to ﬁlter the DNN outputs, which helped to increase their accuracy. 
+After noise reduction, the suggested method’s root mean square error (RMSE) was 1.4%, 
+and its maximum error was only 1.9%, which is less than 2% under the Federal Urban 
+Driving Schedule (FUDS) driving cycles. However, it is worth noting that the execution 
+time of the algorithm could be signi ﬁcantly increased by merging UKF. A four-hidden-
+layer DNN with 64 neurons per hidden layer was found to be the best model after com-
+paring numerous DNN models [53]. The number of hidden neurons and the number of 
+hidden layers are important for accuracy and computing load. 
+DNNs encounter several drawbacks, including a substantial need for large datasets 
+for training, high susceptibility to over ﬁtting, considerable computational resources for 
+model training and operation, complexity in architecture leading to di ﬃculties in tuning 
+and optimization, a “black box” nature that obscures interpretability of the decision-mak-
+ing process, and potential challenges in generalizing to new or unseen data, especially 
+when operational conditions signiﬁcantly deviate from the training scenarios. 
+• Convolutional Neural Network 
+CNN is used in lithium ba ttery state estimation research. A typical CNN includes 
+convolutional and pooling layers, fully connect ed layers, and an output layer, as shown 
+in Figure 18. In CNN, neurons in each convolution layer are not connected to every other 
+neuron, unlike in a fully connected network. This is achieved by sliding a ﬁlter across the 
+input space, resulting in sparse connectivity.  Convolution is a process where subsets of 
+input space multiply with a ﬁlter. Three factors determine this process: ﬁlter size, number 
+of ﬁlters, and step. This process allows for faster learning and reduced memory usage. 
+Figure 17. Deep learning network architecture for SOC estimation [ 53].
+Although this constructive strategy was largely a trial‑and‑error approach, it is a cru‑
+cial stage in the training of DNNs. An additional innovation was the use of the unscented
+Kalman filter (UKF) to filter the DNN outputs, which helped to increase their accuracy.
+After noise reduction, the suggested method’s root mean square error (RMSE) was 1.4%,
+and its maximum error was only 1.9%, which is less than 2% under the Federal Urban Driv‑
+ing Schedule (FUDS) driving cycles. However, it is worth noting that the execution time
+of the algorithm could be significantly increased by merging UKF. A four‑hidden‑layer
+DNN with 64 neurons per hidden layer was found to be the best model after comparing
+numerous DNN models [ 53]. The number of hidden neurons and the number of hidden
+layers are important for accuracy and computing load.
+DNNs encounter several drawbacks, including a substantial need for large datasets
+for training, high susceptibility to overfitting, considerable computational resources for
+model training and operation, complexity in architecture leading to difficulties in tun‑
+ing and optimization, a “black box” nature that obscures interpretability of the decision‑
+making process, and potential challenges in generalizing to new or unseen data, especially
+when operational conditions significantly deviate from the training scenarios.
+• Convolutional Neural Network
+CNN is used in lithium battery state estimation research. A typical CNN includes
+convolutional and pooling layers, fully connected layers, and an output layer, as shown
+in Figure 18. In CNN, neurons in each convolution layer are not connected to every other
+neuron, unlike in a fully connected network. This is achieved by sliding a filter across the
+input space, resulting in sparse connectivity. Convolution is a process where subsets of
+input space multiply with a filter. Three factors determine this process: filter size, number
+of filters, and step. This process allows for faster learning and reduced memory usage.
+Pooling layers decrease the size of feature maps. Rectified linear unit (ReLU) activation is
+typically used in a CNN.
+Batteries 2025, 11, 32 22 of 42
+Batteries 2025, 11, x FOR PEER REVIEW 21 of 42 
+ 
+Pooling layers decrease the size of feature maps. Rectiﬁed linear unit (ReLU) activation is 
+typically used in a CNN. 
+ 
+Figure 18. The structure of CNN [67]. 
+Hybrid CNN–RNN networks are often used to estimate SOC. In one study, a CNN–
+long short-term memory (LSTM) network was used to capture spatial features and re-
+trieve characteristics [68]. Di ﬀerent research conducted suggested the utilization of a 
+CNN–gated recurrent unit (GRU) network; however, it deviated from employing average 
+current and voltage as input parameters [69]. This hybrid network solely applied the one-
+dimensional convolution layer to extract relevant information from temperature, current, 
+and voltage measurements. Hyperparameters were selected by comparing various de-
+signs. The suggested hybrid network was compared to other machine learning algorithms 
+under driving cycles to conﬁrm its superiority. 
+SOC can now be estimated using a 1D CNN alone for electric vehicles’ batteries. The 
+proposed model predicts SOC at timestep k using voltage, current, and temperature data 
+from k − t
+w + 1 to k as inputs. This model outperformed other techniques in terms of both 
+performance and oﬄine training time. Hannan et al. [70] proposed a fully convolutional 
+network (FCN) with temporal convolutions for determining the state of charge. They used 
+global average pooling to prevent over ﬁtting. The model’s learning rate was optimized 
+using various techniques to be tter its error rate. The model achieved an MAE of 0.7% at 
+room temperature and also an RMSE of 0.85% 
+CNNs encounter drawbacks such as their substantial need for large and diverse 
+training datasets, vulnerability to overﬁtting, particularly when training data are limited, 
+high computational requirements for training and inference, and the complexity of model 
+architecture, which necessitates ﬁne-tuning and specialized expertise to optimize e ﬀec-
+tively. 
+• Recurrent Neural Network 
+RNNs and BPNNs share some structural similarities, with RNNs evolving from feed-
+forward neural networks. This segment reviews RNN principles and their recent applica-
+tions in SOC estimation. 
+Nonlinear autoregression with exogenous input neural network (NARXNN) is a neu-
+ral network used for predicting one-time series. It uses historical values, feedback, and an 
+external time series for training. Its layout is shown in Figure 19. It is a variation of the 
+Jordan NN with a feedback mechanism. The expression of NARXNN is as follows: 
+𝑦(𝑛) = 𝑓଴቎𝑏଴+ ෍𝑤 ௛଴𝑓௛ቌ𝑏௛+ ෍𝑤 ௜௛𝑥(𝑛−𝑖 )
+ௗೠ
+௜ୀ଴
++ ෍𝑤 ௝௛𝑦(𝑛− 𝑗)
+ௗ೤
+௝ୀ଴
+ቍ
+௟
+௛ୀଵ
+቏ (61)
+Figure 18. The structure of CNN [ 67].
+Hybrid CNN–RNN networks are often used to estimate SOC. In one study, a CNN–
+long short‑term memory (LSTM) network was used to capture spatial features and retrieve
+characteristics [68]. Different research conducted suggested the utilization of a CNN–gated
+recurrent unit (GRU) network; however, it deviated from employing average current and
+voltage as input parameters [ 69]. This hybrid network solely applied the one‑dimensional
+convolution layer to extract relevant information from temperature, current, and voltage
+measurements. Hyperparameters were selected by comparing various designs. The sug‑
+gested hybrid network was compared to other machine learning algorithms under driving
+cycles to confirm its superiority.
+SOC can now be estimated using a 1D CNN alone for electric vehicles’ batteries. The
+proposed model predicts SOC at timestep k using voltage, current, and temperature data
+from k − tw + 1 to k as inputs. This model outperformed other techniques in terms of both
+performance and offline training time. Hannan et al. [ 70] proposed a fully convolutional
+network (FCN) with temporal convolutions for determining the state of charge. They used
+global average pooling to prevent overfitting. The model’s learning rate was optimized
+using various techniques to better its error rate. The model achieved an MAE of 0.7% at
+room temperature and also an RMSE of 0.85%
+CNNs encounter drawbacks such as their substantial need for large and diverse train‑
+ing datasets, vulnerability to overfitting, particularly when training data are limited, high
+computational requirements for training and inference, and the complexity of model archi‑
+tecture, which necessitates fine‑tuning and specialized expertise to optimize effectively.
+• Recurrent Neural Network
+RNNs and BPNNs share some structural similarities, with RNNs evolving from feed‑
+forward neural networks. This segment reviews RNN principles and their recent applica‑
+tions in SOC estimation.
+Nonlinear autoregression with exogenous input neural network (NARXNN) is a neu‑
+ral network used for predicting one‑time series. It uses historical values, feedback, and an
+external time series for training. Its layout is shown in Figure 19. It is a variation of the
+Jordan NN with a feedback mechanism. The expression of NARXNN is as follows:
+y(n) = f0
+2
+4b0 +
+l
+∑
+h=1
+wh0 fh
+0
+@bh +
+du
+∑
+i=0
+wih x(n − i) +
+dy
+∑
+j=0
+wjhy(n − j)
+1
+A
+3
+5 (61)
+Batteries 2025, 11, 32 23 of 42
+where h and l are the number of hidden neurons; f o(·) and f h(·) are activation functions of
+the output layer and hidden layer, respectively; d u and dy represent the input and output
+delays, respectively; and [b h, b o] and [w ih, w jh, w ho] are biases and weights between the
+corresponding layers, respectively.
+Batteries 2025, 11, x FOR PEER REVIEW 22 of 42 
+ 
+where h and l are the number of hidden neurons; fo(·) and fh(·) are activation functions of 
+the output layer and hidden layer, respectively; du and dy represent the input and output 
+delays, respectively; and [b h, bo] and [w ih, wjh, who] are biases and weights between the 
+corresponding layers, respectively. 
+ 
+Figure 19. The structure of the NARXNN [71]. 
+Time-sequence knowledge is enhanced by the prior knowledge of inputs and out-
+puts. This is especially useful for SOC estimates and has generated much attention in this 
+ﬁeld. For SOC estimation, a dynamic neural network model based on the NARX structure 
+was proposed [72]. An actual dataset of driving cycles of an electric vehicle, obtained from 
+54 diﬀerent 800 km trips with varying unknown in itial SOCs, was used. In all scenarios, 
+the proposed approach is capable of producing accurate results. Particle swarm optimiza-
+tion (PSO) and latent semantic analysis (LSA) optimization techniques were found to im-
+prove NARXNN’s SOC estimation capabilities in a study [73]. Heuristic optimization 
+methods can be used to save time and allow for model performance tweaking. NARXNN 
+alone, as a result of noises, can lead to no isy estimation [74]. To enhance the overall SOC 
+estimation method’s robustness, adaptability, and eﬃciency, Qin et al. [75] combined the 
+NARXNN and UKF algorithms, similar to [71] . RNNs often experience gradient fading 
+issues, which in this case were solved using a moving window approach based on the 
+conventional ﬁnite-element concept [76]. The enhanced NARXNN adjusts historical data 
+by changing the window size at the right moment, avoiding gradient issues, and increas-
+ing estimation accuracy. 
+RNNs, when used for applications li ke SOC estimation, encounter speci ﬁc draw-
+backs including a tendency to fade, signiﬁcant computational resources required for train-
+ing and operation, and challenges in model tuning and hyperparameter optimization, all 
+of which require substantial machine learning expertise to address eﬀectively. 
+2.4.2. Deep Learning 
+Vapnik introduced support vector machines (SVMs), another well-liked and often-
+used machine learning algorithm that may be  utilized for both regression and classi ﬁca-
+tion issues, particularly with smaller datasets [77]. Originally designed to address classi-
+ﬁcation issues, SVMs were later extended to address regression issues and given the name 
+support vector regression (SVR) [78]. In genera l, a large number of regression issues are 
+not amenable to linear regression in the input space. 
+As a result, one of SVM’s bene ﬁts is to permit linear separation. The basic tenets of 
+SVM theory can be found in references [77,78]. 
+Let us choose a training dataset 𝔇=  ሼ(𝒙௜,𝑦 ௜) , 𝑖 = 1, … , 𝐿ሽ where xi and yi represent 
+the input and output vector, respectively; the support vector machine is deﬁned as: 
+𝑓(𝒙௜) = 𝑊 ்.𝜙 (𝒙௜) +𝑏 ,𝒘  ∈ ℝ𝒏,𝒙 𝒊  ∈ ℝ𝒎,𝒃  ∈  ℝ (62)
+Figure 19. The structure of the NARXNN [ 71].
+Time‑sequence knowledge is enhanced by the prior knowledge of inputs and outputs.
+This is especially useful for SOC estimates and has generated much attention in this field.
+For SOC estimation, a dynamic neural network model based on the NARX structure was
+proposed [72]. An actual dataset of driving cycles of an electric vehicle, obtained from 54
+different 800 km trips with varying unknown initial SOCs, was used. In all scenarios, the
+proposed approach is capable of producing accurate results. Particle swarm optimization
+(PSO) and latent semantic analysis (LSA) optimization techniques were found to improve
+NARXNN’s SOC estimation capabilities in a study [ 73]. Heuristic optimization methods
+can be used to save time and allow for model performance tweaking. NARXNN alone,
+as a result of noises, can lead to noisy estimation [ 74]. To enhance the overall SOC es‑
+timation method’s robustness, adaptability, and efficiency, Qin et al. [ 75] combined the
+NARXNN and UKF algorithms, similar to [ 71]. RNNs often experience gradient fading
+issues, which in this case were solved using a moving window approach based on the con‑
+ventional finite‑element concept [ 76]. The enhanced NARXNN adjusts historical data by
+changing the window size at the right moment, avoiding gradient issues, and increasing
+estimation accuracy.
+RNNs, when used for applications like SOC estimation, encounter specific drawbacks
+including a tendency to fade, significant computational resources required for training and
+operation, and challenges in model tuning and hyperparameter optimization, all of which
+require substantial machine learning expertise to address effectively.
+2.4.2. Deep Learning
+Vapnik introduced support vector machines (SVMs), another well‑liked and often‑
+used machine learning algorithm that may be utilized for both regression and classifica‑
+tion issues, particularly with smaller datasets [ 77]. Originally designed to address classifi‑
+cation issues, SVMs were later extended to address regression issues and given the name
+support vector regression (SVR) [ 78]. In general, a large number of regression issues are
+not amenable to linear regression in the input space.
+As a result, one of SVM’s benefits is to permit linear separation. The basic tenets of
+SVM theory can be found in references [ 77,78].
+Batteries 2025, 11, 32 24 of 42
+Let us choose a training dataset D = {(xi, yi) , i = 1, . . . , L} where xi and y i repre‑
+sent the input and output vector, respectively; the support vector machine is defined as:
+f (xi) = W T. ϕ(xi) + b, w ∈ Rn, xi ∈ Rm, b ∈ R (62)
+where b and W are the parameters to be determined; φ(·) is a mapping function; and (Rm)
+and (Rn) are the input and high‑dimensional space, respectively. The input data can be
+linearly segregated in the new feature space. The SVM model employs more advanced
+methods to compute the ϵ‑insensitive loss function, in contrast to basic linear regression
+models. Slack variables ξ+
+i and ξ−
+i are added to the hard margin to produce a so‑called
+soft margin, as seen in Figure 20, to make the optimization possible.
+Batteries 2025, 11, x FOR PEER REVIEW 23 of 42 
+ 
+where b and W are the parameters to be determined; φ(·) is a mapping function; and (ℝ௠) 
+and (ℝ௡) are the input and high-dimensional spac e, respectively. The input data can be 
+linearly segregated in the new feature space. The SVM model employs more advanced 
+methods to compute the ϵ-insensitive loss function, in contrast to basic linear regression 
+models. Slack variables 𝜉
+௜
+ା and 𝜉௜
+ି are added to the hard margin to produce a so-called 
+soft margin, as seen in Figure 20, to make the optimization possible. 
+ 
+Figure 20. Illustration of the SVM. 
+Numerous researchers have used support ve ctor machines (SVMs) for SOC estima-
+tion due to their strong regression capabilities with tiny sample sizes. An SVM-based ap-
+proach has been used to calculate SOC utilizing temperature, voltage, and current infor-
+mation gathered from working cycles at variou s DST driving cycles [79]. In addition to 
+validating the SOC prediction’s performance, this approach was utilized to determine the 
+ideal hyperparameters. The ﬁndings show that throughout the whole test, the RMSE was 
+just 0.71%, and the prediction errors were consistent within 6% in each case. Various tac-
+tics were employed [71,80] to  train and identify the ideal parameters, enhancing model 
+performance. To cut down on the amount of  time needed to search for optimal pairs of 
+hyperparameters, Hu et al. [71] employed a double-step search strategy. The particle 
+swarm optimization algorithm was used to determine the hyperparameters of the SVM 
+model, namely the RBF’s kernel width (σ) and penalty factor (γ). The particle swarm op-
+timization model demonstrated the beneﬁts of increased estimation accuracy and quicker 
+processing performance when compared to the SVM model using a standard approach. 
+Furthermore, the suggested method’s generalizability was conﬁrmed under four lithium-
+ion ba ttery fault states: excessive internal resist ance, excess temperature, and terminal 
+voltage above the upper or lower cut-oﬀ voltage. Under these four battery failure scenar-
+ios, the suggested method’s average errors were all less than 2.5%. 
+The primary drawback of using an SVM for SOC estimation is its sensitivity to the 
+choice of kernel and hyperparameters, which requires careful tuning, along with its po-
+tential diﬃculty in handling large datasets due to computational complexity, and limited 
+interpretability of the model’s decision-making process. 
+2.4.3. Fuzzy Logic 
+A computational method that provides ﬂexibility in a statement is called fuzzy logic 
+(FL). This method makes it easier to understand the idea of partial truth, in which the 
+truth value might be, dependin g on a number between 0 and 1, entirely true, partially 
+true, or fully false [81]. FL presents the idea of many-valued logic as an alternative to the 
+traditional two-valued true-or-false logic. Fuzziﬁcation, fuzzy rule base, inference engine, 
+and defuzziﬁcation are used in the framework of the FL interface system [82]. A few stud-
+ies using FL to estimate SOC are available.  FL and SVM can be used to suggest the SOC 
+of a battery pack in an electric vehicle [83]. 
+Figure 20. Illustration of the SVM.
+Numerous researchers have used support vector machines (SVMs) for SOC estimation
+due to their strong regression capabilities with tiny sample sizes. An SVM‑based approach
+has been used to calculate SOC utilizing temperature, voltage, and current information
+gathered from working cycles at various DST driving cycles [ 79]. In addition to validating
+the SOC prediction’s performance, this approach was utilized to determine the ideal hyper‑
+parameters. The findings show that throughout the whole test, the RMSE was just 0.71%,
+and the prediction errors were consistent within 6% in each case. Various tactics were em‑
+ployed [71,80] to train and identify the ideal parameters, enhancing model performance.
+To cut down on the amount of time needed to search for optimal pairs of hyperparameters,
+Hu et al. [71] employed a double‑step search strategy. The particle swarm optimization al‑
+gorithm was used to determine the hyperparameters of the SVM model, namely the RBF’s
+kernel width ( σ) and penalty factor ( γ). The particle swarm optimization model demon‑
+strated the benefits of increased estimation accuracy and quicker processing performance
+when compared to the SVM model using a standard approach. Furthermore, the suggested
+method’s generalizability was confirmed under four lithium‑ion battery fault states: exces‑
+sive internal resistance, excess temperature, and terminal voltage above the upper or lower
+cut‑off voltage. Under these four battery failure scenarios, the suggested method’s average
+errors were all less than 2.5%.
+The primary drawback of using an SVM for SOC estimation is its sensitivity to the
+choice of kernel and hyperparameters, which requires careful tuning, along with its po‑
+tential difficulty in handling large datasets due to computational complexity, and limited
+interpretability of the model’s decision‑making process.
+2.4.3. Fuzzy Logic
+A computational method that provides flexibility in a statement is called fuzzy logic
+(FL). This method makes it easier to understand the idea of partial truth, in which the truth
+Batteries 2025, 11, 32 25 of 42
+value might be, depending on a number between 0 and 1, entirely true, partially true, or
+fully false [ 81]. FL presents the idea of many‑valued logic as an alternative to the tradi‑
+tional two‑valued true‑or‑false logic. Fuzzification, fuzzy rule base, inference engine, and
+defuzzification are used in the framework of the FL interface system [ 82]. A few studies
+using FL to estimate SOC are available. FL and SVM can be used to suggest the SOC of a
+battery pack in an electric vehicle [ 83].
+In comparison to NN and standard SVR, the authors found improvements in SOC es‑
+timate accuracy and noise immunity. A strong‑tracking adaptive unscented Kalman filter
+(ST‑AUKF) technique was developed to estimate SOC. It is based on a dynamic parameter
+that varies according to conditions or inputs, allowing the control algorithm to adjust the
+influence of past data, either giving more weight to recent data or considering historical
+data, depending on the system’s changing circumstances and uncertainties [ 84].
+The fuzzy adaptive forgetting factor is critical in updating the battery model parame‑
+ters, which ensures that the model adapts to changing situations and retains accurate repre‑
+sentations of the battery’s behavior over time. Compared to the traditional UKF technique,
+the suggested model may yield better results in terms of accuracy, robustness, and conver‑
+gence time. A fuzzy‑logic‑based SOC estimate model was developed by Singh et al. [ 85]
+through the analysis of voltage and impedance data. Using fuzzy logic and data from
+impedance spectroscopy, Salkind et al. [ 82] calculated SOC. The designed model is im‑
+plemented using an analog‑to‑digital converter, temperature sensor, current sensor, and
+Motorola 68HC11 microprocessor (LM35CZ). The error range is constrained to less than
+5%, and the hardware is checked using LIBs.
+The enhanced approach known as the adaptive neuro‑fuzzy inference system (ANFIS)
+combines the fuzzy inference system with the NN learning method without requiring a
+detailed battery model. In terms of modeling, decision‑making, and signal processing,
+ANFIS is incredibly potent [ 86,87].
+Using inputs such as current, temperature, cooling air temperature, and battery ther‑
+mal factor, an ANFIS‑based SOC estimate model can be constructed. Ten distinct driving
+cycles are used to assess the training and testing outcomes.
+The findings show that in varied driving cycles, the ANFIS model performs with an
+SOC error of less than 1%. To calculate SOC for lithium‑ion batteries, an ANFIS model
+was constructed in [ 88] using current, voltage, capacity, and temperature. It is stated that
+the average percentage inaccuracy is merely 0.53%. Figure 21 shows the ANFIS structure
+with five computations for its SOC estimation. The five‑stage ANFIS configuration’s math‑
+ematical representations are given in Equations (63)–(70).
+µ A = 1
+1 +
+ x−ci
+ai
+2bi
+(63)
+{Q2,1 = w1 = µ A2(x) µ B1(y) (64)
+{Q2,2 = w2 = µ A2(x) µ B2(y) (65)
+Q3,1 = w1 = w1
+w1 + w2
+(66)
+Q3,2 = w2 = w2
+w1 + w2
+(67)
+Q4,1 = w1 f1 = w1(p1x1 + q1y1 + r1) (68)
+Q4,2 = w2 f2 = w2(p2x2 + q2y2 + r2) (69)
+Q5 =
+2
+∑
+i=1
+wi fi = ∑2
+i=1 wi fi
+∑2
+i=1 wi
+(70)
+Batteries 2025, 11, 32 26 of 42
+The drawbacks of using fuzzy logic for SOC estimation include its reliance on expert
+knowledge for rule formation, potential challenges in precisely defining membership func‑
+tions, limitations in handling complex systems with high‑dimensional data, the subjective
+nature of rule‑based systems leading to possible inconsistencies, and difficulties in inte‑
+grating with other numerical methods due to its qualitative approach.
+The table below highlights the components of the ML algorithms used for SOC esti‑
+mations examined in the previous section: input and output characteristics, performance
+metrics, a portion of the suggested algorithms’ hyperparameters, and the data profiles
+used to train and verify the models. Furthermore, Table 1 provides a summary of genetic
+algorithm (GA) and fuzzy logic (FL).
+Batteries 2025, 11, x FOR PEER REVIEW 25 of 42 
+ 
+ 
+Figure 21. ANFIS structure for SOC estimation [88]. 
+The drawbacks of using fuzzy logic for SOC estimation include its reliance on expert 
+knowledge for rule formation, potential challenges in precisely de ﬁning membership 
+functions, limitations in handling complex systems with high-dimensional data, the sub-
+jective nature of rule-based systems leading to possible inconsistencies, and diﬃculties in 
+integrating with other numerical methods due to its qualitative approach. 
+The table below highlights the components of the ML algorithms used for SOC esti-
+mations examined in the previous section: input and output characteristics, performance 
+metrics, a portion of the suggested algori thms’ hyperparameters, and the data pro ﬁles 
+used to train and verify the models. Furthermore, Table 1 provides a summary of genetic 
+algorithm (GA) and fuzzy logic (FL). 
+Table 1. Machine learning algorithm SOC methods. 
+Algorithm Input Output Metric Hyperparameter Data Profile 
+Linear Regression 
+(LR) 
+Voltage, Current, 
+Temperature SOC 
+RMSE Root Mean 
+Squared Error, 
+MSE Mean Squared Error 
+MAE Mean Absolute Er-
+ror 
+Learning Rate (LR), 
+Regularization 
+(REG) 
+Cycles, Tempera-
+ture Variant 
+Support Vector Ma-
+chine (SVM) 
+Voltage, Current, 
+Temperature SOC Accuracy, Precision, Re-
+call 
+Kernel, C, Gamma 
+(γ) Cycles, Load prof 
+Back-Propagation 
+Neural Network 
+(BPNN) 
+Voltage, Current, 
+Temperature SOC Coefficient of Determina-
+tion R², MSE, RMSE 
+LR, Momentum 
+(MOM), Layers Lab, Driving past 
+Recurrent Neural 
+Network (RNN) 
+Voltage, Current, 
+Temperature SOC Accuracy, RMSE, MAE RNN Layers, Cells Seq data, Temp 
+Corr 
+Adaptive Neuro-
+Fuzzy Inference 
+System (ANSFIS) 
+Voltage, Current, 
+Temperature SOC Rule Accuracy, RMSE Rules, Membership 
+Functions (MFs) 
+Expert knows, 
+Fuzzy rules 
+Nonlinear Auto-
+regressive with Ex-
+ogenous Input 
+Neural Network 
+(NARXNN) 
+Voltage, Current, 
+Temperature SOC R², MSE, Accuracy Delays, Neurons Series, Feedback 
+loops 
+Genetic Algorithm 
+(GA) 
+Voltage, Current, 
+Temperature SOC Conversion Rate, Accu-
+racy 
+Population Size 
+(POP Size), Muta-
+tion Rate (Mut), 
+Crossover Rate (Xo-
+ver) 
+Param opt, Feature 
+sel 
+Fuzzy Logic (FL) Voltage, Current, 
+Temperature SOC Rule Accuracy, Interpret-
+ability MFs, Rule Base Expert knows, Op 
+data 
+Figure 21. ANFIS structure for SOC estimation [ 88].
+Table 1. Machine learning algorithm SOC methods.
+Algorithm Input Output Metric Hyperparameter Data Profile
+Linear
+Regression (LR)
+Voltage, Current,
+Temperature SOC
+RMSE Root Mean
+Squared Error,
+MSE Mean Squared
+Error
+MAE Mean
+Absolute Error
+Learning Rate (LR),
+Regularization (REG)
+Cycles,
+Temperature
+Variant
+Support Vector
+Machine (SVM)
+Voltage, Current,
+Temperature SOC Accuracy, Precision,
+Recall Kernel, C, Gamma ( γ) Cycles, Load
+prof
+Back‑
+Propagation
+Neural Network
+(BPNN)
+Voltage, Current,
+Temperature SOC
+Coefficient of
+Determination R²,
+MSE, RMSE
+LR, Momentum
+(MOM), Layers
+Lab, Driving
+past
+Recurrent
+Neural Network
+(RNN)
+Voltage, Current,
+Temperature SOC Accuracy, RMSE,
+MAE RNN Layers, Cells Seq data, Temp
+Corr
+Adaptive
+Neuro‑Fuzzy
+Inference System
+(ANSFIS)
+Voltage, Current,
+Temperature SOC Rule Accuracy,
+RMSE
+Rules, Membership
+Functions (MFs)
+Expert knows,
+Fuzzy rules
+Nonlinear
+Autoregressive
+with Exogenous
+Input Neural
+Network
+(NARXNN)
+Voltage, Current,
+Temperature SOC R², MSE, Accuracy Delays, Neurons Series, Feedback
+loops
+Batteries 2025, 11, 32 27 of 42
+Table 1. Cont.
+Algorithm Input Output Metric Hyperparameter Data Profile
+Genetic
+Algorithm (GA)
+Voltage, Current,
+Temperature SOC Conversion Rate,
+Accuracy
+Population Size (POP
+Size), Mutation Rate
+(Mut), Crossover Rate
+(Xover)
+Param opt,
+Feature sel
+Fuzzy Logic (FL) Voltage, Current,
+Temperature SOC Rule Accuracy,
+Interpretability MFs, Rule Base Expert knows,
+Op data
+Long Short‑Term
+Memory (LSTM)
+Voltage, Current,
+Temperature SOC Accuracy, RMSE,
+MAE LR, Units, Dropout Series,
+Charge/discharge
+Gradient
+Boosting
+Machines (GBM)
+Voltage, Current,
+Temperature SOC MAE, RMSE, R² LR, Estimators, Depth Cycles, Aging
+data
+Random Forest
+(RF)
+Voltage, Current,
+Temperature SOC R², MSE, RMSE Trees, Depth, Split Lab, Real‑world
+use
+Reinforcement
+Learning
+Voltage, Current,
+Temperature SOC Reward, Error Rate Learning Rate,
+Discount Factor
+Simulated
+environments
+PCA + ML
+Model
+Voltage, Current,
+Temperature SOC R², MSE, RMSE Components, ML
+Hyperparameters
+Noise‑reduced
+data
+Ensemble
+Methods
+Voltage, Current,
+Temperature SOC Accuracy, RMSE, R² Number of Models,
+Strategy
+Diverse driving
+patterns
+Deep Belief
+Networks
+Voltage, Current,
+Temperature SOC R², MSE, MAE Layers, LR, Epochs Multivariate
+time series
+Convolutional
+NN
+Voltage, Current,
+Temperature SOC Accuracy, Precision,
+Recall Filters, Kernel Size Image,
+Sequential data
+k‑NN Voltage, Current,
+Temperature SOC Accuracy, RMSE,
+Precision Number of Neighbors Cycles, Driving
+conditions
+Decision Trees Voltage, Current,
+Temperature SOC Accuracy, R², RMSE Depth, Min Samples Cycles, Varied
+temps
+3. SOH Estimation
+Battery SOH is a performance metric that compares a battery’s current capacity with
+respect to its full original capacity (as a fresh battery) and is expressed as a percentage. It is
+a good indication of a battery’s current condition and future life expectancy. Aging causes
+a decrease in battery capacity and an increase in internal resistance for EV applications; the
+factors are represented in Equation (71):
+Z t
+τ=t0
+δ f unc(I, T, SOC, others )dτ (71)
+δ f unc is an aging rate function that quantifies how quickly or slowly the battery de‑
+grades or ages over time. Therefore, internal resistance can help in the estimation of
+SOC [ 89]. There are three types of methods that have been proposed to estimate battery
+SOH: data mining, model‑free, and model‑based methods.
+Battery SOH can be simply defined as:
+(
+SOH = Caged /Cn × 100%
+SOH = Rinc /Rn × 100% (72)
+Batteries 2025, 11, 32 28 of 42
+where Cn and Rn stand for the nominal capacity and internal resistance, respectively, of
+the new battery without being used, C aged for the aged capacity, and R inc for the internal
+impedance.
+Equation (72) defines SOH as follows: the aged capacity and internal impedance of
+a battery are measured using the pulse current test [ 90] or the standard capacity test [ 91].
+Since a full discharge using regulated current and temperature will disrupt regular EV
+operations, this direct method is awkward and not advised. Electrochemical impedance
+spectroscopy (EIS) of batteries can undoubtedly provide a great deal of information about
+their state of health compared to the direct measurements of internal impedance and the
+aged capacity. Therefore, the electrochemical impedance spectroscopy of batteries was
+suggested by researchers for use in health diagnosis [92,93]. Its applicability is limited due
+to the uniqueness of instruments that are required for the measurement and application
+of battery electrochemical spectroscopy. Furthermore, it takes a long time to complete an
+EIS test.
+In the model‑based approach, the electrochemical model [ 94] and the battery equiva‑
+lent circuit model [ 95] are used to determine the time‑varying parameters, such as battery
+capacity or internal resistance. The resistance during battery operations is then estimated
+using a variety of observers, including particle filters [ 96], Kalman filters [ 97], and sliding
+mode [98], allowing the SOH to be determined appropriately. However, the decay in the
+battery capacity is defined as:
+Cdecay =
+
+Caged − Cn
+
+/Cn × 100% (73)
+such that,
+Cdecay = δ f unc( f )Ahz (74)
+f represents the stress factors, which are external factors or conditions that contribute
+to the degradation of a system, z is a parameter used to model how the capacity of the
+system decreases as a function of the cumulative current passing through it, and δ f unc
+represents the aging rate function.
+Numerous studies are consulted for the dynamics of battery aging, because battery
+capacity degradation is influenced by the temperature, current, SOC, and charging tech‑
+niques of the battery, among other factors. Wang et al. created a model that predicts how
+long a battery would survive after repeated charging and discharging cycles using a math‑
+ematical equation known as the power law [99]. With no regard for the depth of discharge,
+the battery model was calibrated across broad SOC parameter ranges such that a cycle‑
+life model at constant temperature was used to forecast a capacity loss in batteries at low
+SOC levels [ 100]. A battery aging model was used to forecast lower capacity under both
+fast charging and discharging conditions [ 101]. To capture the dynamics of capacity de‑
+terioration under changing load circumstances, a cycle‑life and dynamic cycle‑life model
+based on a mechanistic and prognostic model were also presented [ 102,103]. According
+to Gao et al.’s analysis [ 104] of battery aging under various charging circumstances, active
+material loss is impacted by charging currents less than 1 C and cut‑off voltages less than
+4.2 V. To maximize real‑time operations and extend battery service life, these cycle‑life
+models are crucial. However, the majority of research being done now is focused on par‑
+ticular workloads. In real‑time applications, there is no guarantee of their accuracy. More
+test data and a larger range of battery operations are used in training the battery model,
+which naturally increases its practical implementation due to SOH being more dynamic
+than SOC.
+Batteries 2025, 11, 32 29 of 42
+Data mining techniques have been used for battery SOH estimation, such as battery
+SOC estimation [ 105–107]. Klass et al. employed support vector machine (SVM) to de‑
+termine the condition of a battery. It is similar to a diagnostic tool in that it tells us how
+well a battery is performing and whether or not it is still in excellent condition [ 108]. To
+generate the input and output vectors of the necessary SVM training dataset, a new data
+processing technique is proposed that makes use of load collectives. For battery capacity
+estimation, Hu et al. [ 106] used the K‑nearest neighbor (KNN) method, a data‑driven clas‑
+sification technique. Neural network and clustering are techniques used to estimate the
+battery SOH based on the historical distributions of the temperature, current, and voltage
+of the battery [ 109].
+The estimation error of the SOH is seen to be within 2.15% in an average practical
+setting.
+3.1. Review of ML SOH Estimation Algorithm
+A certain amount of capacity‑ or resistance‑based estimation can be used for SOH
+estimation. SOH is difficult to measure with commonly used sensors, much like the SOC
+of LiBs. This makes it a difficult assignment for BMS. We concentrate on ML techniques
+for SOH estimation in this section.
+A reliable and accurate estimate of SOH cannot be guaranteed by the raw data, be‑
+cause they do not contain enough information to reflect SOH directly. Consequently, the
+second stage involves removing related features from sourced data using several methods,
+including differential voltage analysis (DVA) and model‑based techniques. The degrada‑
+tion modes and aging mechanisms of the battery must be examined, and a connection
+with the health features must be made, before selecting any health characteristics. Then,
+correlation analysis is applied.
+This section mainly reviews different ML algorithm applications for SOH.
+3.1.1. Shallow Neural Network
+The nonlinear relationship that exists between inputs and outputs can be mapped by
+the back‑propagation neural network (BPNN) and radial basic function neural networks
+(RBFNN). Thus, SOH estimation has frequently employed these two types of NNs. To
+take a more realistic approach to the surroundings of electric vehicles (EVs), You et al.
+worked diligently to gather datasets from comprehensive dynamic driving profiles over
+more than a year at different temperatures [ 109]. A BPNN‑based SOH estimate method
+was then trained using temperature, current, and voltage. In a different study, eight com‑
+mercial 15‑Ah lithium batteries provided the data needed for training and verifying a back‑
+propagation NN SOH model [ 110]. The impact of completely charged or discharged tem‑
+peratures (e.g., 25 ◦C, 45 ◦C) on calendar life was thoroughly examined. Reference per‑
+formance tests (RPTs) were conducted for ten months to monitor the degradation trend.
+The findings show that by calibrating the available capacity at specific conditions, sug‑
+gested approaches may not only forecast the battery SOH well but also increase accuracy
+in prediction.
+It is commonly known that the caliber of the input features has a significant impact
+on the model’s performance. Therefore, to reduce computational complexity, key traits
+were chosen in one study using principal component analysis (PCA) [ 111]. The gathered
+features were then further broken down and denoised using the complete ensemble em‑
+pirical mode decomposition with adaptive noise (CEEMDAN) method. A different study
+created an adaptive adjustable hybrid RBF network that shares most of the characteristics
+of the autoregressive model [ 112]. Brownian motion (BM) and PF update the structural
+parameters, which is the primary benefit of the suggested RBF network. Furthermore, as
+Batteries 2025, 11, 32 30 of 42
+an input feature, the Kullback–Leibler distance was calculated using a continuous hidden
+Markov model (CHMM) and a kernel density estimation (KDE) technique. In the National
+Aeronautics and Space Administration (NASA) dataset and Center for Advanced Life Cy‑
+cle Engineering (CALCE) dataset, the suggested adjustable RBF network might achieve
+better estimation accuracy than the fixed RBF network [ 113]. Moreover, the suggested ap‑
+proach could retain reliable estimation results even when Gaussian white noise is added
+to dynamic discharge patterns.
+3.1.2. Deep Learning Algorithm
+As deep neural networks (DNNs) encompass numerous hidden layers, they excel
+in efficiently mapping complex and nonlinear functions compared to shallow neural net‑
+works. In a specific study, using the smoothing filter, five distinctive characteristics were
+initially derived from incomplete IC curves [ 114]. It can be inferred from the Spearman
+correlation analysis that some of the characteristics were not used as the input vector. The
+NN model’s input was limited to the two feature values with the strongest association
+with SOH. In addition, the examination of training accuracy and speed indicates that the
+DNN’s final structure is four‑layered and has 2–5–6–1 neurons. Five features, including
+the temperature decrease rate during the CV charging mode, voltage decrease rate dur‑
+ing the constant current discharging mode, and voltage increase rate during CC charging
+mode, form the entire self‑made aging dataset to fully cover the battery usage [ 115]. Ev‑
+ery one of the five features exhibited a substantial link with SOH levels, according to the
+gray relational analysis results. The findings on a 128‑neutron layer used in training the
+estimator show that the maximum estimation accuracy might be achieved by utilizing all
+five features. In Shi et al.’s (2021) estimate system, the combined use of the model‑based
+EKF approach and the ML DNN method is reviewed in detail [ 116]. The best model was
+determined by comparing more than 20 distinct DNN topologies.
+Remember that employing a DNN has the advantage of greater accuracy, but it also
+has the disadvantage of requiring more computer power and longer calculation times.
+3.1.3. Support Vector Machine
+Because SVM offers a good balance between usability and performance, it is one of
+the most popular machine learning techniques. Both the conventional SVM model and var‑
+ious SVM versions have been utilized in SOH estimation. It is commonly known that the
+SVM kernel function can translate the input characteristics implicitly to a high‑dimensional
+feature space in which samples may be separated linearly [ 117].
+The SVM model’s hyperparameters were optimized using the differential evolution
+(DE) technique. The suggested method performed better in terms of both the constant cur‑
+rent discharging process and dynamic working circumstances when compared to other
+machine learning estimating techniques utilizing the NASA dataset. Following an investi‑
+gation of the impact of the Gaussian kernel’s standard deviation ( σ) on estimate accuracy,
+a theory for choosing the appropriate σ was put forward [118].
+Another popular technique for optimizing the SVM model is to use more relevant
+input characteristics. The IC peak values and position [ 119], constant current charging
+time, sample entropy [ 120], energy signal, response of the voltage under pulse test of the
+current [121], mean and standard deviation of the measured current and voltage, and pa‑
+rameters of ECM [ 122] are among the frequently used features. To achieve simultaneous
+optimization of feature extraction and hyperparameter tweaking, a hybrid encoding ap‑
+proach on a single chromosome was employed [ 121]. A separate study talks about the
+sliding‑window‑based feature extraction (SWBFE) [ 123].
+Batteries 2025, 11, 32 31 of 42
+The least‑squares support vector machine (LS‑SVM) is a significant variation of the
+regular SVM model with an easier solving procedure. A weighted least‑squares technique
+for estimating SOH was presented in one study and was based on linear equations for
+retired LiBs and a weighting function [ 124]. Even in test datasets with varying battery
+materials and circumstances, the weighted LS‑SVM, when compared to the conventional
+SVM, might enhance the SOH estimate performance by weighting the error factors. Addi‑
+tionally, the PSO method was applied in a different study to enhance optimization [ 122].
+The PSO–LS‑SVR approach performed better than the LS‑SVR technique without PSO op‑
+timization, with an RMSE of less than 2%.
+4. Challenges and Prospects
+SOC and SOH estimations for electric vehicles (EVs) present a spectrum of intricate
+challenges and considerations:
+4.1. State of Charge Balancing Issues
+To meet high voltage and energy needs, hundreds of cells are connected in series or
+parallel to form the lithium‑ion battery (LIB) pack found in electric vehicles (EVs). Be‑
+cause each cell’s state of charge (SOC) varies due to physical changes from repeated cy‑
+cles of charging and discharging, monitoring and measuring SOC across these packs is
+extremely difficult. SOC variations are caused by constraints in manufacturing methods,
+material faults, and different operating conditions, which all affect cell performance in
+terms of capacity and aging. The LIB’s overall safety systems may be impacted by these
+imbalances, as they can significantly impair the quality of data pertaining to power and
+energy calculations [125]. Recent years have seen the development of a number of ways to
+solve these problems, such as calculation‑based approaches, screening methods, and bias
+correction tools.
+4.2. Charging Strategy
+Recent years have seen a significant increase in interest in the charging procedures
+for LIBs in EVs. Since EVs do not yet have sophisticated fast‑charging technologies, the
+delayed charging procedure could be a deterrent to wider adoption. On the other hand,
+quick charging techniques that raise the charging current might cause a lot of heat to be pro‑
+duced, which will shorten the battery’s lifespan. It is difficult to create a charging method
+that strikes a compromise between battery durability, thermal control, and charging effi‑
+ciency. Ref. [ 126] discuss recent developments in quick charging methods, and Ref. [ 127]
+delve deeper on a number of ideal charging approaches.
+4.3. Lithium‑Ion Battery Material Issue
+Despite their generally good performance, lithium‑ion batteries’ state of charge (SOC)
+estimation is greatly impacted by the materials employed for the positive and negative
+electrodes. Despite their good performance, lithium cobalt oxide (LiCo) batteries are ex‑
+pensive and have a limited capacity because of the limited supply of cobalt. Because nickel
+and cobalt are scarce, lithium nickel manganese cobalt oxide (LiNMC) and lithium nickel
+cobalt aluminum oxide (LiNCA) batteries, which are renowned for their exceptional per‑
+formance and longevity, are also expensive. On the other hand, the short lifespan and lim‑
+ited capacity of lithium manganese oxide (LiMO) batteries, which provide high voltage
+and reasonable safety at a lower cost, are caused by an inadequate supply of manganese.
+Although lithium iron phosphate (LiFP) batteries are inexpensive, non‑toxic, long‑lasting,
+and extremely safe, their low energy production and capacity are their main drawbacks.
+Though they suffer from capacity and voltage constraints, lithium titanate (LiTO) batteries
+outperform other lithium‑ion kinds in terms of life cycle efficiency and performance. LiTO
+Batteries 2025, 11, 32 32 of 42
+can achieve excellent performance and is economically viable in spite of these limitations.
+As mentioned in reference [ 128], graphite, which is frequently utilized in negative elec‑
+trodes, has a poor energy density and inefficiency due to solid electrolyte interface (SEI)
+development, despite its wide availability and durability.
+The SOC was evaluated using two distinct lithium‑ion battery chemistries—lithium
+titanate (LTO) and lithium iron phosphate (LiFePO4)—under various aging profiles and
+temperatures in a comparative study referenced in [129]. According to the results, LiFePO4
+batteries have an RMSE of 0.50305% at 25 ◦C, whereas LTO batteries exhibit an RMSE of
+0.7012%. Additionally, the study showed that LiFePO4 batteries deteriorate considerably
+with prolonged cycling, with an RMSE rising to 0.4547% after 1000 cycles, while LTO bat‑
+teries exhibit greater aging resistance, maintaining a constant RMSE of 0.00334% after the
+same number of cycles.
+4.4. Hardware Development for Real‑Time SOC Monitoring
+Thus far, experimental testing across a range of temperature conditions, noise effects,
+and beginning SOC levels has been used to validate SOC estimate techniques. Despite
+these initiatives, there is still a dearth of thorough research on SOC estimation for LIBs
+operating in real‑world scenarios. Implementing SOC estimation techniques in a BMS
+that must strike a balance between low cost, limited memory capacity, and fast compu‑
+tational speed is a significant problem. In order to test an adaptive Hoo‑filter‑based SOC
+estimate algorithm in real‑time settings, a hardware‑in‑the‑loop (HIL) experimental plat‑
+form was created [130]. Similarly, a lithium‑ion battery‑in‑loop testing apparatus was built
+and benched with an xPC target to verify a multiscale dual Hoo filter for real‑time SOC
+and capacity estimation and to mimic electric vehicle (EV) drive cycles [131]. In one study’s
+evaluation of SOC using a system‑in‑the‑loop configuration for lithium batteries, a field‑
+programmable gate array (FPGA)‑based BMS attained a remarkably quick execution time
+of 16.5 microseconds and compatibility with inexpensive hardware [ 132]. Furthermore,
+battery state estimators were evaluated on an FPGA‑based BMS using an HIL platform.
+Beyond the technological difficulties noted above, a number of factors, including battery
+aging, model variations, hysteresis, cell unbalancing, self‑discharge, and the rate of charge–
+discharge currents, affect the accuracy of SOC estimates. Prior studies have examined these
+issues in great depth [ 128].
+4.5. Data Quality
+Large amounts of data are essential for ML state estimate techniques. For them to
+succeed, obtaining high‑quality datasets is also essential.
+First, the accuracy of the data determines how reliable high‑quality datasets are. Usu‑
+ally, advanced battery testing devices with a controller, programmable load, and an inte‑
+grated software system within the host computer are used to gather these statistics. The
+Arbin BT2000 [ 133] and the NEW ARE BTS series are examples of common battery testing
+platforms. Data quality and the efficacy of machine learning algorithms are significantly
+impacted by variations in these testing platforms, including variations in data collecting
+speed and accuracy. Therefore, advanced battery testing systems are essential for lower‑
+ing measurement noise and offering a solid foundation for model training and validation.
+Furthermore, the volume of data gathered also affects the datasets’ quality. Theoretically,
+expanding the training data can improve the generalization of DL algorithms and reduce
+problems like model overfitting. Since LiBs are affected by their operating environment,
+the quality of training data has a major impact on how well ML algorithms work in EVs
+and associated subsystems.
+Batteries 2025, 11, 32 33 of 42
+Thirdly, high‑quality databases require a diversity of data. Although controlled lab‑
+oratory simulations can produce a large amount of data, they do not offer much variety.
+Data from laboratory settings using common tests, such as constant charge or discharge
+and dynamic drive cycles, have been used in the majority of research. Only a small number
+of studies, though, have included data from real EV usage [134]. These real‑world datasets
+are essential for training machine learning models, because they introduce changes in pat‑
+terns that are different from lab simulations. Additional data types greatly increase the
+diversity of the datasets. These include temperature changes detected by resistance tem‑
+perature detectors (RTD) [ 135], volumetric changes measured by optical fiber bragging
+(FBG) sensors [136], and internal temperatures measured by thermocouples.
+In conclusion, improving training data’s accuracy, quantity, and variety is a basic but
+crucial task for the advancement of machine learning algorithms in the future.
+4.6. Hyperparameter Tuning and Structure Selection
+Because network design and hyperparameter selection have an impact on the ML al‑
+gorithm’s performance, choosing the best structure and fine‑tuning hyperparameters are
+additional difficult challenges. Consider the neural network (NN) as an example. Gen‑
+erally speaking, the more complicated the structure, the more parameters that must be
+taught. The computing load needed to train and run the model increases with the num‑
+ber of hidden layers. Up until now, the majority of architecture choices has been limited
+to the time‑consuming and ineffective trial‑and‑error method. For instance, a singular
+value decomposition technique could be used to determine the number of hidden‑layer
+neurons [137]. There is currently no standardized approach that can be used to direct the se‑
+lection of appropriate hyperparameters for variously specific problems, hyperparameters
+which include the learning rate, neuron initialization, optimization algorithm, dropouts,
+batch size, batch normalization, and activation function. As a result, the trial‑and‑error
+method is also used to adjust the hyperparameters until acceptable outcomes are obtained.
+Several studies showed that the algorithm’s performance will be greatly impacted by var‑
+ious hyperparameter settings [ 68,138]. They also compared the algorithm’s performance
+under various hyperparameter settings.
+There must be greater focus on how ML algorithms have been compared, because
+choosing an architecture and fine‑tuning hyperparameters are the most time‑consuming
+tasks for ML algorithms. With many approaches to improve SBS (sequential backward
+selection), many attempts at hyperparameter tuning are skewed by the small number of
+heuristic optimization techniques that are known to be effective. While optimization tech‑
+niques like SA (simulated annealing) and SGD (stochastic gradient descent) are mainly
+theoretical, widely utilized heuristics like genetic algorithms (GAs) are thought to be un‑
+reliable methods of testing heuristic optimization strategies.
+These methods can also be slow, and there are still few clear applications for them.
+The main drawbacks of machine learning algorithms that employ these optimization strate‑
+gies are their slow convergence, which can be critical, and their laborious parameter ad‑
+justment, which can impair the algorithms’ performance. Furthermore, there has not been
+sufficient comparison between the heuristic optimization methods used in hyperparame‑
+ter tuning mentioned above. As a result, future research must enhance the ML algorithm’s
+hyperparameter tweaking and optimal structure selection.
+4.7. Hybrid Algorithms and Ensemble Learning
+For the estimation of SOC or SOH, recent studies have mostly used a single approach.
+Nonetheless, hybrid algorithms—which blend several algorithms—have become more
+and more well‑liked for improving accuracy, resilience, and efficiency. These hybrid algo‑
+Batteries 2025, 11, 32 34 of 42
+rithms, which are typically divided into two categories—those that combine model‑based
+techniques with ML methods and those that integrate several ML methods—use the ad‑
+vantages of multiple approaches to provide better results. To improve the accuracy and
+resilience of SOC estimate techniques, for example, more sophisticated filters like EKF,
+UKF, and adaptive UKF are frequently combined with simpler neural network forms like
+BPNN, RBFNN, and ELM. Optimization via UKF and particle filter (PF) is advantageous
+for deep learning algorithms such as DNN, NARXNN, and LSTM. Additionally, the com‑
+bination of other machine learning models, such as CNN with GRU or LSTM, leverages the
+strength of RNN’s sequence prediction and CNN’s feature extraction capabilities. Addi‑
+tionally, methods such as Gaussian process regression (GPR) and RBFNN [ 111] have been
+used with linear regression to improve SOC estimation accuracy. Another useful method
+to raise training precision, effectiveness, and model resilience is ensemble learning (EL). By
+cleverly mixing multiple distinct algorithms, EL aims to reduce the risks associated with
+single algorithms that perform badly [ 139]. Random forest (RF) is a popular ensemble ap‑
+proach that uses decision‑tree logic and a bagging technique. Approximately two‑thirds
+of the original dataset size is used in bootstrapping to create training datasets, with the
+remaining unselected samples included as out‑of‑bag (OOB) samples. These datasets are
+then utilized to generate several decision trees, and performance is assessed using the OOB
+samples. A random forest (RF) is produced by combining the results of several decision
+trees. In order to estimate battery capacity, for instance, Li et al. created an RF model
+with multiple trees [140]. They did this by immediately entering raw data, such as current,
+voltage, and time, into the model without any preprocessing. This resulted in a minimal
+computing demand and resulting estimates with an RMSE of less than 1.3%. Another study
+evaluated the classifier against decision trees and RF using time‑related variables collected
+from charge–discharge cycles [ 141]. The results showed that RF performed better than
+other models in general because of its thorough approach to battery capacity estimation.
+4.8. Evaluation and Implementation of the Algorithm
+In future research, thorough assessment and on‑device implementation of ML tech‑
+niques will be essential. First, consistent training, validation, and testing datasets are es‑
+sential for evaluating an ML method, especially when compared to other algorithms. SOC
+and SOH estimation models are built using publicly accessible datasets [ 142–144]. Fur‑
+thermore, since computational needs and memory storage are directly related to model
+complexity, it is preferable to align the complexity of models (e.g., count of trainable pa‑
+rameters, selected training techniques) across the algorithms under comparison. Other
+factors that need to be taken into account in addition to model accuracy include model
+robustness against various uncertainties, training duration, memory usage, floating point
+operations per second (FLOPs), and parameter count [ 145,146]. In the development of
+machine learning algorithms, finding the ideal balance between model complexity and
+accuracy continues to be a major problem. Future studies should therefore evaluate ML
+approaches using a multifaceted analytical framework.
+Second, prior research has usually used the same kind of battery for both model eval‑
+uation and training. However, the performance of the pretrained ML models frequently
+deteriorates when these models are applied to batteries with differences in their param‑
+eters, such as their capacity or electrode material. Furthermore, collecting fresh training
+data and retraining models for each type of battery is not feasible. There is a need for more
+research to improve the adaptability of ML approaches across many battery situations, as
+recent studies have investigated the application of transfer learning techniques to adapt
+ML methods to different battery types [ 147,148].
+Batteries 2025, 11, 32 35 of 42
+Finally, the significant computational overhead of ML methods for state estimation
+has hindered their in situ implementation. However, embedding ML algorithms directly
+onto devices is a feasible option for next‑generation battery management systems (BMS)
+due to developments in big data analytics, 5G network capabilities, cloud computing in‑
+frastructures, and other new technologies. Cloud computing provides the scalability to
+handle huge data quantities, while the emergence of big data and the Internet of Things
+(IoT) offers the enormous datasets required for machine learning applications. Addition‑
+ally, the computational effort related to offline machine learning training is decreased by
+the wider availability of graphic processing units (GPUs). From a different angle, ongoing
+online training of machine learning algorithms is crucial, particularly for batteries.
+The effectiveness of statically trained state estimation models decreases with the age
+of LiBs. As a result, ML algorithms that are directly installed on devices are able to learn
+and adjust in real time under real‑world operating conditions. This allows for continuous
+enhancements and prompt implementation of insights obtained from EV usage data.
+4.9. Thermal Influences
+Given the acute sensitivity of battery performance to thermal conditions, SOC and
+SOH evaluations are particularly susceptible to deviations in ambient and operational tem‑
+peratures, necessitating the incorporation of advanced modeling techniques to mitigate
+these effects.
+4.10. Sensor Constraints and Economic Factors
+The reliance on high‑precision sensors for accurate measurements introduces con‑
+straints, not only in terms of the financial outlay but also in the limitations inherent in
+sensor technologies.
+In summation, the process of estimating the state of charge and health in EVs encom‑
+passes a range of technical, computational, and practical challenges, necessitating ongoing
+innovations in battery technology, data analytics, and algorithmic development to enhance
+the efficacy and reliability of these estimations.
+5. Conclusions
+SOC and SOH estimate techniques are evaluated critically in this review and divided
+into model‑based and data‑driven methodologies. While data‑driven approaches are su‑
+perior when system details are unclear, model‑based approaches perform better statisti‑
+cally when system models are predefined. These tactics are currently being integrated in
+research to maximize their advantages, especially in light of data availability and compu‑
+tational developments.
+The review identifies many shortcomings in the methods used for SOC and SOH es‑
+timation today:
+• Aging, discharge rates, and sensor precision all have an impact on the accumulated
+mistakes that plague coulomb counting.
+• The OCV method’s flat SOC–OCV curve segment makes it inaccurate for LiFePO4
+batteries and inapplicable in real time for EVs.
+• The computing requirement and parameter estimation time provide difficulties for
+EM and ECM.
+• Complex operations and sensitivity to model errors are KF’s limitations.
+• NN requires extensive training, yet it produces reliable estimates in a variety
+of scenarios.
+• The computational complexity and optimization difficulties of FL, ANFIS, GA, and
+PSO place limitations on them.
+Batteries 2025, 11, 32 36 of 42
+ML techniques approaches to SOC and SOH estimation are also well covered in this
+review. There has been insufficient in‑depth study of ML techniques; by offering a thor‑
+ough and organized analysis of the machine learning techniques used for SOC and SOH
+estimates, this work seeks to close this research gap. This review’s initial contribution out‑
+lines the standard procedures for SOC and SOH estimation, describing the basic ideas of
+popular machine learning algorithm types—deep learning (DL), support vector machines
+(SVM), shallow neural networks (NN), and Gaussian process regression (GPR)—along
+with their mathematical formulas and visual representations to aid their comprehension.
+Specific methods such as CNN, LSTM, extreme learning machines (ELM), and BPNN
+are covered in detail. Another significant contribution is the review’s methodical anal‑
+ysis of common uses of these machine learning categories in SOC and SOH estimation,
+which includes a thorough summary of specifics like input features, datasets utilized, hy‑
+perparameter selection, and performance metrics in extensive tables for easy reference and
+comparison. Furthermore, a critical analysis is conducted of the benefits, limitations, and
+similarities among various uses of these algorithms.
+Highlighting issues including data quality, structure selection, hyperparameter tun‑
+ing, hybrid frameworks, and algorithm execution, this review examines the main obstacles
+and potential future developments of ML‑based state estimation techniques. Significant
+avenues for future research are suggested, with an emphasis on improving the precision,
+abundance, and diversity of data; optimizing structure selection and hyperparameter ad‑
+justments; utilizing advanced learning strategies to increase the accuracy and robustness
+of models; assessing machine learning techniques in various dimensions; and integrating
+ML state estimation techniques onboard.
+Adding to previous observations, this analysis also points out that although ML algo‑
+rithms for SOC and SOH estimation show a great deal of promise for future advancements
+in BMS, they also confront several real‑world difficulties. Future studies should focus on
+technologies that use cloud computing and online retraining, create fusion models and
+joint multistate estimates, anticipate whole life cycles, improve data variety through ad‑
+vanced sensing, and make onboard installation easier. By addressing both present con‑
+straints and potential future developments, this thorough study seeks to motivate aca‑
+demics to further the use of ML algorithms in SOC and SOH estimates.
+The following are suggestions for additional research:
+• Thorough research on electrochemical models to comprehend the dynamics and
+degradation of batteries.
+• Creation of efficient SOC and SOH management controllers and real‑time SOC and
+SOH estimation systems.
+• Optimization‑based reduction of computing complexity in data‑driven approaches.
+In summary, while significant strides have been made in battery technology and man‑
+agement for EVs, accurately estimating SOC and SOH remains a complex challenge. Ad‑
+dressing this requires a multifaceted approach, including ongoing research, advanced al‑
+gorithm development, leveraging machine learning, and continuous calibration and vali‑
+dation efforts.
+Author Contributions: Conceptualization, B.D.S. and I.B.; methodology, B.D.S., M.V.A.D. and T.B.;
+software, B.D.S. and M.V.A.D.; validation, I.B., M.V.A.D. and T.B.; formal analysis, B.D.S. and T.B.;
+investigation, B.D.S., M.V.A.D. and T.B.; resources, I.B.; data curation, B.D.S. and M.V.A.D.; writing—
+original draft preparation, B.D.S.; writing—review and editing, B.D.S., I.B., M.V.A.D. and T.B.; visu‑
+alization, B.D.S. and T.B.; supervision, I.B.; funding acquisition, I.B. All authors have read and agreed
+to the published version of the manuscript.
+Funding: This research received no external funding.
+Batteries 2025, 11, 32 37 of 42
+Data Availability Statement: No new data were created or analyzed in this study. Data sharing is
+not applicable to this article, as this is a review of existing literature.
+Acknowledgments: B.D.S would like to express his gratitude to Tennessee Technological Univer‑
+sity for providing the resources and support required for this research. Special thanks to Indranil
+Bhattacharya for his invaluable guidance and mentorship throughout the development of this paper.
+B.D.S. also acknowledges the contributions of Mary Vinolisha Anthony Dhason and Trapa Banik for
+their insightful discussions and feedback.
+Conflicts of Interest: The authors declare no conflicts of interest.
+References
+1. Ramoni, M.O.; Zhang, H.‑C. End‑of‑life (EOL) issues and options for electric vehicle batteries. Clean Technol. Environ. Policy 2013,
+15, 881–891. [ CrossRef]
+2. Hu, X.; Zou, C.; Zhang, C.; Li, Y. Technological developments in batteries: A survey of principal roles, types, and management
+needs. IEEE Power Energy Mag. 2017, 15, 20–31. [ CrossRef]
+3. Xiong, R.; He, H.; Sun, F.; Zhao, K. Online estimation of peak power capability of Li‑Ion batteries in electric vehicles by a
+hardware‑in‑loop approach. Energies 2012, 5, 1455–1469. [ CrossRef]
+4. Xing, Y.; Ma, E.W.M.; Tsui, K.L.; Pecht, M. Battery management systems in electric and hybrid vehicles. Energies 2011, 4,
+1840–1857. [ CrossRef]
+5. Lillehei, C.; Cruz, A.B.; Johnsrude, I.; Sellers, R.D. A new method of assessing the state of charge of implanted cardiac pacemaker
+batteries. Am. J. Cardiol. 1965, 16, 717–721. [ CrossRef]
+6. Hannan, M.A.; Lipu, M.S.H.; Hussain, A.; Mohamed, A. A review of lithium‑ion battery state of charge estimation and manage‑
+ment system in electric vehicle applications: Challenges and recommendations. Renew. Sustain. Energy Rev. 2017, 78, 834–854.
+[CrossRef]
+7. Li, Z.; Huang, J.; Liaw, B.Y.; Zhang, J. On state‑of‑charge determination for lithium‑ion batteries. J. Power Sources 2017, 348,
+281–301. [ CrossRef]
+8. Kalawoun, J.; Biletska, K.; Suard, F.; Montaru, M. From a novel classification of the battery state of charge estimators toward a
+conception of an ideal one. J. Power Sources 2015, 279, 694–706. [ CrossRef]
+9. Lu, L.; Han, X.; Li, J.; Hua, J.; Ouyang, M. A review on the key issues for lithium‑ion battery management in electric vehicles. J.
+Power Sources 2013, 226, 272–288. [ CrossRef]
+10. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 3; Artech House: Norwood, MA, USA, 2015; p. 7.
+11. Baccouche, I.; Jemmali, S.; Manai, B.; Omar, N.; Ben Amara, N.E. Improved OCV model of a Li‑ion nmc battery for online SOC
+estimation using the extended Kalman filter. Energies 2017, 10, 764. [ CrossRef]
+12. Lin, C.; Yu, Q.; Xiong, R.; Wang, L.Y. A study on the impact of open circuit voltage tests on state of charge estimation for lithium‑
+ion batteries. Appl. Energy 2017, 205, 892–902. [ CrossRef]
+13. Liu, K.; Li, K.; Peng, Q.; Zhang, C. A brief review on key technologies in the battery management system of electric vehicles.
+Front. Mech. Eng. 2018, 14, 47–64. [ CrossRef]
+14. Zhang, B.; Lu, C.; Liu, J. Combination Algorithm for State of Charge Estimation. In Proceedings of the 2013 International Con‑
+ference on Communication Systems and Network Technologies (CSNT 2013), Gwalior, India, 6–8 April 2013; pp. 865–867.
+15. Wenzel, M.J.; Drees, K.H.; Elbsat, M.N. Electrical Energy Storage System with Variable State‑of‑Charge Frequency Response
+Optimization. U.S. Patent 10186889B2, 22 January 2019.
+16. Grandjean, T.R.B.; McGordon, A.; Jennings, P.A. Structural identifiability of equivalent circuit models for Li‑ion batteries.
+Energies 2017, 10, 90. [ CrossRef]
+17. Tang, S.‑X.; Camacho‑Solorio, L.; Wang, Y.; Krstic, M. State‑of‑charge estimation from a thermal–electrochemical model of
+lithium‑ion batteries. Automatica 2017, 83, 206–219. [ CrossRef]
+18. Li, J.; Wang, L.; Lyu, C.; Pecht, M. State of charge estimation based on a simplified electrochemical model for a single LiCoO 2
+battery and battery pack. Energy 2017, 133, 572–583. [ CrossRef]
+19. Wang, Y.; Zhang, C.; Chen, Z. On‑line battery state‑of‑charge estimation based on an integrated estimator. Appl. Energy 2017,
+185, 2026–2032. [ CrossRef]
+20. Zou, C.; Manzie, C.; Nešić, D.; Kallapur, A.G. Multi‑time‑scale observer design for state‑of‑charge and state‑of‑health of a lithium‑
+ion battery. J. Power Sources 2016, 335, 121–130. [ CrossRef]
+21. Xiong, B.; Zhao, J.; Su, Y.; Wei, Z.; Skyllas‑Kazacos, M. State of charge estimation of vanadium redox flow battery based on sliding
+mode observer and dynamic model including capacity fading factor. IEEE Trans. Sustain. Energy 2017, 8, 1658–1667. [ CrossRef]
+22. Ye, M.; Guo, H.; Cao, B. A model‑based adaptive state of charge estimator for a lithium‑ion battery using an improved adaptive
+particle filter. Appl. Energy 2017, 190, 740–748. [ CrossRef]
+Batteries 2025, 11, 32 38 of 42
+23. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 2; Artech House: Norwood, MA, USA, 2015; p. 10.
+24. Kalman, R.E. A new approach to linear filtering and prediction problems. J. Basic Eng. 1960, 82, 35–45. [ CrossRef]
+25. Plett, G.L. Kalman‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybrid and Fuel
+Cell Electric Vehicle Symposium & Exhibition (EVS19), Busan, Republic of Korea, 19–23 October 2002; p. 3.
+26. Plett, G.L. Kalman‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybrid and Fuel
+Cell Electric Vehicle Symposium & Exhibition (EVS19), Busan, Republic of Korea, 19–23 October 2002; p. 4.
+27. Haykin, S. (Editor) Kalman Filtering and Neural Networks; Wiley Inter‑Science: New York, NY, USA, 2001.
+28. Plett, G.L. Kalman‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybrid and Fuel
+Cell Electric Vehicle Symposium & Exhibition (EVS19), Busan, Republic of Korea, 19–23 October 2002; p. 5.
+29. Rahman, A.; Anwar, S.; Izadian, A. Electrochemical model parameter identification of a lithium‑ion battery using particle swarm
+optimization method. J. Power Sources 2016, 307, 86–97. [ CrossRef]
+30. Sung, W.; Shin, C.B. Electrochemical model of a lithium‑ion battery implemented into an automotive battery management system.
+Comput. Chem. Eng. 2015, 76, 87–97. [ CrossRef]
+31. Peng, S.; Chen, C.; Shi, H.; Yao, Z. State of charge estimation of battery energy storage systems based on adaptive unscented
+Kalman filter with a noise statistics estimator. IEEE Access 2017, 5, 13202–13212. [ CrossRef]
+32. Mastali, M.; Samadani, E.; Farhad, S.; Fraser, R.; Fowler, M. Three‑dimensional multiparticle electrochemical model of LiFePO 4
+cells based on a resistor network methodology. Electrochim. Acta 2016, 190, 574–587. [ CrossRef]
+33. Zou, C.; Manzie, C.; Nesic, D. A framework for simplification of PDE‑based lithium‑ion battery models. IEEE Trans. Control.
+Syst. Technol. 2015, 24, 1594–1609. [ CrossRef]
+34. Bartlett, A.; Marcicki, J.; Onori, S.; Rizzoni, G.; Yang, X.G.; Miller, T. Electrochemical model‑based state of charge and capacity
+estimation for a composite electrode lithium‑Ion battery. IEEE Trans. Control Syst. Technol. 2015, 24, 384–399. [ CrossRef]
+35. Zhang, L.; Wang, Z.; Hu, X.; Sun, F.; Dorrell, D.G. A comparative study of equivalent circuit models of ultracapacitors for electric
+vehicles. J. Power Sources 2015, 274, 899–906. [ CrossRef]
+36. Zhang, X.; Lu, J.; Yuan, S.; Yang, J.; Zhou, X. A novel method for identification of lithium‑ion battery equivalent circuit model
+parameters considering electrochemical properties. J. Power Sources 2017, 345, 21–29. [ CrossRef]
+37. Widanage, W.D.; Barai, A.; Chouchelamane, G.H.; Uddin, K.; McGordon, A.; Marco, J.; Jennings, P. Design and use of multisite
+signals for Li‑ion battery equivalent circuit modeling. Part 1: Signal design. J. Power Sources 2016, 324, 70–78. [ CrossRef]
+38. Wang, Q.‑K.; He, Y.‑J.; Shen, J.‑N.; Ma, Z.‑F.; Zhong, G.‑B. A unified modeling framework for lithium‑ion batteries: An artificial
+neural network based thermal coupled equivalent circuit model approach. Energy 2017, 138, 118–132. [ CrossRef]
+39. Deng, Z.; Yang, L.; Cai, Y.; Deng, H.; Sun, L. Online available capacity prediction and state of charge estimation based on
+advanced da‑ta‑driven algorithms for lithium iron phosphate battery. Energy 2016, 112, 469–480. [ CrossRef]
+40. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 2; Artech House: Norwood, MA, USA, 2015; pp. 8–9.
+41. Lee, S.; Kim, J.; Lee, J.; Cho, B. State‑of‑charge and capacity estimation of lithium‑ion battery using a new open‑circuit voltage
+versus state‑of‑charge. J. Power Sources 2008, 185, 1367–1373. [ CrossRef]
+42. Idaho National Engineering; Environmental Laboratory. Battery Test Manual for Plug‑In Hybrid Electric Vehicles ; Assistant Secre‑
+tary for Energy Efficiency and Renewable Energy (EE); Idaho Operations Office: Idaho Falls, ID, USA, 2010.
+43. Lee, E.R.; Noh, H.; Park, B.U. Model selection via Bayesian information criterion for quantile regression models. J. Am. Stat.
+Assoc. 2014, 109, 216–229. [ CrossRef]
+44. Hu, M.; Li, Y.; Li, S.; Fu, C.; Qin, D.; Li, Z. Lithium‑ion battery modeling and parameter identification based on fractional theory.
+Energy 2018, 165, 153–163. [ CrossRef]
+45. Zhang, J.; Wang, P.; Liu, Y.; Cheng, Z. Variable‑Order Equivalent Circuit Modeling and State of Charge Estimation of Lithium‑Ion
+Battery Based on Electrochemical Impedance Spectroscopy. Energies 2021, 14, 769. [ CrossRef]
+46. Xu, J.; Mi, C.C.; Cao, B.; Cao, J. A new method to estimate the state of charge of lithium‑ion batteries based on the battery
+impedance model. J. Power Sources 2013, 233, 277–284. [ CrossRef]
+47. Li, M. Li‑ion dynamics and state of charge estimation. Renew. Energy 2017, 100, 44–52. [ CrossRef]
+48. Di Domenico, D.; Stefanopoulou, A.; Fiengo, G. Lithium‑ion battery state of charge and critical surface charge estimation using
+an electrochemical model‑based extended Kalman filter. J. Dyn. Syst. Meas. Control 2010, 132, 061302. [ CrossRef]
+49. Cacciato, M.; Nobile, G.; Scarcella, G.; Scelba, G. Real‑time model‑based estimation of SoC and SOH for energy storage systems.
+IEEE Trans. Power Electron. 2017, 32, 794–803. [ CrossRef]
+50. Ye, M.; Guo, H.; Xiong, R.; Yang, R. Model‑based state‑of‑charge estimation approach of the lithium‑ion battery using an im‑
+proved adaptive particle filter. Energy Procedia 2016, 103, 394–399. [ CrossRef]
+51. Xiong, R.; Cao, J.; Yu, Q.; He, H.; Sun, F. Critical review on the battery state of charge estimation methods for electric vehicles.
+IEEE Access 2017, 6, 1832–1843. [ CrossRef]
+52. Dai, H.; Jiang, B.; Wei, X. Impedance characterization and modeling of lithium‑ion batteries considering the internal temperature
+gradient. Energies 2018, 11, 220. [ CrossRef]
+Batteries 2025, 11, 32 39 of 42
+53. Chemali, E.; Kollmeyer, P.J.; Preindl, M.; Emadi, A. State‑of‑charge estimation of Li‑ion batteries using deep neural networks: A
+machine learning approach. J. Power Sources 2018, 400, 242–255. [ CrossRef]
+54. Lipu, M.S.H.; Hannan, M.A.; Hussain, A.; Saad, M.H.; Ayob, A.; Uddin, M.N. Extreme learning machine model for state‑of‑
+charge estimation of lithium‑ion battery using gravitational search algorithm. IEEE Trans. Ind. Appl. 2019, 55, 4225–4234.
+[CrossRef]
+55. Hu, X.; Li, S.E.; Yang, Y. Advanced machine learning approach for lithium‑ion battery state estimation in ELECTRIC VEHICLES.
+IEEE Trans. Transp. Electrif. 2015, 2, 140–149. [ CrossRef]
+56. Giger, M.L. Machine learning in medical imaging. J. Amer. Coll. Radiol. 2018, 15, 512–520. [ CrossRef]
+57. Chatzis, S.P.; Siakoulis, V.; Petropoulos, A.; Stavroulakis, E.; Vlachogiannakis, N. Forecasting stock market crisis events using
+deep and statistical machine learning techniques. Expert Syst. Appl. 2018, 112, 353–371. [ CrossRef]
+58. Xu, Y.; Yang, C.; Zhong, J.; Wang, N.; Zhao, L. Robot teaching by teleoperation based on visual interaction and extreme learning
+machine. Neurocomputing 2017, 275, 2093–2103. [ CrossRef]
+59. Silver, D.; Huang, A.; Maddison, C.J.; Guez, A.; Sifre, L.; van den Driessche, G.; Schrittwieser, J.; Antonoglou, I.; Panneershelvam,
+V.; Lanctot, M.; et al. Mastering the game of Go with deep neural networks and tree search. Nature 2016, 529, 484–489. [ CrossRef]
+60. Anand, I.; Mathur, B. State of charge estimation of lead acid batteries using neural networks. In Proceedings of the 2013 Interna‑
+tional Conference on Circuits, Power and Computing Technologies (ICCPCT), Nagercoil, India, 20–21 March 2013; pp. 596–599.
+61. Chen, J.; Longhui, W.; Wu, C.; Yiheng, Z. Method for Estimating State of Charge of Battery. WO Patent 2019052015A1, 21
+March 2019.
+62. Hannan, M.A.; Lipu, M.S.H.; Hussain, A.; Saad, M.H.; Ayob, A. Neural network approach for estimating state of charge of
+lithium‑ion battery using backtracking search algorithm. IEEE Access 2018, 6, 10069–10079. [ CrossRef]
+63. Hongwei, L.; Caiying, S. Methods of State of Charge Estimation of Electric Vehicle. Automot. Eng. 2017, 31–33.
+64. Xia, B.; Cui, D.; Sun, Z.; Lao, Z.; Zhang, R.; Wang, W.; Sun, W.; Lai, Y.; Wang, M. State of charge estimation of lithium‑ion
+batteries using optimized Levenberg‑Marquardt wavelet neural network. Energy 2018, 153, 694–705. [ CrossRef]
+65. Schmidhuber, J. Deep learning in neural networks: An overview. Neural Netw. 2015, 61, 85–117. [ CrossRef] [PubMed]
+66. He, W.; Williard, N.; Chen, C.; Pecht, M. State of charge estimation for Li‑ion batteries using neural network modeling and
+unscented Kalman filter‑based error cancellation. Int. J. Electr. Power Energy Syst. 2014, 62, 783–791. [ CrossRef]
+67. Crocioni, G.; Pau, D.; Delorme, J.‑M.; Gruosso, G. Li‑ion batteries parameter estimation with tiny neural networks embedded on
+intelligent IoT microcontrollers. IEEE Access 2020, 8, 122135–122146. [ CrossRef]
+68. Song, X.; Yang, F.; Wang, D.; Tsui, K.‑L. Combined CNN‑LSTM network for state‑of‑charge estimation of lithium‑ion batteries.
+IEEE Access 2019, 7, 88894–88902. [ CrossRef]
+69. Huang, Z.; Yang, F.; Xu, F.; Song, X.; Tsui, K.‑L. Convolutional gated recurrent unit–recurrent neural network for state‑of‑charge
+estimation of lithium‑ion batteries. IEEE Access 2019, 7, 93139–93149. [ CrossRef]
+70. Hannan, M.A.; How, D.N.T.; Lipu, M.S.H.; Ker, P.J.; Dong, Z.Y.; Mansur, M.; Blaabjerg, F. SOC estimation of Li‑ion batteries
+with learning rate‑optimized deep fully convolutional network. IEEE Trans. Power Electron. 2020, 36, 7349–7353. [ CrossRef]
+71. Hu, J.; Hu, J.; Lin, H.; Li, X.; Jiang, C.; Qiu, X.; Li, W. State‑of‑charge estimation for battery management system using optimized
+support vector machine for regression. J. Power Sources 2014, 269, 682–693. [ CrossRef]
+72. Jiménez‑Bermejo, D.; Fraile‑Ardanuy, J.; Castaño‑Solis, S.; Merino, J.; Álvaro‑Hermana, R. Using dynamic neural networks for
+battery state of charge estimation in electric vehicles. Procedia Comput. Sci. 2018, 130, 533–540. [ CrossRef]
+73. Lipu, M.S.H.; Hussain, A.; Saad, M.H.M.; Ayob, A.; Hannan, M.A. Improved recurrent NARX neural network model for state
+of charge estimation of lithium‑ion battery using pso algorithm. In Proceedings of the 2018 IEEE Symposium on Computer
+Applications & Industrial Electronics (ISCAIE), Penang, Malaysia, 28–29 April 2018; pp. 354–359.
+74. Sun, W.; Qiu, Y.; Sun, L.; Hua, Q. Neural network‑based learning and estimation of batterystate‑of‑charge: A comparison study
+between direct and indirect methodology. Int. J. Energy Res. 2020, 44, 10307–10319. [ CrossRef]
+75. Qin, X.; Gao, M.; He, Z.; Liu, Y. State of charge estimation for lithium‑ion batteries based on NARX neural network and UKF. In
+Proceedings of the 2019 IEEE 17th International Conference on Industrial Informatics (INDIN), Helsinki‑Espoo, Finland, 22–25
+July 2019; pp. 1706–1711.
+76. Wang, Q.; Gu, H.; Ye, M.; Wei, M.; Xu, X. State of charge estimation for lithium‑ion battery based on NARX recurrent neural
+network and moving window method. IEEE Access 2021, 9, 83364–83375. [ CrossRef]
+77. Vapnik, V. The Support Vector Method of Function Estimation. In Nonlinear Modeling; Springer: Boston, MA, USA, 1998; pp. 55–
+85. [ CrossRef]
+78. Fletcher, T. Support vector machines explained. Tutor. Pap. 2009, 1118, 1–19. Available online: http://sutikno.blog.undip.ac.id/
+files/2011/11/SVM‑Explained.pdf (accessed on 12 January 2025).
+79. Antón, J.C.; Nieto, P.J.G.; Viejo, C.B.; Vilán, J.A.V. Support vector machines used to estimate the battery state of charge. IEEE
+Trans. Power Electron. 2013, 28, 5919–5926. [ CrossRef]
+Batteries 2025, 11, 32 40 of 42
+80. Li, R.; Xu, S.; Li, S.; Zhou, Y.; Zhou, K.; Liu, X.; Yao, J. State of charge prediction algorithm of lithium‑ion battery based on
+PSO‑SVR cross validation. IEEE Access 2020, 8, 10234–10242. [ CrossRef]
+81. Novák, V.; Perfilieva, I.; Močkoř, J. Functional systems in fuzzy logic theories. In Mathematical Principles of Fuzzy Logic ; Springer:
+Boston, MA, USA, 1999; pp. 179–222.
+82. Salkind, A.J.; Fennie, C.; Singh, P.; Atwater, T.; E Reisner, D. Determination of state‑of‑charge and state‑of‑health of batteries by
+fuzzy logic methodology. J. Power Sources 1999, 80, 293–300. [ CrossRef]
+83. Sheng, H.; Xiao, J. Electric vehicle state of charge estimation: Nonlinear correlation and fuzzy support vector machine. J. Power
+Sources 2015, 281, 131–137. [ CrossRef]
+84. Li, Y.; Wang, C.; Gong, J. A combination Kalman filter approach for state of charge estimation of lithium‑ion battery considering
+model uncertainty. Energy 2016, 109, 933–946. [ CrossRef]
+85. Singh, P.; Vinjamuri, R.; Wang, X.; Reisner, D. Design and implementation of a fuzzy logic‑based state‑of‑charge meter for Li‑ion
+batteries used in portable defibrillators. J. Power Sources 2006, 162, 829–836. [ CrossRef]
+86. Awadallah, M.A.; Venkatesh, B. Accuracy improvement of SoC estimation in lithium‑ion batteries. J. Energy Storage 2016, 6,
+95–104. [ CrossRef]
+87. Zahid, T.; Xu, K.; Li, W.; Li, C.; Li, H. State of charge estimation for electric vehicle power battery using advanced machine
+learning algorithm under diversified drive cycles. Energy 2018, 162, 871–882. [ CrossRef]
+88. Shen, W.; Chan, C.; Lo, E.; Chau, K. Adaptive neurofuzzy modeling of battery residual capacity for electric vehicles. IEEE Trans.
+Ind. Electron. 2002, 49, 677–684. [ CrossRef]
+89. Arabmakki, E.; Kantardzic, M. SOM‑based partial labeling of imbalanced data stream. Neurocomputing 2017, 262, 120–133.
+[CrossRef]
+90. Coleman, M.; Hurley, W.G.; Lee, C.K. An improved battery characterization method using a two‑pulse load test. IEEE Trans.
+Energy Convers. 2008, 23, 708–713. [ CrossRef]
+91. Roscher, M.A.; Assfalg, J.; Bohlen, O.S. Detection of utilizable capacity deterioration in battery systems. IEEE Trans. Veh. Technol.
+2010, 60, 98–103. [ CrossRef]
+92. Zhang, J.; Lee, J. A review on prognostics and health monitoring of Li‑ion battery. J. Power Sources 2011, 196, 6007–6014. [ Cross‑
+Ref]
+93. Xiong, R.; Tian, J.; Mu, H.; Wang, C. A systematic model‑based degradation behavior recognition and health monitoring method
+for lithium‑ion batteries. Appl. Energy 2017, 207, 372–383. [ CrossRef]
+94. Berecibar, M.; Gandiaga, I.; Villarreal, I.; Omar, N.; Van Mierlo, J.; van den Bossche, P. Critical review of state of health estimation
+methods of Li‑ion batteries for real applications. Renew. Sustain. Energy Rev. 2016, 56, 572–587. [ CrossRef]
+95. Nejad, S.; Gladwin, D.; Stone, D. A systematic review of lumped‑parameter equivalent circuit models for real‑time estimation
+of lithium‑ion battery states. J. Power Sources 2016, 316, 183–196. [ CrossRef]
+96. Wang, D.; Yang, F.; Tsui, K.‑L.; Zhou, Q.; Bae, S.J. Remaining useful life prediction of lithium‑ion batteries based on spherical
+cubature particle filter. IEEE Trans. Instrum. Meas. 2016, 65, 1282–1291. [ CrossRef]
+97. Plett, G.L. Sigma‑point Kalman filtering for battery management systems of LiPB‑based HEV battery packs: Part 1: Intro‑duction
+and state estimation. J. Power Sources 2006, 161, 1356–1368. [ CrossRef]
+98. Hu, C.; Youn, B.D.; Chung, J.S.; Ortanez, R. A multiscale framework with extended kalman filter for lithium‑ion battery SOC
+and capacity estimation. ECS Meet. Abstr. 2010, 92, 694–704. [ CrossRef]
+99. Wang, J.; Liu, P.; Hicks‑Garner, J.; Sherman, E.; Soukiazian, S.; Verbrugge, M.; Tataria, H.; Musser, J.; Finamore, P. Cycle‑life
+model for graphiteLiFePO 4 cells. J. Power Sources 2010, 196, 3942–3948. [ CrossRef]
+100. Todeschini, F.; Onori, S.; Rizzoni, G. An experimentally validated capacity degradation model for Li‑ion batteries in PHEVs
+applications. IFAC Proc. Vol. 2012, 45, 456–461. [ CrossRef]
+101. Omar, N.; Monem, M.A.; Firouz, Y.; Salminen, J.; Smekens, J.; Hegazy, O.; Gaulous, H.; Mulder, G.; Van Den Bossche, P.;
+Coosemans, T.; et al. Lithium iron phosphate based battery—Assessment of the aging parameters and development of cycle life
+model. Appl. Energy 2014, 113, 1575–1585. [ CrossRef]
+102. Ecker, M.; Gerschler, J.B.; Vogel, J.; Käbitz, S.; Hust, F.; Dechent, P.; Sauer, D.U. Development of a lifetime prediction model for
+lithium‑ion batteries based on extended accelerated aging test data. J. Power Sources 2012, 215, 248–257. [ CrossRef]
+103. Ouyang, M.; Feng, X.; Han, X.; Lu, L.; Li, Z.; He, X. A dynamic capacity degradation model and its applications considering
+varying load for a large format Li‑ion battery. Appl. Energy 2016, 165, 48–59. [ CrossRef]
+104. Gao, Y.; Jiang, J.; Zhang, C.; Zhang, W.; Ma, Z.; Jiang, Y. Lithium‑ion battery aging mechanisms and life model under different
+charging stresses. J. Power Sources 2017, 356, 103–114. [ CrossRef]
+105. Rezvanizaniani, S.M.; Liu, Z.; Chen, Y.; Lee, J. Review and recent advances in battery health monitoring and prognostics tech‑
+nologies for electric vehicle (EV) safety and mobility. J. Power Sources 2014, 256, 110–124. [ CrossRef]
+106. Hu, C.; Jain, G.; Zhang, P.; Schmidt, C.; Gomadam, P.; Gorka, T. Data‑driven method based on particle swarm optimization and
+k‑nearest neighbor regression for estimating capacity of lithium‑ion battery. Appl. Energy 2014, 129, 49–55. [ CrossRef]
+Batteries 2025, 11, 32 41 of 42
+107. Liu, D.; Zhou, J.; Liao, H.; Peng, Y.; Peng, X. A health indicator extraction and optimization framework for lithium‑ion battery
+degradation modeling and prognostics. IEEE Trans. Syst. Man Cybern. Syst. 2015, 45, 915–928. [ CrossRef]
+108. Klass, V.; Behm, M.; Lindbergh, G. A support vector machine‑based state‑of‑health estimation method for lithium‑ion batteries
+under electric vehicle operation. J. Power Sources 2014, 270, 262–272. [ CrossRef]
+109. You, G.‑W.; Park, S.; Oh, D. Real‑time state‑of‑health estimation for electric vehicle batteries: A data‑driven approach. Appl.
+Energy 2016, 176, 92–103. [ CrossRef]
+110. Kashkooli, A.G.; Fathiannasab, H.; Mao, Z.; Chen, Z. Application of artificial intelligence to state‑of‑charge and state‑of‑health
+estimation of calendar‑aged lithium‑ion pouch cells. J. Electrochem. Soc. 2019, 166, A605–A615. [ CrossRef]
+111. Mao, L.; Hu, H.; Chen, J.; Zhao, J.; Qu, K.; Jiang, L. Online state‑of‑health estimation method for lithium‑ion battery based on
+CEEMDAN for feature analysis and RBF neural network. IEEE J. Emerg. Sel. Top. Power Electron. 2021, 11, 187–200. [ CrossRef]
+112. Lin, M.; Zeng, X.; Wu, J. State of health estimation of lithium‑ion battery based on an adaptive tunable hybrid radial basis function
+network. J. Power Sources 2021, 504, 230063. [ CrossRef]
+113. Saha, B.; Goebel, K.; Poll, S.; Christophersen, J. Prognostics methods for battery health monitoring using a bayesian framework.
+IEEE Trans. Instrum. Meas. 2008, 58, 291–296. [ CrossRef]
+114. Zhang, S.; Zhai, B.; Guo, X.; Wang, K.; Peng, N.; Zhang, X. Synchronous estimation of state of health and remaining useful
+lifetime for lithium‑ion battery using the incremental capacity and artificial neural networks. J. Energy Storage 2019, 26, 100951.
+[CrossRef]
+115. Xia, Z.; Abu Qahouq, J.A. Lithium‑ion battery ageing behavior pattern characterization and state‑of‑health estimation using
+data‑driven method. IEEE Access 2021, 9, 98287–98304. [ CrossRef]
+116. Shi, Y.; Ahmad, S.; Tong, Q.; Lim, T.M.; Wei, Z.; Ji, D.; Eze, C.M.; Zhao, J. The optimization of state of charge and state of
+health estimation for lithium‑ions battery using combined deep learning and Kalman filter methods. Int. J. Energy Res. 2021, 45,
+11206–11230. [ CrossRef]
+117. Liu, Z.; Zhao, J.; Wang, H.; Yang, C. A new lithium‑ion battery SOH estimation method based on an indirect enhanced health
+indicator and support vector regression in PHMs. Energies 2020, 13, 830. [ CrossRef]
+118. Feng, X.; Weng, C.; He, X.; Wang, L.; Ren, D.; Lu, L.; Han, X.; Ouyang, M. Incremental capacity analysis on commercial lithium‑
+ion batteries using support vector regression: A parametric study. Energies 2018, 11, 2323. [ CrossRef]
+119. Guo, Y.; Huang, K.; Hu, X. A state‑of‑health estimation method of lithium‑ion batteries based on multi‑feature extracted from
+constant current charging curve. J. Energy Storage 2021, 36, 102372. [ CrossRef]
+120. Widodo, A.; Shim, M.‑C.; Caesarendra, W.; Yang, B.‑S. Intelligent prognostics for battery health monitoring based on sample
+entropy. Expert Syst. Appl. 2011, 38, 11763–11769. [ CrossRef]
+121. Cai, L.; Meng, J.; Stroe, D.‑I.; Luo, G.; Teodorescu, R. An evolutionary framework for lithium‑ion battery state of health estimation.
+J. Power Sources 2018, 412, 615–622. [ CrossRef]
+122. Yang, D.; Wang, Y.; Pan, R.; Chen, R.; Chen, Z. State‑of‑health estimation for the lithium‑ion battery based on support vector
+regression. Appl. Energy 2018, 227, 273–283. [ CrossRef]
+123. Ma, C.; Zhai, X.; Wang, Z.; Tian, M.; Yu, Q.; Liu, L.; Liu, H.; Wang, H.; Yang, X. State of health prediction for lithium‑ion batteries
+using multiple‑view feature fusion and support vector regression ensemble. Int. J. Mach. Learn. Cybern. 2018, 10, 2269–2282.
+[CrossRef]
+124. Xiong, W.; Mo, Y.; Yan, C. Online state‑of‑health estimation for second‑use lithium‑ion batteries based on weighted least squares
+support vector machine. IEEE Access 2020, 9, 1870–1881. [ CrossRef]
+125. Dai, H.; Wei, X.; Sun, Z.; Wang, J.; Gu, W. Online cell SOC estimation of Li‑ion battery packs using a dual time‑scale Kalman
+filtering for EV applications. Appl. Energy 2012, 95, 227–237. [ CrossRef]
+126. Lin, Q.; Wang, J.; Xiong, R.; Shen, W.; He, H. Towards a smarter battery management system: A critical review on optimal
+charging methods of lithium ion batteries. Energy 2019, 183, 220–234. [ CrossRef]
+127. Collin, R.; Miao, Y.; Yokochi, A.; Enjeti, P.; von Jouanne, A. Advanced electric vehicle fast‑charging technologies. Energies 2019,
+12, 1839. [ CrossRef]
+128. Zhang, R.; Xia, B.; Li, B.; Cao, L.; Lai, Y.; Zheng, W.; Wang, H.; Wang, W. State of the art of lithium‑ion battery SOC estimation
+for electrical vehicles. Energies 2018, 11, 1820. [ CrossRef]
+129. Chaoui, H.; Ibe‑Ekeocha, C.C. State of charge and state of health estimation for lithium batteries using recurrent neural networks.
+IEEE Trans. Veh. Technol. 2017, 66, 8773–8783. [ CrossRef]
+130. Zhang, Y.; Xiong, R.; He, H.; Shen, W. Lithium‑ion battery pack state of charge and state of energy estimation algorithms using
+a hardwarein‑the‑loop validation. IEEE Trans. Power Electron. 2017, 32, 4421–4431. [ CrossRef]
+131. Chen, C.; Xiong, R.; Shen, W. A lithium‑ion battery‑in‑the‑loop approach to test and validate multiscale dual H infinity filters
+for state‑of charge and capacity estimation. IEEE Trans. Power Electron. 2018, 33, 332–342. [ CrossRef]
+Batteries 2025, 11, 32 42 of 42
+132. Tian, X.; Jeppesen, B.; Ikushima, T.; Baronti, F.; Morello, R. Accelerating State‑Of‑Charge Estimation in FPGA‑based Battery Man‑
+agement Systems. In Proceedings of the 6th Hybrid and Electric Vehicles Conference (HEVC 2016), London, UK, 2–3 November
+2016; pp. 4–6.
+133. Sahinoglu, G.O.; Pajovic, M.; Sahinoglu, Z.; Wang, Y.; Orlik, P.V.; Wada, T. Battery state‑of‑charge estimation based on regu‑
+lar/recurrent gaussian process regression. IEEE Trans. Ind. Electron. 2017, 65, 4311–4321. [ CrossRef]
+134. Zhao, L.; Yao, W.; Wang, Y.; Hu, J. Machine learning‑based method for remaining range prediction of electric vehicles. IEEE
+Access 2020, 8, 212423–212441. [ CrossRef]
+135. Zhu, S.; Han, J.; An, H.‑Y.; Pan, T.‑S.; Wei, Y.‑M.; Song, W.‑L.; Chen, H.‑S.; Fang, D. A novel embedded method for in‑situ
+measuring internal multi‑point temperatures of lithium ion batteries. J. Power Sources 2020, 456, 227981. [ CrossRef]
+136. Peng, J.; Zhou, X.; Jia, S.; Jin, Y.; Xu, S.; Chen, J. High precision strain monitoring for lithium ion batteries based on fiber Bragg
+grating sensors. J. Power Sources 2019, 433, 226692. [ CrossRef]
+137. Teoh, E.J.; Tan, K.C.; Xiang, C. Estimating the number of hidden neurons in a feedforward network using the singular value
+decomposition. IEEE Trans. Neural Netw. 2006, 17, 1623–1629. [ CrossRef]
+138. Cui, Z.; Wang, L.; Li, Q.; Wang, K. A comprehensive review on the state of charge estimation for lithium‑ion battery based on
+neural network. Int. J. Energy Res. 2021, 46, 5423–5440. [ CrossRef]
+139. Shen, S.; Sadoughi, M.; Li, M.; Wang, Z.; Hu, C. Deep convolutional neural networks with ensemble learning and transfer
+learning for capacity estimation of lithium‑ion batteries. Appl. Energy 2020, 260, 114296. [ CrossRef]
+140. Li, Y.; Zou, C.; Berecibar, M.; Nanini‑Maury, E.; Chan, J.C.‑W.; Bossche, P.v.D.; Van Mierlo, J.; Omar, N. Random forest regression
+for online capacity estimation of lithium‑ion batteries. Appl. Energy 2018, 232, 197–210. [ CrossRef]
+141. Xu, H.; Peng, Y.; Su, L. Health state estimation method of lithium ion battery based on NASA experimental data set. IOP Conf.
+Ser. Mater. Sci. Eng. 2018, 452, 032067. [ CrossRef]
+142. Kollmeyer, P. Panasonic 18650PF li‑ion battery data. In Mendeley Data ; Elsevier Inc: Amsterdam, The Netherlands, 2018; Vol‑
+ume 1. [ CrossRef]
+143. Naguib, M.; Kollmeyer, P.; Skells, M. LG 18650hg2 li‑ion battery data and example deep neural network xEV SOC estimator
+script. Mendeley Data 2020, 3, 2020. [ CrossRef]
+144. Saha, K.; Goebel, B. Battery Data Set. NASA Ames Prognostics Data Repository ; NASA Ames: Moffett Field, CA, USA, 2007. Avail‑
+able online: http://ti.arc.nasa.gov/project/prognostic‑data‑repository (accessed on 12 January 2025).
+145. Feng, X.; Chen, J.; Zhang, Z.; Miao, S.; Zhu, Q. State‑of‑charge estimation of lithium‑ion battery based on clockwork recurrent
+neural network. Energy 2021, 236, 121360. [ CrossRef]
+146. Yang, F.; Song, X.; Xu, F.; Tsui, K.‑L. State‑of‑charge estimation of lithium‑ion batteries via long short‑term memory network.
+IEEE Access 2019, 7, 53792–53799. [ CrossRef]
+147. Bhattacharjee, A.; Verma, A.; Mishra, S.; Saha, T.K. Estimating state of charge for xEV batteries using 1D convolutional neural
+networks and transfer learning. IEEE Trans. Veh. Technol. 2021, 70, 3123–3135. [ CrossRef]
+148. Kim, S.; Choi, Y.Y.; Kim, K.J.; Choi, J.‑I. Forecasting state‑of‑health of lithium‑ion batteries using variational long short‑term
+memory with transfer learning. J. Energy Storage 2021, 41, 102893. [ CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual au‑
+thor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

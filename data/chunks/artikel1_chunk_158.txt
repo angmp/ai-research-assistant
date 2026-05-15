@@ -1,0 +1,7 @@
+nd physics-based models offer
+distinct advantages for RUL prediction in LFP batteries, achieving high value interpretable
+hybrid integration remains a significant challenge.
+LSTM1 and LSTM2 emerged as the most accurate predictors capturing temporal
+dynamics without overfitting and performing within 3.4% of the best state-of-the-art
+models. The Gompertz model offers excellent baseline performance (1.4% RMSE) when the
+SoH curve is known, proving its value. The Gompertz model provided superior phys

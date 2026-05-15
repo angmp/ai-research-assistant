@@ -1,0 +1,11 @@
+is tiny, and the state-estimate update is 
+minimal if the current state estimate is cert ain. Furthermore, a considerable amount of 
+sensor noise results in a large ∑ 𝑣, which in turn causes a small 𝐿௞ and a small update. 
+The covariance correction step is: 
+∑ ∗(ା)
+௘,௞ = (𝐼−  𝐿 ௞𝐶௞)∑ ∗(ି)
+௘,௞  (27)
+The state uncertainty always decreases due to the new information provided by the 
+measurement. 
+In Figure 7, the left-hand graph, titled  Kalman ﬁlter in action’, compares the true 
+state of a syste

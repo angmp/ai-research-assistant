@@ -1,0 +1,5 @@
+ghi, M.; Li, M.; Wang, Z.; Hu, C. Deep convolutional neural networks with ensemble learning and transfer
+learning for capacity estimation of lithium‑ion batteries. Appl. Energy 2020, 260, 114296. [ CrossRef]
+140. Li, Y.; Zou, C.; Berecibar, M.; Nanini‑Maury, E.; Chan, J.C.‑W.; Bossche, P.v.D.; Van Mierlo, J.; Omar, N. Random forest regression
+for online capacity estimation of lithium‑ion batteries. Appl. Energy 2018, 232, 197–210. [ CrossRef]
+141. Xu, H.; Peng, Y.; Su, L. Health state estimation

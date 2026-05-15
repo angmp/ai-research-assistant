@@ -1,0 +1,7 @@
+system with a linear time-varying (LTV) system by using a lineariza-
+tion procedure at each time step. The extended Kalman ﬁlter (EKF) on the real nonlinear 
+Figure 7. Performance analysis of a Kalman filter.
+Extended Kalman Filtering
+The Kalman filter is the best state estimator. In a nonlinear system, we can approxi‑
+mate the nonlinear system with a linear time‑varying (LTV) system by using a linearization
+procedure at each time step. The extended Kalman filter (EKF) on the real nonlinear sys‑

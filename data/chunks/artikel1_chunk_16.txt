@@ -1,0 +1,8 @@
+seful Life (RUL) that are essential
+for the predictive modelling discussed later in this paper.
+2.1. Batteries and Their Characteristics
+There are over 60 types of batteries, one of which is the lithium ion battery
+(LiB) [8,9]. There are several chemistries within LiBs, the most prominent are lithium
+nickel manganese cobalt oxide (NMC), lithium nickel cobalt aluminum oxide (NCA) and
+lithium iron phosphate (LFP) batteries. In this paper, the focus is on LFP batteries as they
+have recently eclipse

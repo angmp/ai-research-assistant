@@ -1,0 +1,8 @@
+ to significant variances in impedance response, thereby affecting the precision of
+SOC estimations.
+Batteries 2025, 11, x FOR PEER REVIEW 17 of 42 
+ 
+eﬀective resistances Rpa and Rpc, which characterize the electrochemical and concentration 
+polarization, respectively; and the third is the e ﬀective capacitance, which includes C pa 
+and Cpc, which describe the concentration and electrochemical polarization separately and 
+characterize the transient response during power transfer to and from the

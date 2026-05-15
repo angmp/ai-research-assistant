@@ -1,0 +1,22 @@
+ = w1 = w1
+w1 + w2
+(66)
+Q3,2 = w2 = w2
+w1 + w2
+(67)
+Q4,1 = w1 f1 = w1(p1x1 + q1y1 + r1) (68)
+Q4,2 = w2 f2 = w2(p2x2 + q2y2 + r2) (69)
+Q5 =
+2
+∑
+i=1
+wi fi = ∑2
+i=1 wi fi
+∑2
+i=1 wi
+(70)
+Batteries 2025, 11, 32 26 of 42
+The drawbacks of using fuzzy logic for SOC estimation include its reliance on expert
+knowledge for rule formation, potential challenges in precisely defining membership func‑
+tions, limitations in handling complex systems with high‑dimensional data, the subjective
+nature of rule‑based

@@ -1,0 +1,9 @@
+nalysis and Modeling Results
+The initial experimentation with G(x) was to provide baseline and real-time results
+when using the Gompertz model for RUL prediction.
+4.1.1. Gompertz Parameter Data Analysis and Baseline Gompertz Fit
+This section sought to establish justifiable reasons as to why the Gompertz model is
+suitable for helping LSTMs and other neural networks be more interpretable when predicting
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 19 of 33
+RUL. The results of 

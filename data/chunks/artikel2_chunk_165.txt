@@ -1,0 +1,7 @@
+e. Good temperature stability and
+structural adaptability are also maintained.
+Figure 25c displays the performance of the passive cooling system: this system per-
+forms well in temperature stability and structural compactness; however, due to the absence
+of an active cooling mechanism, its peak temperature control capability is limited, resulting
+in overall performance that does not reach the level of the hybrid cooling system.
+Figure 25d presents the performance characteristics of the liquid co

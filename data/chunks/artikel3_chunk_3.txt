@@ -1,0 +1,7 @@
+ng landscape of
+the state of health (SOH) and state of charge (SOC) in electric vehicles (EVs), highlight‑
+ing the pressing need for accurate battery management to enhance safety, efficiency, and
+longevity. With the global shift towards EVs, understanding and improving battery per‑
+formance has become crucial. The paper systematically explores various SOC estimation
+techniques, emphasizing their importance akin to that of a fuel gauge in traditional vehi‑
+cles, and addresses the challenges in ac

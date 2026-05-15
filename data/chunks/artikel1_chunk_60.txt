@@ -1,0 +1,12 @@
+tz function [41] is
+defined in Equation (3). The Gompertz function will be referred to as G(x).
+G(x) = y(x) = ke −ea−bx
+(3)
+where
+• G(x) and y(x) denote the normalized capacity at cyclex fitted to the Gompertz function;
+• k is a scaling factor representing initial capacity;
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 9 of 33
+• a is a shape parameter controlling the shift of the curve;
+• b controls the rate of capacity degradation.
+The model parameters (k, a, b) are estimate

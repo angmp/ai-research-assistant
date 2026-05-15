@@ -1,0 +1,7 @@
+The main power battery system consists
+of 13 standardized modules. Each module adopts an 18S2P configuration and contains
+36 pouch cells. The rated energy of each module is 5.18 kWh. Therefore, the total installed
+energy reaches 67.4 kWh, which satisfies the system-level energy requirement of 66 kWh.
+To assess structural integration on the eVTOL platform, a complete battery system
+with 13 modules was assembled. The whole system contains 468 cells. After assembly, the
+total mass is about 459 kg, 

@@ -1,0 +1,11 @@
+, RMSE Depth, Min Samples Cycles, Varied
+temps
+3. SOH Estimation
+Battery SOH is a performance metric that compares a battery’s current capacity with
+respect to its full original capacity (as a fresh battery) and is expressed as a percentage. It is
+a good indication of a battery’s current condition and future life expectancy. Aging causes
+a decrease in battery capacity and an increase in internal resistance for EV applications; the
+factors are represented in Equation (71):
+Z t
+τ=t0
+δ f unc(I, T, 

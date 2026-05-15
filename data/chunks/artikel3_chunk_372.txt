@@ -1,0 +1,9 @@
+h to maximize their advantages, especially in light of data availability and compu‑
+tational developments.
+The review identifies many shortcomings in the methods used for SOC and SOH es‑
+timation today:
+• Aging, discharge rates, and sensor precision all have an impact on the accumulated
+mistakes that plague coulomb counting.
+• The OCV method’s flat SOC–OCV curve segment makes it inaccurate for LiFePO4
+batteries and inapplicable in real time for EVs.
+• The computing requirement and parameter esti

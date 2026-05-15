@@ -1,0 +1,6 @@
+he lithium‑ion battery based on support vector
+regression. Appl. Energy 2018, 227, 273–283. [ CrossRef]
+123. Ma, C.; Zhai, X.; Wang, Z.; Tian, M.; Yu, Q.; Liu, L.; Liu, H.; Wang, H.; Yang, X. State of health prediction for lithium‑ion batteries
+using multiple‑view feature fusion and support vector regression ensemble. Int. J. Mach. Learn. Cybern. 2018, 10, 2269–2282.
+[CrossRef]
+124. Xiong, W.; Mo, Y.; Yan, C. Online state‑of‑health estimation for second‑use lithium‑ion batteries based on weighte

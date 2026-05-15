@@ -1,0 +1,7 @@
+ons.
+An estimated technique was developed with a way to capture and understand the
+diffusion of compositions inside batteries. This helps us to understand what is happening
+inside the battery [32]. Subsequently, a simplified electrochemical model based on physics
+was created to estimate the state of charge of lithium‑ion batteries with Figure 8 showing
+a cross‑sectional view of battery cells. To forecast the discharging capacity of the battery
+under different situations, a robust SOC estimation 

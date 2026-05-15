@@ -1,0 +1,7 @@
+ndition affecting the performance
+of the hybrid cooling system. It influences the heat transfer temperature difference between
+the battery module and the external air. It also affects the initial phase state of the PCM,
+the utilization of latent heat, and the ability of the air-cooling channel to remove heat from
+the outer surface of the PCM. To further evaluate the adaptability of the proposed hybrid
+cooling system under different climatic conditions, five ambient temperature cases were
+conside

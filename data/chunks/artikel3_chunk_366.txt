@@ -1,0 +1,7 @@
+L methods for state estimation
+has hindered their in situ implementation. However, embedding ML algorithms directly
+onto devices is a feasible option for next‑generation battery management systems (BMS)
+due to developments in big data analytics, 5G network capabilities, cloud computing in‑
+frastructures, and other new technologies. Cloud computing provides the scalability to
+handle huge data quantities, while the emergence of big data and the Internet of Things
+(IoT) offers the enormous datasets

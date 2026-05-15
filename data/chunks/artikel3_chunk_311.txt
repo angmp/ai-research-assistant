@@ -1,0 +1,8 @@
+lves removing related features from sourced data using several methods,
+including differential voltage analysis (DVA) and model‑based techniques. The degrada‑
+tion modes and aging mechanisms of the battery must be examined, and a connection
+with the health features must be made, before selecting any health characteristics. Then,
+correlation analysis is applied.
+This section mainly reviews different ML algorithm applications for SOH.
+3.1.1. Shallow Neural Network
+The nonlinear relationship that e

@@ -1,0 +1,6 @@
+pacted by charging currents less than 1 C and cut‑off voltages less than
+4.2 V. To maximize real‑time operations and extend battery service life, these cycle‑life
+models are crucial. However, the majority of research being done now is focused on par‑
+ticular workloads. In real‑time applications, there is no guarantee of their accuracy. More
+test data and a larger range of battery operations are used in training the battery model,
+which naturally increases its practical implementation due to SOH 

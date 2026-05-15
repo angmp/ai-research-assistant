@@ -1,0 +1,7 @@
+ust be
+taught. The computing load needed to train and run the model increases with the num‑
+ber of hidden layers. Up until now, the majority of architecture choices has been limited
+to the time‑consuming and ineffective trial‑and‑error method. For instance, a singular
+value decomposition technique could be used to determine the number of hidden‑layer
+neurons [137]. There is currently no standardized approach that can be used to direct the se‑
+lection of appropriate hyperparameters for variously 

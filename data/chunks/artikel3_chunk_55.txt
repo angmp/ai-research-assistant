@@ -1,0 +1,9 @@
+ 
+being able to calculate the state exactly [23]. 
+  
+Figure 3. State transition diagram for a hidden Markov model.
+Comparison of measured and expected outputs, use of error to update the model’s
+estimation of the actual state measurement, and model mistakes can cause output errors.
+Careful updating is required to account for each of these. Furthermore, a trustworthy
+confidence zone is typically difficult to achieve, and the observer performance test of the
+SOC is done under given conditions. Co

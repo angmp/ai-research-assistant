@@ -1,0 +1,8 @@
+ional longevity, increasing driving distance, fine‑tuning power management strategies,
+and lowering battery costs.
+A battery management system is made up of several types of communication lines,
+actuators, controllers, and sensors. Ensuring the safe and efficient utilization of battery
+Batteries 2025, 11, 32 https://doi.org/10.3390/batteries11010032
+Batteries 2025, 11, 32 2 of 42
+energy and furnishing precise battery status data to the vehicle energy management sys‑
+tem constitute the fundamenta

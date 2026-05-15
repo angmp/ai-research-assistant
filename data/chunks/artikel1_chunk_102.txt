@@ -1,0 +1,6 @@
+passed through the inverse Gompertz layer with y set to 0.7, calculating the predicted
+RUL and then calculating the MSE between predicted RUL and target RUL. The GILSTM3
+model leveraged the superior learning of the LSTM2 network to capture the underlying
+capacity fading shape and the G(x) used the capacity fade curve output from the LSTM2
+to fit the parameters k, a and b of G(x). RUL prediction from these fitted k, a, and b is then
+conducted. All models were developed and tested using the same h

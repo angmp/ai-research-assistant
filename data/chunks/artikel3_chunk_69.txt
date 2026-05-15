@@ -1,0 +1,31 @@
+ented in Figure 5 is defined as:
+X ∼ N
+
+x, ∑
+∼
+X
+
+(5)
+FX(x) = 1q
+(2π)n|∑ X|
+exp
+
+− 1
+2 (x − x)ˆT
+∑
+−1
+∼
+X
+(x − x)
+
+(6)
+where n is the dimensionality of the random variable X, |∑ X| is the determinant of the
+covariance ∑ X, and (x − x)ˆT∑−1
+∼
+X
+(x − x) is the Mahalanobis distance measuring how far
+x is from the mean in terms of the variance.
+Batteries 2025, 11, x FOR PEER REVIEW 7 of 42 
+ 
+Review of probability 
+Noise is by deﬁnition random in some way; it is not deterministic. Hence, to disc

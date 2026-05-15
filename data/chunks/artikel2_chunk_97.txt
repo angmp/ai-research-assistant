@@ -1,0 +1,6 @@
+iment and simulation platform: (a) structure of the experimental setup; (b) physical
+drawing of the thermocouple; (c) simulation model thermocouple arrangement.
+Two batteries from the same batch were used in the experiment. The capacity dif-
+ference between the two batteries was less than 0.1 Ah, which ensured good consistency
+and representativeness of the samples. As shown in Figure 6b,c, five thermocouples were
+attached to the surface of a single battery to monitor the temperature distribution

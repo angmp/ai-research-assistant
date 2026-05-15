@@ -1,0 +1,6 @@
+CrossRef]
+34. Cheng, G.; Wang, X.; He, Y. Remaining Useful Life and State of Health Prediction for Lithium Batteries Based on Empirical Mode
+Decomposition and a Long and Short Memory Neural Network. Energy 2021, 232, 121022. [CrossRef]
+35. Ma, Y.; Yao, M.; Liu, H.; Tang, Z. State of Health Estimation and Remaining Useful Life Prediction for Lithium-Ion Batteries by
+Improved Particle Swarm Optimization-Back Propagation Neural Network. J. Energy Storage 2022, 52, 104750. [CrossRef]
+36. Wang, S.; F

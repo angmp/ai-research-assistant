@@ -1,0 +1,28 @@
+ in SOC estimation.
+Nonlinear autoregression with exogenous input neural network (NARXNN) is a neu‑
+ral network used for predicting one‑time series. It uses historical values, feedback, and an
+external time series for training. Its layout is shown in Figure 19. It is a variation of the
+Jordan NN with a feedback mechanism. The expression of NARXNN is as follows:
+y(n) = f0
+2
+4b0 +
+l
+∑
+h=1
+wh0 fh
+0
+@bh +
+du
+∑
+i=0
+wih x(n − i) +
+dy
+∑
+j=0
+wjhy(n − j)
+1
+A
+3
+5 (61)
+Batteries 2025, 11, 32 23 of 42
+where

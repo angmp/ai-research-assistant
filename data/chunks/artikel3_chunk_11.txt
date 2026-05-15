@@ -1,0 +1,7 @@
+ control circuit is the primary
+function of the sample circuit. With measurements of battery current, voltage, and tem‑
+perature converted from the analog signal, the control circuit’s primary job is to estimate
+the batteries’ states of charge (SOC), health (SOH), available power capability (SOP), and
+life (SOL) using sophisticated algorithms. The vehicle controller receives these data, which
+include crucial decision‑making elements for power distribution and energy management
+for vehicles [2,3]

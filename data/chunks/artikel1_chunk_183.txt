@@ -1,0 +1,6 @@
+y, C.R.; Mohammed, O.A. Adaptive Battery Management and Parameter Estimation Through Physics-Based Modeling
+and Experimental Verification. IEEE T rans. T ransp. Electrif.2016, 2, 454–464. [CrossRef]
+22. Sundén, B. Chapter 6—Thermal Management of Batteries. In Hydrogen, Batteries and Fuel Cells ; Sundén, B., Ed.; Academic Press:
+Cambridge, MA, USA, 2019; pp. 93–110.
+23. Kong, X.; Bonakdarpour, A.; Wetton, B.T.; Wilkinson, D.P .; Gopaluni, B. State of Health Estimation for Lithium-Ion Batteries.
+I

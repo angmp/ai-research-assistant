@@ -1,0 +1,7 @@
+ computing platforms. The term “deep” is
+used by the so‑called DL algorithms to characterize the utilization of several hidden layers
+or other distinct architectural styles [ 65]. Deep learning algorithms can map complex and
+nonlinear functions more accurately and effectively than shallow neural networks. This re‑
+search categorizes standard DL algorithms into three groups based on their architectures:
+convolutional neural network (CNN), recurrent neural network (RNN), and deep neural
+network (D

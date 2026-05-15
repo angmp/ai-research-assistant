@@ -1,0 +1,7 @@
+ues for future research are suggested, with an emphasis on improving the precision,
+abundance, and diversity of data; optimizing structure selection and hyperparameter ad‑
+justments; utilizing advanced learning strategies to increase the accuracy and robustness
+of models; assessing machine learning techniques in various dimensions; and integrating
+ML state estimation techniques onboard.
+Adding to previous observations, this analysis also points out that although ML algo‑
+rithms for SOC and SOH e

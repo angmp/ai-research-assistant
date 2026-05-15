@@ -1,0 +1,6 @@
+ce of 3.85 ◦C. Zhao et al. [20] evaluated a channel-based liquid cooling
+strategy for tilt wing and lift cruise aircraft. The results showed that liquid cooling could
+maintain safe battery temperatures while keeping the cooling system mass below 20% of
+the total battery mass. Zhao et al. [21] further analyzed the effects of flight parameters and
+battery capacity on the mass of liquid-cooled BTMS and battery life. Their results provided
+guidance for mission adaptive design. Chai et al. [22] propo

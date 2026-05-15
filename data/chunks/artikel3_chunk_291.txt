@@ -1,0 +1,32 @@
+ers
+Lab, Driving
+past
+Recurrent
+Neural Network
+(RNN)
+Voltage, Current,
+Temperature SOC Accuracy, RMSE,
+MAE RNN Layers, Cells Seq data, Temp
+Corr
+Adaptive
+Neuro‑Fuzzy
+Inference System
+(ANSFIS)
+Voltage, Current,
+Temperature SOC Rule Accuracy,
+RMSE
+Rules, Membership
+Functions (MFs)
+Expert knows,
+Fuzzy rules
+Nonlinear
+Autoregressive
+with Exogenous
+Input Neural
+Network
+(NARXNN)
+Voltage, Current,
+Temperature SOC R², MSE, Accuracy Delays, Neurons Series, Feedback
+loops
+Batteries 2025, 11, 32 27 of 42
+T

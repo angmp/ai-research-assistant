@@ -1,0 +1,13 @@
+cation.
+Conflicts of Interest:The authors declare no conflicts of interest. The funders had no role in the design
+of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or
+in the decision to publish the results.
+Abbreviations
+The following abbreviations are used in this manuscript:
+BESS Battery Energy Storage System
+BoL Beginning of Life
+BMS Battery Management System
+CC Coulomb Counting
+Crated Nominal Capacity/Rated Capacity
+EoL End of Life
+EV Ele

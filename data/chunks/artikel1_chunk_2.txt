@@ -1,0 +1,8 @@
+L), Dedan Kimathi University of Technology, Dedan
+Kimathi, Nyeri P .O. Box 10143, Kenya
+* Correspondence: yuri.njathi@dkut.ac.ke
+Abstract
+Lithium iron phosphate batteries have seen a recent rise in usage in electric vehicles and bat-
+tery energy storage systems. For these applications, reliability is of paramount importance,
+influences long-term adoption and high return on investment, especially regarding battery
+replacement. Remaining Useful Life (RUL) prediction is at the core of avoiding unex

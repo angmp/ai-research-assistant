@@ -1,0 +1,7 @@
+ooling system for eVTOL power batteries, air cooling effectively sup-
+presses battery temperature rise by enhancing convective heat transfer and is therefore
+essential for thermal safety under high-rate discharge conditions. However, continuous
+operation of the air-cooling subsystem throughout the entire flight mission leads to addi-
+tional energy consumption, which may undermine the requirements of eVTOL systems for
+high energy efficiency and extended endurance.
+As shown in Figure 29, compared 

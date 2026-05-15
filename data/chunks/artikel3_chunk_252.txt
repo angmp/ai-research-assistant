@@ -1,0 +1,8 @@
+௜) , 𝑖 = 1, … , 𝐿ሽ where xi and yi represent 
+the input and output vector, respectively; the support vector machine is deﬁned as: 
+𝑓(𝒙௜) = 𝑊 ்.𝜙 (𝒙௜) +𝑏 ,𝒘  ∈ ℝ𝒏,𝒙 𝒊  ∈ ℝ𝒎,𝒃  ∈  ℝ (62)
+Figure 19. The structure of the NARXNN [ 71].
+Time‑sequence knowledge is enhanced by the prior knowledge of inputs and outputs.
+This is especially useful for SOC estimates and has generated much attention in this field.
+For SOC estimation, a dynamic neural network model based on the NARX structure was
+proposed [72

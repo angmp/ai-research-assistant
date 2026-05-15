@@ -1,0 +1,28 @@
+ Split Lab, Real‑world
+use
+Reinforcement
+Learning
+Voltage, Current,
+Temperature SOC Reward, Error Rate Learning Rate,
+Discount Factor
+Simulated
+environments
+PCA + ML
+Model
+Voltage, Current,
+Temperature SOC R², MSE, RMSE Components, ML
+Hyperparameters
+Noise‑reduced
+data
+Ensemble
+Methods
+Voltage, Current,
+Temperature SOC Accuracy, RMSE, R² Number of Models,
+Strategy
+Diverse driving
+patterns
+Deep Belief
+Networks
+Voltage, Current,
+Temperature SOC R², MSE, MAE Layers, LR, Epochs Multivariate
+time ser

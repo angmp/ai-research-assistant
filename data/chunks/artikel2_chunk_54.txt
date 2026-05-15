@@ -1,0 +1,8 @@
+ads laterally through the high-thermal-conductivity plates. The PCM then buffers
+the peak thermal load through phase change. Finally, air cooling removes heat from the
+PCM surface.
+3.2. Simulation Model Boundary and Parameter Setting
+To ensure comparability among different cooling structures and parameters, the
+same thermal boundary conditions and interface treatments were used in the baseline
+simulations. The battery, high-thermal-conductivity plate, and PCM were modeled as
+solid heat conductio

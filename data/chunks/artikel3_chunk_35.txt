@@ -1,0 +1,8 @@
+air the precision of SOC estimation is hys‑
+teresis, which is the reliance of a system’s state on its past.
+Notwithstanding these drawbacks, there are still situations where moderately noisy
+SOC estimates are appropriate or can be refined further to increase accuracy when using
+the look‑up‑table‑based technique. When applying this approach to SOC estimation, it is
+critical to understand its limitations and possible causes of mistakes [ 10].
+2.2. Direct‑Based Method
+2.2.1. Ampere‑Hour Integral Me

@@ -1,0 +1,16 @@
+ng is expressed in terms of the equivalent capacitance, or C
+Th. CTh voltages are represented 
+by UTh. The current that exits CTh is denoted as ITh. Equations (53) and (54) can be used to 
+express the Thevenin model’s electrical behavior. 
+𝑈ሶ்௛= − 𝑈்௛
+𝑅்௛𝐶்௛
++ 𝐼௅
+𝐶்௛
+ (53)
+𝑈௅= 𝑈 ை஼− 𝑈 ்௛− 𝐼 ௅𝑅ை (54)
+ 
+Figure 12. Schematic diagram of the Thevenin model. 
+Figure 11. Schematic diagram of the RC model.
+Batteries 2025, 11, 32 16 of 42
+• The Thevenin Model
+The Thevenin Model is primarily made up of th

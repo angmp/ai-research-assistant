@@ -1,0 +1,43 @@
+
+Batteries 2026, 12, 170 28 of 37
+Table 7. Comparison of similar studies.
+Study Application
+Scenario
+Cooling
+Method
+Maximum
+Temperature
+Maximum
+Temperature
+Difference
+Energy
+Saving Ratio Key Feature
+The proposed
+work
+eVTOL
+pouch-cell
+battery
+module
+HCP-PCM air
+cooling 37.9◦C 3.1 ◦C
+43.3%
+reduction
+compared
+with
+continuous air
+cooling
+Balances
+thermal control,
+compactness,
+and air cooling
+energy use.
+Z. Wang
+et al. [18]
+Flying-
+car/eVTOL
+battery
+system
+Optimized
+liquid-cooled
+plate
+31.1◦C 4.8 ◦C 

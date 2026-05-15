@@ -1,0 +1,7 @@
+usable cell capacity dropped to 880 mAh
+(80% of the nominal capacity). Figure 3b zooms in to the first ten cycles (9.7 h) of Figure 3a,
+showing how the dependent variables evolved with each charge-discharge cycle within
+those 10 cycles, while Figure 3a shows how those dependent variables evolved over the
+entire lifespan of the battery (2651 cycles/90 days). The HUST dataset had data from
+variables of voltage, current, time, capacity, dq and cycles to modelSoH and RUL, and it
+was required to unde

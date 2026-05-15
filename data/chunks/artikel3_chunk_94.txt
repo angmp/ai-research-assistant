@@ -1,0 +1,27 @@
+is term might not be zero. It is frequently referred to as the “innovation” process,
+as it symbolizes the “new information” in the measurement. A major innovation usually
+results in a large state update. A tiny innovation usually results in a small state update.
+The innovation is weighted by the Kalman gain L k:
+Lk = ∑
+(−)
+e,k ∗CT
+k
+h
+Ck∑
+(−)
+e,k ∗CT
+k + ∑ v
+i
+Batteries 2025, 11, x FOR PEER REVIEW 10 of 42 
+ 
+෍∗
+(ି)
+௘,௞ାଵ
+= 𝐴௞ ෍ ∗
+(ା)
+௘,௞
+ 𝐴௞
+்+ ෍
+௪
+ (24)
+If the system is stable, the ﬁrst term i

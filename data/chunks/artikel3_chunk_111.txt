@@ -1,0 +1,9 @@
+nearization
+procedure at each time step. The extended Kalman filter (EKF) on the real nonlinear sys‑
+tem is produced by using this LTV system in the Kalman filter. Keep in mind that while
+EKF is not always the best option, it frequently functions more effectively than others [ 28].
+The nonlinear system may be modeled as:
+xk+1 = f (xk, uk) + wk (28)
+yk = g(xk, uk) + vk (29)
+As before, wk and vk are zero mean white Gaussian stochastic processes with covari‑
+ance matrices ∑ v and ∑ w, respectively.

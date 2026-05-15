@@ -1,0 +1,6 @@
+. [CrossRef]
+32. Catelani, M.; Ciani, L.; Fantacci, R.; Patrizi, G.; Picano, B. Remaining Useful Life Estimation for Prognostics of Lithium-Ion
+Batteries Based on Recurrent Neural Network. IEEE T rans. Instrum. Meas. 2021, 70, 3524611. [CrossRef]
+33. Feng, H.; Shi, G. SOH and RUL Prediction of Li-Ion Batteries Based on Improved Gaussian Process Regression. J. Power Electron.
+2021, 21, 1845–1854. [CrossRef]
+34. Cheng, G.; Wang, X.; He, Y. Remaining Useful Life and State of Health Prediction for L

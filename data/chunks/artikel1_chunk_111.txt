@@ -1,0 +1,9 @@
+capture non-linear degradation dynamics and long-term
+dependencies within the battery capacity data.
+D. All models take 100 SoH values as their inputs.
+The core differences of the three GILSTM models are:
+A. Generation of Gompertz Parameters versus SoH curve forecasting: GILSTM1 and
+GILSTM2 generate Gompertz parameters k, a and b while GILSTM3 forecasts the SoH
+degradation curve then uses the Gompertz model to fit this predicted curve to extract
+the three Gompertz parameters k, a and b.
+B. Train

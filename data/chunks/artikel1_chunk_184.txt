@@ -1,0 +1,6 @@
+Wetton, B.T.; Wilkinson, D.P .; Gopaluni, B. State of Health Estimation for Lithium-Ion Batteries.
+IF AC-PapersOnLine2018, 51, 667–671. [CrossRef]
+24. Xiong, R.; He, H.; Sun, F.; Zhao, K. Evaluation on State of Charge Estimation of Batteries With Adaptive Extended Kalman Filter
+by Experiment Approach. IEEE T rans. Veh. T echnol.2013, 62, 108–117. [CrossRef]
+25. Manmi, K.; Tuchel, M.; Kendrick, E.; Brosa Planella, F. A Comparison of Standard SEI Growth Models in the Context of Battery
+Formation. 

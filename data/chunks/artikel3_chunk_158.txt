@@ -1,0 +1,45 @@
+re the names given to the
+resistors R t, R e, and R c, respectively. The voltages across C b and C c are denoted by U b
+and Uc, respectively. Equations (51) and (52) represent the electrical behavior of the RC
+model circuit.
+Batteries 2025, 11, x FOR PEER REVIEW 15 of 42 
+ 
+ቈ𝑈௕ሶ
+𝑈௖ሶ቉=  
+⎣
+⎢
+⎢
+⎡ −1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+1
+𝐶௖ (𝑅௘+ 𝑅 ௖)
+−1
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+൤𝑈௕
+𝑈௖
+൨+  
+⎣
+⎢
+⎢
+⎡ −𝑅௖
+𝐶௕ (𝑅௘+ 𝑅 ௖)
+−𝑅௘
+𝐶௖ (𝑅௘+ 𝑅 ௖)⎦
+⎥
+⎥
+⎤
+[𝐼௅] (51)
+[𝑈௅] = ቂ
+ோ೎
+(ோ೐ା ோ೎)
+ோ೐
+(ோ೐ା ோ೎)ቃ൤𝑈௕
+𝑈௖
+൨+  ቂ − 𝑅௧−
+ோ೐ோ೎
+(ோ೐ା ோ೎

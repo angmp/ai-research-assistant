@@ -1,0 +1,9 @@
+d energy man‑
+agement strategies.
+Keywords: electric vehicles; state of charge; state of health; battery management systems;
+electrochemical models; data‑driven methods; machine learning
+1. Introduction
+Battery technology is a key challenge in the development of electric vehicles (EVs).
+Many countries, including the United States, have initiated special programs to increase
+battery performance to produce a battery system that can meet the criteria of EVs [ 1]. Bat‑
+tery cell performance has impr

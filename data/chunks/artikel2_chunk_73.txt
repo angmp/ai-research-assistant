@@ -1,0 +1,16 @@
+d thermally conductive materials.
+Material Parameters MPCM32D 1060 AL
+Alloy
+6063 AL
+Alloy AlN Ceramic
+Specific heat capacity,
+(J/kg·K) 2500 - - -
+Thermal conductivity,
+(W/m·K) 0.6 231 200 204
+Density, (kg·m3) 1000 2700 2000 3280
+Latent heat, (kJ/kg) 106 - - -
+Phase transition
+temperature, (◦C) 30–32 - - -
+Considering engineering feasibility and cost effectiveness, 1060 aluminum alloy,
+6063 aluminum alloy, and AlN ceramic were used as thermally conductive materials.
+These materials have good ther

@@ -1,0 +1,11 @@
+ the ML algorithms used for SOC esti-
+mations examined in the previous section: input and output characteristics, performance 
+metrics, a portion of the suggested algori thms’ hyperparameters, and the data pro ﬁles 
+used to train and verify the models. Furthermore, Table 1 provides a summary of genetic 
+algorithm (GA) and fuzzy logic (FL). 
+Table 1. Machine learning algorithm SOC methods. 
+Algorithm Input Output Metric Hyperparameter Data Profile 
+Linear Regression 
+(LR) 
+Voltage, Current, 
+Temp

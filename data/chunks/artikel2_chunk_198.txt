@@ -1,0 +1,8 @@
+ ◦C, indicating
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 32 of 37
+that air cooling gradually becomes the dominant temperature regulation mechanism. When
+sufficient latent heat remains in the PCM, the peak temperature rise is relatively insensitive
+to the inlet airflow velocity, suggesting that the system mainly relies on PCM-based latent
+heat storage for passive thermal regulation in the early stage of flight. As the PCM latent
+heat is progressively depleted, its indepen

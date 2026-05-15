@@ -1,0 +1,9 @@
+epending on all of 
+these variables, our neural networ k assists us in determining a ba ttery’s level of charge. 
+The hidden layer serves as the system’s activa tion function. Figure 16 depicts the basic 
+processing sequence of a neural network method. The experimental results validate the 
+resilience and accuracy of this technique, which provides a quick and eﬃcient calculation 
+of SOC. 
+ 
+Figure 16. Three-layer neural network architecture for SOC estimation [62]. 
+Despite its beneﬁts, this str

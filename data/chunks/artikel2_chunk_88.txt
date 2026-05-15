@@ -1,0 +1,13 @@
+ design of eVTOL cooling systems.
+The concept of temperature control margin, which is the difference between the
+maximum allowable temperature of the battery and the actual average temperature, is used
+to evaluate the capability of the cooling system to control battery temperature. Temperature
+control margin can be expressed as:
+TCM = Tlimit −
+R
+Ttrdt
+trunning
+(22)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 13 of 37
+The equation TCM is the temperature control margin, Tlimi

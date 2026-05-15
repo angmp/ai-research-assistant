@@ -1,0 +1,8 @@
+is constrained to less than
+5%, and the hardware is checked using LIBs.
+The enhanced approach known as the adaptive neuro‑fuzzy inference system (ANFIS)
+combines the fuzzy inference system with the NN learning method without requiring a
+detailed battery model. In terms of modeling, decision‑making, and signal processing,
+ANFIS is incredibly potent [ 86,87].
+Using inputs such as current, temperature, cooling air temperature, and battery ther‑
+mal factor, an ANFIS‑based SOC estimate model can be c

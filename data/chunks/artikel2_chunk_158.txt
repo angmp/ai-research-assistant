@@ -1,0 +1,8 @@
+ 12, 170 26 of 37
+4.3.4. Comprehensive Performance Evaluation
+Based on the comprehensive performance evaluation metric system established in
+Section 3.5, this section conducts a systematic comparative analysis of the no cooling
+system, hybrid cooling system, liquid cooling system, and passive cooling system under
+the same flight conditions. To ensure comparability of the metrics and the objectivity
+of the normalization process, the grouping efficiency and space occupancy of the no
+cooling system

@@ -1,0 +1,12 @@
+
+effects of three key parameters, namely cell spacing, the thermal conductivity of the high-
+thermal-conductivity plate material, and inlet airflow velocity, on the thermal performance
+and structural compactness of the hybrid cooling system [ 43]. The results help clarify
+the relative importance of these structural parameters and provide a theoretical basis for
+parameter control and design prioritization in engineering applications.
+Sx = ∂Tmax
+∂xi
+xi
+Tmax
+(32)
+In Equation (32), Sx is the local s

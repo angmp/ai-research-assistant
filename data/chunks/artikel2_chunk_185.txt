@@ -1,0 +1,7 @@
+se durations.
+When the cruise duration is 800 s, the total mission time is short, and the final SOC re-
+mains high. The total heat generation of the battery module is relatively low. Thus, the PCM
+latent heat is only partially consumed. The final PCM liquid fraction is 0.66. The maximum
+temperature and maximum temperature difference are 36.7 ◦C and 2.8 ◦C, respectively.
+This indicates that the hybrid cooling system has sufficient thermal buffering capacity.
+When the cruise duration increases to 

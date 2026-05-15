@@ -1,0 +1,6 @@
+imate accuracy and noise immunity. A strong‑tracking adaptive unscented Kalman filter
+(ST‑AUKF) technique was developed to estimate SOC. It is based on a dynamic parameter
+that varies according to conditions or inputs, allowing the control algorithm to adjust the
+influence of past data, either giving more weight to recent data or considering historical
+data, depending on the system’s changing circumstances and uncertainties [ 84].
+The fuzzy adaptive forgetting factor is critical in updating the 

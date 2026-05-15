@@ -1,0 +1,15 @@
+ applications [12].
+Table 2. Usage-related properties of LFP batteries.
+Property Description
+Nominal Voltage 3.2 V [14]
+Maximum Charge Voltage 3.65 V [15,16]
+Minimum Discharge Voltage 2.0 V–2.8 V [14]
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 4 of 33
+Table 2. Cont.
+Property Description
+Charging Rates 0.2–0.5 C [14]
+Fast Charge Rate 1 C [14]
+Standard Continuous Discharging Rate 1 C [14]
+High-Performance Continuous Discharging Rate 2–3 C [14]
+High-Performance Pulsating Disc

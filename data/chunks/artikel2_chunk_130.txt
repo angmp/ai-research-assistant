@@ -1,0 +1,6 @@
+mance was compared with three reference strategies: no
+cooling, passive cooling, and liquid cooling. To ensure objective and consistent comparison,
+all strategies were evaluated under the same flight mission profile, battery discharge rate
+curve, and initial temperature of 25 ◦C. The same thermal model parameters and boundary
+conditions were also used in all simulations. Therefore, differences in thermal perfor-
+mance were attributed only to the cooling strategy. This comparison verifies the rel

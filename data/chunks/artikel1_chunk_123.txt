@@ -1,0 +1,11 @@
+ any valuable information that was
+relevant to the cells’ RUL. The variables represented the values captured from the cell’s full
+SoH curves. It was found that the values for the Gompertz parametersk, a, and b shown in
+Figure 11, ranged between 0.93 and 1.2 fork, −4.6 to −1.5 for a and −28 to −4 for b. Parameter
+b shows a strong positive correlation with RUL. This reinforces the thought thatG(x) and its
+parameters may be useful when predicting battery RUL.
+(a) 
+(b) 
+(c) 
+ 
+Figure 11. (a–c) The l

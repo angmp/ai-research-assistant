@@ -1,0 +1,4 @@
+Ionescu, R.T.; Rota, P .; Sebe, N. Curriculum Learning: A Survey.Int. J. Comput. Vis. 2022, 130, 1526–1565. [CrossRef]
+50. Raissi, M.; Perdikaris, P .; Karniadakis, G.E. Physics-Informed Neural Networks: A Deep Learning Framework for Solving
+Forward and Inverse Problems Involving Nonlinear Partial Differential Equations. J. Comput. Phys. 2019, 378, 686–707. [CrossRef]
+51. Zhang, H.; Li, Y.; Zheng, S.; Lu, Z.; Gui, X.; Xu, W.; Bian, J. Accurate Battery Lifetime Prediction across Diverse Aging Con

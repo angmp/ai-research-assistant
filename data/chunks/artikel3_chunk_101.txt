@@ -1,0 +1,12 @@
+ach time step. The extended Kalman ﬁlter (EKF) on the real nonlinear 
+(26)
+A significant update is required if the present state estimate is highly uncertain, as
+indicated by large values of the ∑ e, k and Lk. Lk is tiny, and the state‑estimate update is
+minimal if the current state estimate is certain. Furthermore, a considerable amount of
+sensor noise results in a large ∑ v, which in turn causes a small Lk and a small update.
+The covariance correction step is:
+∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k

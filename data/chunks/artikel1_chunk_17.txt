@@ -1,0 +1,8 @@
+hosphate (LFP) batteries. In this paper, the focus is on LFP batteries as they
+have recently eclipsed NMC and NCA batteries due to lower costs per kWh, thermal
+stability and safety [10].
+Among the different types of batteries commonly used for grid scale or consumer
+energy applications, the choice typically depends on key factors such as storage efficiency,
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 3 of 33
+energy density, lifespan, discharge duration, and peak power capac

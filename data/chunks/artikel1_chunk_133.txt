@@ -1,0 +1,11 @@
+2 22 of 33
+Figure 14. The RMSE per cycle for each of the models developed in this study.
+The various capacity forecasts were visually inspected to ensure they resulted in what
+was expected. Figure 15 below represents some of the test cells with their target SoH and
+their predicted SoH, these are the curves predicted by LSTM2 since the other models predict
+direct RUL values instead.
+  
+(a) ( b) 
+  
+(c) ( d) 
+Figure 15. The target and predictedSoH curves from LSTM2 for cells 6-2 (a), 8-1 (b), 6-1 

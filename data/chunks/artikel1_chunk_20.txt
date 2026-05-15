@@ -1,0 +1,15 @@
+ed hydro
+out of reach for most people, organizations and some countries.
+Table 1. Battery and their storage capacities.
+Energy Storage
+Method
+Max Power
+Rating (MW) Discharge Time Max Cycles or
+Lifetime
+Energy Density
+(Wh/Liter) Efficiency (%)
+Pumped Hydro 3000 4 h–16 h 30–60 years 0.2–2 70–85
+Li-ion 100 1 min–8 h 1000–10,000 cycles 200–400 85–95
+Lead-acid 100 1 min–8 h 6–40 years 50–80 80–90
+Hydrogen 100 mins–week 5–30 years 600 (at 200 bar) 25–45
+Flywheel 20 secs–mins 20,000–100,000 cycles 20–8

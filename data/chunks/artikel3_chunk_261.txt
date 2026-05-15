@@ -1,0 +1,12 @@
+M model employs more advanced 
+methods to compute the ϵ-insensitive loss function, in contrast to basic linear regression 
+models. Slack variables 𝜉
+௜
+ା and 𝜉௜
+ି are added to the hard margin to produce a so-called 
+soft margin, as seen in Figure 20, to make the optimization possible. 
+ 
+Figure 20. Illustration of the SVM. 
+Numerous researchers have used support ve ctor machines (SVMs) for SOC estima-
+tion due to their strong regression capabilities with tiny sample sizes. An SVM-based ap-
+proach

@@ -1,0 +1,8 @@
+ted for approximately 40% to 59% of electric vehicle (EV) battery deployments, and
+dominated the BESS market with an estimated 80% market share [ 12]. Their increasing
+popularity is driven by their durability, cost effectiveness, and the elimination of critical
+materials like cobalt and nickel, making them more sustainable and geopolitically secure
+for large-scale energy storage and transportation applications [12].
+Table 2. Usage-related properties of LFP batteries.
+Property Description
+Nominal

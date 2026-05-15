@@ -1,0 +1,24 @@
+oad prof 
+Back-Propagation 
+Neural Network 
+(BPNN) 
+Voltage, Current, 
+Temperature SOC Coefficient of Determina-
+tion R², MSE, RMSE 
+LR, Momentum 
+(MOM), Layers Lab, Driving past 
+Recurrent Neural 
+Network (RNN) 
+Voltage, Current, 
+Temperature SOC Accuracy, RMSE, MAE RNN Layers, Cells Seq data, Temp 
+Corr 
+Adaptive Neuro-
+Fuzzy Inference 
+System (ANSFIS) 
+Voltage, Current, 
+Temperature SOC Rule Accuracy, RMSE Rules, Membership 
+Functions (MFs) 
+Expert knows, 
+Fuzzy rules 
+Nonlinear Auto-
+regress

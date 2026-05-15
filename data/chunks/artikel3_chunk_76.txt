@@ -1,0 +1,11 @@
+ect
+Batteries 2025, 11, 32 8 of 42
+the state xk, and process noise wk, which does. Inferred, the system state, xk, is an internal
+(hidden) signal.
+Batteries 2025, 11, x FOR PEER REVIEW 8 of 42 
+ 
+ 
+Figure 6. Block diagram showing SOC state estimation. 
+The foundation of Kalman’s theory is the id ea of the state. A system’s state is the 
+smallest possible collection of information needed to accurately characterize its unforced 
+dynamics [25]. Stated di ﬀerently, it is the minimum amount  of histo

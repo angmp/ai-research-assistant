@@ -1,0 +1,5 @@
+ K.C.; Xiang, C. Estimating the number of hidden neurons in a feedforward network using the singular value
+decomposition. IEEE Trans. Neural Netw. 2006, 17, 1623–1629. [ CrossRef]
+138. Cui, Z.; Wang, L.; Li, Q.; Wang, K. A comprehensive review on the state of charge estimation for lithium‑ion battery based on
+neural network. Int. J. Energy Res. 2021, 46, 5423–5440. [ CrossRef]
+139. Shen, S.; Sadoughi, M.; Li, M.; Wang, Z.; Hu, C. Deep convolutional neural networks with ensemble learning and tran

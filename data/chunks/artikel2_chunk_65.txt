@@ -1,0 +1,7 @@
+Pk is the production
+term of turbulent kinetic energy, and Dω is the cross-diffusion term. The SST k-ω model
+combines the near-wall prediction capability of the standardk-ω model with the robustness
+of the k-ε model in the free-stream region and is therefore suitable for narrow-channel flows
+with strong near-wall gradients and possible local flow instability, as encountered in the
+present hybrid cooling configuration.
+To ensure the accuracy of the simulation results, a grid independence test was

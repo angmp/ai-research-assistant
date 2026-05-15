@@ -1,0 +1,6 @@
+rk for state‑of‑charge estimation of lithium‑ion batteries.
+IEEE Access 2019, 7, 88894–88902. [ CrossRef]
+69. Huang, Z.; Yang, F.; Xu, F.; Song, X.; Tsui, K.‑L. Convolutional gated recurrent unit–recurrent neural network for state‑of‑charge
+estimation of lithium‑ion batteries. IEEE Access 2019, 7, 93139–93149. [ CrossRef]
+70. Hannan, M.A.; How, D.N.T.; Lipu, M.S.H.; Ker, P.J.; Dong, Z.Y.; Mansur, M.; Blaabjerg, F. SOC estimation of Li‑ion batteries
+with learning rate‑optimized deep fully convolu

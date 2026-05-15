@@ -1,0 +1,8 @@
+ngs to
+investigate battery charging, discharging characteristics, and maintenance as well as to
+define a benchmark for SOC accuracy.
+The limitations of the discharge test approach are that it is time‑consuming and not
+appropriate for determining SOC while a vehicle is in motion, despite its excellent accuracy.
+It therefore constitutes requires a laboratory process.
+In conclusion, the classic direct‑based method of estimation has the benefit of an al‑
+gorithm that is straightforward to implement;

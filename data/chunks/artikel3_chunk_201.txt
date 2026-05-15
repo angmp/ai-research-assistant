@@ -1,0 +1,8 @@
+ an excellent model is usually difficult and necessitates extensive prior knowl‑
+edge. Consequently, it is not always feasible to apply the model‑based approach to all
+battery types.
+2.4. Data‑Driven Model Estimation
+Battery parameters like current, voltage, and temperature can be measured and used
+in data‑based techniques for SOC estimation. As a result, an additional filter in the model‑
+based approach is avoided [ 53]. Additionally, the self‑learning algorithm determines the
+network parameter

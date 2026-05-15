@@ -1,0 +1,8 @@
+for his invaluable guidance and mentorship throughout the development of this paper.
+B.D.S. also acknowledges the contributions of Mary Vinolisha Anthony Dhason and Trapa Banik for
+their insightful discussions and feedback.
+Conflicts of Interest: The authors declare no conflicts of interest.
+References
+1. Ramoni, M.O.; Zhang, H.‑C. End‑of‑life (EOL) issues and options for electric vehicle batteries. Clean Technol. Environ. Policy 2013,
+15, 881–891. [ CrossRef]
+2. Hu, X.; Zou, C.; Zhang, C.; Li, 

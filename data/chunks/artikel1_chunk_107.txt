@@ -1,0 +1,17 @@
+
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 17 of 33
+Table 5. Summary of similarities and differences in GILSTM Models.
+Feature GILSTM1 GILSTM2 GILSTM3
+Backbone
+Architecture Sequence-to-one LSTM Sequence-to-one LSTM Recursive SoH-to-SoH LSTM
+(LSTM2)
+Input Layer The 100 SoH values of the
+first 100 cycles
+The 100 SoH values of any
+consecutive 100 cycles
+The 100 SoH values of any
+consecutive 100 cycles
+Output Layer Directly predicts Gompertz
+parameters k, a and b
+Directly pre

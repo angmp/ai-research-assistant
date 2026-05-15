@@ -1,0 +1,9 @@
+nt is shown in Figure 4a, the total internal resistance
+of the battery during discharge at 0.5 C, 1 C, and 2 C rates are shown in Figure 4b.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 11 of 37
+ 
+Figure 4. (a) Entropy coefficient of the battery; ( b) battery internal resistance at different dis-
+charge rates.
+Due to the potential hazards associated with high-rate charge–discharge experiments,
+this study will predict the internal resistance of high-rate discharge batteries u

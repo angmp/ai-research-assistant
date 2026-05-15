@@ -1,0 +1,9 @@
+ctors can lead 
+to signiﬁcant variances in impedance response, thereby aﬀecting the precision of SOC es-
+timations. 
+In addition, EIM demands a comprehensive understanding of the ba ttery’s electro-
+chemical properties, involving detailed and complex electrochemical analysis. This re-
+quirement often makes EIM a more specialized approach, limited to scenarios where such 
+Figure 15. Schematic diagram of EIM.
+In addition, EIM demands a comprehensive understanding of the battery’s electro‑
+chemical

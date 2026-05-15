@@ -1,0 +1,9 @@
+ scenarios, the suggested method’s average
+errors were all less than 2.5%.
+The primary drawback of using an SVM for SOC estimation is its sensitivity to the
+choice of kernel and hyperparameters, which requires careful tuning, along with its po‑
+tential difficulty in handling large datasets due to computational complexity, and limited
+interpretability of the model’s decision‑making process.
+2.4.3. Fuzzy Logic
+A computational method that provides flexibility in a statement is called fuzzy logic
+(F

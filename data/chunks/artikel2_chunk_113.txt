@@ -1,0 +1,8 @@
+perature from 39.9 ◦C to 37.2 ◦C. How-
+ever, excessive airflow deteriorates temperature uniformity. The maximum temperature
+difference increases from 2.3 ◦C to 3.7 ◦C.
+Figure 12. Effect of inlet airflow velocity on thermal performance: ( a) variation of maximum
+temperature with flow velocity; (b) variation of temperature difference with airflow velocity.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 18 of 37
+As shown in Figure 13, module temperature continues to rise when the

@@ -1,0 +1,5 @@
+ameters considering electrochemical properties. J. Power Sources 2017, 345, 21–29. [ CrossRef]
+37. Widanage, W.D.; Barai, A.; Chouchelamane, G.H.; Uddin, K.; McGordon, A.; Marco, J.; Jennings, P. Design and use of multisite
+signals for Li‑ion battery equivalent circuit modeling. Part 1: Signal design. J. Power Sources 2016, 324, 70–78. [ CrossRef]
+38. Wang, Q.‑K.; He, Y.‑J.; Shen, J.‑N.; Ma, Z.‑F.; Zhong, G.‑B. A unified modeling framework for lithium‑ion batteries: An artificial
+neural network 

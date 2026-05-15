@@ -1,0 +1,11 @@
+ate 1 C [14]
+High-Performance Continuous Discharging Rate 2–3 C [14]
+High-Performance Pulsating Discharging Rate 10–15 C [14]
+Gravimetric Energy Density 100–140 Wh/kg [14]
+Volumetric Energy Density 220 Wh/L [17]
+Thermal Runaway Threshold 180–250 ◦C [17]
+Operation/Storage Range −30 ◦C to +60 ◦C [17]
+Typical Lifespan 2500 to >9000 cycles [18,19]
+Ideal-Condition Lifespan 10,000 cycles [18,19]
+The Remaining Useful Life (RUL) of LiBs refers to the number of charge–discharge
+cycles a battery can under

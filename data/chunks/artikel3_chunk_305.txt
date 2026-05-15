@@ -1,0 +1,7 @@
+er capacity under both
+fast charging and discharging conditions [ 101]. To capture the dynamics of capacity de‑
+terioration under changing load circumstances, a cycle‑life and dynamic cycle‑life model
+based on a mechanistic and prognostic model were also presented [ 102,103]. According
+to Gao et al.’s analysis [ 104] of battery aging under various charging circumstances, active
+material loss is impacted by charging currents less than 1 C and cut‑off voltages less than
+4.2 V. To maximize real‑tim

@@ -1,0 +1,8 @@
+ charging.
+4.4. Adaptability Analysis of the Hybrid Cooling System
+Based on the multi-condition settings and SOC calculation method defined in
+Section 2.2, this section analyzes the effects of ambient temperature, cruise duration, and
+hover duration on the thermal performance of the proposed hybrid cooling system.
+4.4.1. Effect of Ambient Temperature
+Ambient temperature is an important boundary condition affecting the performance
+of the hybrid cooling system. It influences the heat transfer temp

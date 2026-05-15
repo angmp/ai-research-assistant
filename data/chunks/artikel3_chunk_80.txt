@@ -1,0 +1,8 @@
+ observed data ൛𝑢ଵ,𝑢ଶ,⋯,𝑢 ௞ൟ  and 
+ሼ𝑦ଵ,𝑦 ଶ,⋯,𝑦 ௞ሽ to ﬁnd the minimum mean squared error estimate 𝑥ො௞ of the true state 𝑥௞. 
+That is, solve: 
+𝑥ො௞=a r g m i n 𝐸[(𝑥௞− 𝑥ො௞)^்(𝑥௞− 𝑥ො௞) ∥𝑢 ଵ,𝑢 ଶ,⋯,𝑢 ௞,𝑦ଵ,𝑦 ଶ,⋯,𝑦 ௞] (11)
+This problem has a well-known solution, which is shown in Equations (12) to (26) 
+below. A series of recursive relationships that incorporate the covariance and an estimate 
+of the state itself form the basis of the solution and the covariance matrix ∑ 𝑒, 𝑘 of the state 
+estimate error

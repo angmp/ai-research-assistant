@@ -1,0 +1,9 @@
+ionship between the
+Gompertz parameters k, a, and b, and the battery RULs.
+A. Baseline Gompertz Fit
+In an ideal situation, the entire SoH curve of each battery is known by some form
+of successful extrapolation thus fitting G(x) to these curves results in values of k, a and b
+whose calculated RULs should have very little deviation from the target RULs. By doing
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 12 of 33
+this, the study shows the potential performance of the Gompert

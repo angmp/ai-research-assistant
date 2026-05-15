@@ -1,0 +1,7 @@
+arge experiments,
+this study will predict the internal resistance of high-rate discharge batteries under flight
+conditions based on existing experimental data using a fitting function. According to the
+research in Reference [ 39], there is a significant nonlinear relationship between battery
+internal resistance and discharge rate. The nonlinear fitting results of internal resistance
+relative to discharge rate at 100% SOC are shown in Figure 5a. Similarly, the total internal
+resistance of the bat

@@ -1,0 +1,6 @@
+ Z.; Abu Qahouq, J.A. Lithium‑ion battery ageing behavior pattern characterization and state‑of‑health estimation using
+data‑driven method. IEEE Access 2021, 9, 98287–98304. [ CrossRef]
+116. Shi, Y.; Ahmad, S.; Tong, Q.; Lim, T.M.; Wei, Z.; Ji, D.; Eze, C.M.; Zhao, J. The optimization of state of charge and state of
+health estimation for lithium‑ions battery using combined deep learning and Kalman filter methods. Int. J. Energy Res. 2021, 45,
+11206–11230. [ CrossRef]
+117. Liu, Z.; Zhao, J.; Wang

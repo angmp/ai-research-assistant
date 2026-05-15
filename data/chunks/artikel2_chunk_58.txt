@@ -1,0 +1,13 @@
+ection was applied to the
+remaining external module surfaces, with a heat transfer coefficient of 10 W·m−2·K−1 [33].
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 8 of 37
+The boundary conditions at the interface between the battery and the PCM depend on
+the energy conservation Equation (6):
+−kbat
+∂T
+∂n = −kPCM
+∂T
+∂n (6)
+In Equation (6), kbat (W·m−1·K−1) is the battery thermal conductivity , and kPCM
+(W·m−1·K−1) is the thermal conductivity of the PCM.∂T/∂n is the temperature g

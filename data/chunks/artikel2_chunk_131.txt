@@ -1,0 +1,8 @@
+thermal perfor-
+mance were attributed only to the cooling strategy. This comparison verifies the relative
+advantages of the proposed hybrid cooling system for practical engineering applications.
+4.3.1. No Cooling Performance Analysis
+A thermal field simulation model of the battery module without any cooling struc-
+ture was established to reveal the extreme thermal response over the full eVTOL mission
+profile. As shown in Figure 15a,b, the maximum temperature reaches 45.6 ◦C, and the
+maximum temp

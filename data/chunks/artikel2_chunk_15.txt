@@ -1,0 +1,7 @@
+nnel showed the best overall
+performance, with a maximum battery temperature of 31.1 ◦C and a temperature difference
+of 4.8 ◦C. Zhiwei Wu et al. [19] proposed a flat heat pipe–ram air passive cooling system.
+The effects of ambient temperature, inlet mass flow rate, and fin spacing were investigated.
+The system maintained the battery temperature below 38.46 ◦C, with a maximum tem-
+perature difference of 3.85 ◦C. Zhao et al. [20] evaluated a channel-based liquid cooling
+strategy for tilt wing and 

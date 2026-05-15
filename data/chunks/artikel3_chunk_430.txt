@@ -1,0 +1,7 @@
+abmakki, E.; Kantardzic, M. SOM‑based partial labeling of imbalanced data stream. Neurocomputing 2017, 262, 120–133.
+[CrossRef]
+90. Coleman, M.; Hurley, W.G.; Lee, C.K. An improved battery characterization method using a two‑pulse load test. IEEE Trans.
+Energy Convers. 2008, 23, 708–713. [ CrossRef]
+91. Roscher, M.A.; Assfalg, J.; Bohlen, O.S. Detection of utilizable capacity deterioration in battery systems. IEEE Trans. Veh. Technol.
+2010, 60, 98–103. [ CrossRef]
+92. Zhang, J.; Lee, J. A review

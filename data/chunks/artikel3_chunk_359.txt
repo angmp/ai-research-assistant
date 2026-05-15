@@ -1,0 +1,6 @@
+aining unselected samples included as out‑of‑bag (OOB) samples. These datasets are
+then utilized to generate several decision trees, and performance is assessed using the OOB
+samples. A random forest (RF) is produced by combining the results of several decision
+trees. In order to estimate battery capacity, for instance, Li et al. created an RF model
+with multiple trees [140]. They did this by immediately entering raw data, such as current,
+voltage, and time, into the model without any preprocess

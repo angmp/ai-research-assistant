@@ -1,0 +1,7 @@
+e while minimizing internal temperature gradients is critical for decelerating
+aging rates and preserving cell-to-cell performance consistency. Consequently, the hybrid
+cooling system not only ensures thermal safety during individual eVTOL flights but
+also fundamentally supports long-term healthy operation of the power battery, thereby
+enhancing lifecycle economic viability and operational reliability.
+Additionally, a performance comparison is conducted with other systems reported in
+the literat

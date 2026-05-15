@@ -1,0 +1,28 @@
+-
+ture variation with material; (b) temperature difference variation with material.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11. HCP weight variation with thermal conductivity material.
+4.2.3. Effect of Inlet Airflow Velocity
+This section evaluates the effect of inlet airflow velocity on PCM latent heat recovery
+and thermal regulation performance. The simulations were conducted at an ambient
+temperature of 25 ◦C, using 6063 aluminum alloy as the thermally conductive material and
+a cell spa

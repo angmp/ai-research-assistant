@@ -1,0 +1,7 @@
+gure 2. Open‑circuit voltage curve.
+Batteries 2025, 11, 32 4 of 42
+It has been established that a nonlinear relationship exists between the SOC and OCV
+of a battery; as a result, estimating battery SOC by OCV after sufficient resting has grown
+in popularity and effectiveness and has been used in numerous applications [ 11,12].
+The OCV approach can estimate battery SOC with excellent accuracy; however, a ma‑
+jor drawback of OCV‑based SOC estimation is the resting time. After cutting off the load

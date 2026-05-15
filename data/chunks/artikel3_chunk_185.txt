@@ -1,0 +1,8 @@
+t a few of the internal processes that may be
+Batteries 2025, 11, 32 18 of 42
+understood by estimating the battery’s impedance using these measures. Battery research
+and diagnostics have found that EIS is a useful tool, as it produces accurate findings with
+little computing demand when combined with an appropriate electrochemical model, such
+as the EIM.
+The EIM method, used in SOC estimation, encounters several specific limitations.
+Firstly, EIM is inherently complex in its interpretation, as it

@@ -1,0 +1,18 @@
+mum amount of historical behavior data
+needed to forecast future behavior. The status is usually unknown and might not be quan‑
+tifiable. We must use observations on yk to determine its value.
+We may mathematically describe the system in Figure6 with two equations. The state
+equation is:
+xk+1 = Ak xk + Bkuk + wk (7)
+The zero mean and covariance matrix is as follows:
+E
+h
+wnwT
+k
+i
+=
+(
+∑ w n = k
+0 n ̸= k (8)
+Assuming that wk is additive, white, and Gaussian.
+The system’s varying dynamic nature is c

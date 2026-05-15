@@ -1,0 +1,8 @@
+mulation.
+Figure 7. Comparison of simulated and experimental temperature rise: (a) 1 C, 2 C, and 3 C discharge
+rates; (b) eVTOL flight conditions.
+4.2. Optimization Analysis of Hybrid Cooling System Parameters
+This section employs a multi-physics coupling model to study the hybrid cooling
+system, with a focus on three key structural parameters: cell spacing, thermally conduc-
+tive material and inlet airflow velocity. The goal is to determine the optimal parameter
+configuration for the synergisti

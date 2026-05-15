@@ -1,0 +1,10 @@
+e of sequential probabilistic inference is the Kalman ﬁlter, which 
+provides the best state estimate under certain circumstances. 
+Linear Kalman ﬁlter and variations 
+Sequential Probabilistic Inference. 
+We start by assuming a general, possibly nonlinear model: 
+𝑥௞= 𝑓 (𝑥௞ିଵ,𝑢 ௞ିଵ,𝑤 ௞ିଵ) (2)
+𝑦௞=ℎ  (𝑥௞,𝑢 ௞,𝑣 ௞), (3)
+where uk, wk, and v k are a measured input, process random, and sensor random input, 
+respectively. We note that 𝑓 (. ) and ℎ (. ) are time-varying. Estimating the present state xk 
+of

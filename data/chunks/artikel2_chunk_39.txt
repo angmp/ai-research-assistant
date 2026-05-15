@@ -1,0 +1,7 @@
+uise, and descent, respectively. (L/D)cl, (L/D)cr, and (L/D)de
+are the lift-to-drag ratios in the climb, cruise, and descent phases, respectively [7].
+2.2. Analysis of Flight Condition Load Parameters
+Based on the flight condition parameters defined in Section 2.1 and the corresponding
+thrust power expressions for each flight phase, the dynamic variations in the thermal load
+throughout the entire eVTOL mission profile can be systematically characterized. This
+section derives the power requiremen

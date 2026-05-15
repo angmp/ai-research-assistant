@@ -1,0 +1,7 @@
+et airflow velocity. The goal is to determine the optimal parameter
+configuration for the synergistic enhancement of performance.
+4.2.1. Effect of Cell Spacing
+Cell spacing is a key structural parameter for reducing heat accumulation within the
+module. The coupling between cell spacing and HCP thickness directly affects thermal
+performance and structural compactness. Therefore, four cell spacings of 0.5, 1, 1.5, and
+2 mm were evaluated. The ambient temperature, inlet airflow velocity, and HCP ma

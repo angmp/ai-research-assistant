@@ -1,0 +1,7 @@
+ denote the cell-level power
+demand during takeoff or landing hover, climb, cruise, and descent, respectively.ωbat is
+the battery mass fraction, defined as the ratio of the total battery pack mass to the gross
+takeoff mass of the aircraft. mbat (kg) is the mass of a single cell. GTOM (kg) is the gross
+takeoff mass of the aircraft. g (m·s−2) is the gravitational acceleration, and g = 9.81 m·s−2.
+σ (N·m−2) is the disk loading. ρair (kg·m−3) is the air density, and ρair = 1.225 kg·m−3. ηh,
+ηi and η

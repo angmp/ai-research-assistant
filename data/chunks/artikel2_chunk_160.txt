@@ -1,0 +1,6 @@
+nce: compared with the no cooling approach, the hybrid cooling system
+reduces the maximum temperature and maximum temperature difference by 16.8% and
+49%, respectively. Relative to the passive cooling system, the temperature control margin
+(TCM) is improved by 13.4%, and the fluctuation amplitude of temperature stability (ST) is
+improved by 44.6%. However, its performance in controlling the maximum temperature
+difference (DT) is 33.3% lower than that of the passive cooling system. The overall te

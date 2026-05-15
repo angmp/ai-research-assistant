@@ -1,0 +1,7 @@
+ed an average RMSE of 26.99%. The models in
+this paper are also benchmarked on the first 100 cycles, a current state of art for battery
+degradation testing. The best overall implementation was an LSTM that predicted RUL
+by recursively predicting SoH achieving an average RMSE per cycle of 9.18% and a 100th
+cycle RMSE of 17.02%. This study evaluates the trade-off between the predictive accu-
+racy of black-box LSTMs and physical interpretability of Gompertz models. While pure
+LSTMs provide superior

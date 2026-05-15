@@ -1,0 +1,6 @@
+ods for battery health monitoring using a bayesian framework.
+IEEE Trans. Instrum. Meas. 2008, 58, 291–296. [ CrossRef]
+114. Zhang, S.; Zhai, B.; Guo, X.; Wang, K.; Peng, N.; Zhang, X. Synchronous estimation of state of health and remaining useful
+lifetime for lithium‑ion battery using the incremental capacity and artificial neural networks. J. Energy Storage 2019, 26, 100951.
+[CrossRef]
+115. Xia, Z.; Abu Qahouq, J.A. Lithium‑ion battery ageing behavior pattern characterization and state‑of‑heal

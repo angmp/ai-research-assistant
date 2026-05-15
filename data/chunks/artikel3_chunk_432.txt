@@ -1,0 +1,6 @@
+ CrossRef]
+94. Berecibar, M.; Gandiaga, I.; Villarreal, I.; Omar, N.; Van Mierlo, J.; van den Bossche, P. Critical review of state of health estimation
+methods of Li‑ion batteries for real applications. Renew. Sustain. Energy Rev. 2016, 56, 572–587. [ CrossRef]
+95. Nejad, S.; Gladwin, D.; Stone, D. A systematic review of lumped‑parameter equivalent circuit models for real‑time estimation
+of lithium‑ion battery states. J. Power Sources 2016, 316, 183–196. [ CrossRef]
+96. Wang, D.; Yang, F.; Tsui,

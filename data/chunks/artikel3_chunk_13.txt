@@ -1,0 +1,6 @@
+ the battery, in addition to offering information about the bat‑
+tery’s current energy and capacity, ensures a dependable and secure driving experience.
+However, estimating the state of charge (SOC) of batteries with some accuracy is a difficult
+process due to their complicated electrochemical nature, which exhibits diverse nonlinear
+behavior based on both external and internal factors. To meet the needs of electric vehicles
+(EVs), thousands of cells must be connected in corresponding series and

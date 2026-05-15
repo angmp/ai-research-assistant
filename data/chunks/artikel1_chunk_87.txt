@@ -1,0 +1,8 @@
+poral correlations, such as
+battery capacity degradation patterns across multiple charge–discharge cycles. In this
+study, two LSTMs were developed to model SoH to RUL using two separate strategies and
+the same models were used as the backbone neural networks in the GILSTM Section 3.4.3.
+The two models can be classified in this manner:
+A. An LSTM that directly predicted RUL from SoH values (LSTM1);
+B. An LSTM that predicted the next cycle’s SoH from historical SoH values (LSTM2).
+These models wer

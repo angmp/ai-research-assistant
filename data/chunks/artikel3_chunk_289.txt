@@ -1,0 +1,23 @@
+Rate (Xo-
+ver) 
+Param opt, Feature 
+sel 
+Fuzzy Logic (FL) Voltage, Current, 
+Temperature SOC Rule Accuracy, Interpret-
+ability MFs, Rule Base Expert knows, Op 
+data 
+Figure 21. ANFIS structure for SOC estimation [ 88].
+Table 1. Machine learning algorithm SOC methods.
+Algorithm Input Output Metric Hyperparameter Data Profile
+Linear
+Regression (LR)
+Voltage, Current,
+Temperature SOC
+RMSE Root Mean
+Squared Error,
+MSE Mean Squared
+Error
+MAE Mean
+Absolute Error
+Learning Rate (LR),
+Regularization (REG)

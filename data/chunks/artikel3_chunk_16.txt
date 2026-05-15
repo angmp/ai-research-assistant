@@ -1,0 +1,7 @@
+rtheless,
+there are not many publications that offer a thorough explanation of the main challenges
+in estimating battery SOC. Despite over fifty years of work, the problem of estimating the
+state of charge in batteries accurately has not been effectively resolved [ 6–8]. A thorough
+SOC estimation, including information on general research progress, future development
+patterns, and the origins of SOC estimation, has been provided by [ 7,9]. Nonetheless, a
+methodical explanation of the SOC computa

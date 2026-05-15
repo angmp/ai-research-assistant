@@ -1,0 +1,7 @@
+e of the NARXNN [71]. 
+Time-sequence knowledge is enhanced by the prior knowledge of inputs and out-
+puts. This is especially useful for SOC estimates and has generated much attention in this 
+ﬁeld. For SOC estimation, a dynamic neural network model based on the NARX structure 
+was proposed [72]. An actual dataset of driving cycles of an electric vehicle, obtained from 
+54 diﬀerent 800 km trips with varying unknown in itial SOCs, was used. In all scenarios, 
+the proposed approach is capable of p

@@ -1,0 +1,48 @@
+e.
+Z. Wang
+et al. [18]
+Flying-
+car/eVTOL
+battery
+system
+Optimized
+liquid-cooled
+plate
+31.1◦C 4.8 ◦C -
+Strong heat
+dissipation,
+higher
+structural
+complexity.
+Wu et al. [19]
+Typical
+eVTOL
+battery
+system
+Flat heat
+pipe–ram air
+passive
+cooling
+<38.46◦C 3.85 ◦C -
+Uses ram air,
+suitable for
+lightweight
+passive cooling.
+Zhao
+et al. [20]
+Tilt-wing and
+lift-cruise
+eVTOL
+Channel-
+based liquid
+cooling
+Within safe
+range -
+Cooling
+system mass
+<20% of
+battery mass
+Reduces battery
+degradation
+compared with
+air

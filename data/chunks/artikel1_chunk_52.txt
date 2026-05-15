@@ -1,0 +1,10 @@
+s were used to compute the
+Gompertz parameters (k, a, and b) to be used as physical constraints for hybrid models.
+Modelling involved comparing three distinct approaches to predict RUL. Model testing
+was the final stage used to evaluate each model’s effectiveness.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 7 of 33
+Figure 1. Data and machine learning pipeline.
+3.1. Basis for Using Gompertz Parameters for RUL Prediction
+3.1.1. Monotonicity and RUL Prediction
+LiB capacity deg

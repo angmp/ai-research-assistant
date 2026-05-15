@@ -1,0 +1,7 @@
+ 
+neuron, unlike in a fully connected network. This is achieved by sliding a ﬁlter across the 
+input space, resulting in sparse connectivity.  Convolution is a process where subsets of 
+input space multiply with a ﬁlter. Three factors determine this process: ﬁlter size, number 
+of ﬁlters, and step. This process allows for faster learning and reduced memory usage. 
+Figure 17. Deep learning network architecture for SOC estimation [ 53].
+Although this constructive strategy was largely a trial‑and‑e

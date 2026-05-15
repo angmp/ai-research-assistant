@@ -1,0 +1,18 @@
+ew of probability 
+Noise is by deﬁnition random in some way; it is not deterministic. Hence, to discuss 
+how noise a ﬀects system dynamics, it is necessar y to comprehend “random variables” 
+(RVs). 
+We are unable to precisely forecast the results of each measurement or sample of the 
+random variable, but we can use the “probability density function” (PDF) to describe the 
+probability of each sample value. Random vector X and sample vector x0 are deﬁned as: 
+𝑋=  ൦
+𝑋ଵ
+𝑋ଶ
+⋮
+𝑋௡
+൪,𝑥଴= ൦
+𝑥ଵ
+𝑥ଶ
+⋮
+𝑥௡
+൪,

@@ -1,0 +1,7 @@
+ning, risk of over ﬁtting, 
+opaque black box’ decision-making processes, computational intensity in training, sensi-
+tivity to network architecture and hyperparameters, challenges in generalizing across dif-
+ferent battery types, reduced adaptability in non-stationary environments due to ba ttery 
+aging or usage pattern changes, and the requirement for specialized machine learning ex-
+pertise for development and tuning. 
+The use of deep learning (DL) algorithms in the state estimation of BMS is

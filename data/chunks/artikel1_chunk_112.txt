@@ -1,0 +1,8 @@
+ertz model to fit this predicted curve to extract
+the three Gompertz parameters k, a and b.
+B. Training objectives: GILSTM1 is specifically benchmarked on its ability to learn degra-
+dation from limited early life data (the first 100 cycles) whereas GILSTM2 is trained
+and tested on the entire lifespan of each training cell.
+C. Role of the Inverse Gompertz Layer: For GILSTM1 and GILSTM2, the inverse Gom-
+pertz layer is an integral part of the inference architecture used to convert parameters
+dire

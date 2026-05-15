@@ -1,0 +1,8 @@
+sing these issues.
+2.2.2. Discharge Test Method
+This approach is thought to be the most accurate for estimating SOC. The discharge
+test method is reliable [ 14,15]. The battery must be discharged at a constant current, and
+the product of the discharge current and time yields the SOC. This is a flexible approach
+that works with different kinds of batteries. It is frequently used in scientific settings to
+investigate battery charging, discharging characteristics, and maintenance as well as to
+defi

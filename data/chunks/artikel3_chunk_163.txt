@@ -1,0 +1,8 @@
+.
+Batteries 2025, 11, 32 16 of 42
+• The Thevenin Model
+The Thevenin Model is primarily made up of three components, as seen in Figure 12:
+equivalent capacitances, internal resistances, and open‑circuit voltage (U OC). R o and R Th
+are examples of internal resistances. The transient response while charging and discharg‑
+ing is expressed in terms of the equivalent capacitance, or C Th. C Th voltages are repre‑
+sented by U Th. The current that exits C Th is denoted as I Th. Equations (53) and (54) 

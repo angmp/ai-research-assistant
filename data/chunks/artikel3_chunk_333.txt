@@ -1,0 +1,7 @@
+es’ state of charge (SOC)
+estimation is greatly impacted by the materials employed for the positive and negative
+electrodes. Despite their good performance, lithium cobalt oxide (LiCo) batteries are ex‑
+pensive and have a limited capacity because of the limited supply of cobalt. Because nickel
+and cobalt are scarce, lithium nickel manganese cobalt oxide (LiNMC) and lithium nickel
+cobalt aluminum oxide (LiNCA) batteries, which are renowned for their exceptional per‑
+formance and longevity, are al

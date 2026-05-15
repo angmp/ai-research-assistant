@@ -1,0 +1,9 @@
+espectively.
+ 
+ 
+Figure 13. Combined characteristics of temperature parameters and flow rate.
+Figure 14a,b further illustrates the thermal conduction pathways and temperature
+field distribution from a spatial perspective. The heat conduction plate establishes an
+efficient thermal bridge between the high-temperature region at the center of the battery
+and the surrounding PCM, enabling effective upward heat transfer into the PCM layer.
+This mechanism facilitates improved thermal diffusion and cont

@@ -1,0 +1,8 @@
+nderperformance of the
+GILSTM is not a result of optimization failure but a shortfall in the design of the archi-
+tecture of the GILSTM. The results show that configuration A where only data loss was
+considered and configuration C, where complete physics loss was considered, achieved
+near identical test results indicating that the inclusion of the physics loss provided no
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 26 of 33
+additional predictive power. Configuration B shows

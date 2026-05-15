@@ -1,0 +1,22 @@
+a) Internal resistance at different discharge rates under 100% SOC; ( b) battery internal
+resistance at varying discharge rates.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 12 of 37
+3.3.2. Battery Heat Transfer Equation
+In the operating temperature range of the battery, the electrolyte is mostly static and
+the temperature distribution inside the battery follows the basic equations of solid-state
+heat transfer [40]:
+ρbatCbat
+dT(t)
+dt = ∂
+∂x
+
+kx,bat
+∂T
+∂x
+
++ ∂
+∂y
+
+ky,bat
+∂

@@ -1,0 +1,5 @@
+Li, S.; Fu, C.; Qin, D.; Li, Z. Lithium‑ion battery modeling and parameter identification based on fractional theory.
+Energy 2018, 165, 153–163. [ CrossRef]
+45. Zhang, J.; Wang, P.; Liu, Y.; Cheng, Z. Variable‑Order Equivalent Circuit Modeling and State of Charge Estimation of Lithium‑Ion
+Battery Based on Electrochemical Impedance Spectroscopy. Energies 2021, 14, 769. [ CrossRef]
+46. Xu, J.; Mi, C.C.; Cao, B.; Cao, J. A new method to estimate the state of charge of lithium‑ion batteries based on

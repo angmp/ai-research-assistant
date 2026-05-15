@@ -1,0 +1,7 @@
+real-time predictions.
+The study evaluates three distinct modeling strategies: (1) a physics-based Gom-
+pertz method that models the SoH-RUL relationship as a deterministic decay process
+(2) purely data-driven Long Short-Term Memory (LSTM) models used to capture temporal
+dependencies and (3) a hybrid framework called Gompertz-Informed LSTM (GILSTM). By
+constraining data-driven learning with the Gompertz parameters (k, a, and b), the GILSTM
+approach is designed to combine the predictive power of 

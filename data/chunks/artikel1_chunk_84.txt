@@ -1,0 +1,13 @@
+ue to normalization in Equation (7) the SoH values of 110% to
+80% are represented within the range 0.96 to 0.7.
+ 
+ 
+ 
+ 
+ 
+Figure 6. Schematic of the real-time fitting procedure.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 13 of 33
+Figure 6 above describes how the Gompertz model fits on available data and how
+RUL is calculated at different cycle numbers andSoH thresholds. The Gompertz model was
+fitted on truncated SoH curves representing different stages of battery life (96%

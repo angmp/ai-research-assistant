@@ -1,0 +1,12 @@
+tions and possible causes of mistakes [ 10].
+2.2. Direct‑Based Method
+2.2.1. Ampere‑Hour Integral Method
+This technique is used to determine a battery’s state of charge. SOC stands for a bat‑
+tery’s current state of charge, which is usually stated as a percentage.
+SOC(k) = SOC(ko) +
+Z k
+ko
+η I(t)dt/Cn (1)
+SOC(k) denotes state of charge at time ‘k’, while SOC(ko) denotes initial SOC (known esti‑
+mate), η represents the efficiency of charging or discharging the battery, C n is its nominal
+capacity

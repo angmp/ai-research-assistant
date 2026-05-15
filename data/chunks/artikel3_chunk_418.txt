@@ -1,0 +1,6 @@
+d
+unscented Kalman filter‑based error cancellation. Int. J. Electr. Power Energy Syst. 2014, 62, 783–791. [ CrossRef]
+67. Crocioni, G.; Pau, D.; Delorme, J.‑M.; Gruosso, G. Li‑ion batteries parameter estimation with tiny neural networks embedded on
+intelligent IoT microcontrollers. IEEE Access 2020, 8, 122135–122146. [ CrossRef]
+68. Song, X.; Yang, F.; Wang, D.; Tsui, K.‑L. Combined CNN‑LSTM network for state‑of‑charge estimation of lithium‑ion batteries.
+IEEE Access 2019, 7, 88894–88902. [ Cros

@@ -1,0 +1,9 @@
+mal management system
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 36 of 37
+References
+1. Yang, X.G.; Liu, T.; Ge, S.; Rountree, E.; Wang, C.-Y. Challenges and key requirements of batteries for electric vertical takeoff and
+landing aircraft. Joule 2021, 5, 1644–1659. [CrossRef]
+2. Cohen, A.P .; Shaheen, S.A.; Farrar , E.M. Urban air mobility: History, ecosystem, market potential, and challenges.IEEE Trans.
+Intell. Transp. Syst. 2021, 22, 6074–6087. [CrossRef]
+3. Fredericks, 

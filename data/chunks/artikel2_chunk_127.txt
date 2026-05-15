@@ -1,0 +1,8 @@
+wer the temperature.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 20 of 37
+Priority of impact on maximum temperature: cell spacing > inlet airflow velocity >
+thermal conductivity. A 10% increase in cell spacing can reduce the maximum temperature
+by 5.2%, while a 10% increase in thermal conductivity only reduces the maximum tempera-
+ture by 0.8%. This suggests that when selecting materials, there is no need to excessively
+pursue high thermal conductivity, as the thermal perfo

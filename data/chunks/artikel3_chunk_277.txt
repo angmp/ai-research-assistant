@@ -1,0 +1,7 @@
+ce time. A fuzzy‑logic‑based SOC estimate model was developed by Singh et al. [ 85]
+through the analysis of voltage and impedance data. Using fuzzy logic and data from
+impedance spectroscopy, Salkind et al. [ 82] calculated SOC. The designed model is im‑
+plemented using an analog‑to‑digital converter, temperature sensor, current sensor, and
+Motorola 68HC11 microprocessor (LM35CZ). The error range is constrained to less than
+5%, and the hardware is checked using LIBs.
+The enhanced approach known 

@@ -1,0 +1,22 @@
+xk (xk − ˆxk) (31)
+So, we have the linearized system:
+State‑space model:
+xk+1 = f (xk, uk) + wk (32)
+yk = gxyk = g(xk, uk) + vk, yk = g(xk, uk) + vk (33)
+where wk and vk are independent, zero‑mean, Gaussian noise processes of covariance ma‑
+trices ∑ v and ∑ w, respectively.
+Definitions:
+Ak = ∂ f (xk, uk)
+∂x ∥ xk = ˆx(+)
+k (34)
+Ck = ∂g(xk, uk)
+∂x ∥ xk = ˆx(−)
+k (35)
+Initialization: For k = 0, set
+ˆx(+)
+k = E[x0] (36)
+∑
+(+)
+x0
+∗ = E[(x0 − E[x0])(x0 − E[x0])ˆT] (37)
+Computation: For k = 1, 2, K, co

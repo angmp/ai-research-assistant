@@ -1,0 +1,8 @@
+yoye
+ , Indranil Bhattacharya *
+ , Mary Vinolisha Anthony Dhason and Trapa Banik
+Electrical and Computer Engineering Department, Tennessee Technological University, Cookeville, TN 38505,
+USA; bdsoyoye42@tntech.edu (B.D.S.); mantonydh42@tntech.edu (M.V.A.D.); tbanik42@tntech.edu (T.B.)
+* Correspondence: ibhattacharya@tntech.edu
+Abstract: This critical review paper delves into the complex and evolving landscape of
+the state of health (SOH) and state of charge (SOC) in electric vehicles (EVs), high

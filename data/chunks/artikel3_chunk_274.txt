@@ -1,0 +1,8 @@
+radi‑
+tional two‑valued true‑or‑false logic. Fuzzification, fuzzy rule base, inference engine, and
+defuzzification are used in the framework of the FL interface system [ 82]. A few studies
+using FL to estimate SOC are available. FL and SVM can be used to suggest the SOC of a
+battery pack in an electric vehicle [ 83].
+In comparison to NN and standard SVR, the authors found improvements in SOC es‑
+timate accuracy and noise immunity. A strong‑tracking adaptive unscented Kalman filter
+(ST‑AUKF) tech

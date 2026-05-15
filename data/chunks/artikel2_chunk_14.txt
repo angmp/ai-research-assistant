@@ -1,0 +1,6 @@
+oolant, and cooling loop were considered within a unified design framework.
+The results indicated that eVTOL liquid cooling design should consider not only tempera-
+ture control, but also system mass, power consumption, and spatial integration. For eVTOL
+battery thermal management, Zhaotian Wang et al. [18] developed a liquid cooling battery
+structure with embedded surface channels. The spiral channel showed the best overall
+performance, with a maximum battery temperature of 31.1 ◦C and a temper

@@ -1,0 +1,5 @@
+, Busan, Republic of Korea, 19–23 October 2002; p. 4.
+27. Haykin, S. (Editor) Kalman Filtering and Neural Networks; Wiley Inter‑Science: New York, NY, USA, 2001.
+28. Plett, G.L. Kalman‑Filter SOC Estimation for LiPB HEV Cells. In Proceedings of the 19th International Battery, Hybrid and Fuel
+Cell Electric Vehicle Symposium & Exhibition (EVS19), Busan, Republic of Korea, 19–23 October 2002; p. 5.
+29. Rahman, A.; Anwar, S.; Izadian, A. Electrochemical model parameter identification of a lithium‑io

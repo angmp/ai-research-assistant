@@ -1,0 +1,10 @@
+econd derivative will be referred to using G′′(x).
+G′(x) = dy
+dx = bye a−bx (5)
+By integrating Equation (5) into the loss function, the model is constrained to obey
+the mathematical properties of the Gompertz degradation trend, ensuring robust and
+interpretable RUL predictions.
+3.2. Dataset Acquisition and Description
+The dataset used for experimentation and pipeline development in this study was the
+Huazhong University of Science and Technology (HUST) battery dataset [42]. The HUST
+battery data

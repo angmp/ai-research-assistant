@@ -1,0 +1,7 @@
+ss, the max-
+imum temperature is only 35.9 ◦C, and the temperature never exceeds the upper limit
+of 40 ◦C within the optimal operating range. The maximum temperature difference is
+2.9 ◦C, while the minimum temperature difference during the cruise phase is only 2.1 ◦C,
+all remaining below the safety threshold of 5 ◦C. As shown in Figure 21a,b, the spatial
+temperature distribution exhibits a mild gradient, with lower temperatures at both sides
+and slightly higher temperatures in the middle. The hi

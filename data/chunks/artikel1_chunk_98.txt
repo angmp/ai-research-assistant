@@ -1,0 +1,9 @@
+on the recursively output SoH curve and using the generated k, a, and
+b parameters were passed through the inverse Gompertz layer to predict each test
+cell’s RUL.
+GILSTM1 and GILSTM2 both utilize the architecture described in Figure 8. The
+architectures are different depending on whether the model was training, Figure 8a or
+inferencing, Figure 8b. When inferencing, the G−1(y) was used to calculate RUL within the
+inverse Gompertz layer.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12

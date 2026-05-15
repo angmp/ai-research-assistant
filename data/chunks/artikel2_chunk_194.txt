@@ -1,0 +1,7 @@
+d duration, landing hover is more likely to cause the maximum
+temperature of the entire mission.
+When the single hover duration increases to 40 s, the PCM still retains part of its latent
+heat capacity. Air cooling can also help recover its heat storage ability. The maximum
+temperature increases to 38.9 ◦C. When the hover duration further increases to 50 s, the
+final PCM liquid fraction reaches 0.87. This means that most of the latent heat reserve
+has been consumed. The maximum temperature reach

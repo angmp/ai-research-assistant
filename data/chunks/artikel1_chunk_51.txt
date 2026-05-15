@@ -1,0 +1,6 @@
+he raw data to pandas data frames where variables such as current, voltage,
+time and cycles were extracted from the dataset and using Equation (1), these data was
+feature-engineered to calculate SoC thus, by obtaining the maximum SoC relative to nomi-
+nal capacity, the SoH of each cell at each cycle was computed. The RUL was extracted for
+each cell at 70% normalized SoH and the resultant SoH curves were used to compute the
+Gompertz parameters (k, a, and b) to be used as physical constraints for 

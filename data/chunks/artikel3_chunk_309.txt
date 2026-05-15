@@ -1,0 +1,9 @@
+hnique. Neural network and clustering are techniques used to estimate the
+battery SOH based on the historical distributions of the temperature, current, and voltage
+of the battery [ 109].
+The estimation error of the SOH is seen to be within 2.15% in an average practical
+setting.
+3.1. Review of ML SOH Estimation Algorithm
+A certain amount of capacity‑ or resistance‑based estimation can be used for SOH
+estimation. SOH is difficult to measure with commonly used sensors, much like the SOC
+of LiBs. T

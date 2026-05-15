@@ -1,0 +1,8 @@
+ Each aluminum cooling plate has 44 square cooling
+channels, with the dimensions of each channel being 2 × 320 × 3 mm. The coolant used is a
+50% ethylene glycol solution, with a density of 1071.11 kg/m3, specific heat of 3281 J/kg·K,
+thermal conductivity of 0.384 W/m·K, and dynamic viscosity of 0.00339 Pas. The cooling
+system operates at 25 ◦C, with the inlet velocity of the coolant set to 0.9 m/s [18].
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 23 of 37
+Figure 19. Schemat

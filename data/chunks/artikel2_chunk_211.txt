@@ -1,0 +1,6 @@
+results indicate that delaying the air-cooling intervention
+leads to a gradual decline in the temperature control capability of the system. In addition,
+a joint visualization of cooling duration, maximum temperature, and energy consumption
+reveals the trade-off between thermal performance and energy cost for each strategy. While
+the t = 0 s (continuous air cooling) strategy achieves the lowest peak temperature of 37.9◦C,
+it incurs the highest energy consumption at 34.13 J. Conversely, the t = 95

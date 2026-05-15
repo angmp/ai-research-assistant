@@ -1,0 +1,10 @@
+ttery Parameters Value
+Total takeoff weight, GTOM (kg) 1500 Capacity, (Ah) 45
+Unladen weight, me (kg) 700 Mass, mbat (g) 820
+Battery pack capacity, Ebat (kWh) 66 Nominal voltage, Vbat (V) 3.2
+hover efficiency, ηh 0.64 Working voltage range, (V) 2.7–3.65
+Pulp tray load, σ (N/m2) 450 Thermal conductivity, (W/m ·K) 3.1 × 23.56 × 23.56
+System efficiency, η 0.85 Specific energy, ebat (Wh/kg) 175.6
+Cruise lift-to-drag ratio, (L/D)cr 14
+Battery pack integration efficiency, ηi 0.8
+Climb/descent lift-to-

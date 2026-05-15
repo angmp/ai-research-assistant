@@ -1,0 +1,8 @@
+t, process random, and sensor random input, 
+respectively. We note that 𝑓 (. ) and ℎ (. ) are time-varying. Estimating the present state xk 
+of a dynamic system using 𝕐௞= ሼ𝑦଴,𝑦ଵ… 𝑦 ௞ሽ, we can “peep” at what is going on in the 
+actual system thanks to the observations. We  estimate the state based on our model and 
+observations, but randomness in process noise and sensor noise prevents us from ever 
+being able to calculate the state exactly [23]. 
+  
+Figure 3. State transition diagram for a hidde

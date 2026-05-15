@@ -1,0 +1,5 @@
+; Zhong, G.‑B. A unified modeling framework for lithium‑ion batteries: An artificial
+neural network based thermal coupled equivalent circuit model approach. Energy 2017, 138, 118–132. [ CrossRef]
+39. Deng, Z.; Yang, L.; Cai, Y.; Deng, H.; Sun, L. Online available capacity prediction and state of charge estimation based on
+advanced da‑ta‑driven algorithms for lithium iron phosphate battery. Energy 2016, 112, 469–480. [ CrossRef]
+40. Plett, G.L. Battery Management and Control; ECE5720, Lecture Not

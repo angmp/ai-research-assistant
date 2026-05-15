@@ -1,0 +1,7 @@
+value might be, dependin g on a number between 0 and 1, entirely true, partially 
+true, or fully false [81]. FL presents the idea of many-valued logic as an alternative to the 
+traditional two-valued true-or-false logic. Fuzziﬁcation, fuzzy rule base, inference engine, 
+and defuzziﬁcation are used in the framework of the FL interface system [82]. A few stud-
+ies using FL to estimate SOC are available.  FL and SVM can be used to suggest the SOC 
+of a battery pack in an electric vehicle [83]. 
+Fig

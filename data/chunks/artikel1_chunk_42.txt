@@ -1,0 +1,6 @@
+hium inventory (LLI), this causes shorter operating durations at a specific power
+output. Capacity degradation occurs in two forms called calendar aging and cycle aging,
+representing loss of capacity when at rest and loss of capacity during usage respectively [29].
+This paper primarily investigates cycle aging. If the time for this replacement (RUL) is
+not monitored, a battery or system of batteries may fail to provide the required energy
+at a critical juncture. More recently, the RUL and SoH of

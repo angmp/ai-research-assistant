@@ -1,0 +1,7 @@
+e battery module under different
+air-cooling intervention times; (b) correlation between maximum system temperature and energy
+consumption under different air-cooling durations.
+Compared to continuous air cooling, the intervention strategy at t = 650s reduces
+energy consumption by approximately 43.3%, while the peak temperature increases by
+only about 2.6%. In conclusion, the air-cooling intervention strategy, based on the peak
+temperature response window of the battery module, effectively activ

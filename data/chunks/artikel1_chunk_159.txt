@@ -1,0 +1,7 @@
+1.4% RMSE) when the
+SoH curve is known, proving its value. The Gompertz model provided superior physical
+visual interpretability despite early-cycle instability when the SoH was above 0.85, its
+performance in later stages stabilized to get much closer to the top-performing LSTMs.
+The 0.85 SoH threshold is a significant finding providing BESS operators with a
+mathematical signal of when to rely on automated RUL forecasts, while LSTM2 is the better
+predictor, the Gompertz model acts as the confide

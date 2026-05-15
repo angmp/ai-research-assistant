@@ -1,0 +1,7 @@
+ Thermal performance of the battery module without cooling: (a) variation in maximum
+temperature with time; (b) variation in temperature difference with time.
+Figure 16. Temperature field distribution of the battery module without cooling: (a) overall tempera-
+ture field; (b) local temperature field.
+4.3.2. Passive Cooling Performance Analysis
+The passive cooling system was derived from the proposed hybrid cooling system by
+retaining the high-thermal-conductivity plates and PCM, while removing a

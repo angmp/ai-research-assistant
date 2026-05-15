@@ -1,0 +1,9 @@
+a-
+tion, mapping observed data to a specific destination (the RUL at EoL). As illustrated in
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 8 of 33
+Figure 2, the proposed method predicts the point of failure by estimating the number of
+cycles required to reach a SoH of 0.7, enforcing a strict monotonic decay consistent with
+physical capacity degradation.
+Figure 2. Schematic of the proposed inverse mapping prediction.
+Unlike traditional methods that forecast SoH from cycles or 

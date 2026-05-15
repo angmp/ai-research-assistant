@@ -1,0 +1,7 @@
+ the phase-change range during
+takeoff hover and the middle-to-late cruise stage. The liquid fraction increases to 0.43, and
+the maximum temperature reaches 34.2 ◦C. The maximum temperature differences are
+3.4 ◦C and 3.2 ◦C at 15 ◦C and 20 ◦C, respectively. Under the 25 ◦C baseline condition,
+the maximum temperature and maximum temperature difference are 37.9 ◦C and 3.1 ◦C,
+respectively. The final PCM liquid fraction is 0.76. This indicates good thermal matching
+between the PCM and the cooling s

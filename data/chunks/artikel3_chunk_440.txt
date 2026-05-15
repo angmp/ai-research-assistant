@@ -1,0 +1,6 @@
+ybern. Syst. 2015, 45, 915–928. [ CrossRef]
+108. Klass, V.; Behm, M.; Lindbergh, G. A support vector machine‑based state‑of‑health estimation method for lithium‑ion batteries
+under electric vehicle operation. J. Power Sources 2014, 270, 262–272. [ CrossRef]
+109. You, G.‑W.; Park, S.; Oh, D. Real‑time state‑of‑health estimation for electric vehicle batteries: A data‑driven approach. Appl.
+Energy 2016, 176, 92–103. [ CrossRef]
+110. Kashkooli, A.G.; Fathiannasab, H.; Mao, Z.; Chen, Z. Application o

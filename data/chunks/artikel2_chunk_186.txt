@@ -1,0 +1,6 @@
+rid cooling system has sufficient thermal buffering capacity.
+When the cruise duration increases to 1200 s, the system operates under the baseline
+condition. Continuous heat generation during cruise increases the PCM liquid fraction.
+In the middle and later stages of flight, the heat storage capacity of PCM begins to de-
+cline. The final PCM liquid fraction is about 0.76. However, air cooling continuously
+removes heat from the PCM and partially restores its heat storage capacity. Therefore, the

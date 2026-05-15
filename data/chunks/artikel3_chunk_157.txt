@@ -1,0 +1,6 @@
+ C c, termed the surface capacitor, has a tiny capacitance
+and mostly depicts a battery’s surface effects, while C b is the bulk capacitor. A battery’s
+ability to hold charge chemically is a result of its large capacitance, which is what bulk
+capacitors are known for. By measuring the voltage across the bulk capacitor, one can find
+the SOC. Terminal resistor, end resistor, and capacitor resistor are the names given to the
+resistors R t, R e, and R c, respectively. The voltages across C b and C c

@@ -1,0 +1,6 @@
+ossRef]
+8. Kalawoun, J.; Biletska, K.; Suard, F.; Montaru, M. From a novel classification of the battery state of charge estimators toward a
+conception of an ideal one. J. Power Sources 2015, 279, 694–706. [ CrossRef]
+9. Lu, L.; Han, X.; Li, J.; Hua, J.; Ouyang, M. A review on the key issues for lithium‑ion battery management in electric vehicles. J.
+Power Sources 2013, 226, 272–288. [ CrossRef]
+10. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 3; Artech House: Norwood

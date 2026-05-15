@@ -1,0 +1,5 @@
+2016, 112, 469–480. [ CrossRef]
+40. Plett, G.L. Battery Management and Control; ECE5720, Lecture Notes, Note 2; Artech House: Norwood, MA, USA, 2015; pp. 8–9.
+41. Lee, S.; Kim, J.; Lee, J.; Cho, B. State‑of‑charge and capacity estimation of lithium‑ion battery using a new open‑circuit voltage
+versus state‑of‑charge. J. Power Sources 2008, 185, 1367–1373. [ CrossRef]
+42. Idaho National Engineering; Environmental Laboratory. Battery Test Manual for Plug‑In Hybrid Electric Vehicles ; Assistant Secr

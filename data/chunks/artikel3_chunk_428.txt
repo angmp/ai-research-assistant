@@ -1,0 +1,6 @@
+33–946. [ CrossRef]
+85. Singh, P.; Vinjamuri, R.; Wang, X.; Reisner, D. Design and implementation of a fuzzy logic‑based state‑of‑charge meter for Li‑ion
+batteries used in portable defibrillators. J. Power Sources 2006, 162, 829–836. [ CrossRef]
+86. Awadallah, M.A.; Venkatesh, B. Accuracy improvement of SoC estimation in lithium‑ion batteries. J. Energy Storage 2016, 6,
+95–104. [ CrossRef]
+87. Zahid, T.; Xu, K.; Li, W.; Li, C.; Li, H. State of charge estimation for electric vehicle power battery

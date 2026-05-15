@@ -1,0 +1,7 @@
+sults. The findings on a 128‑neutron layer used in training the
+estimator show that the maximum estimation accuracy might be achieved by utilizing all
+five features. In Shi et al.’s (2021) estimate system, the combined use of the model‑based
+EKF approach and the ML DNN method is reviewed in detail [ 116]. The best model was
+determined by comparing more than 20 distinct DNN topologies.
+Remember that employing a DNN has the advantage of greater accuracy, but it also
+has the disadvantage of requiri

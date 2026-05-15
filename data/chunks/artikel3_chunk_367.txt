@@ -1,0 +1,6 @@
+ities, while the emergence of big data and the Internet of Things
+(IoT) offers the enormous datasets required for machine learning applications. Addition‑
+ally, the computational effort related to offline machine learning training is decreased by
+the wider availability of graphic processing units (GPUs). From a different angle, ongoing
+online training of machine learning algorithms is crucial, particularly for batteries.
+The effectiveness of statically trained state estimation models decreases w

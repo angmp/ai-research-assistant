@@ -1,0 +1,7 @@
+itations in handling complex systems with high‑dimensional data, the subjective
+nature of rule‑based systems leading to possible inconsistencies, and difficulties in inte‑
+grating with other numerical methods due to its qualitative approach.
+The table below highlights the components of the ML algorithms used for SOC esti‑
+mations examined in the previous section: input and output characteristics, performance
+metrics, a portion of the suggested algorithms’ hyperparameters, and the data profiles
+u

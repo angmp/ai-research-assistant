@@ -1,0 +1,7 @@
+ll mission therefore remains difficult.
+PCM-based hybrid cooling can reduce the limitations of single cooling methods. How-
+ever, most existing designs are developed for electric vehicles or cylindrical battery packs.
+These designs usually rely on PCM encapsulation to improve temperature uniformity and
+heat storage. For compactly stacked large-format pouch cells in eVTOLs, the low thermal
+conductivity of PCM limits heat removal from the module core. Therefore, thermal manage-
+ment for eVTOL pouc

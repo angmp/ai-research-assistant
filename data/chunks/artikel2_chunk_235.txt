@@ -1,0 +1,7 @@
+ eVTOL aircraft.Appl. Energy 2025,
+377, 124567. [CrossRef]
+17. Park, J.; Yee, K. Development of Liquid-Cooled Battery System Sizing Method for eVTOL Aircraft. In Proceedings of the AIAA
+SciTech 2025 Forum, Orlando, FL, USA, 6–10 January 2025; p. 0222.
+18. Wang, Z.; Guan, Q.; Zhang, H.; Wu, X.; Yu, D. Optimized design of liquid-cooled plate structure for flying car power battery
+system. J. Energy Storage 2024, 97, 112720. [CrossRef]
+19. Wu, Z.; Lian, W.; Chen, B.; Zheng, C. Research on battery he

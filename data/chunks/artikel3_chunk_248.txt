@@ -1,0 +1,7 @@
+ARXNN 
+alone, as a result of noises, can lead to no isy estimation [74]. To enhance the overall SOC 
+estimation method’s robustness, adaptability, and eﬃciency, Qin et al. [75] combined the 
+NARXNN and UKF algorithms, similar to [71] . RNNs often experience gradient fading 
+issues, which in this case were solved using a moving window approach based on the 
+conventional ﬁnite-element concept [76]. The enhanced NARXNN adjusts historical data 
+by changing the window size at the right moment, avoidi

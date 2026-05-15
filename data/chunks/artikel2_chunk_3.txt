@@ -1,0 +1,8 @@
+hebut.edu.cn (X.W.)
+Abstract
+Efficient and reliable cooling is essential for ensuring the safety and performance of battery
+packs in electric vertical takeoff and landing (eVTOL) aircraft. To address the limitations
+of existing cooling methods in cooling capability and structural integration, this study
+proposes a hybrid cooling system combining air cooling, high-thermal-conductivity plates
+(HCPs), and phase-change material (PCM). The power demand in different eVTOL flight
+phases is first analyz

@@ -1,0 +1,12 @@
+ value of the
+difference between the highest and lowest temperatures in the battery module, which
+is used as an index to evaluate the temperature uniformity of the battery module. The
+time-averaged maximum temperature difference is defined as follows:
+DT =
+R
+(Tmax − Tmin)dt
+t (24)
+The equation DT is time-averaged maximum temperature difference, Tmax is the
+maximum temperature of the battery module, and Tmin is the minimum temperature of the
+battery module.
+Group efficiency is an indicator used t

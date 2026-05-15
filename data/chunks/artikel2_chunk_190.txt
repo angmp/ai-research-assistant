@@ -1,0 +1,7 @@
+ an eVTOL
+mission. Although these phases are short, their instantaneous heat generation rate is much
+higher than that during cruise. To evaluate the effect of high-discharge duration on the
+hybrid cooling system, the takeoff and landing hover durations were simultaneously set to
+30 s, 40 s, and 50 s. All other flight conditions were kept unchanged.
+As shown in Figure 28, increasing the single hover duration from 30 s to 50 s increases
+the thermal load of the battery module. The maximum temperatu

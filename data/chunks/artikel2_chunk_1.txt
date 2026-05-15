@@ -1,0 +1,10 @@
+d Cooling Systems for Electric Vertical Takeoff and
+Landing Aircraft Battery Modules
+Siyuan Yang 1
+ , Jinlei Sun 2, Yaodong Wang 3
+ , Yu Chen 4, Meng Li 5
+ , Jiuyu Du 4,* and Xiaogang Wu 1,*
+1 School of Electrical Engineering, Hebei University of Technology, Tianjin 300401, China; ysy0334@163.com
+2 School of Automation, Nanjing University of Science and Technology, Nanjing 210094, China;
+jinlei.sun@njust.edu.cn
+3 Department of Engineering, Durham University, Durham DH1 3LE, UK; yaodong.wang@durh

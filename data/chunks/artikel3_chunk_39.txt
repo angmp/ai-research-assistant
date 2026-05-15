@@ -1,0 +1,7 @@
+ermining the amount of current ( I) entering or leaving the battery. Charging is rep‑
+resented by positive current values, whereas negative values represent discharging. The
+accuracy of SOC estimation depends critically on the precision of current measurements.
+Several difficulties with the ampere‑hour (Ah) method of SOC estimation are men‑
+tioned in this paragraph. These difficulties consist of:
+Batteries 2025, 11, 32 5 of 42
+• Dependence on Current Measurements: The precision of current measur

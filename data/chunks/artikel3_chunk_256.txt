@@ -1,0 +1,8 @@
+estimation, encounter specific drawbacks
+including a tendency to fade, significant computational resources required for training and
+operation, and challenges in model tuning and hyperparameter optimization, all of which
+require substantial machine learning expertise to address effectively.
+2.4.2. Deep Learning
+Vapnik introduced support vector machines (SVMs), another well‑liked and often‑
+used machine learning algorithm that may be utilized for both regression and classifica‑
+tion issues, parti

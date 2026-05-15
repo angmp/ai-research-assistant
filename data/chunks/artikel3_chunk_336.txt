@@ -1,0 +1,7 @@
+ these limitations.
+As mentioned in reference [ 128], graphite, which is frequently utilized in negative elec‑
+trodes, has a poor energy density and inefficiency due to solid electrolyte interface (SEI)
+development, despite its wide availability and durability.
+The SOC was evaluated using two distinct lithium‑ion battery chemistries—lithium
+titanate (LTO) and lithium iron phosphate (LiFePO4)—under various aging profiles and
+temperatures in a comparative study referenced in [129]. According to th

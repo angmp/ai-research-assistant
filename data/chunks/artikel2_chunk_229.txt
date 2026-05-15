@@ -1,0 +1,7 @@
+g aircraft. Acta Aeronaut. Astronaut. Sin. 2024,
+45, 529937.
+5. Huang, Y.; Mei, P .; Lu, Y.; Huang, R.; Yu, X.; Chen, Z.; Roskilly, A.P . A novel approach for Lithium-ion battery thermal management
+with streamline shape mini channel cooling plates. Appl. Therm. Eng. 2019, 157, 113623. [CrossRef]
+6. Yan, J.; Wang, Q.; Li, K.; Sun, J. Numerical study on the thermal performance of a composite board in battery thermal management
+system. Appl. Therm. Eng. 2016, 106, 131–140. [CrossRef]
+7. Kasliwal, A

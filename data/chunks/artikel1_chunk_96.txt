@@ -1,0 +1,9 @@
+s were classified
+as follows:
+A. A GILSTM that directly predicted the parametersk, a and b from SoH values (GILSTM1)
+trained only on SoH data from the first 100 cycles only. For the inference stages, the
+predicted k, a and b were passed through an inverse Gompertz layer to predict each
+test cell’s RUL.
+B. A GILSTM that directly predicted the parametersk, a and b from SoH values (GILSTM2)
+trained on SoH data from all cycles. For the inference stage, the predicted k, a, and b
+were passed through t

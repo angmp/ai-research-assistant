@@ -1,0 +1,6 @@
+cs and the methodological framework employed in this study. It describes and
+explores the dataset used, the implementation of pure data-driven models utilizing LSTMs,
+empirical modeling based on the Gompertz decay function and a novel hybrid approach:
+Gompertz-Informed LSTM (GILSTM). This hybrid architecture proposes combining the
+generalizability of the data-driven techniques with the interpretability and robustness of
+an empirical modelling approach to accurately estimate Remaining Useful Life

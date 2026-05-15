@@ -1,0 +1,11 @@
+ization in engineering applications.
+Sx = ∂Tmax
+∂xi
+xi
+Tmax
+(32)
+In Equation (32), Sx is the local sensitivity coefficient, xi is the actual value of the
+structural parameter, and Tmax (◦C) is the corresponding maximum module temperature.
+A positive Sx indicates that Tmax increases as the parameter increases, whereas a negative
+Sx indicates that Tmax decreases as the parameter increases. The same definition is applied
+to the sensitivity analysis of ∆T (◦C) and system mass m (kg). Based on the si

@@ -1,0 +1,12 @@
+ and 5 m ·s−1 cases, µ t is
+obtained from the SST k-ω turbulence model.
+The transport equations of the SST k-ω model are given by
+∂(ρk)
+∂t + ∇(ρku) = ∇[(µ + σkµ t)∇k] + Pk − β∗ρkω (12)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 9 of 37
+∂(ρω)
+∂t + ∇(ρωu) = ∇[(µ + σωµ t)∇ω] + α ω
+k Pk − βρω2 + Dω (13)
+where k is the turbulent kinetic energy,ω is the specific dissipation rate, Pk is the production
+term of turbulent kinetic energy, and Dω is the cross-diffusion term. The SST k

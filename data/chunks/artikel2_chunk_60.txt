@@ -1,0 +1,14 @@
+exposed to air cooling are shown in Equation (8),
+−kPCM
+∂T
+∂n = h(TPCM − Tair ) (8)
+In Equation (8), h (W·m−2·K−1) and Tpcm (K) denote the PCM thermal conductivity,
+convective heat transfer coefficient and the temperature of the PCM in contact with the air
+cooling, respectively.
+The flow regime in the air-cooling channel was evaluated using the Reynolds number,
+defined as
+Re = ρairuinDh
+µ air
+(9)
+In Equation (9), Re is the Reynolds number, ρair (kg·m−3) is the air density, uin (m·s−1)
+is the inl

@@ -1,0 +1,7 @@
+rithms. With many approaches to improve SBS (sequential backward
+selection), many attempts at hyperparameter tuning are skewed by the small number of
+heuristic optimization techniques that are known to be effective. While optimization tech‑
+niques like SA (simulated annealing) and SGD (stochastic gradient descent) are mainly
+theoretical, widely utilized heuristics like genetic algorithms (GAs) are thought to be un‑
+reliable methods of testing heuristic optimization strategies.
+These methods can 

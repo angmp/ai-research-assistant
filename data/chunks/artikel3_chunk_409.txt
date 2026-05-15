@@ -1,0 +1,6 @@
+imation using
+an electrochemical model‑based extended Kalman filter. J. Dyn. Syst. Meas. Control 2010, 132, 061302. [ CrossRef]
+49. Cacciato, M.; Nobile, G.; Scarcella, G.; Scelba, G. Real‑time model‑based estimation of SoC and SOH for energy storage systems.
+IEEE Trans. Power Electron. 2017, 32, 794–803. [ CrossRef]
+50. Ye, M.; Guo, H.; Xiong, R.; Yang, R. Model‑based state‑of‑charge estimation approach of the lithium‑ion battery using an im‑
+proved adaptive particle filter. Energy Procedia 201

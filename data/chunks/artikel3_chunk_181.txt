@@ -1,0 +1,6 @@
+l is divided into three sections: The first three parameters are the OCV
+(Uoc); the second is the internal resistance, which includes the ohmic resistance Ro and the
+effective resistances Rpa and Rpc, which characterize the electrochemical and concentration
+polarization, respectively; and the third is the effective capacitance, which includes C pa
+and Cpc, which describe the concentration and electrochemical polarization separately and
+characterize the transient response during power transfer to

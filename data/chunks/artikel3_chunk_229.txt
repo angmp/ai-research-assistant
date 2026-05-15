@@ -1,0 +1,8 @@
+etability of the decision‑
+making process, and potential challenges in generalizing to new or unseen data, especially
+when operational conditions significantly deviate from the training scenarios.
+• Convolutional Neural Network
+CNN is used in lithium battery state estimation research. A typical CNN includes
+convolutional and pooling layers, fully connected layers, and an output layer, as shown
+in Figure 18. In CNN, neurons in each convolution layer are not connected to every other
+neuron, unlike

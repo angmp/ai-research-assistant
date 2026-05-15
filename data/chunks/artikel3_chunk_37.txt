@@ -1,0 +1,6 @@
+te), η represents the efficiency of charging or discharging the battery, C n is its nominal
+capacity, and I(t) is the current being supplied to or drawn from the battery.
+According to the formula, the starting SOC, current measurements, battery efficiency,
+and nominal capacity may all be used to determine the SOC at any given time ‘k’. Efficiency
+factor η represents how efficiently a battery charges or discharges. This factor accounts
+for energy conversion efficiency losses that occur when the b

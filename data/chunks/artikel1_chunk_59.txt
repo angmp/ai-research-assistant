@@ -1,0 +1,7 @@
+] is a widely established sigmoidal function commonly used to
+describe growth and degradation processes, owing to its asymptotic behavior, interpretabil-
+ity and ability to model nonlinear trends such as growth and degradation phenomena. In
+this study, the Gompertz function is used to approximate the capacity degradation curve of
+LFP batteries and estimate their RUL. The general form of the Gompertz function [41] is
+defined in Equation (3). The Gompertz function will be referred to as G(x).
+G(x)

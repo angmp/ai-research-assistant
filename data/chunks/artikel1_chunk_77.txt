@@ -1,0 +1,9 @@
+Ah. To ensure uniformity
+among all the datasets, 1.265 Ah was used as the normalizing constant for the dataset used
+as shown in Equation (7).
+Figure 4. The plot of normalized SoH versus cycle number for cell 2–2 (left) and a plot of SoH versus
+normalized cycle count is plotted for all 77 HUST cells (right).
+3.4. Modeling
+3.4.1. Gompertz Model Formulation
+The Gompertz model is a growth model developed by Benjamin Gompertz in 1825 to
+model human mortality [41]. The Gompertz model was utilized in t

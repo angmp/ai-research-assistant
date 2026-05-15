@@ -1,0 +1,19 @@
+trochemical polarization separately and
+characterize the transient response during power transfer to and from the battery. U pa and
+Upc represent Cpa and Cpc voltages, respectively. The currents of C pa and Cpc are Ipa and
+Ipc, respectively. Equation (60) can be used to express the circuit’s electrical behavior:
+.
+Upa= − Upa
+RpaCpa
++ IL
+Cpa
+(58)
+.
+UPC = Upc
+RpcCpc
++ IL
+Cpc
+(59)
+UL = Uoc − Upa − Upc − ILR0 (60)
+2.3.3. Electrochemical Impedance Model
+In addition to incorporated components and poro

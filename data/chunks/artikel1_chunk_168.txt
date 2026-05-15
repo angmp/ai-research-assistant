@@ -1,0 +1,14 @@
+uration Index
+SoC State of Charge
+SoH State of Health
+RMSE Root mean squared error
+RUL Remaining Useful Life
+WS Window size
+Appendix A
+The figure below presents more evidence of the relationship between HUST SoH data
+and G(x) represented as y, G′(x) represented as dy
+dx and G′′(x).
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 29 of 33
+Figure A1. Relationship of Gompertz, 1st and 2nd derivatives with SoH.
+At SoH values between 0.90 and 1.0, G(x), G′(x) and G′′(x) exhibit high

@@ -1,0 +1,8 @@
+op-
+timization, performance evaluation, and air-cooling intervention strategy of the hybrid
+cooling system, some limitations remain. The present analysis is limited to a single mission
+simulation. Future work will further consider repeated mission cycles, low temperature
+starts up, high-temperature operation, and experimental validation under wide tempera-
+ture conditions.
+Author Contributions: Conceptualization, X.W.; methodology, S.Y.; software, Y.C.; validation, X.W.
+and M.L.; formal analysis

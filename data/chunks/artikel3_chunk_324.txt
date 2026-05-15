@@ -1,0 +1,7 @@
+c working circumstances when compared to other
+machine learning estimating techniques utilizing the NASA dataset. Following an investi‑
+gation of the impact of the Gaussian kernel’s standard deviation ( σ) on estimate accuracy,
+a theory for choosing the appropriate σ was put forward [118].
+Another popular technique for optimizing the SVM model is to use more relevant
+input characteristics. The IC peak values and position [ 119], constant current charging
+time, sample entropy [ 120], energy signa

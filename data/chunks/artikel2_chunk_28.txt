@@ -1,0 +1,7 @@
+ned under different ambient temperatures, cruise durations,
+and hover durations. Finally, an air-cooling intervention strategy based on the PCM liquid
+fraction is proposed to reduce the energy consumption caused by continuous air cooling.
+2. Analysis of Power Requirements for eVTOL Flight Conditions
+Based on the typical eVTOL aircraft parameters and mission profile, this section devel-
+ops a propulsion power model for each flight phase. By integrating the basic parameters
+of the battery system, 

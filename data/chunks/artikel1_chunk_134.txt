@@ -1,0 +1,9 @@
+
+(c) ( d) 
+Figure 15. The target and predictedSoH curves from LSTM2 for cells 6-2 (a), 8-1 (b), 6-1 (c), and 7-5 (d).
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 23 of 33
+4.1.3. Operationalization of Gompertz Parameters
+The Gompertz parameters k, a, and b, G(x), G′(x) and G′′(x) offer significant opera-
+tional utility for BESS management. A critical observation from the longitudinal analysis
+of the HUST dataset was the transition from high parameter variability in early lif

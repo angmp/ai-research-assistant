@@ -1,0 +1,10 @@
+iffusion path inside the cell and the response time of the external cooling
+system. Therefore, accurately characterizing the battery discharge behavior under real
+flight conditions is crucial for designing and developing an efficient cooling system suitable
+for eVTOL applications.
+Table 3. Power requirements and battery discharge rates for different flight phases of eVTOLs.
+Flight Phase Duration (s) Power
+Requirement (W) Discharge Rate (C)
+Takeoff and Hover 30 623.2 4.3
+Climb 120 233.4 1.6
+Cruis

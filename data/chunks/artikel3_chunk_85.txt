@@ -1,0 +1,19 @@
+the system at discrete‑time k. Measure‑
+ment noise also contributed to this output. Once more, measurement noise vk is assumed
+by Kalman filter theory to be additive, white, and Gaussian, with zero mean and covari‑
+ance matrix:
+E
+h
+vnvT
+k
+i
+=
+(
+∑ v n = k
+0 n ̸= k (10)
+The Kalman filter problem is then: Use all of the observed data {u1, u2, · · · , uk} and
+{y1, y2, · · · , yk} to find the minimum mean squared error estimate ˆxk of the true state xk.
+That is, solve:
+ˆxk = argminE
+h
+(xk − ˆxk)ˆT(xk

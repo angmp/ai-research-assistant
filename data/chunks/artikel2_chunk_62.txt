@@ -1,0 +1,12 @@
+refore, the cases with inlet airflow velocities of 1–3 m/s were
+treated as laminar flow. The cases with inlet airflow velocities of 4–5 m/s fall within the
+transitional regime of internal flow; however, considering the possible local flow instability
+and pronounced near-wall effects in the narrow channel, the SST k-ω model was adopted
+for these cases.
+The airflow domain satisfies the continuity equation:
+∇ · u = 0 (10)
+The momentum conservation equation can be written as
+ρair
+ ∂u
+∂t + u · ∇u
+

@@ -1,0 +1,7 @@
+ssRef]
+4. Ahmed, K.M.U.; Alvarez, M.; Bollen, M.H.J. Reliability Analysis of Internal Power Supply Architecture of Data Centers in Terms
+of Power Losses. Electr. Power Syst. Res. 2021, 193, 107025. [CrossRef]
+5. Soubhi Hussein, Y.; Alrashd, M.; Saeed Alabed, A.; Zraiqat, A. Data Centre Infrastructure: Power Efficiency and Protection.
+In Latest Advances and New Visions of Ontology in Information Science ; SaberiKamarposhti, M., Sahlabadi, M., Eds.; IntechOpen:
+London, UK, 2023.
+6. Lin, L.; Wijaya

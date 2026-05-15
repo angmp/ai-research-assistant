@@ -1,0 +1,5 @@
+id, T.; Xu, K.; Li, W.; Li, C.; Li, H. State of charge estimation for electric vehicle power battery using advanced machine
+learning algorithm under diversified drive cycles. Energy 2018, 162, 871–882. [ CrossRef]
+88. Shen, W.; Chan, C.; Lo, E.; Chau, K. Adaptive neurofuzzy modeling of battery residual capacity for electric vehicles. IEEE Trans.
+Ind. Electron. 2002, 49, 677–684. [ CrossRef]
+89. Arabmakki, E.; Kantardzic, M. SOM‑based partial labeling of imbalanced data stream. Neurocomputing 201

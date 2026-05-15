@@ -1,0 +1,5 @@
+ M. State of charge estimation of lithium‑ion
+batteries using optimized Levenberg‑Marquardt wavelet neural network. Energy 2018, 153, 694–705. [ CrossRef]
+65. Schmidhuber, J. Deep learning in neural networks: An overview. Neural Netw. 2015, 61, 85–117. [ CrossRef] [PubMed]
+66. He, W.; Williard, N.; Chen, C.; Pecht, M. State of charge estimation for Li‑ion batteries using neural network modeling and
+unscented Kalman filter‑based error cancellation. Int. J. Electr. Power Energy Syst. 2014, 62, 783

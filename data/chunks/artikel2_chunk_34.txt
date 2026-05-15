@@ -1,0 +1,14 @@
+se lift-to-drag ratio, (L/D)cr 14
+Battery pack integration efficiency, ηi 0.8
+Climb/descent lift-to-drag ratio, (L/D)cl 12
+Cruising speed, Scr (km/h) 241
+Table 2. eVTOL flight conditions.
+Flight Phase Operating Status
+Takeoff and Hover Hover for 30 s after takeoff
+Climb Climb for 120 s at horizontal speed Sh and vertical
+speed Sv, where Sh = 3√
+1/3Scr, Sv ≈ 9 (km/h)
+Cruise Cruise at 241 km/h for tcr = 1200 s
+Descent Descend for 120 s at horizontal speed Sh and vertical
+speed Sv
+Hover landing Hov

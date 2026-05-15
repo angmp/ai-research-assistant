@@ -1,0 +1,7 @@
+s. Clean Technol. Environ. Policy 2013,
+15, 881–891. [ CrossRef]
+2. Hu, X.; Zou, C.; Zhang, C.; Li, Y. Technological developments in batteries: A survey of principal roles, types, and management
+needs. IEEE Power Energy Mag. 2017, 15, 20–31. [ CrossRef]
+3. Xiong, R.; He, H.; Sun, F.; Zhao, K. Online estimation of peak power capability of Li‑Ion batteries in electric vehicles by a
+hardware‑in‑loop approach. Energies 2012, 5, 1455–1469. [ CrossRef]
+4. Xing, Y.; Ma, E.W.M.; Tsui, K.L.; Pecht, M. Ba

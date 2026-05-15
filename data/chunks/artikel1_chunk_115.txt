@@ -1,0 +1,9 @@
+en training GILSTM1 and GILSTM2 the MSE was used to formulate the
+physics-informed loss function as shown in Figure 10.
+b. Physics-Informed Loss Function
+The primary aim of the GILSTM1 and GILSTM2 architectures was to ensure that
+the models explicitly penalize the model for disobeying downward monotonicity. G(x)
+captures the trend of downward monotonicity from the SoH curves, to achieve that the
+MSE utilizes G′(x) ( dy
+dx ), G(x), the RUL as well as the Gompertz parameters k, a, and b as
+shown i

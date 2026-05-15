@@ -1,0 +1,7 @@
+ as look‑up tables and direct measurements to advanced model‑
+based and data‑driven techniques—the paper provides a holistic view of the current state
+and potential future of battery management systems (BMS) in EVs. It concludes with rec‑
+ommendations and future directions, aiming to bridge the gap for researchers, scientists,
+and automotive manufacturers in selecting optimal battery management and energy man‑
+agement strategies.
+Keywords: electric vehicles; state of charge; state of health; bat

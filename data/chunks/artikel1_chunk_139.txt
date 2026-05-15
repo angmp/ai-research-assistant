@@ -1,0 +1,7 @@
+es 17 and A1 allows for a BESS op-
+erator to pre-emptively isolate or replace specific batteries that are nearing their accelerated
+aging phase to prevent failures in the overall larger pack. Moreover, batteries that exhibit
+parameters that fail to stabilize or diverge from the known k, a, and b can be flagged for
+unusual degradation which black-box RUL prediction models might overlook.
+4.1.4. Ablation Study of GILSTMs
+An ablation study was conducted as reported in Table 7 to identify the reason

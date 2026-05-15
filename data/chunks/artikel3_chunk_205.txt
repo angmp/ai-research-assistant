@@ -1,0 +1,6 @@
+tery performance metrics, such as how much power the battery is using,
+the temperature, and the battery resistance, as input data [ 59–61]. Depending on all of
+these variables, our neural network assists us in determining a battery’s level of charge.
+The hidden layer serves as the system’s activation function. Figure 16 depicts the basic
+processing sequence of a neural network method. The experimental results validate the
+resilience and accuracy of this technique, which provides a quick and effi

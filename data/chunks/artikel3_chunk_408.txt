@@ -1,0 +1,5 @@
+.C.; Cao, B.; Cao, J. A new method to estimate the state of charge of lithium‑ion batteries based on the battery
+impedance model. J. Power Sources 2013, 233, 277–284. [ CrossRef]
+47. Li, M. Li‑ion dynamics and state of charge estimation. Renew. Energy 2017, 100, 44–52. [ CrossRef]
+48. Di Domenico, D.; Stefanopoulou, A.; Fiengo, G. Lithium‑ion battery state of charge and critical surface charge estimation using
+an electrochemical model‑based extended Kalman filter. J. Dyn. Syst. Meas. Control 201

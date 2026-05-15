@@ -1,0 +1,8 @@
+nd 2nd derivatives with SoH.
+At SoH values between 0.90 and 1.0, G(x), G′(x) and G′′(x) exhibit high variability
+while below 0.9 SoH, the curves smoothen out showing how in the initial SoH stages it is far
+harder to predict RUL and SoH based on G(x) than in the latter stages, 0.9 SoH to 0.7 SoH.
+Appendix B
+The figures below represent the training and validation metrics of GILSTM2 when the
+ablation study was conducted. They show the curriculum learning strategy, the effect of
+removing parts of th

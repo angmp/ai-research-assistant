@@ -1,0 +1,8 @@
+ which requires careful tuning, along with its po-
+tential diﬃculty in handling large datasets due to computational complexity, and limited 
+interpretability of the model’s decision-making process. 
+2.4.3. Fuzzy Logic 
+A computational method that provides ﬂexibility in a statement is called fuzzy logic 
+(FL). This method makes it easier to understand the idea of partial truth, in which the 
+truth value might be, dependin g on a number between 0 and 1, entirely true, partially 
+true, or fully fal

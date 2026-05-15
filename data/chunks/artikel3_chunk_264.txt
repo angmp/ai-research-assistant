@@ -1,0 +1,7 @@
+
+swarm optimization algorithm was used to determine the hyperparameters of the SVM 
+model, namely the RBF’s kernel width (σ) and penalty factor (γ). The particle swarm op-
+timization model demonstrated the beneﬁts of increased estimation accuracy and quicker 
+processing performance when compared to the SVM model using a standard approach. 
+Furthermore, the suggested method’s generalizability was conﬁrmed under four lithium-
+ion ba ttery fault states: excessive internal resist ance, excess temper

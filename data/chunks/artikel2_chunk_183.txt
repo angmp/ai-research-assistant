@@ -1,0 +1,7 @@
+ly affects the
+PCM latent heat consumption and SOC variation during the mission. In this study, the
+takeoff hover, climb, descent, and landing hover phases were kept unchanged. Only the
+cruise duration was varied. Three cases were considered: 800 s, 1200 s, and 1600 s. The
+1200 s case was used as the baseline. According to the SOC calculation, the final SOC values
+for the three cruise durations were 57.4%, 45.1%, and 32.6%, respectively.
+As shown in Figure 27, the maximum temperature, maximum te

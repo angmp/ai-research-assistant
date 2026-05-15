@@ -1,0 +1,6 @@
+cal interpretability with its parameters found to be strongly correlated to RUL,
+making it a suitable choice for real-world applications where interpretability is crucial.
+The Gompertz model was found to have poor standalone RUL performance before cycle
+1000 where RUL prediction is very valuable, with some RMSE values hitting a million but
+had very good results after cycle 1000. These poor early-cycle stage results are attributed to
+the high variability behaviours seen in Figures 16 and 17, as w

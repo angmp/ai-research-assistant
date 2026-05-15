@@ -1,0 +1,7 @@
+IX-compliant, heterogeneous linux sys-
+tem primarily based on the ARM architecture with 4 NVIDIA GH200 GPUs. The LSTM
+networks were trained using the Adam optimizer [ 49] with an initial learning rate of
+1 × 103. To improve convergence, a StepLR learning rate scheduler was employed with a
+step size of 200 epochs. The Mean Squared Error (MSE) was used as the loss function, and
+performance was evaluated using Root Mean Squared Error (RMSE) on both training and
+validation datasets. The models with 

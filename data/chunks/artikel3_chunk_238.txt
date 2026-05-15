@@ -1,0 +1,12 @@
+ୀ଴
+ቍ
+௟
+௛ୀଵ
+቏ (61)
+Figure 18. The structure of CNN [ 67].
+Hybrid CNN–RNN networks are often used to estimate SOC. In one study, a CNN–
+long short‑term memory (LSTM) network was used to capture spatial features and retrieve
+characteristics [68]. Different research conducted suggested the utilization of a CNN–gated
+recurrent unit (GRU) network; however, it deviated from employing average current and
+voltage as input parameters [ 69]. This hybrid network solely applied the one‑dimensional
+convolutio

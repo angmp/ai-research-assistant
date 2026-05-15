@@ -1,0 +1,7 @@
+ures, including
+the temperature decrease rate during the CV charging mode, voltage decrease rate dur‑
+ing the constant current discharging mode, and voltage increase rate during CC charging
+mode, form the entire self‑made aging dataset to fully cover the battery usage [ 115]. Ev‑
+ery one of the five features exhibited a substantial link with SOH levels, according to the
+gray relational analysis results. The findings on a 128‑neutron layer used in training the
+estimator show that the maximum esti

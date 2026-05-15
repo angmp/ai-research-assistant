@@ -1,0 +1,7 @@
+atteries12050162
+Batteries 2026, 12, 162 26 of 33
+additional predictive power. Configuration B shows that by not incorporating the RUL loss
+when training, the resultant model’s performance got worse. The significant degradation
+in performance when training only on stable data in configuration D did not result in better
+performance. The GILSTM’s failure likely stems from architectural choice and may be fixed
+by experimentation using more feature inputs such as k, a, b and their derivatives rather

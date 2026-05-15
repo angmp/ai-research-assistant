@@ -1,0 +1,6 @@
+gure 25. Comparison diagram of integrated radar: ( a) no cooling radar plot; (b) hybrid cooling
+radar plot; (c) passive cooling radar plot; (d) liquid cooling radar plot.
+This system effectively mitigates the thermal safety risks associated with the no cooling
+approach, the structural redundancy of liquid cooling, and the peak temperature control
+limitations of passive cooling. Specifically, the hybrid configuration achieves an integrated
+balance between efficient thermal management and structur

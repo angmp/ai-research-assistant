@@ -1,0 +1,10 @@
+discrete‑time state‑space model was made using a technique known as the
+“discrete‑time realization algorithm” (DRA), as shown below in Figure 9.
+Batteries 2025, 11, x FOR PEER REVIEW 14 of 42 
+ 
+ 
+Figure 9. The DRA-produced ROM [40]. 
+The challenges and limitations of electrochemical model (EM) methods in state of 
+charge (SOC) estimation primarily revolve around their complexity and the need for de-
+tailed and accurate data. These models are computationally intensive due to their detailed 
+repr

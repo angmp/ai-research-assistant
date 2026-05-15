@@ -1,0 +1,5 @@
+mical Model. J. Energy Storage 2022, 52, 104684. [CrossRef]
+29. Couto, L.D.; Capron, O.; Servotte, J.; Ponnette, R.; Mulder, G. Physics-Based Lifetime Modeling and Parameter Identification of
+Lithium-Ion Batteries under Various Degradation Conditions. J. Energy Storage 2025, 127, 116739. [CrossRef]
+30. Ma, G.; Xu, S.; Jiang, B.; Cheng, C.; Yang, X.; Shen, Y.; Yang, T.; Huang, Y.; Ding, H.; Yuan, Y. Real-Time Personalized Health
+Status Prediction of Lithium-Ion Batteries Using Deep Transfer Learn

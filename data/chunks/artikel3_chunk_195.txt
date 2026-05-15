@@ -1,0 +1,7 @@
+surements often require the battery
+to be in a stable state, which limits the method’s applicability in dynamic or real‑time sce‑
+narios, where quick and responsive SOC estimation is crucial.
+Furthermore, EIM requires specialized and often costly equipment to measure
+impedance spectra, which may not be practical or affordable for all applications. The
+method’s effectiveness also varies across different types of batteries, and it may not be
+suitable for all battery chemistries or designs. Lastly,

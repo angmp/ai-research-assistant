@@ -1,0 +1,8 @@
+.3390/batteries12050170
+Batteries 2026, 12, 170 3 of 37
+performance. Lee et al. [26] proposed a hybrid cooling system integrating a liquid-cooled
+baseplate, aluminum fins, and PCM. The validated model showed that the system limited
+the maximum battery temperature to 38.4 ◦C and the temperature difference to 3.9 ◦C. Ling
+et al. [27] developed a PCM air cooling system. Their results showed that weak natural
+convection caused heat accumulation in the PCM, whereas forced airflow helped restore
+its t

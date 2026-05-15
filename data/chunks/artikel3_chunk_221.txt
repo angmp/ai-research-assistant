@@ -1,0 +1,7 @@
+d-error approach, it is a cru-
+cial stage in the training of DNNs. An additional innovation was the use of the unscented 
+Kalman ﬁlter (UKF) to ﬁlter the DNN outputs, which helped to increase their accuracy. 
+After noise reduction, the suggested method’s root mean square error (RMSE) was 1.4%, 
+and its maximum error was only 1.9%, which is less than 2% under the Federal Urban 
+Driving Schedule (FUDS) driving cycles. However, it is worth noting that the execution 
+time of the algorithm could be s

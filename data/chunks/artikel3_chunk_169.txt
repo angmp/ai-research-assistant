@@ -1,0 +1,8 @@
+nin model.
+• The PNGV Model
+Figure 13 illustrates a PNGV model with an open‑circuit voltage source U oc, in series
+with an internal resistance Ro and a dynamic element represented by a capacitor 1/U′oc and
+a voltage U d; alongside this series connection is a parallel network of a capacitor C PN and
+resistor RPN, with the current IPN flowing out of CPN, and the entire assembly is connected
+to a load characterized by a current IL and voltage UL, forming a modified Thevenin equiv‑
+alent circuit tha

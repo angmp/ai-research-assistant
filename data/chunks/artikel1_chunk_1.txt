@@ -1,0 +1,10 @@
+ Gompertz-Informed LSTM Models for
+Interpretability and Accuracy
+Yuri Njathi 1,2, *
+ , Ciira wa Maina 1,2
+ and Edwell T. Mharakurwa 1
+1 Department of Electrical and Electronic Engineering, Dedan Kimathi University of Technology, Dedan
+Kimathi, Nyeri P .O. Box 10143, Kenya; ciira.maina@dkut.ac.ke (C.w.M.); edwell.tafara@dkut.ac.ke (E.T.M.)
+2 Centre for Data Science and Artificial Intelligence (DSAIL), Dedan Kimathi University of Technology, Dedan
+Kimathi, Nyeri P .O. Box 10143, Kenya
+* Correspond

@@ -1,0 +1,9 @@
+ cell spacing of
+1 mm, a 6063-aluminum alloy high-thermal-conductivity plate, and an inlet airflow velocity
+of 3 m/s, the maximum battery temperature and maximum temperature difference are
+limited to 37.9 ◦C and 3.1 ◦C, respectively. Sensitivity analysis shows that cell spacing
+has the greatest effect on system mass and peak temperature, while inlet airflow velocity
+mainly affects temperature uniformity.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 35 of 37
+(2) A multidimens

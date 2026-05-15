@@ -1,0 +1,7 @@
+correlates with cycles,
+temperature, and depth of discharge [16]. Proper estimation of SoC is usually employed
+to mitigate this degradation thus extending battery life. To control degradation, modern
+battery systems are equipped with a battery management system (BMS) that monitors and
+regulates SoC ensuring safe operation. SoC estimation has a direct influence on the SoH
+and the RUL of the battery, SoH estimation also has a direct influence on SoC and RUL.
+Accurate RUL prediction is essential fo

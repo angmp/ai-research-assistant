@@ -1,0 +1,7 @@
+nce on expert 
+knowledge for rule formation, potential challenges in precisely de ﬁning membership 
+functions, limitations in handling complex systems with high-dimensional data, the sub-
+jective nature of rule-based systems leading to possible inconsistencies, and diﬃculties in 
+integrating with other numerical methods due to its qualitative approach. 
+The table below highlights the components of the ML algorithms used for SOC esti-
+mations examined in the previous section: input and output cha

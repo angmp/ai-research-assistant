@@ -1,0 +1,8 @@
+peak distribution.
+Linear Kalman Filtering
+Kalman filtering theory was introduced in 1960 [ 24]. Consider the linear discrete‑
+time system in Figure 6. The unit‑delay operator is z −1I, and the matrices A k, Bk, and C k
+are (possibly) time‑varying. The system’s deterministic input is u k, and its output is y k.
+Additionally, there are two stochastic inputs: measurement noise vk, which does not affect
+Batteries 2025, 11, 32 8 of 42
+the state xk, and process noise wk, which does. Inferred, the sys

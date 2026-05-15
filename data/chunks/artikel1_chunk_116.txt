@@ -1,0 +1,9 @@
+SE utilizes G′(x) ( dy
+dx ), G(x), the RUL as well as the Gompertz parameters k, a, and b as
+shown in Figure 9, Equation (9) and in the weighted loss function shown in Figure 10. Use
+of G′(x) was influenced by the PINNs paper [51] as well as the fact that G′(x) had a very
+high correlation with the cell’s RUL. This resulted in a weighted loss comprising of data
+loss, physics loss and RUL loss to guide the training process.
+Ltotal = αLdata + βLphysics + γLrul (9)
+where
+• Data Loss (Ldata): The MSE

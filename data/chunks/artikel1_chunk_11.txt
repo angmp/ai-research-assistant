@@ -1,0 +1,6 @@
+y nature of many countries’ energy grids. Moreover, use of
+BESS improves the financial returns of renewable energy installations and improves the
+reliability of electricity grids by reducing energy curtailment, reducing the System Average
+Interruption Duration Index (SAIDI) of electricity grids [1] and reducing dependency on
+diesel power generation [2,3], thus improving the overall resilience of electric grids. Issues
+regarding power grid reliability will be exacerbated with the installation of 

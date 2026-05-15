@@ -1,0 +1,5 @@
+en, H.‑S.; Fang, D. A novel embedded method for in‑situ
+measuring internal multi‑point temperatures of lithium ion batteries. J. Power Sources 2020, 456, 227981. [ CrossRef]
+136. Peng, J.; Zhou, X.; Jia, S.; Jin, Y.; Xu, S.; Chen, J. High precision strain monitoring for lithium ion batteries based on fiber Bragg
+grating sensors. J. Power Sources 2019, 433, 226692. [ CrossRef]
+137. Teoh, E.J.; Tan, K.C.; Xiang, C. Estimating the number of hidden neurons in a feedforward network using the singular

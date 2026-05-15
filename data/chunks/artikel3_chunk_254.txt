@@ -1,0 +1,7 @@
+ptimization techniques were found to improve
+NARXNN’s SOC estimation capabilities in a study [ 73]. Heuristic optimization methods
+can be used to save time and allow for model performance tweaking. NARXNN alone,
+as a result of noises, can lead to noisy estimation [ 74]. To enhance the overall SOC es‑
+timation method’s robustness, adaptability, and efficiency, Qin et al. [ 75] combined the
+NARXNN and UKF algorithms, similar to [ 71]. RNNs often experience gradient fading
+issues, which in this cas

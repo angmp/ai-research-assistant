@@ -1,0 +1,6 @@
+. Battery state‑of‑charge estimation based on regu‑
+lar/recurrent gaussian process regression. IEEE Trans. Ind. Electron. 2017, 65, 4311–4321. [ CrossRef]
+134. Zhao, L.; Yao, W.; Wang, Y.; Hu, J. Machine learning‑based method for remaining range prediction of electric vehicles. IEEE
+Access 2020, 8, 212423–212441. [ CrossRef]
+135. Zhu, S.; Han, J.; An, H.‑Y.; Pan, T.‑S.; Wei, Y.‑M.; Song, W.‑L.; Chen, H.‑S.; Fang, D. A novel embedded method for in‑situ
+measuring internal multi‑point temperatures 

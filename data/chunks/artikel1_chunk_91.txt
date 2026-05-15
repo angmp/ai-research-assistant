@@ -1,0 +1,8 @@
+-to-SoH LSTM (LSTM2).
+These two models are baseline data-driven LSTM models for comparison with the
+GILSTMs. The approaches leverage the LSTM’s ability to capture non-linear and temporal
+dynamics in battery behavior enabling accurate RUL estimation. Since these two models
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 14 of 33
+were formulated as similar sequence-to-one regression tasks as seen in Figure 7, their input
+tensors are similar and of the shape [batch_size, window_si

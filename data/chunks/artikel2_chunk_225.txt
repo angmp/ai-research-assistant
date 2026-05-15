@@ -1,0 +1,11 @@
+rsion of the manuscript.
+Funding: This research was funded by the Natural Science Foundation of Hebei Province, grant
+number E2024202014.
+Data Availability Statement: The raw data supporting the conclusions of this article will be made
+available by the authors upon request.
+Conflicts of Interest: The authors declare no conflicts of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+eVTOL Electric vertical takeoff and landing
+PCM Phase-change material
+HCP High-therma

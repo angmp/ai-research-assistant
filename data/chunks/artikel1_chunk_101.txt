@@ -1,0 +1,8 @@
+described in more detail in Figure 10 and
+in Equation (9). The overall weighted function used in training combines the data loss,
+the MSE between the target k, a, and b and the predicted k, a and b, the physics loss, MSE
+between the target and predicted G′(x) represented as dy
+dx and the MSE between the target
+and predicted G(x) represented as y and an RUL loss where the predicted k, a and b were
+passed through the inverse Gompertz layer with y set to 0.7, calculating the predicted
+RUL and then 

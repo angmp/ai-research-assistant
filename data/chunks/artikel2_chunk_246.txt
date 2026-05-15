@@ -1,0 +1,6 @@
+CrossRef]
+38. Bernardi, D.; Pawlikowski, E.; Newman, J. A general energy balance for battery systems. J. Electrochem. Soc. 1985, 132, 5.
+[CrossRef]
+39. Lempert, J.; Kollmeyer, P .J.; He, M.; Haußmann, M.; Cotton, J.S.; Emadi, A. Battery selection and thermal management system
+design for a 5C-rate ultrafast charging battery module. J. Power Sources 2022, 550, 232121. [CrossRef]
+40. Chen, S.C.; Wan, C.C.; Wang, Y.Y. Thermal analysis of lithium-ion batteries. J. Power Sources 2005, 140, 111–124. [C

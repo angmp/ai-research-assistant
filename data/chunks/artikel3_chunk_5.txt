@@ -1,0 +1,7 @@
+, detailing the op‑
+eration of each type and succinctly discussing the advantages and disadvantages of these
+methods. Furthermore, it scrutinizes the difficulties in applying different SOC techniques
+to battery packs, offering insights into the challenges posed by battery aging, tempera‑
+ture variations, and charge–discharge cycles. By examining an array of approaches—from
+traditional methods such as look‑up tables and direct measurements to advanced model‑
+based and data‑driven techniques—the p

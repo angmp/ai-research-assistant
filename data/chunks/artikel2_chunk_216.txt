@@ -1,0 +1,6 @@
+ess the challenges of heat dissipation and structural compactness in eVTOL
+power batteries under high-rate discharge conditions, this study proposes a hybrid battery
+cooling system integrating forced air convection, high-thermal-conductivity plates, and
+PCM. The power demand in different eVTOL flight phases is first analyzed. A single-
+cell simulation model is then developed and validated through experiments. Three key
+structural parameters are investigated, including cell spacing, high-thermal-

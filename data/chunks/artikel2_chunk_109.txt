@@ -1,0 +1,7 @@
+maximum temperature is 39.90 ◦C. More importantly, its HCP
+mass is only 16.3 kg, which gives a clear advantage for lightweight design. AlN ceramic
+shows moderate thermal performance, with a maximum temperature of 41.05 ◦C and a
+temperature difference of 2.55 ◦C. However, its HCP mass reaches 25.8 kg, which limits its
+suitability for weight-sensitive eVTOL applications.
+Overall, 6063 aluminum alloy offers the best balance between thermal performance
+and lightweight design, and the system mass is 

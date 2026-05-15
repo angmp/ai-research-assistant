@@ -1,0 +1,6 @@
+previous observations, this analysis also points out that although ML algo‑
+rithms for SOC and SOH estimation show a great deal of promise for future advancements
+in BMS, they also confront several real‑world difficulties. Future studies should focus on
+technologies that use cloud computing and online retraining, create fusion models and
+joint multistate estimates, anticipate whole life cycles, improve data variety through ad‑
+vanced sensing, and make onboard installation easier. By addressing b

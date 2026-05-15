@@ -1,0 +1,8 @@
+The enhanced NARXNN adjusts historical data 
+by changing the window size at the right moment, avoiding gradient issues, and increas-
+ing estimation accuracy. 
+RNNs, when used for applications li ke SOC estimation, encounter speci ﬁc draw-
+backs including a tendency to fade, signiﬁcant computational resources required for train-
+ing and operation, and challenges in model tuning and hyperparameter optimization, all 
+of which require substantial machine learning expertise to address eﬀectively. 
+2.

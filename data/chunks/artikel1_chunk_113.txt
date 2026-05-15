@@ -1,0 +1,9 @@
+e Gom-
+pertz layer is an integral part of the inference architecture used to convert parameters
+directly into RUL, for GILSTM3, the Gompertz parameters were used as a verification
+step for LSTM2’s recursiveSoH predictions.
+3.5. Evaluation Metrics
+Five evaluation methods were utilized to evaluate quantitatively the performance of
+the proposed models: mean squared error (MSE), physics-informed loss function, root
+mean squared error (RMSE), RMSE per Cycle and RMSE at cycle 100.
+a. Mean Squared Erro

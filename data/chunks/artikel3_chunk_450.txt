@@ -1,0 +1,6 @@
+Q.; Wang, J.; Xiong, R.; Shen, W.; He, H. Towards a smarter battery management system: A critical review on optimal
+charging methods of lithium ion batteries. Energy 2019, 183, 220–234. [ CrossRef]
+127. Collin, R.; Miao, Y.; Yokochi, A.; Enjeti, P.; von Jouanne, A. Advanced electric vehicle fast‑charging technologies. Energies 2019,
+12, 1839. [ CrossRef]
+128. Zhang, R.; Xia, B.; Li, B.; Cao, L.; Lai, Y.; Zheng, W.; Wang, H.; Wang, W. State of the art of lithium‑ion battery SOC estimation
+for ele

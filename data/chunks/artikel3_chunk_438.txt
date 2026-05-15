@@ -1,0 +1,6 @@
+ under different
+charging stresses. J. Power Sources 2017, 356, 103–114. [ CrossRef]
+105. Rezvanizaniani, S.M.; Liu, Z.; Chen, Y.; Lee, J. Review and recent advances in battery health monitoring and prognostics tech‑
+nologies for electric vehicle (EV) safety and mobility. J. Power Sources 2014, 256, 110–124. [ CrossRef]
+106. Hu, C.; Jain, G.; Zhang, P.; Schmidt, C.; Gomadam, P.; Gorka, T. Data‑driven method based on particle swarm optimization and
+k‑nearest neighbor regression for estimating cap

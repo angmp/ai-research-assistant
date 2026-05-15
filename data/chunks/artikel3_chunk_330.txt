@@ -1,0 +1,9 @@
+cell performance in
+terms of capacity and aging. The LIB’s overall safety systems may be impacted by these
+imbalances, as they can significantly impair the quality of data pertaining to power and
+energy calculations [125]. Recent years have seen the development of a number of ways to
+solve these problems, such as calculation‑based approaches, screening methods, and bias
+correction tools.
+4.2. Charging Strategy
+Recent years have seen a significant increase in interest in the charging procedures
+f

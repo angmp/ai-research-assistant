@@ -1,0 +1,16 @@
+toregression with exogenous input neural network (NARXNN) is a neu-
+ral network used for predicting one-time series. It uses historical values, feedback, and an 
+external time series for training. Its layout is shown in Figure 19. It is a variation of the 
+Jordan NN with a feedback mechanism. The expression of NARXNN is as follows: 
+𝑦(𝑛) = 𝑓଴቎𝑏଴+ ෍𝑤 ௛଴𝑓௛ቌ𝑏௛+ ෍𝑤 ௜௛𝑥(𝑛−𝑖 )
+ௗೠ
+௜ୀ଴
++ ෍𝑤 ௝௛𝑦(𝑛− 𝑗)
+ௗ೤
+௝ୀ଴
+ቍ
+௟
+௛ୀଵ
+቏ (61)
+Figure 18. The structure of CNN [ 67].
+Hybrid CNN–RNN networks are often used to e

@@ -1,0 +1,13 @@
+ion metrics need to be normalized.
+TCM max , STmax and DTmax are based on the operating limits of the battery.
+TCM ∗ = TCM /TCM max (27)
+ST ∗ = 1 − ST/STmax (28)
+DT ∗ = 1 − DT/DTmax (29)
+GE∗ = GE (30)
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 14 of 37
+SO∗ = 1 − SO (31)
+4. Results and Discussion
+4.1. Model Validation
+To ensure reliable heat source input for subsequent module-level simulations, the
+battery thermal response model was validated by comparing experimental and s

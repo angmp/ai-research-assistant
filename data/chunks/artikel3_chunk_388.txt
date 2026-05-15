@@ -1,0 +1,6 @@
+n, M.A.; Lipu, M.S.H.; Hussain, A.; Mohamed, A. A review of lithium‑ion battery state of charge estimation and manage‑
+ment system in electric vehicle applications: Challenges and recommendations. Renew. Sustain. Energy Rev. 2017, 78, 834–854.
+[CrossRef]
+7. Li, Z.; Huang, J.; Liaw, B.Y.; Zhang, J. On state‑of‑charge determination for lithium‑ion batteries. J. Power Sources 2017, 348,
+281–301. [ CrossRef]
+8. Kalawoun, J.; Biletska, K.; Suard, F.; Montaru, M. From a novel classification of the bat

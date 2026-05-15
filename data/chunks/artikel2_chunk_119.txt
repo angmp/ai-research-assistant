@@ -1,0 +1,9 @@
+ween temperature regulation and structural compactness.
+Therefore, this parameter combination is used as the reference configuration for subsequent
+comparisons with other cooling strategies.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 19 of 37
+4.2.4. Structural Parameter Sensitivity Analysis
+This section introduces local sensitivity coefficients to quantitatively evaluate the
+effects of three key parameters, namely cell spacing, the thermal conductivity of the high-
+thermal

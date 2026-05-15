@@ -1,0 +1,6 @@
+ that the models learnt the physical degradation of the battery’s capacities. Training
+of these models utilized the same hardware used to train and test the purely data-driven
+models. The training process of these Gray box models is shown in Figure 9 and utilizes
+a weighted loss comprising of data loss, physics loss and RUL loss to guide the training
+process. The Physics-Informed Loss function is described in more detail in Figure 10 and
+in Equation (9). The overall weighted function used in tra

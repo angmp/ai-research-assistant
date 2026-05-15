@@ -1,0 +1,9 @@
+ure 9, the total
+HCP mass increases from 11 kg to 44 kg as spacing increases from 0.5 mm to 2 mm. Such a
+mass increase is unsuitable for weight-constrained eVTOL applications.
+Considering thermal safety and lightweight design requirements, a cell spacing of
+1 mm was selected. This spacing provides a reasonable balance between cooling perfor-
+mance and structural compactness and serves as the basis for the integrated design of the
+hybrid cooling system.
+https://doi.org/10.3390/batteries12050170
+B

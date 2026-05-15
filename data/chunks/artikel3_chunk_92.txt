@@ -1,0 +1,29 @@
+estimations are
+indicated by ˆx(+)
+k and ∑(+)
+e,k ∗.
+The prediction step is accomplished by propagating the system through the system
+dynamics:
+ˆx(−)
+k+1 = Ak x(+)
+k + Bkuk (23)
+The state uncertainty is also updated:
+∑
+(−)
+e,k+1 ∗ = Ak∑
+(+)
+e,k ∗AT
+k + ∑ w (24)
+If the system is stable, the first term is contractive, reducing uncertainty. The process
+noise always increases the uncertainty ∑ w.
+The state correction step is:
+ˆx(+)
+k = ˆx(−)
+k + Lk
+
+vk − Ck
+ˆx(−)
+k
+
+(25)
+In other words, the predic

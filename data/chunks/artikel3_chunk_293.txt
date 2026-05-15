@@ -1,0 +1,24 @@
+ Rule Accuracy,
+Interpretability MFs, Rule Base Expert knows,
+Op data
+Long Short‑Term
+Memory (LSTM)
+Voltage, Current,
+Temperature SOC Accuracy, RMSE,
+MAE LR, Units, Dropout Series,
+Charge/discharge
+Gradient
+Boosting
+Machines (GBM)
+Voltage, Current,
+Temperature SOC MAE, RMSE, R² LR, Estimators, Depth Cycles, Aging
+data
+Random Forest
+(RF)
+Voltage, Current,
+Temperature SOC R², MSE, RMSE Trees, Depth, Split Lab, Real‑world
+use
+Reinforcement
+Learning
+Voltage, Current,
+Temperature SOC Reward, Error Ra

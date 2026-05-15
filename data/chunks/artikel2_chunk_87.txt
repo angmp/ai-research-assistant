@@ -1,0 +1,8 @@
+β = 1 denotes a fully liquid state, and
+0 < β < 1 denotes the mushy region.
+3.5. Cooling System Performance Evaluation Index System
+The battery cooling system is an essential aspect of eVTOL design, requiring an
+effective evaluation method. This method, based on [ 42], constructs multidimensional
+performance indicators for the cooling system, providing comprehensive and intuitive
+standards for the design of eVTOL cooling systems.
+The concept of temperature control margin, which is the difference

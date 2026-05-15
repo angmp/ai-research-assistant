@@ -1,0 +1,13 @@
+ a small Lk and a small update.
+The covariance correction step is:
+∑
+(+)
+e,k ∗ = (I − LkCk)∑
+(−)
+e,k ∗ (27)
+The state uncertainty always decreases due to the new information provided by the
+measurement.
+In Figure 7, the left‑hand graph, titled ‘Kalman filter in action’, compares the true state
+of a system (solid line) against the estimated state provided by the Kalman filter (dashed
+line) across iterations. The magenta bounds represent the estimated uncertainty or con‑
+fidence interval. The righ

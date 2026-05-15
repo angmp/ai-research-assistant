@@ -1,0 +1,8 @@
+ from the data [ 55]. Their algorithms are used today to
+achieve on‑par or sometimes even super‑human performance in a variety of fields, includ‑
+ing medical diagnosis [ 56], stock trading [ 57], robotics [ 58], mastering board games [ 59],
+and more.
+This section concerns data‑driven approaches for battery SOC estimation.
+2.4.1. Neural Network Method
+A neural network (NN) is a created intelligence that learns from examples and im‑
+proves with time. Consider it similar to training a machine to sp

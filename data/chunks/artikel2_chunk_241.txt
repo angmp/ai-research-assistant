@@ -1,0 +1,5 @@
+et al. Thermal design and optimization of
+lithium ion batteries for unmanned aerial vehicles. Energy Storage 2019, 1, e48. [CrossRef]
+29. Rao, Z.; Qian, Z.; Kuang, Y.; Li, Y. Thermal performance of liquid cooling based thermal management system for cylindrical
+lithium-ion battery module with variable contact surface. Appl. Therm. Eng. 2017, 123, 1514–1522. [CrossRef]
+30. Liu, T.; Yang, X.G.; Ge, S.; Leng, Y.; Wang, C.-Y. Ultrafast charging of energy-dense lithium-ion batteries for urban air mobi

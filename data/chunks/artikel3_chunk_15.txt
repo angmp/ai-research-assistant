@@ -1,0 +1,7 @@
+ge–discharge cycles all have a significant impact on battery performance, making
+it extremely difficult to estimate an exact state of charge [ 4].
+Given the critical role that battery SOC plays in battery management, numerous ap‑
+proaches have been put forth to precisely determine the SOC. Scientists, researchers, and
+academics have been conducting in‑depth studies since the early 1960s [ 5]. Nevertheless,
+there are not many publications that offer a thorough explanation of the main challenges
+i

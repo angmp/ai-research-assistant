@@ -1,0 +1,5 @@
+Dinter, A.; Dittloff, J.; Werner, L.; Gernhäuser, R.; Revay, Z.; Märkisch, B.; Gilles, R.;
+et al. SEI Growth Impacts of Lamination, Formation and Cycling in Lithium Ion Batteries. Batteries 2020, 6, 21. [CrossRef]
+28. Hosseininasab, S.; Lin, C.; Pischinger, S.; Stapelbroek, M.; Vagnoni, G. State-of-Health Estimation of Lithium-Ion Batteries for
+Electrified Vehicles Using a Reduced-Order Electrochemical Model. J. Energy Storage 2022, 52, 104684. [CrossRef]
+29. Couto, L.D.; Capron, O.; Servotte, J

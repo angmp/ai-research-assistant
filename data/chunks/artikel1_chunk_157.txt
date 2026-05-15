@@ -1,0 +1,8 @@
+he mean k, a, and b of the entire HUST dataset
+rather than capturing cell-specific-degradation. Future hybrid implementations must ac-
+count for the high parameter volatility observed before 85% SoH by utilizing dynamic
+loss weighting or alternative physics-informed architectures that bypass the instabilities
+of G−1(y) calculation.
+6. Conclusions
+This research demonstrated that while data-driven and physics-based models offer
+distinct advantages for RUL prediction in LFP batteries, achieving hig

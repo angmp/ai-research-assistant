@@ -1,0 +1,7 @@
+15. [CrossRef]
+27. Ling, Z.; Wang, F.; Fang, X.; Gao, X.; Zhang, Z. A hybrid thermal management system for lithium ion batteries combining phase
+change material with forced-air cooling. Appl. Energy 2015, 148, 403–409. [CrossRef]
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 37 of 37
+28. Ma, Y.; Chiang, S.W.; Chu, X.; Li, J.; Gan, L.; Xu, C.; Yao, Y.; He, Y.; Li, B.; Kang, F.; et al. Thermal design and optimization of
+lithium ion batteries for unmanned aerial vehicles. Energy

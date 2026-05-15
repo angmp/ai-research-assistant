@@ -1,0 +1,7 @@
+capacity. Increasing the channel height can reduce both
+thermal indicators and cooling plate mass within the investigated range. In contrast, the
+liquid cooling plate thickness mainly affects lateral heat conduction and structural mass.
+Increasing plate thickness improves temperature control but increases system mass.
+According to the sensitivity analysis, a new liquid cooling scheme was further con-
+structed to compare the structural characteristics of the liquid cooling system and the
+hybrid c

@@ -1,0 +1,8 @@
+inaccurate SOC estimate determined by the ampere-
+hour integral approach, which also raises the terminal voltage forecast inaccuracy. Thus, 
+only after obtaining the optimal SOC can the battery terminal voltage prediction error be 
+as low as possible. Stated diﬀerently, the estimation error can be corrected using the OCV. 
+ 
+Figure 4. Flowchart of a model-based SOC estimation. 
+A particular example of sequential probabilistic inference is the Kalman ﬁlter, which 
+provides the best state estimate

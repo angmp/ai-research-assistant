@@ -1,0 +1,15 @@
+ew information” in the measurement. A major innovation usually 
+results in a large state update. A tiny innovation usually results in a small state update. 
+The innovation is weighted by the Kalman gain Lk: 
+𝐿௞= ෍ ∗
+(ି)
+௘,௞
+𝐶௞
+்ቈ𝐶௞෍∗
+(ି)
+௘,௞
+𝐶௞
+்+ ෍𝑣቉ 〖 ିଵ (26)
+A signiﬁcant update is required if the present state estimate is highly uncertain, as 
+indicated by large values of the ∑ 𝑒, 𝑘 and 𝐿௞. 𝐿௞ is tiny, and the state-estimate update is 
+minimal if the current state estimate is cert ain. Furthe

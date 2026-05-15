@@ -1,0 +1,9 @@
+ation result in an erroneous projection. To more
+accurately describe polarization features and simulate concentration and electrochemical
+polarization independently, an enhanced circuit model, referred to as the dual polarization
+(DP) model, is shown in Figure 14.
+Batteries 2025, 11, x FOR PEER REVIEW 16 of 42 
+ 
+• The PNGV Model 
+Figure 13 illustrates a PNGV model with an open-circuit voltage source Uoc, in series 
+with an internal resistance Ro and a dynamic element represented by a capacitor 

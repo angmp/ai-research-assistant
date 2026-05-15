@@ -1,0 +1,7 @@
+nufacturer, operating conditions
+and usage. With each cycle, the battery undergoes gradual degradation, causing its capacity
+to decrease. When the capacity drops to 770–880 mAh (70–80% of 1100 mAh), the RUL
+reaches zero, signaling the end of its effective service life, thus a need for replacement.
+The maximum capacity that the battery can draw at any point in time, relative to its
+capacity when new, is known as the State of Health (SoH). SoH is typically expressed as a
+percentage and serves as a

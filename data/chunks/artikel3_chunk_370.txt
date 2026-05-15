@@ -1,0 +1,9 @@
+
+straints, not only in terms of the financial outlay but also in the limitations inherent in
+sensor technologies.
+In summation, the process of estimating the state of charge and health in EVs encom‑
+passes a range of technical, computational, and practical challenges, necessitating ongoing
+innovations in battery technology, data analytics, and algorithmic development to enhance
+the efficacy and reliability of these estimations.
+5. Conclusions
+SOC and SOH estimate techniques are evaluated critica

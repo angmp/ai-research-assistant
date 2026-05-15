@@ -1,0 +1,7 @@
+adient, with lower temperatures at both sides
+and slightly higher temperatures in the middle. The highest temperature is located at the
+center of the module, with no significant thermal accumulation, demonstrating excellent
+temperature stability and uniformity. In comparison, the hybrid cooling system proposed
+in this study achieves a peak temperature of 37.9◦C and a maximum temperature difference
+of 3.1 ◦C, indicating that the two systems exhibit closely comparable thermal performance.
+Figure 2

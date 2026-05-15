@@ -1,0 +1,12 @@
+cr = 1200 s
+Descent Descend for 120 s at horizontal speed Sh and vertical
+speed Sv
+Hover landing Hover for 30 s during landing
+Each flight phase exhibits distinct duration, velocity, and discharge rate character-
+istics. To estimate the power requirements for each eVTOL flight phase, we developed
+phase-specific power calculation models, enabling evaluation of battery thermal load char-
+acteristics under different flight conditions. The specific formulations are presented below:
+Pta = 1
+ωbat
+g
+ηh

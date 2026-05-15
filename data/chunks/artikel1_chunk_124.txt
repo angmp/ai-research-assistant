@@ -1,0 +1,14 @@
+nd its
+parameters may be useful when predicting battery RUL.
+(a) 
+(b) 
+(c) 
+ 
+Figure 11. (a–c) The linear relationship between the Gompertz parameters k, a and b, respectively,
+with the RUL.
+https://doi.org/10.3390/batteries12050162
+Batteries 2026, 12, 162 20 of 33
+Moreover, Figure 11 confirms correlations for parameters k, a, and b with RUL seen in
+the correlation matrix shown in Figure 12 where parameter b has the highest correlation of
+0.89 followed by parameters a and k respectively.
+Figure 

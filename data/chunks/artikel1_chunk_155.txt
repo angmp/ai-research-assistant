@@ -1,0 +1,7 @@
+GILSTM models, RUL prediction was better in mid-cycle
+to late-cycle stages than in early-cycle stages suggesting limitations in early-cycle RUL
+prediction. The GILSTMs did not generalize, this might be due to the limited dataset
+size. While the conceptual basis for the integration of the Gompertz and the LSTM is
+sound, the underperformance of GILSTM variants compared to the pure LSTM is primarily
+attributed to numerical instability in the inverse Gompertz layer during early-cycle stages.
+When So

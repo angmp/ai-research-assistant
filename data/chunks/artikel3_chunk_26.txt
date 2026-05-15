@@ -1,0 +1,7 @@
+d current. It finds the value on the “SOC
+versus OCV” curve after calculating OCV as a function of time. Although this is a step
+above the straightforward voltage‑based approach, there are still several drawbacks [ 10],
+such as internal resistance (R0) losses, diffusion voltages, and hysteresis among others that
+impact the accuracy of SOC estimations in batteries. The OCV curve may include some flat
+areas, as shown in Figure 2, in which it is challenging to calculate SOC with any degree
+of accur

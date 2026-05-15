@@ -1,0 +1,6 @@
+8457. [CrossRef]
+25. Sun, Z.; Fan, R.; Yan, F.; Zhou, T.; Zheng, N. Thermal management of the lithium-ion battery by the composite PCM-Fin structures.
+Int. J. Heat Mass Transf. 2019, 145, 118739. [CrossRef]
+26. Lee, S.; Han, U.; Lee, H. Development of a hybrid battery thermal management system coupled with phase change material
+under fast charging conditions. Energy Convers. Manag. 2022, 268, 116015. [CrossRef]
+27. Ling, Z.; Wang, F.; Fang, X.; Gao, X.; Zhang, Z. A hybrid thermal management syst

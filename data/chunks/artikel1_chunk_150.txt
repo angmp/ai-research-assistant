@@ -1,0 +1,8 @@
+
+centroided toward the mean k, a, and b parameter values of the training set. This suggests
+that Gompertz-based hybrid methods should be weighted lower during the early-cycle
+stage and higher during middle-cycle and later-cycle stages.
+Despite the high early-cycle stage RMSEs of the Gompertz when SoH curves are
+predicted accurately or are known as in the Gompertz baseline, the performance was quite
+good with an RMSE of 27.9 cycles (1.4%). This indicates that the main issue may be intrinsic
+to So

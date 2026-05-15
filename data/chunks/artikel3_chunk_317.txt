@@ -1,0 +1,8 @@
+a continuous hidden
+Markov model (CHMM) and a kernel density estimation (KDE) technique. In the National
+Aeronautics and Space Administration (NASA) dataset and Center for Advanced Life Cy‑
+cle Engineering (CALCE) dataset, the suggested adjustable RBF network might achieve
+better estimation accuracy than the fixed RBF network [ 113]. Moreover, the suggested ap‑
+proach could retain reliable estimation results even when Gaussian white noise is added
+to dynamic discharge patterns.
+3.1.2. Deep Learn

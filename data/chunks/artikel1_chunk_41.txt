@@ -1,0 +1,7 @@
+erations. A battery can be defined
+specifically as equipment that stores and releases electrical energy. Equipment tends to
+suffer wear and tear and with time need to be replaced and renewed, in the case of LiBs,
+degradation is caused by collection of solid electrolyte interfaces (SEI) on the graphite
+anodes [5,25–29] reducing the amount of lithium ions available in the battery, termed loss
+of lithium inventory (LLI), this causes shorter operating durations at a specific power
+output. Capacity d

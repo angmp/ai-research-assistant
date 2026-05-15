@@ -1,0 +1,8 @@
+d model mistakes can cause output errors. 
+Careful updating is required to account for each of these. Furthermore, a trustworthy con-
+ﬁdence zone is typically diﬃcult to achieve, and the observer performance test of the SOC 
+is done under given conditions. Consequently, it is impossible to guarantee the estimation 
+performance under time-varied real-world circumstances that di ﬀer from the test condi-
+tions. 
+A generic ﬂowchart of model-based SOC estimate techniques is displayed in Figure 
+4. Th

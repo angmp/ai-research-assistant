@@ -1,0 +1,7 @@
+oling plates, liquid cool-
+ing channels, coolant, and local cooling structures inside the module. External pumps,
+pipelines, connectors, and heat exchangers were not included.
+When the liquid cooling plate thickness was fixed at 5 mm, increasing the channel
+height from 2 mm to 4 mm reduced the maximum temperature from 36.3 ◦C to 35.6 ◦C, the
+maximum temperature difference from 3.1 ◦C to 2.8 ◦C, and the liquid cooling structure
+mass from 31.2 kg to 30.0 kg, as shown in Figure 22. A larger channel

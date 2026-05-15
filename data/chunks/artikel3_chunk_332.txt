@@ -1,0 +1,7 @@
+attery’s lifespan. It is difficult to create a charging method
+that strikes a compromise between battery durability, thermal control, and charging effi‑
+ciency. Ref. [ 126] discuss recent developments in quick charging methods, and Ref. [ 127]
+delve deeper on a number of ideal charging approaches.
+4.3. Lithium‑Ion Battery Material Issue
+Despite their generally good performance, lithium‑ion batteries’ state of charge (SOC)
+estimation is greatly impacted by the materials employed for the positive 

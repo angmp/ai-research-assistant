@@ -1,0 +1,7 @@
+chine learning algorithm that may be utilized for both regression and classifica‑
+tion issues, particularly with smaller datasets [ 77]. Originally designed to address classifi‑
+cation issues, SVMs were later extended to address regression issues and given the name
+support vector regression (SVR) [ 78]. In general, a large number of regression issues are
+not amenable to linear regression in the input space.
+As a result, one of SVM’s benefits is to permit linear separation. The basic tenets of
+SV

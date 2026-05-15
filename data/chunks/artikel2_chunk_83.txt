@@ -1,0 +1,30 @@
+tions of solid-state
+heat transfer [40]:
+ρbatCbat
+dT(t)
+dt = ∂
+∂x
+
+kx,bat
+∂T
+∂x
+
++ ∂
+∂y
+
+ky,bat
+∂T
+∂y
+
++ ∂
+∂z
+
+kz,bat
+∂T
+∂z
+
++ Qgen (t) (16)
+In Equation (16), ρbat (kg·m−3) is the battery density, Cbat (kg−1·K−1) is the battery
+specific heat capacity,T(t) (K) is the transient battery temperature, and Qgen(t) (W·m−3) is
+the volumetric heat generation rate of the battery. kx,bat, ky,bat, and kz,bat (W·m−1·K−1) are
+the battery thermal conductivities in the x, y, and z directions, respectively

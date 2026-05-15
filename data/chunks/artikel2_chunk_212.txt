@@ -1,0 +1,7 @@
+k temperature of 37.9◦C,
+it incurs the highest energy consumption at 34.13 J. Conversely, the t = 950 s strategy yields
+the lowest energy use (12.51 J) but allows the maximum temperature to rise to 40.7 ◦C,
+indicating insufficient thermal regulation. Comprehensive analysis shows that the t = 650 s
+intervention strategy achieves the optimal balance between thermal control and energy
+efficiency. Within a total air-cooling duration of 850 s, it limits the maximum temperature
+https://doi.org/10.3390

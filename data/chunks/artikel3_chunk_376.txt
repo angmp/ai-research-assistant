@@ -1,0 +1,7 @@
+ learning machines (ELM), and BPNN
+are covered in detail. Another significant contribution is the review’s methodical anal‑
+ysis of common uses of these machine learning categories in SOC and SOH estimation,
+which includes a thorough summary of specifics like input features, datasets utilized, hy‑
+perparameter selection, and performance metrics in extensive tables for easy reference and
+comparison. Furthermore, a critical analysis is conducted of the benefits, limitations, and
+similarities among

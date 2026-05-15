@@ -1,0 +1,16 @@
+onductivity , and kPCM
+(W·m−1·K−1) is the thermal conductivity of the PCM.∂T/∂n is the temperature gradient.
+The contact surface between the PCM and the high-thermal-conductivity plate has a
+similar energy conservation, as shown in Equation (7),
+−kPCM
+∂T
+∂n = −kHCP
+∂T
+∂n (7)
+In Equation (7), kHCP (W·m−1·K−1) is the thermal conductivity of the heat-conducting
+plate.
+The boundary conditions for PCM exposed to air cooling are shown in Equation (8),
+−kPCM
+∂T
+∂n = h(TPCM − Tair ) (8)
+In Equation (8),

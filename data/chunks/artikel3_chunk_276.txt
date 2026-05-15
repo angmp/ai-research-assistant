@@ -1,0 +1,7 @@
+umstances and uncertainties [ 84].
+The fuzzy adaptive forgetting factor is critical in updating the battery model parame‑
+ters, which ensures that the model adapts to changing situations and retains accurate repre‑
+sentations of the battery’s behavior over time. Compared to the traditional UKF technique,
+the suggested model may yield better results in terms of accuracy, robustness, and conver‑
+gence time. A fuzzy‑logic‑based SOC estimate model was developed by Singh et al. [ 85]
+through the anal

@@ -1,0 +1,7 @@
+priced from USD 2500 to USD 3900 per kilowatt (on average USD 3200) [13]
+yet unlike LiB-based BESS which can be deployed almost anywhere with varying scale
+depending on the use case, pumped hydro tends to require locations with two adjacent
+areas of low and high elevation and are thus constrained by geography. In addition,
+pumped hydro implementations require very large capital costs, keeping pumped hydro
+out of reach for most people, organizations and some countries.
+Table 1. Battery and their 

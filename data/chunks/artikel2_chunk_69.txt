@@ -1,0 +1,7 @@
+mulation
+requirements, a comprehensive evaluation of the mesh quality was conducted, with a focus
+on two key parameters: skewness and orthogonality. Skewness measures the degree to
+which a mesh element deviates from its ideal shape, and lower skewness values contribute
+to improved numerical solution stability. Orthogonality, on the other hand, reflects the
+angular relationship between the edges of a mesh element and those of its neighboring
+elements. High orthogonality enhances computational acc

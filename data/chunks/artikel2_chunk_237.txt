@@ -1,0 +1,6 @@
+ 667–683. [CrossRef]
+21. Zhao, C.; Mazo, J.R.; Verstraete, D. Optimizations of a liquid cooling system for eVTOL aircraft: Impact of sizing mission and
+battery size. Appl. Therm. Eng. 2024, 246, 122988. [CrossRef]
+22. Chai, X.; Xu, X.; Liang, X. Strategy of battery thermal management for eVTOL by combination of PCM and immersion cooling.
+Therm. Sci. Eng. Prog. 2025, 64, 103824. [CrossRef]
+23. Zhao, C.; Gunti, S.R.; Kellermann, H.; Gong, A.; Coburn, S.; Moore, A.; Verstraete, D. Thermoelectric co

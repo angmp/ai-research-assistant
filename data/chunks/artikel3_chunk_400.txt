@@ -1,0 +1,5 @@
+ Shi, H.; Yao, Z. State of charge estimation of battery energy storage systems based on adaptive unscented
+Kalman filter with a noise statistics estimator. IEEE Access 2017, 5, 13202–13212. [ CrossRef]
+32. Mastali, M.; Samadani, E.; Farhad, S.; Fraser, R.; Fowler, M. Three‑dimensional multiparticle electrochemical model of LiFePO 4
+cells based on a resistor network methodology. Electrochim. Acta 2016, 190, 574–587. [ CrossRef]
+33. Zou, C.; Manzie, C.; Nesic, D. A framework for simplification of 

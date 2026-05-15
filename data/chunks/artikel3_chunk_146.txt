@@ -1,0 +1,8 @@
+icles (PNGV) model, Rint model, 
+Thevenin model, and the RC model are just a few of the analogous circuit models that are 
+commonly used in EV research today [41,42]. 
+• Rint Model 
+The Rint model de ﬁnes the ba ttery open-circuit voltage by implementing an ideal 
+voltage source UOC, as seen in Figure 10 and Equation (50). UOC, which is the voltage when 
+the circuit is opened, and resistance Ro are both in ﬂuenced by temperature, SOC, and 
+SOH. Terminal voltage (UL) is equal to load current (IL)

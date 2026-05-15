@@ -1,0 +1,7 @@
+r both conditions, the simulated results agree well with the experimental data, with
+deviations within 2%. These results support the use of the single-cell heat generation model
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 15 of 37
+and heat source input in subsequent module-level simulations. The performance of the
+hybrid cooling system is mainly evaluated through numerical simulation.
+Figure 7. Comparison of simulated and experimental temperature rise: (a) 1 C, 2 C, and 3 C

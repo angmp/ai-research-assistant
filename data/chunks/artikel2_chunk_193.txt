@@ -1,0 +1,8 @@
+s sufficient
+latent heat capacity. Therefore, the thermal shock during takeoff can be effectively buffered
+by heat spreading through the high-thermal-conductivity plate and heat absorption by the
+PCM. In contrast, landing hover occurs near the end of the mission. After climbing and
+long cruises, the battery SOC decreases and the PCM liquid fraction increases. Thus, under
+the same discharge rate and duration, landing hover is more likely to cause the maximum
+temperature of the entire mission.
+Whe

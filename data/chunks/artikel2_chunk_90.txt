@@ -1,0 +1,19 @@
+trol the
+battery temperature. Temperature control stability can be expressed as:
+ST =
+vuuut
+R t1
+t0
+Ttr −
+R
+Ttrdt
+t
+dt
+tend − tstrat
+(23)
+The equation ST is the temperature stability, where Ttr is the transient temperature
+of the element. The start time tstrat and end time tend correspond to the operating state of
+the element.
+The time-averaged maximum temperature difference is the average value of the
+difference between the highest and lowest temperatures in the battery module, which
+is

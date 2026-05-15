@@ -1,0 +1,6 @@
+ filter methods. Int. J. Energy Res. 2021, 45,
+11206–11230. [ CrossRef]
+117. Liu, Z.; Zhao, J.; Wang, H.; Yang, C. A new lithium‑ion battery SOH estimation method based on an indirect enhanced health
+indicator and support vector regression in PHMs. Energies 2020, 13, 830. [ CrossRef]
+118. Feng, X.; Weng, C.; He, X.; Wang, L.; Ren, D.; Lu, L.; Han, X.; Ouyang, M. Incremental capacity analysis on commercial lithium‑
+ion batteries using support vector regression: A parametric study. Energies 2018, 

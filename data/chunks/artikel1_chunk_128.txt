@@ -1,0 +1,13 @@
+hip between a and b (left), a and k (middle), and b and k (right) color-coded
+according to those RUL categories.
+4.1.2. Modeling Results
+Below is Table 6, it represents the results of the various models developed in this study,
+as well as the results of comparable studies. The units of RMSE are in cycles.
+Table 6. Modeling results.
+Model 100th Cycle RMSE
+(%RMSE)
+Mean RMSE (Mean %RMSE)
+per Cycle
+Baseline Gompertz Not Applicable 27.9 (1.4%)
+Real-Time Gompertz 16,250 (861.89%) 3192 (167.6%)
+SoH-RUL

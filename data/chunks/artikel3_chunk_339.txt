@@ -1,0 +1,7 @@
+tion for LIBs
+operating in real‑world scenarios. Implementing SOC estimation techniques in a BMS
+that must strike a balance between low cost, limited memory capacity, and fast compu‑
+tational speed is a significant problem. In order to test an adaptive Hoo‑filter‑based SOC
+estimate algorithm in real‑time settings, a hardware‑in‑the‑loop (HIL) experimental plat‑
+form was created [130]. Similarly, a lithium‑ion battery‑in‑loop testing apparatus was built
+and benched with an xPC target to verify a 

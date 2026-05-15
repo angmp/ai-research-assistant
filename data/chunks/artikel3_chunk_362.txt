@@ -1,0 +1,7 @@
+OC
+and SOH estimation models are built using publicly accessible datasets [ 142–144]. Fur‑
+thermore, since computational needs and memory storage are directly related to model
+complexity, it is preferable to align the complexity of models (e.g., count of trainable pa‑
+rameters, selected training techniques) across the algorithms under comparison. Other
+factors that need to be taken into account in addition to model accuracy include model
+robustness against various uncertainties, training duratio

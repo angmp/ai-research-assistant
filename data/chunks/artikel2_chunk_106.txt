@@ -1,0 +1,10 @@
+ for the integrated design of the
+hybrid cooling system.
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 16 of 37
+Figure 8. Impact of cell spacing on thermal performance: (a) variation of maximum temperature with
+spacing; (b) variation of temperature difference with spacing.
+Figure 9. Temperature and HCP weight versus cell spacing.
+4.2.2. Influence of Thermally Conductive Materials
+Considering cost effectiveness and scalability, three thermally conductive materials
+were evaluat

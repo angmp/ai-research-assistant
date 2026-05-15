@@ -1,0 +1,15 @@
+ understanding what is going on inside the cell, incorporating the solid‑state
+amount of lithium, C s(x,r,t); lithium present on the cell’s surface, C s(x,t); the electrolyte’s
+lithium content, Ce(x,t); the solid’s potential, ϕs(x,t); the electrolyte’s potential, ϕe(x,t); and
+the lithium migration rate, j(x,t), between phases [ 40].
+Batteries 2025, 11, x FOR PEER REVIEW 12 of 42 
+ 
+෍∗
+(ା)
+௘,௞
+ = (𝐼−  𝐿 ௞𝐶௞) ෍∗
+(ି)
+௘,௞
+ (42)
+𝑥௞ାଵ≈ 𝐴௞𝑥௞+ [𝑓(𝑥ො௞,𝑢 ௞) − 𝐴௞𝑥ො௞] + 𝑤 ௞ (43)
+𝑦௞≈ 𝐶 ௞𝑥௞+ [𝑔(𝑥ො௞,𝑢 ௞) − 𝐶 ௞

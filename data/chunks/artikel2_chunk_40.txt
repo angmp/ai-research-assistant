@@ -1,0 +1,6 @@
+eVTOL mission profile can be systematically characterized. This
+section derives the power requirements for the different flight phases of the aircraft, and by
+dividing the required propulsion power by the battery output voltage, the battery discharge
+rate can be calculated. The results are summarized in Table 3. Multiplying the discharge
+rate of each flight phase by the rated capacity of the battery provides the corresponding
+discharge current. The trend of discharge current variation for each f

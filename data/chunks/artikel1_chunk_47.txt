@@ -1,0 +1,7 @@
+mpertz parameters (k, a, and b), the GILSTM
+approach is designed to combine the predictive power of LSTMs with the interpretability
+and adherence to physical laws offered by the Gompertz model.
+The remaining paper sections are structured as follows: Section 3 presents the method-
+ology which includes the rationale for using the Gompertz function, the dataset, dataset
+analysis and dataset preprocessing; modeling approaches and the modeling rationale,
+Section 4 presents the experimental results, S

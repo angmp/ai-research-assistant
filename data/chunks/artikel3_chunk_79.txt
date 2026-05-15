@@ -1,0 +1,12 @@
+urement equation: 
+ 𝑦௞= 𝐶 ௞𝑥௞+ 𝑣 ௞ (9)
+A linear combination of states is the output of the system at discrete-time k. Measure-
+ment noise also contributed to this output. Once more, measurement noise vk is assumed 
+by Kalman ﬁlter theory to be additive, white, and Gaussian, with zero mean and covari-
+ance matrix: 
+𝐸[𝑣௡𝑣௞
+்] = ቊ෍𝑣 𝑛 = 𝑘
+0𝑛  ≠ 𝑘
+ (10)
+The Kalman ﬁlter problem is then: Use all of the observed data ൛𝑢ଵ,𝑢ଶ,⋯,𝑢 ௞ൟ  and 
+ሼ𝑦ଵ,𝑦 ଶ,⋯,𝑦 ௞ሽ to ﬁnd the minimum mean squared error estimate 𝑥ො௞

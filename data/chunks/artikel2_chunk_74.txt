@@ -1,0 +1,8 @@
+m alloy, and AlN ceramic were used as thermally conductive materials.
+These materials have good thermal conductivity, machinability, weldability, and relatively
+low cost [ 35,36]. MPCM32D also provides high latent heat and good thermal cycling
+stability. Therefore, the selected materials can meet the thermal management requirements
+and show good potential for large-scale manufacturing and cost control [37].
+3.3. Battery Thermal Model
+3.3.1. Battery Heat Generation Equation
+Heat generation in lit

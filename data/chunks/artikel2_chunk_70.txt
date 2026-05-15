@@ -1,0 +1,8 @@
+ a mesh element and those of its neighboring
+elements. High orthogonality enhances computational accuracy and convergence. In
+this study, skewness was maintained below 0.3, and the orthogonality of most mesh cells
+exceeded 95%, effectively ensuring mesh quality and the reliability and stability of the
+simulation results.
+In addition, the thermal conductivity and thermophysical properties of the PCM are
+critical to the cooling performance. The properties of the PCM and thermally conductive
+materi

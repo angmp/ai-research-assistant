@@ -1,0 +1,6 @@
+from working cycles at various DST driving cycles [ 79]. In addition to validating
+the SOC prediction’s performance, this approach was utilized to determine the ideal hyper‑
+parameters. The findings show that throughout the whole test, the RMSE was just 0.71%,
+and the prediction errors were consistent within 6% in each case. Various tactics were em‑
+ployed [71,80] to train and identify the ideal parameters, enhancing model performance.
+To cut down on the amount of time needed to search for optim

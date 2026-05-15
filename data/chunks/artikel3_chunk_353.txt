@@ -1,0 +1,7 @@
+ thought to be un‑
+reliable methods of testing heuristic optimization strategies.
+These methods can also be slow, and there are still few clear applications for them.
+The main drawbacks of machine learning algorithms that employ these optimization strate‑
+gies are their slow convergence, which can be critical, and their laborious parameter ad‑
+justment, which can impair the algorithms’ performance. Furthermore, there has not been
+sufficient comparison between the heuristic optimization methods u

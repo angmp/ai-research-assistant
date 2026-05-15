@@ -1,0 +1,7 @@
+ecreases as a function of the cumulative current passing through it, and δ f unc
+represents the aging rate function.
+Numerous studies are consulted for the dynamics of battery aging, because battery
+capacity degradation is influenced by the temperature, current, SOC, and charging tech‑
+niques of the battery, among other factors. Wang et al. created a model that predicts how
+long a battery would survive after repeated charging and discharging cycles using a math‑
+ematical equation known as the po

@@ -1,0 +1,6 @@
+.3390/batteries12050162
+Batteries 2026, 12, 162 33 of 33
+39. Madani, S.S.; Shabeer, Y.; Fowler, M.; Panchal, S.; Chaoui, H.; Mekhilef, S.; Dou, S.X.; See, K. Artificial Intelligence and Digital
+Twin Technologies for Intelligent Lithium-Ion Battery Management Systems: A Comprehensive Review of State Estimation,
+Lifecycle Optimization, and Cloud-Edge Integration. Batteries 2025, 11, 298. [CrossRef]
+40. Zhang, H.; Gui, X.; Zheng, S.; Lu, Z.; Li, Y.; Bian, J. BatteryML: An Open-Source Platform for M

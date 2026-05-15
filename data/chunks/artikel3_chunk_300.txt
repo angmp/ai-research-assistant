@@ -1,0 +1,7 @@
+tate of health compared to the direct measurements of internal impedance and the
+aged capacity. Therefore, the electrochemical impedance spectroscopy of batteries was
+suggested by researchers for use in health diagnosis [92,93]. Its applicability is limited due
+to the uniqueness of instruments that are required for the measurement and application
+of battery electrochemical spectroscopy. Furthermore, it takes a long time to complete an
+EIS test.
+In the model‑based approach, the electrochemical mo

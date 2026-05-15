@@ -1,0 +1,8 @@
+xecution time
+of 16.5 microseconds and compatibility with inexpensive hardware [ 132]. Furthermore,
+battery state estimators were evaluated on an FPGA‑based BMS using an HIL platform.
+Beyond the technological difficulties noted above, a number of factors, including battery
+aging, model variations, hysteresis, cell unbalancing, self‑discharge, and the rate of charge–
+discharge currents, affect the accuracy of SOC estimates. Prior studies have examined these
+issues in great depth [ 128].
+4.5. Data

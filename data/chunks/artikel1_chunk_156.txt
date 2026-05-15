@@ -1,0 +1,6 @@
+attributed to numerical instability in the inverse Gompertz layer during early-cycle stages.
+When SoH is above 90%, the double logarithm term in Equation (4) becomes numerically
+restrictive, translating minor parameter noise into massive RUL fluctuations. Further-
+more, the aggressive weighting of the physical constraints acted as a restrictive regularizer,
+forcing the models to centroid towards the mean k, a, and b of the entire HUST dataset
+rather than capturing cell-specific-degradation. Futu

@@ -1,0 +1,7 @@
+ the benefits of increased estimation accuracy and quicker processing performance
+when compared to the SVM model using a standard approach. Furthermore, the suggested
+method’s generalizability was confirmed under four lithium‑ion battery fault states: exces‑
+sive internal resistance, excess temperature, and terminal voltage above the upper or lower
+cut‑off voltage. Under these four battery failure scenarios, the suggested method’s average
+errors were all less than 2.5%.
+The primary drawback of u

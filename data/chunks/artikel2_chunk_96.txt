@@ -1,0 +1,8 @@
+-level simulations, the
+battery thermal response model was validated by comparing experimental and simulated
+temperature data. As shown in Figure 6a, the experimental platform consisted of a bat-
+tery tester for charge and discharge cycles and data acquisition, a temperature chamber
+for maintaining constant environmental conditions, and a temperature acquisition and
+control system.
+Figure 6. Experiment and simulation platform: (a) structure of the experimental setup; (b) physical
+drawing of the 

@@ -1,0 +1,9 @@
+optimal SOC can the battery terminal voltage prediction error be as low as
+possible. Stated differently, the estimation error can be corrected using the OCV.
+Batteries 2025, 11, x FOR PEER REVIEW 6 of 42 
+ 
+ 
+Figure 3. State transition diagram for a hidden Markov model. 
+Comparison of measured and expected output s, use of error to update the model’s 
+estimation of the actual state measurement, and model mistakes can cause output errors. 
+Careful updating is required to account for each of these

@@ -1,0 +1,8 @@
+ion strategy, based on the peak
+temperature response window of the battery module, effectively activates cooling potential
+in the later stages of the flight mission. This significantly reduces energy consumption while
+ensuring thermal safety, providing a feasible path and parameter reference for intelligent
+thermal management under multi-stage operating conditions in eVTOLs.
+5. Conclusions
+To address the challenges of heat dissipation and structural compactness in eVTOL
+power batteries under hig

@@ -1,0 +1,9 @@
+ 32.9 ◦C and the liquid fraction
+exceeds 0.5, indicating that more than 50% of the latent heat has been consumed and that
+the PCM has formally entered the thermal storage degradation stage. At t = 950 s, Tmax
+further increases to 34.1 ◦C and the liquid fraction approaches 0.62, implying that the latent
+https://doi.org/10.3390/batteries12050170
+Batteries 2026, 12, 170 33 of 37
+heat reserve is close to depletion and the thermal storage regulation capability has been
+significantly weakened.
+Figure 

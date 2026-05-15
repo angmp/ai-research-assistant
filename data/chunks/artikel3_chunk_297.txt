@@ -1,0 +1,12 @@
+esistance for EV applications; the
+factors are represented in Equation (71):
+Z t
+τ=t0
+δ f unc(I, T, SOC, others )dτ (71)
+δ f unc is an aging rate function that quantifies how quickly or slowly the battery de‑
+grades or ages over time. Therefore, internal resistance can help in the estimation of
+SOC [ 89]. There are three types of methods that have been proposed to estimate battery
+SOH: data mining, model‑free, and model‑based methods.
+Battery SOH can be simply defined as:
+(
+SOH = Caged /Cn × 100

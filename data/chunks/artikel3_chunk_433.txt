@@ -1,0 +1,6 @@
+m‑ion battery states. J. Power Sources 2016, 316, 183–196. [ CrossRef]
+96. Wang, D.; Yang, F.; Tsui, K.‑L.; Zhou, Q.; Bae, S.J. Remaining useful life prediction of lithium‑ion batteries based on spherical
+cubature particle filter. IEEE Trans. Instrum. Meas. 2016, 65, 1282–1291. [ CrossRef]
+97. Plett, G.L. Sigma‑point Kalman filtering for battery management systems of LiPB‑based HEV battery packs: Part 1: Intro‑duction
+and state estimation. J. Power Sources 2006, 161, 1356–1368. [ CrossRef]
+98. H
