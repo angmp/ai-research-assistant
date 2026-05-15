@@ -1,1 +1,1 @@
-# ai-research-assistant
+# AI Research Assistant
